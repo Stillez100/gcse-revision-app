@@ -745,11 +745,23 @@ for idx, subject_name in enumerate(subject_names):
             
             user_marks = st.number_input("Number of Marks (if applicable):", min_value=1, max_value=10, value=3, key=f"ai_marks_subj_{subject_name}")
             
-            if st.button("Generate Solution", key=f"ai_btn_subj_{subject_name}"):
-                if user_q.strip() or user_img:
-                    with st.spinner("Generating expert solution..."):
-                        from utils.ai_tutorial import generate_solution
-                        solution = generate_solution(user_q, user_marks, subject_name, image_file=user_img)
-                        st.markdown(solution)
-                else:
-                    st.warning("Please enter a question or upload an image first.")
+            sol_key = f"ai_solution_{subject_name}"
+            
+            col_gen, col_clear = st.columns([2, 1])
+            with col_gen:
+                if st.button("Generate Solution", key=f"ai_btn_subj_{subject_name}", use_container_width=True):
+                    if user_q.strip() or user_img:
+                        with st.spinner("Generating expert solution..."):
+                            from utils.ai_tutorial import generate_solution
+                            st.session_state[sol_key] = generate_solution(user_q, user_marks, subject_name, image_file=user_img)
+                    else:
+                        st.warning("Please enter a question or upload an image first.")
+            with col_clear:
+                if st.session_state.get(sol_key):
+                    if st.button("Clear Solution", key=f"ai_clear_subj_{subject_name}", use_container_width=True):
+                        st.session_state[sol_key] = None
+                        st.rerun()
+
+            if st.session_state.get(sol_key):
+                st.markdown("---")
+                st.markdown(st.session_state[sol_key])
