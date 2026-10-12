@@ -1,0 +1,30 @@
+cookie:
+  expiry_days: 30
+  key: gcse_revision_super_secret_auth_token_key_2026
+  name: gcse_revision_auth_cookie
+credentials:
+  usernames:
+    emmandhoward@aol.co.uk:
+      email: emmandhoward@aol.co.uk
+      name: Howard
+      password: $2b$12$hySRR6sWG/RfC8m9Zmjg7O.SApSQOYLx85qKI8sl1K7jyFqeeYGAK
+      role: student
+    emmandhoward@aol.com:
+      email: emmandhoward@aol.com
+      name: Emma
+      password: $2b$12$VSRD1mrlOqm1fAYSWQnaHejC5PagfuIrXNaaUJGmHkRzMTM2tzF6i
+      role: student
+    lizalou7@icloud.com:
+      email: lizalou7@icloud.com
+      name: Eliza
+      password: $2b$12$h0dTFmQLSAgwAdDSycXjEOGWbr6DwvSs5HzdtN7FKSKaaOvg0rSA.
+      role: student
+      target_grade: '9'
+    mstiles11@icloud.com:
+      email: mstiles11@icloud.com
+      name: Matthew
+      password: $2b$12$BPtMZgb5DjgUeO9Vm1lVh.YMKJBBt95KMpgqIxDPXphP326dIZds6
+      role: student
+      target_grade: '8'
+pre-authorized:
+  emails: []

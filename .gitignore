@@ -1,0 +1,21 @@
+# Environment variables and API keys
+.env
+.streamlit/secrets.toml
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+streamlit.log
+
+# Temporary test / scratch files
+test_*.py
+scratch_*.json
