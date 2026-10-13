@@ -365,6 +365,71 @@
           "answer_index": 1,
           "explanation": "The rough endoplasmic reticulum is involved in protein synthesis (due to ribosomes), and the smooth endoplasmic reticulum is involved in lipid synthesis. Option A is mitochondria, Option C is chloroplasts, and Option D is the nucleus.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_cell_struct_26",
+          "question": "A transmission electron microscope (TEM) has a resolving power of 0.2 nm, whereas a standard light microscope has a resolving power of 200 nm. What does this difference in resolving power mean for observing sub-cellular organelles?",
+          "options": [
+            "The TEM can distinguish two distinct points that are 1000 times closer together than a light microscope can",
+            "The TEM magnifies images 1000 times larger than any light microscope can",
+            "The light microscope has higher clarity because 200 nm is a larger number than 0.2 nm",
+            "The TEM requires live specimens to be able to resolve structures below 200 nm"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Resolving power is the minimum distance between two points that can still be distinguished as separate entities. 200 nm / 0.2 nm = 1000, meaning the TEM has a 1000-fold greater resolution, allowing structures such as ribosomes, cristae, and thylakoid membranes to be clearly seen."
+        },
+        {
+          "id": "q_bio_cell_struct_27",
+          "question": "Which of the following structural specialisations distinguishes mature xylem vessel elements from phloem sieve tube elements in a plant vascular bundle?",
+          "options": [
+            "Xylem vessels are dead hollow tubes reinforced with lignin spirals, whereas sieve tubes are living cells with perforated end plates and no nucleus",
+            "Xylem vessels contain many mitochondria to actively pump mineral ions, whereas sieve tubes lack cytoplasm completely",
+            "Xylem vessels have cellulose cell walls with no lignin, whereas sieve tubes are heavily lignified to prevent collapse under pressure",
+            "Xylem vessels transport sucrose in both directions, whereas phloem sieve tubes only transport water upwards"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Mature xylem vessel elements lose their end walls and cell contents, dying to form continuous hollow tubes lined with waterproof lignin. Phloem sieve tube elements remain alive with thin peripheral cytoplasm and perforated sieve plates, supported metabolically by adjacent companion cells rich in mitochondria."
+        },
+        {
+          "id": "q_bio_cell_struct_28",
+          "question": "A student calibrates a light microscope: 40 divisions of an eyepiece graticule align exactly with 0.2 mm on a stage micrometer. Under the same magnification, an onion epidermal cell measures 26 eyepiece graticule units. What is the actual length of this cell in micrometres (µm)?",
+          "options": [
+            "130 µm",
+            "52 µm",
+            "13 µm",
+            "520 µm"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "1 mm = 1000 µm, so 0.2 mm = 200 µm.\nEach graticule division = 200 µm / 40 = 5 µm.\nLength of the onion cell = 26 divisions × 5 µm/division = 130 µm."
+        },
+        {
+          "id": "q_bio_cell_struct_29",
+          "question": "Bacterial cells frequently contain plasmids in addition to their single circular main chromosome. What is the biological significance of plasmids in modern medical science?",
+          "options": [
+            "Plasmids carry accessory genes (such as antibiotic resistance) and can be transferred horizontally between bacteria via conjugation",
+            "Plasmids contain all the primary genes needed for bacterial cellular respiration and ATP generation",
+            "Plasmids are bounded by a nuclear membrane to protect bacterial DNA from host immune enzymes",
+            "Plasmids replicate only during eukaryotic mitosis and cannot replicate independently"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Plasmids are small, circular, double-stranded DNA molecules carrying non-essential accessory genes, such as beta-lactamase for antibiotic resistance. They replicate independently and can be passed between bacterial strains via horizontal gene transfer (conjugation), driving the rapid spread of superbugs like MRSA."
+        },
+        {
+          "id": "q_bio_cell_struct_30",
+          "question": "A microbiologist analyses the biochemical composition of the cell walls of three different organisms: Organism X has peptidoglycan (murein), Organism Y has cellulose, and Organism Z has chitin. How should these three organisms be classified?",
+          "options": [
+            "X is a bacterium, Y is a plant, Z is a fungus",
+            "X is a fungus, Y is a bacterium, Z is a plant",
+            "X is a plant, Y is an animal, Z is a bacterium",
+            "X is a virus, Y is a plant, Z is a fungus"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Bacterial cell walls consist of peptidoglycan (murein) mesh networks; plant cell walls are built from crystalline cellulose microfibrils; fungal cell walls consist of chitin polysaccharides. Animal cells lack cell walls entirely, and viruses are non-cellular protein-encapsulated virions."
         }
       ],
       "detailed_slides": [
@@ -734,6 +799,71 @@
           "answer_index": 2,
           "explanation": "Before mitosis, DNA replicates. Each of the 20 chromosomes consists of two sister chromatids. At metaphase, all 20 chromosomes are aligned, meaning there are 20 x 2 = 40 chromatids present.",
           "correct_answer": 2
+        },
+        {
+          "id": "q_bio_cell_div_26",
+          "question": "In a root meristem squash, a student counts 300 cells in total. 24 cells are in prophase, 12 in metaphase, 6 in anaphase, and 6 in telophase. What is the mitotic index of this root meristem tissue?",
+          "options": [
+            "16.0%",
+            "8.0%",
+            "24.0%",
+            "4.0%"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The mitotic index is the proportion of cells undergoing active mitosis out of the total cells counted.\nTotal cells in mitosis = 24 + 12 + 6 + 6 = 48 cells.\nMitotic index = (48 / 300) × 100% = 16.0%."
+        },
+        {
+          "id": "q_bio_cell_div_27",
+          "question": "A culture of E. coli starts with 4 bacterial cells in nutrient broth. The bacteria reproduce by binary fission every 20 minutes under optimum aerobic conditions. Assuming zero bacterial mortality, how many bacteria will be present after 3 hours?",
+          "options": [
+            "2,048",
+            "512",
+            "1,024",
+            "4,096"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In 3 hours (180 minutes), the number of division cycles = 180 / 20 = 9 divisions.\nEach division doubles the population: N = N0 × 2^n = 4 × 2^9 = 4 × 512 = 2,048 bacteria."
+        },
+        {
+          "id": "q_bio_cell_div_28",
+          "question": "During the human cell cycle, what happens to the chromosome number and DNA content between the start of Interphase (G1) and the end of Anaphase in a somatic cell?",
+          "options": [
+            "The cell begins with 46 single chromosomes, doubles its DNA to form 46 duplicated chromatid pairs, and temporarily contains 92 separated chromosomes during Anaphase",
+            "The cell doubles from 46 to 92 chromosomes during G1, and halves to 23 chromosomes at Anaphase",
+            "The chromosome number remains permanently at 23 throughout all stages of mitosis",
+            "DNA content decreases by 50% during S phase before doubling again at Anaphase"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In G1, a diploid human cell has 46 single chromosomes (2n). During S-phase (Interphase), DNA replicates so each chromosome consists of two identical sister chromatids (still counted as 46 chromosomes). When spindle fibres pull sister chromatids apart at Anaphase, each chromatid becomes an individual chromosome, momentarily yielding 92 chromosomes before telophase and cytokinesis split them into two 46-chromosome daughter cells."
+        },
+        {
+          "id": "q_bio_cell_div_29",
+          "question": "How do induced pluripotent stem cells (iPSCs) overcome a major ethical and immunological dilemma associated with human embryonic stem cell therapy?",
+          "options": [
+            "They are derived by reprogramming a patient's own adult specialised cells (e.g. skin cells), avoiding embryo destruction and preventing immune graft rejection",
+            "They are extracted from donated umbilical cord blood and genetically modified to remove all antigens",
+            "They can only divide a maximum of two times, eliminating any potential risk of tumour development",
+            "They can only differentiate into blood cells, making them completely harmless to other organs"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "iPSCs are created by taking somatic adult cells (such as fibroblasts) and expressing specific pluripotency transcription factors (Yamanaka factors) to reprogram them into an embryonic-like pluripotent state. Because they are autologous (derived from the patient themselves), there is no destruction of viable embryos, and the immune system recognises them as 'self', eliminating graft rejection."
+        },
+        {
+          "id": "q_bio_cell_div_30",
+          "question": "Which cellular mechanism explains how malignant tumours invade surrounding tissues and establish secondary tumours in distant organs (metastasis)?",
+          "options": [
+            "Malignant cells lose contact inhibition, secrete enzymes that break through basement membranes, and travel through blood vessels or lymphatic systems",
+            "Malignant cells are enclosed inside a dense fibrous capsule that expands uniformly without detaching",
+            "Malignant cells undergo meiosis rather than mitosis, allowing them to fuse with normal host cells",
+            "Malignant cells trigger phagocytosis by red blood cells which transport them to other organs"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Unlike benign tumours which remain contained within a fibrous capsule, malignant tumour cells divide uncontrollably, lack cell-to-cell adhesion (loss of contact inhibition), degrade the extracellular matrix, intravasate into capillaries or lymph vessels, and extravasate into secondary organs to seed metastatic colonies."
         }
       ],
       "detailed_slides": [
@@ -1103,6 +1233,71 @@
           "answer_index": 1,
           "explanation": "The independent variable is the factor the scientist changes or controls during the experiment. In this case, the student varies the concentration of the sucrose solution to observe the effect on the dependent variable (mass change).",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_transport_26",
+          "question": "When plant epidermal cells are immersed in a concentrated salt solution (hypertonic), the vacuole shrinks and the cell membrane pulls away from the cell wall. What is this biological state called, and what provides mechanical support to the plant in this state?",
+          "options": [
+            "Plasmolysis; turgor pressure is completely lost, causing stems and leaves to wilt",
+            "Lysis; the rigid cell wall prevents the cell from bursting",
+            "Turgidity; the cell membrane presses against the cell wall with maximum hydrostatic pressure",
+            "Crenation; the cell wall actively contracts to reduce internal water loss"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In a hypertonic solution, water leaves the plant cell by osmosis down a water potential gradient. The cytoplasm and vacuole shrink away from the rigid cell wall (plasmolysis). Without positive internal hydrostatic pressure (turgor pressure) pushing outwards against the cellulose wall, mechanical support fails and the plant wilts."
+        },
+        {
+          "id": "q_bio_transport_27",
+          "question": "According to Fick's Law, the rate of diffusion is directly proportional to (Surface Area × Concentration Difference) / Diffusion Pathway Thickness. How do human pulmonary alveoli optimize all three variables simultaneously?",
+          "options": [
+            "700 million alveoli provide ~100 m² surface area, continuous blood flow maintains a steep concentration gradient, and single-cell alveolar/capillary walls give a pathway under 1 µm",
+            "Alveoli have thick muscular walls that contract during exhalation to force gas through mucus",
+            "Alveoli possess active transport pumps that consume ATP to pull oxygen across epithelial membranes",
+            "Alveolar fluid increases diffusion distance so that oxygen dissolves before reaching red blood cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Alveoli possess enormous surface area (hundreds of millions of micro-sacs), an extremely short diffusion distance (squamous alveolar epithelium and capillary endothelium each one cell thick, ~0.5–1 µm total), and steep concentration gradients maintained by continuous ventilation (bringing fresh air) and rapid capillary perfusion (carrying oxygenated blood away)."
+        },
+        {
+          "id": "q_bio_transport_28",
+          "question": "A plant root is supplied with mineral ions at increasing external concentrations. The rate of ion uptake increases linearly at first, but plateaus at high concentrations even though oxygen and glucose supplies remain unlimited. What explains this plateau?",
+          "options": [
+            "All specific carrier protein binding sites in the root hair cell membranes are fully saturated",
+            "Osmosis reverses direction, washing mineral ions back out into the soil solution",
+            "The mitochondria running cellular respiration become permanently poisoned by mineral ions",
+            "The cellulose cell wall becomes impermeable to prevent excessive internal hydrostatic pressure"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Active transport of mineral ions against a concentration gradient relies on carrier proteins (membrane pumps) spanning the phospholipid bilayer. At high substrate concentrations, every carrier protein is actively transporting ions as fast as its catalytic cycle allows; the system reaches Vmax (saturation), so further increases in external concentration cannot increase uptake rate."
+        },
+        {
+          "id": "q_bio_transport_29",
+          "question": "In an osmosis experiment, three potato cylinders have an initial mass of 3.20 g each. After immersion in an unknown solution, their masses are 3.04 g, 3.01 g, and 3.07 g. What is the mean percentage change in mass?",
+          "options": [
+            "-5.0%",
+            "-4.8%",
+            "+5.0%",
+            "-0.16%"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Mean final mass = (3.04 + 3.01 + 3.07) / 3 = 9.12 / 3 = 3.04 g.\nMass change = 3.04 g - 3.20 g = -0.16 g.\nPercentage change = (-0.16 / 3.20) × 100% = -5.0%."
+        },
+        {
+          "id": "q_bio_transport_30",
+          "question": "In fish gills, blood flows through secondary lamellae in the opposite direction to water flowing over the gill surfaces. Why is this counter-current exchange mechanism substantially more efficient than concurrent (parallel) flow?",
+          "options": [
+            "It maintains a concentration gradient for oxygen diffusion across the entire length of the capillary bed, achieving up to 80% oxygen saturation",
+            "It allows water and blood to reach osmotic equilibrium at the exact midpoint of the lamellae",
+            "It eliminates the need for haemoglobin by forcing oxygen gas to dissolve directly into blood plasma",
+            "It prevents turbulent water flow from tearing delicate gill filaments during rapid swimming"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In counter-current flow, blood entering the gill meets water that has already lost most of its oxygen, but water oxygen concentration is still slightly higher than that of deoxygenated blood. As blood moves along, it meets water with progressively higher oxygen concentration. Thus, a partial pressure difference (gradient) persists across the entire gill plate, allowing ~80% extraction. In concurrent flow, net diffusion would halt at 50% equilibrium."
         }
       ],
       "detailed_slides": [
@@ -1472,6 +1667,71 @@
           "answer_index": 1,
           "explanation": "Platelets are cell fragments that initiate the blood clotting cascade at cut surfaces. The fibrin mesh traps red blood cells to form a clot/scab, which prevents further hemorrhage and stops microorganisms from entering the bloodstream.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_animal_organs_26",
+          "question": "An enzyme-catalysed reaction is carried out at optimum temperature and pH. When substrate concentration is doubled from 5 mM to 10 mM, the rate of reaction remains unchanged. What is the limiting factor in this reaction?",
+          "options": [
+            "Enzyme concentration (all enzyme active sites are occupied)",
+            "Substrate concentration (there is insufficient substrate to collide with enzymes)",
+            "Competitive inhibitor molecules blocking enzyme allosteric sites",
+            "Denaturation of the enzyme quaternary protein structure"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "When reaction rate plateaus despite increasing substrate concentration, the substrate is in excess. Every active site on the enzyme molecules is already bound with substrate at any given millisecond. The rate is limited solely by enzyme concentration (the availability of free active sites)."
+        },
+        {
+          "id": "q_bio_animal_organs_27",
+          "question": "Bile is produced by hepatocytes in the liver and stored in the gallbladder. What are the two distinct chemical and physical roles bile plays during lipid digestion in the duodenum?",
+          "options": [
+            "Neutralises acidic stomach chyme to provide optimum alkaline pH for lipase, and emulsifies large lipid droplets into micro-droplets to increase surface area",
+            "Chemically hydrolyses triglycerides into glycerol and fatty acids, and activates salivary amylase",
+            "Coats the duodenal mucosal lining to prevent ulceration, and precipitates cholesterol into gallstones",
+            "Denatures bacterial proteins with concentrated hydrochloric acid, and absorbs fat-soluble vitamins"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Bile contains sodium hydrogencarbonate (alkaline) which neutralises gastric acid (pH ~1.5–2.0) creating an optimum pH of ~7.5–8.0 for pancreatic lipase. Bile salts also act as amphipathic detergents, mechanically breaking down large fat globules into tiny emulsified droplets, massively increasing the surface area available for lipase hydrolysis."
+        },
+        {
+          "id": "q_bio_animal_organs_28",
+          "question": "Mammals possess a double circulatory system, whereas fish possess a single circulatory system. What physiological advantage does a double circulatory system confer on warm-blooded endotherms?",
+          "options": [
+            "Blood pressure can be repressurised by the left ventricle after passing through delicate pulmonary capillaries, delivering oxygenated blood rapidly to systemic tissues",
+            "Deoxygenated and oxygenated blood mix freely in the heart to maintain consistent internal core body temperature",
+            "It eliminates the need for cardiac valves because blood flow is kept entirely unidirectional by gravity",
+            "It allows mammals to transport oxygen without requiring erythrocytes or haemoglobin"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In a single circulation, blood passes through capillary beds in gills where friction causes a drastic drop in blood pressure before sluggishly flowing to the rest of the body. In a double circulation, blood is pumped at low pressure to delicate lungs (preventing pulmonary oedema), returns to the left atrium, and is repressurised by the muscular left ventricle at high systemic pressure (120 mmHg) to meet the high metabolic demands of endothermy."
+        },
+        {
+          "id": "q_bio_animal_organs_29",
+          "question": "A patient with severe coronary artery disease has a 90% lumen occlusion in their left anterior descending coronary artery. What is the primary clinical difference between treatment with a coronary stent versus a coronary artery bypass graft (CABG)?",
+          "options": [
+            "A stent is a minimally invasive wire mesh tube inserted via catheter to widen the lumen, whereas CABG is open surgery diverting blood flow around the blockage using a harvested vein or artery",
+            "A stent replaces the heart muscle tissue with donor stem cells, whereas CABG dissolves atherosclerotic plaques chemically",
+            "Stents are permanent biological transplants requiring lifelong immunosuppressants, whereas CABG uses synthetic plastic tubing",
+            "Stents are only used for heart valve repair, whereas CABG is used exclusively for pacemaker implantation"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A coronary angioplasty with stent involves inserting a balloon catheter and expandable wire mesh stent through an artery (often radial or femoral) to dilate the narrowed lumen. CABG is major open-heart surgery where a blood vessel (e.g. saphenous vein or internal mammary artery) is grafted to bypass the obstructed segment entirely."
+        },
+        {
+          "id": "q_bio_animal_organs_30",
+          "question": "What is the biological mechanism by which platelets and plasma proteins prevent fatal haemorrhage and pathogen entry following vascular endothelial laceration?",
+          "options": [
+            "Platelets adhere to exposed collagen, releasing clotting factors that convert soluble fibrinogen into an insoluble mesh of fibrin threads that traps red blood cells",
+            "Platelets engulf invading bacteria by phagocytosis and produce antibodies that bind to exposed capillaries",
+            "Platelets release concentrated hydrochloric acid to cauterise the open blood vessel ends",
+            "Platelets expand their cytoplasm to permanently seal the wound without involving plasma proteins"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Platelets contact exposed subendothelial collagen, activate, and aggregate to form a primary platelet plug. They trigger an enzymatic clotting cascade converting the soluble globular plasma protein fibrinogen into insoluble fibrous strands of fibrin. Fibrin forms a mesh that traps erythrocytes, drying into a protective scab that halts blood loss and seals out pathogens."
         }
       ],
       "detailed_slides": [
@@ -1841,6 +2101,71 @@
           "answer_index": 1,
           "explanation": "Meristem tissue is located in the shoot and root apical meristems and cambium. It consists of undifferentiated cells that continuously divide by mitosis and differentiate into specialized plant cell types (xylem, phloem, epidermal cells).",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_plant_organs_26",
+          "question": "A student uses a bubble potometer with a capillary tube of internal radius 0.5 mm to measure transpiration in a leafy shoot. The air bubble moves 60 mm in 10 minutes. What is the rate of water uptake in mm³/minute? (Use π ≈ 3.142)",
+          "options": [
+            "4.71 mm³/min",
+            "47.1 mm³/min",
+            "1.57 mm³/min",
+            "18.85 mm³/min"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Volume of capillary cylinder = π × r² × length.\nVolume = 3.142 × (0.5)² × 60 = 3.142 × 0.25 × 60 = 47.13 mm³ in 10 minutes.\nRate of water uptake = 47.13 mm³ / 10 min ≈ 4.71 mm³/min."
+        },
+        {
+          "id": "q_bio_plant_organs_27",
+          "question": "How does the cohesion-tension theory explain the continuous upward transport of water through xylem vessels in a 50-metre oak tree without active pumping?",
+          "options": [
+            "Water evaporation from mesophyll cell walls creates negative pressure (tension), pulling adjacent water molecules upward via hydrogen bonding (cohesion) in a continuous column",
+            "Roots actively pump water upwards using ATP generated by chloroplasts in root cortex cells",
+            "Atmospheric air pressure pushes water up hollow xylem tubes because leaves maintain a complete vacuum",
+            "Capillary action alone is sufficiently powerful to draw water up vertical tubes of any diameter"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Water evaporates from spongy mesophyll into air spaces and diffuses out through stomata. This loss reduces water potential in leaf cells, creating suction/tension (negative pressure). Because water molecules form intermolecular hydrogen bonds with each other (cohesion) and with hydrophilic xylem wall cellulose (adhesion), water is drawn upward as an unbroken, continuous hydrostatic column."
+        },
+        {
+          "id": "q_bio_plant_organs_28",
+          "question": "What physiological mechanism causes stomata to open during daylight hours in a healthy, well-watered plant?",
+          "options": [
+            "Guard cells actively pump in potassium ions (K+), lowering their water potential so water enters by osmosis; the cells swell and curve outward because inner walls are thicker",
+            "Guard cells lose water by osmosis, becoming flaccid and pulling apart from one another",
+            "Sunlight directly melts the waxy cuticle covering the stomatal pore, allowing air to flow in",
+            "Guard cells synthesize starch which absorbs water vapour from the atmosphere directly"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In response to light, guard cells actively transport K+ ions into their vacuoles. This lowers osmotic/water potential inside the guard cells, causing water to enter from surrounding epidermal cells by osmosis. As turgor pressure rises, the cells bend because their inner cellulose cell walls (facing the pore) are significantly thicker and less elastic than their outer walls, widening the stomatal aperture."
+        },
+        {
+          "id": "q_bio_plant_organs_29",
+          "question": "In the pressure-flow hypothesis of phloem translocation, how does sucrose move from photosynthetic source tissues (leaves) to non-photosynthetic sink tissues (roots/meristems)?",
+          "options": [
+            "Companion cells actively load sucrose into sieve tubes, causing water to enter by osmosis; the resulting high hydrostatic pressure drives mass flow toward low-pressure sinks",
+            "Sucrose diffuses passively along xylem vessels mixed with ascending mineral ions",
+            "Phloem sieve plates contract rhythmically like peristaltic muscles to squeeze sap downward",
+            "Sucrose is converted to gaseous methane which flows upward through inter-cellular air spaces"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "At source leaves, companion cells actively transport sucrose into phloem sieve tube elements using ATP. This lowers water potential, drawing water in from adjacent xylem by osmosis. The resulting elevated hydrostatic pressure pushes the phloem sap by mass flow along the sieve tubes toward sink tissues (e.g. roots or developing fruits), where sucrose is actively unloaded and stored as insoluble starch."
+        },
+        {
+          "id": "q_bio_plant_organs_30",
+          "question": "Marram grass (Ammophila arenaria) grows on dry coastal sand dunes. Which combination of morphological adaptations enables it to survive extreme water deficit?",
+          "options": [
+            "Rolled leaves with sunken stomata in deep pits lined with microscopic hairs (trichomes) that trap moist, humid air to reduce the water vapour concentration gradient",
+            "Broad, thin leaves with high stomatal density on both upper and lower surfaces to maximize gas exchange",
+            "Absence of waxy cuticle and enlarged intercellular air spaces to facilitate rapid flood drainage",
+            "Deep root nodules that fix gaseous atmospheric water directly into liquid sucrose"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Marram grass has xerophytic adaptations: hinge cells roll leaves into tight cylinders, stomata are located exclusively in deep furrows on the inner rolled surface, and epidermal hairs (trichomes) trap still, humid air. This saturated microclimate drastically reduces the water vapour diffusion gradient between leaf air spaces and exterior air, minimizing transpiration."
         }
       ],
       "detailed_slides": [
@@ -2210,6 +2535,71 @@
           "answer_index": 0,
           "explanation": "In a double-blind trial, neither the doctor nor the patient knows whether the patient is receiving the active drug or an inactive placebo. This prevents placebo effect distortion from patients and subconscious bias from examining doctors.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_communicable_26",
+          "question": "Why do patients require an updated influenza vaccine annually, whereas a single course of the MMR (measles, mumps, rubella) vaccine usually confers lifelong protective immunity?",
+          "options": [
+            "Influenza viruses undergo frequent antigenic drift due to high mutation rates in haemagglutinin genes, changing surface antigens so existing memory cells no longer recognize them",
+            "Measles viruses do not have protein antigens on their envelopes and cannot be detected by lymphocytes",
+            "The human immune system destroys memory B cells for influenza every six months through apoptosis",
+            "Influenza is caused by a multi-cellular eukaryotic parasite that develops complete resistance to antibodies"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The influenza RNA genome replicates with high error rates, leading to frequent mutations in surface glycoproteins (antigenic drift and antigenic shift). The altered tertiary structure of the antigens means circulating memory cells and antibodies generated against previous strains cannot bind. Measles antigens are genetically stable, so memory lymphocytes provide lifelong recognition."
+        },
+        {
+          "id": "q_bio_communicable_27",
+          "question": "How does failing to complete a full prescribed course of antibiotics promote the evolution of widespread antibiotic resistance in a bacterial population?",
+          "options": [
+            "Stopping early kills only the most susceptible bacteria, leaving partially resistant bacteria alive to reproduce and pass resistance genes to future generations via natural selection",
+            "The patient's immune system stops producing antibodies because it becomes dependent on the antibiotic",
+            "Unfinished antibiotics mutate inside human blood into toxic bacterial nutrients that accelerate binary fission",
+            "The remaining bacteria immediately undergo meiosis to recombine their resistance plasmids"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Bacterial populations exhibit genetic variation in resistance. Early termination of antibiotic therapy leaves surviving intermediate/resistant bacteria alive because the concentration was insufficient to eradicate them. These survivors multiply, passing on resistant alleles vertically to daughter cells and horizontally via plasmids to other bacteria, causing the entire strain to become resistant."
+        },
+        {
+          "id": "q_bio_communicable_28",
+          "question": "A pathogen has a basic reproduction number (R0) of 4.0 in a non-immune population. Using the formula H = 1 - (1 / R0), what percentage of the population must be immune to achieve herd immunity and prevent an epidemic?",
+          "options": [
+            "75%",
+            "25%",
+            "80%",
+            "50%"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The herd immunity threshold is H = 1 - (1 / R0).\nFor R0 = 4.0: H = 1 - (1 / 4) = 1 - 0.25 = 0.75, which is 75%.\nIf at least 75% of the population is immune, an infected person will on average transmit the pathogen to fewer than 1 susceptible person, causing transmission chains to decline."
+        },
+        {
+          "id": "q_bio_communicable_29",
+          "question": "Why are clinical human drug trials conducted as double-blind, randomized, placebo-controlled studies during Phase 2 and Phase 3 development?",
+          "options": [
+            "To eliminate both patient psychological expectation (placebo effect) and clinician diagnostic assessment bias when measuring therapeutic efficacy",
+            "To ensure that doctors can selectively prescribe the active drug to patients with the most severe symptoms",
+            "To prevent pharmaceutical companies from having to disclose test formulations to government regulators",
+            "To avoid running animal pre-clinical toxicity screenings before human trials"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In a double-blind trial, neither the participants nor the administering doctors know who is receiving the experimental drug and who is receiving an identical inert placebo. This eliminates psychological bias (placebo effect) and prevents doctor observation bias, ensuring that recorded differences in clinical outcomes are due solely to the pharmacological efficacy of the drug."
+        },
+        {
+          "id": "q_bio_communicable_30",
+          "question": "Which sequence correctly outlines the biological stages of phagocytosis when a neutrophil destroys an invading bacterium?",
+          "options": [
+            "Chemotaxis towards chemical signals → engulfment into a phagosome → fusion with a lysosome containing digestive enzymes → enzymatic hydrolysis → exocytosis of soluble debris",
+            "Production of complementary antibodies → agglutination of bacteria → exocytosis into kidney tubules",
+            "Release of antitoxins into the bloodstream → neutralisation of bacterial cell walls → endocytosis of intact toxins",
+            "Replication of memory lymphocytes → lysis of bacterial membranes by histamine release"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Phagocytes detect bacterial chemical markers (chemotaxis), extend pseudopodia to engulf the bacterium via endocytosis into a vesicle (phagosome). Lysosomes fuse with the phagosome to form a phagolysosome, releasing lysozymes and proteases that digest the pathogen into harmless components, which are expelled by exocytosis."
         }
       ],
       "detailed_slides": [
@@ -2579,6 +2969,71 @@
           "answer_index": 0,
           "explanation": "Producing monoclonal antibodies requires deliberately injecting mice with antigens and subsequently sacrificing them to harvest spleen lymphocytes. This raises ethical considerations regarding animal welfare and rights.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_monoclonal_26",
+          "question": "During the laboratory production of monoclonal antibodies, why must a spleen B-lymphocyte be fused with a cancerous myeloma cell to form a hybridoma?",
+          "options": [
+            "B-lymphocytes produce specific complementary antibodies but cannot divide indefinitely in culture, whereas myeloma cells divide indefinitely without producing antibodies",
+            "Myeloma cells produce specific antibodies, while B-lymphocytes provide nutrients needed for cell culture",
+            "The fusion allows the cells to undergo meiosis and double their antibody diversity",
+            "B-lymphocytes are cancerous and need healthy myeloma cells to suppress tumour formation"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Primary B-lymphocytes harvested from an immunized mouse spleen synthesize the desired specific antibody, but they have a finite lifespan and stop dividing after a few rounds of mitosis. Myeloma cells are immortal tumour cells that divide indefinitely. Fusing them produces a hybridoma combining antibody production with immortal proliferative capacity."
+        },
+        {
+          "id": "q_bio_monoclonal_27",
+          "question": "How are monoclonal antibodies utilized in targeted cancer therapies to minimize the debilitating side effects of conventional cytotoxic chemotherapy?",
+          "options": [
+            "They are conjugated with a radioactive isotope or cytotoxic drug and bind specifically to unique tumour-associated antigens, delivering the toxin directly to malignant cells",
+            "They bind to normal healthy tissue cells to make them completely indestructible against high-dose radiation",
+            "They act as synthetic red blood cells to deliver excess oxygen to cancer cells, suffocating them",
+            "They replace all white blood cells in bone marrow with monoclonal hybridoma cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Monoclonal antibodies are engineered with binding sites specific to unique surface antigens overexpressed on cancer cells (e.g. HER2 in breast cancer). By attaching a cytotoxic drug, toxic molecule, or radioactive payload to the constant region of the antibody, the poison is delivered selectively to tumour cells, sparing healthy non-malignant somatic tissues."
+        },
+        {
+          "id": "q_bio_monoclonal_28",
+          "question": "In a home pregnancy test strip, what occurs in the test zone and control zone when human chorionic gonadotropin (hCG) is present in urine?",
+          "options": [
+            "hCG binds to mobile dye-linked antibodies, the complex is trapped by immobilised antibodies in the test zone (showing a line), and excess mobile antibodies bind to immobilised antibodies in the control zone",
+            "hCG dissolves the nitrocellulose membrane in the test zone, releasing free blue dye into the control window",
+            "Urine acidity neutralises alkaline indicator dyes in both zones simultaneously",
+            "hCG undergoes active transport through capillary pores, triggering an enzymatic glow reaction"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Urine moves along the strip by capillary action. hCG binds to mobile, dye-conjugated monoclonal antibodies in the reaction zone. When reaching the test zone, immobilised anti-hCG antibodies bind to a second site on hCG, sandwiching the complex and immobilizing the coloured dye into a visible line. Further along, excess mobile antibodies bind to immobilised species-specific antibodies in the control zone, verifying the test functioned correctly."
+        },
+        {
+          "id": "q_bio_monoclonal_29",
+          "question": "What was the primary clinical reason why early mouse-derived monoclonal antibodies caused adverse reactions when injected into human patients?",
+          "options": [
+            "The human immune system recognized the constant region of murine antibodies as foreign antigens, generating human anti-mouse antibodies (HAMA) that triggered serum sickness",
+            "Mouse antibodies are made of DNA instead of proteins and degraded too quickly in human plasma",
+            "Mouse antibodies are 100 times larger than human antibodies and physically blocked coronary arteries",
+            "Mouse antibodies caused human white blood cells to transform spontaneously into myeloma cancer cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Early monoclonal antibodies were produced entirely from murine (mouse) hybridomas. The human immune system recognized the non-human murine constant regions (Fc domain) as foreign foreign antigens, triggering an immune response known as the HAMA (Human Anti-Mouse Antibody) response, which caused rapid clearance, allergic reactions, and reduced efficacy."
+        },
+        {
+          "id": "q_bio_monoclonal_30",
+          "question": "How is an Enzyme-Linked Immunosorbent Assay (ELISA) using monoclonal antibodies capable of detecting minute trace amounts of viral antigens in blood samples?",
+          "options": [
+            "Enzyme-conjugated antibodies bind to immobilised viral antigens; when substrate is added, each enzyme molecule catalyses thousands of colourimetric conversions, amplifying the signal",
+            "The antibodies consume viral antigens as fuel to produce bioluminescent ATP molecules",
+            "Monoclonal antibodies replicate the viral RNA by PCR until it forms visible macroscopic crystals",
+            "The antibodies alter the electrical resistance of the plastic plate, which is measured with an ammeter"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In an ELISA, monoclonal antibodies specific to the viral antigen are tagged with an enzyme (such as horseradish peroxidase). When washed and provided with a chromogenic substrate, a single bound antibody-enzyme conjugate continuously converts thousands of substrate molecules into a coloured product, magnifying undetectable nanogram amounts of antigen into a clear visible or spectrophotometric signal."
         }
       ],
       "detailed_slides": [
@@ -2948,6 +3403,71 @@
           "answer_index": 0,
           "explanation": "Nematodes infest root systems, causing visible swellings (root galls or knots). This disrupts water and mineral uptake by roots, leading to wilting, yellowing, and stunted growth even when soil moisture is adequate.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_plant_disease_26",
+          "question": "How do physical plant defences, such as the waxy cuticle, cellulose cell wall, and layers of dead bark, protect plants against fungal hyphae and bacterial pathogens?",
+          "options": [
+            "They form impermeable mechanical barriers that resist enzymatic penetration and pathogen entry, and shedding bark removes attached pathogens",
+            "They actively synthesize penicillin that lyses bacterial peptidoglycan bonds",
+            "They attract beneficial parasitic wasps that lay eggs inside fungal spores",
+            "They reflect solar ultraviolet light to sterilise the outer epidermal leaf tissue"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Plants possess passive physical barriers: the hydrophobic waxy cuticle repels standing water needed by spores, cellulose cell walls physically impede hyphal entry, and the thick layer of dead cork cells (bark) on stems acts as a mechanical shield. When outer bark scales slough off, any adhering pathogens or fungal mycelia are shed with them."
+        },
+        {
+          "id": "q_bio_plant_disease_27",
+          "question": "Many plants produce secondary metabolites as chemical defences against herbivores and microbial pathogens. Which option correctly pairs a plant chemical defence with its mechanism of action?",
+          "options": [
+            "Digitalis from foxgloves disrupts cardiac rhythm in grazing herbivores, while mint produces antibacterial essential oils",
+            "Aspirin from willow bark acts as an insecticide that paralyses aphid respiratory spiracles",
+            "Cellulose microfibrils act as neurotoxins that bind to fungal neurotransmitter receptors",
+            "Chlorophyll pigments release concentrated hydrochloric acid when leaf tissues are bitten"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Plants synthesize diverse defensive chemicals: foxgloves produce cardiac glycosides (such as digitalis/digitoxin) that alter sodium-potassium pumps in mammalian hearts to deter large herbivores; mint and witch hazel produce antimicrobial phenolic compounds that kill bacteria; and tobacco produces nicotine, a powerful neurotoxin targeting insect nicotinic acetylcholine receptors."
+        },
+        {
+          "id": "q_bio_plant_disease_28",
+          "question": "A tomato grower notices that the older leaves of their crop are turning bright yellow between the leaf veins (interveinal chlorosis), while younger leaves remain green. Which mineral ion deficiency is responsible, and why?",
+          "options": [
+            "Magnesium ion deficiency; magnesium is the central metal ion required for chlorophyll synthesis",
+            "Nitrate ion deficiency; plants cannot synthesize glucose without nitrogen",
+            "Potassium ion deficiency; potassium is the primary structural component of the cellulose cell wall",
+            "Phosphate ion deficiency; plants cannot absorb water through root hair cells without phosphorus"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Each chlorophyll molecule has a central magnesium ion ($Mg^{2+}$) coordinated in a porphyrin ring. Without adequate magnesium, plants cannot synthesize green chlorophyll, resulting in yellowing of leaves (chlorosis). Because magnesium is mobile within the plant, it is remobilised from older leaves to support new growth, so chlorosis appears first in older mature leaves."
+        },
+        {
+          "id": "q_bio_plant_disease_29",
+          "question": "Aphids (greenflies) cause severe damage to greenhouse crops through two distinct biological mechanisms. What are these mechanisms?",
+          "options": [
+            "They pierce phloem sieve tubes with mouthparts to extract sucrose sap (stunting growth), and act as vectors transmitting plant viruses like Cucumber Mosaic Virus",
+            "They consume chloroplasts directly from stomata, and secrete digestive enzymes that liquefy roots",
+            "They lay thousands of eggs inside xylem vessels, causing air embolisms that block water transport",
+            "They secrete concentrated sulphuric acid that dissolves the waxy cuticle of stems"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Aphids possess needle-like piercing mouthparts (stylets) that penetrate phloem sieve tubes, directly tapping into rich sugary sap under hydrostatic pressure. This deprives the plant of assimilates needed for cellular respiration and protein synthesis, stunting growth. Furthermore, as aphids move between plants, their contaminated stylets transmit devastating viral pathogens."
+        },
+        {
+          "id": "q_bio_plant_disease_30",
+          "question": "An agricultural agronomist suspects an outbreak of Rose Black Spot (Diplocarpon rosae) or Tobacco Mosaic Virus (TMV) on a commercial farm. Which modern laboratory diagnostic technique provides the fastest, most definitive confirmation of the specific viral pathogen?",
+          "options": [
+            "Monoclonal antibody lateral flow test kits (or RT-PCR) targeting specific viral coat protein antigens or viral RNA",
+            "Viewing the infected leaf with a standard x10 magnifying hand lens to count virus particles",
+            "Testing the soil pH with universal indicator paper to identify viral crystal deposits",
+            "Treating the plant with broad-spectrum penicillin to see if the symptoms disappear"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Viruses cannot be resolved with a light microscope and do not respond to antibiotics. Modern field and lab plant pathology relies on monoclonal antibody-based diagnostic test kits (such as ELISA test strips) that bind specifically to viral capsid proteins, or molecular assays like Polymerase Chain Reaction (PCR) which amplify unique pathogen nucleic acid sequences."
         }
       ],
       "detailed_slides": [
@@ -3317,6 +3837,71 @@
           "answer_index": 0,
           "explanation": "Sodium hydrogencarbonate dissolves in water to release carbon dioxide ions/gas. Adding it ensures that carbon dioxide concentration is in excess and does not become the limiting factor when investigating light intensity or temperature.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_photosynthesis_26",
+          "question": "A commercial greenhouse farmer maintains carbon dioxide concentration at 0.15% and light intensity at 12,000 lux. When the temperature is raised from 15°C to 25°C, the rate of photosynthesis doubles. When raised further from 25°C to 45°C, the rate drops rapidly to zero. Why?",
+          "options": [
+            "At 15–25°C, higher kinetic energy increases enzyme-substrate collisions; above 40°C, key photosynthetic enzymes (e.g. RuBisCO) denature, altering active site conformation",
+            "Carbon dioxide gas becomes solid above 40°C, so it cannot diffuse into stomata",
+            "Light photons lose all kinetic energy at elevated atmospheric temperatures",
+            "Chloroplasts undergo binary fission above 40°C, destroying chlorophyll pigments"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Photosynthesis is an enzyme-controlled biochemical process. Between 15°C and 25°C, increasing temperature provides greater kinetic energy, increasing collision frequency between enzymes (such as RuBisCO) and substrate molecules. Above 40°C, thermal vibration breaks hydrogen and ionic bonds in the enzyme tertiary structure; active sites denature, halting carbon fixation completely."
+        },
+        {
+          "id": "q_bio_photosynthesis_27",
+          "question": "In a photosynthesis practical using Cabomba pondweed, the lamp is moved from a distance of 10 cm to a distance of 40 cm from the plant. According to the inverse square law, how does the light intensity change?",
+          "options": [
+            "It decreases to 1/16 of its original value (a 16-fold decrease)",
+            "It decreases to 1/4 of its original value (a 4-fold decrease)",
+            "It decreases by 30 units linearly",
+            "It decreases to 1/8 of its original value"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Light intensity follows the inverse square law: I ∝ 1 / d².\nAt 10 cm: I1 ∝ 1 / 10² = 1 / 100.\nAt 40 cm: I2 ∝ 1 / 40² = 1 / 1600.\nI2 / I1 = (1 / 1600) / (1 / 100) = 100 / 1600 = 1 / 16.\nThe light intensity drops to 1/16th of its initial intensity."
+        },
+        {
+          "id": "q_bio_photosynthesis_28",
+          "question": "Why does a plant in continuous darkness stop fixing carbon dioxide into carbohydrates, even if an abundant supply of CO2 gas is pumped directly into the leaf chambers?",
+          "options": [
+            "The light-independent stage (Calvin cycle) requires ATP and reduced coenzymes (NADPH) that are only generated during the light-dependent reactions",
+            "Stomata permanently fuse shut in the dark and can never reopen without light",
+            "Carbon dioxide can only react with water when light photons directly split CO2 molecules into carbon and oxygen",
+            "Mitochondria consume all available carbon dioxide during cellular respiration in the dark"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Although the light-independent reactions (Calvin cycle) do not directly capture photons, they rely entirely on the chemical products of the light-dependent reactions: ATP (for energy) and reduced coenzymes / NADPH (for reducing power). In extended darkness, ATP and NADPH reserves are quickly depleted, bringing carbon fixation to a complete standstill."
+        },
+        {
+          "id": "q_bio_photosynthesis_29",
+          "question": "In commercial glasshouse horticulture, paraffin heaters are often burned inside enclosed tomato houses during cold mornings. What two distinct agronomic benefits does this practice provide simultaneously?",
+          "options": [
+            "Combustion releases heat to raise temperature towards optimum enzyme levels and releases carbon dioxide gas to eliminate CO2 as a limiting factor",
+            "Paraffin smoke forms a cloud layer that focuses ultraviolet light and kills aphid pests",
+            "Combustion consumes excess oxygen gas to prevent photo-oxidation of chlorophyll",
+            "Paraffin vapor deposits a layer of synthetic wax onto leaves, reducing transpiration by 100%"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Hydrocarbon combustion produces heat and carbon dioxide: $C_n H_{2n+2} + O_2 \to CO_2 + H_2O + \text{heat}$. In cold temperate climates, heating the greenhouse warms the air toward the photosynthetic thermal optimum (~20–25°C), while elevated $CO_2$ (above atmospheric 0.04% up to ~0.1%) removes carbon dioxide as a rate-limiting factor."
+        },
+        {
+          "id": "q_bio_photosynthesis_30",
+          "question": "A student sets up an experiment to measure photosynthesis in pondweed by counting oxygen bubbles. Which control measure is essential to ensure that light intensity is the ONLY independent variable affecting the bubble count?",
+          "options": [
+            "Placing a transparent water bath (heat shield) between the lamp and beaker, and dissolving sodium hydrogencarbonate in the water to provide excess dissolved CO2",
+            "Using boiling water in the beaker to ensure no bacterial respiration takes place",
+            "Covering the beaker with black electrical tape to prevent stray environmental light from interfering",
+            "Adding an oxygen pump to ensure the water stays 100% saturated with oxygen at all times"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Incandescent or halogen lamps emit radiant heat that warms the beaker as the lamp is moved closer, confounding temperature with light intensity; a glass heat shield or water bath absorbs this heat. Additionally, adding sodium hydrogencarbonate ($NaHCO_3$) ensures carbon dioxide is plentiful and not a limiting factor, isolating light intensity as the sole factor."
         }
       ],
       "detailed_slides": [
@@ -3686,6 +4271,71 @@
           "answer_index": 1,
           "explanation": "The inner mitochondrial membrane is folded into cristae to maximize surface area for the electron transport chain and ATP synthase, which are essential for oxidative phosphorylation.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_respiration_26",
+          "question": "Following an intense 400-metre sprint, a sprinter breathes deeply and rapidly for several minutes despite having stopped running. What physiological process accounts for this oxygen debt (EPOC)?",
+          "options": [
+            "Extra oxygen is required by hepatocytes in the liver to convert accumulated lactic acid back into glucose (gluconeogenesis) and restore ATP and creatine phosphate in muscles",
+            "The sprinter's lungs collapsed during the sprint and need oxygen pressure to reinflate",
+            "Oxygen is needed to metabolize glucose directly into ethanol inside skeletal muscle cells",
+            "The blood became too alkaline during the race and needs acidic oxygen molecules to neutralise plasma"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Excess Post-exercise Oxygen Consumption (EPOC / oxygen debt) represents the oxygen required to repay metabolic deficits incurred during anaerobic respiration. Accumulated lactic acid is transported via the bloodstream to the liver, where oxygen is consumed to oxidise lactic acid to pyruvate, convert it back into glucose/glycogen, re-oxygenate myoglobin, and replenish phosphocreatine and ATP reserves."
+        },
+        {
+          "id": "q_bio_respiration_27",
+          "question": "A respirometer contains germinating pea seeds in an enclosed tube with potassium hydroxide (KOH) pellets. Over 20 minutes, the coloured liquid in the capillary tube moves 45 mm towards the seeds. What is the role of the KOH pellets?",
+          "options": [
+            "KOH absorbs all carbon dioxide gas produced by respiration, ensuring the volume drop reflects oxygen consumption alone",
+            "KOH absorbs oxygen gas to force the seeds into anaerobic fermentation",
+            "KOH releases oxygen gas at a constant rate to keep the seeds alive inside the tube",
+            "KOH neutralises toxic nitrogen oxides produced by pea seed meristems"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "During aerobic respiration, seeds consume $O_2$ and release an equal volume of $CO_2$ ($C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O$). If $CO_2$ remained in the chamber gas phase, total gas volume would not change. Solid potassium hydroxide ($KOH$) absorbs all released $CO_2$ ($2KOH + CO_2 \to K_2CO_3 + H_2O$), so any reduction in gas volume and movement of the meniscus is directly proportional to the volume of $O_2$ consumed."
+        },
+        {
+          "id": "q_bio_respiration_28",
+          "question": "Where in a eukaryotic human muscle cell do glycolysis and aerobic respiration (Krebs cycle / oxidative phosphorylation) take place, and how do their ATP yields compare?",
+          "options": [
+            "Glycolysis occurs in the cytoplasm yielding 2 ATP molecules per glucose; aerobic stages occur inside mitochondria yielding approximately 30–32 ATP molecules per glucose",
+            "Glycolysis occurs inside the nucleus yielding 32 ATP; aerobic stages occur on ribosomes yielding 2 ATP",
+            "Glycolysis occurs inside lysosomes yielding 0 ATP; aerobic stages occur in cytoplasm yielding 100 ATP",
+            "Both processes occur exclusively inside the mitochondrial matrix yielding identical amounts of ATP"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Glycolysis is the anaerobic breakdown of glucose to pyruvate occurring in the cytoplasm (cytosol), producing a net yield of 2 ATP molecules per glucose. In the presence of oxygen, pyruvate enters the mitochondria, where the link reaction, Krebs cycle, and electron transport chain (oxidative phosphorylation) generate ~30–32 ATP molecules via complete oxidation."
+        },
+        {
+          "id": "q_bio_respiration_29",
+          "question": "How does anaerobic respiration in yeast cells (alcoholic fermentation) differ from anaerobic respiration in human skeletal muscle cells?",
+          "options": [
+            "Yeast produces ethanol and carbon dioxide, whereas human muscle produces lactic acid without releasing carbon dioxide",
+            "Yeast produces lactic acid, whereas human muscle produces ethanol and methane",
+            "Yeast generates 38 ATP per glucose anaerobically, whereas human muscle generates zero ATP",
+            "Yeast consumes carbon dioxide and water to produce oxygen, whereas human muscle consumes glucose"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In yeast: $C_6H_{12}O_6 \to 2C_2H_5OH + 2CO_2$ (ethanol and carbon dioxide gas, utilized in brewing and baking). In human skeletal muscle: $C_6H_{12}O_6 \to 2C_3H_6O_3$ (lactic acid only, without gas production, which lowers cellular pH and leads to muscle fatigue)."
+        },
+        {
+          "id": "q_bio_respiration_30",
+          "question": "During strenuous exercise, cardiac output can increase from 5 L/min at rest to over 25 L/min. How does the autonomic nervous system simultaneously redistribute blood flow to support skeletal muscle respiration?",
+          "options": [
+            "Arterioles supplying skeletal muscles vasodilate, while arterioles supplying digestive organs and kidneys vasoconstrict",
+            "Capillaries in muscles constrict to increase blood pressure, while digestive arteries dilate",
+            "The heart stops pumping blood to the brain so that all blood flows into the quadriceps muscles",
+            "Red blood cells lose their nuclei during exercise to travel through capillaries at double speed"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Sympathetic nervous activation causes vasodilation (relaxation of smooth muscle in arteriole walls) of vessels supplying active skeletal muscles and coronary circulation, dramatically lowering vascular resistance. Concurrently, arterioles supplying non-essential organs (gut, kidneys, stomach) vasoconstrict, diverting up to 85% of total cardiac output directly to working muscles."
         }
       ],
       "detailed_slides": [
@@ -4055,6 +4705,71 @@
           "answer_index": 1,
           "explanation": "The cerebellum is the part of the brain responsible for muscle coordination, balance, and fine-tuning motor movements.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_nervous_26",
+          "question": "What is the sequence of events that enables an electrical nerve impulse to cross a microscopic synaptic cleft (20 nm) between two neurones?",
+          "options": [
+            "Impulse arrives at presynaptic terminal → calcium ions enter → vesicles fuse with membrane, releasing neurotransmitter → neurotransmitter diffuses across cleft → binds to receptor proteins on postsynaptic membrane → triggers new electrical impulse",
+            "Electrical sparks jump across the synaptic fluid directly like a spark plug in an engine",
+            "The presynaptic membrane stretches across the gap to physically touch the postsynaptic membrane",
+            "Neurotransmitters are pumped through hollow micro-tubules bridging the two cells using ATP"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "An action potential reaching the presynaptic axon terminal triggers the influx of calcium ions ($Ca^{2+}$), causing synaptic vesicles to fuse with the presynaptic membrane (exocytosis). Chemical neurotransmitters (e.g. acetylcholine) diffuse across the 20 nm synaptic cleft and bind to complementary receptor proteins on the postsynaptic membrane, opening ion channels and initiating a new electrical impulse."
+        },
+        {
+          "id": "q_bio_nervous_27",
+          "question": "A patient experiences a stroke that results in loss of balance and uncoordinated muscular movements, but their memory, speech, heart rate, and breathing reflexes remain completely intact. Which region of the brain was damaged by the stroke?",
+          "options": [
+            "Cerebellum",
+            "Cerebral cortex",
+            "Medulla oblongata",
+            "Hypothalamus"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The cerebellum coordinates voluntary muscle movements, posture, balance, and fine motor skills. The cerebral cortex governs conscious thought, memory, personality, and sensory perception; the medulla oblongata controls unconscious autonomic vitals like heart rate and respiration; and the hypothalamus regulates homeostasis."
+        },
+        {
+          "id": "q_bio_nervous_28",
+          "question": "How do the ciliary muscles and suspensory ligaments of the human eye adjust the shape of the lens when focusing on a distant bird in the sky (accommodation)?",
+          "options": [
+            "Ciliary muscles relax, suspensory ligaments pull tight, causing the lens to become thin and less convex with low refractive power",
+            "Ciliary muscles contract, suspensory ligaments slacken, causing the lens to become thick and round with high refractive power",
+            "Ciliary muscles contract, suspensory ligaments pull tight, forcing the pupil to constrict to a pinhole",
+            "Ciliary muscles relax, suspensory ligaments slacken, causing the cornea to bulge outward"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Light rays from distant objects arrive almost parallel and require less refraction. Ciliary muscles relax (widening their circular diameter), which pulls the inelastic suspensory ligaments taut. This tension stretches the flexible lens, making it thinner and flatter (less convex), reducing its focal/refractive power so light focuses sharply onto the fovea."
+        },
+        {
+          "id": "q_bio_nervous_29",
+          "question": "A person diagnosed with myopia (short-sightedness) can see nearby objects clearly but distant objects appear blurred. What is the physical defect in the eyeball, and which corrective lens restores sharp vision?",
+          "options": [
+            "The eyeball is too long or the lens is too curved, focusing light in front of the retina; corrected with a concave (diverging) lens",
+            "The eyeball is too short, focusing light behind the retina; corrected with a convex (converging) lens",
+            "The cornea is opaque; corrected with a flat glass filter that blocks infrared radiation",
+            "The retina lacks rod cells; corrected with cylindrical polarized sunglasses"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In myopia, the eyeball is either too long from front to back, or the cornea/lens is too steeply curved (overly refractive). Light rays converge and focus at a focal point in front of the retina before diverging again. A concave (diverging) lens spreads light rays slightly before entering the eye, pushing the focal plane back onto the retina."
+        },
+        {
+          "id": "q_bio_nervous_30",
+          "question": "Why are reflex actions, such as withdrawing a hand from a scalding kettle, described as involuntary, and what is their evolutionary survival advantage?",
+          "options": [
+            "The nerve pathway bypasses conscious brain processing (synapsing directly in the spinal cord), minimising synaptic delay to prevent severe tissue damage",
+            "They require conscious deliberation by the cerebral cortex to evaluate whether heat is dangerous",
+            "They only involve endocrine hormones travelling through blood, which saves neuron energy",
+            "They allow the body to ignore pain permanently so that skin burns can heal immediately"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Reflex arcs pass from sensory neurones directly to relay neurones in the grey matter of the spinal cord (or brainstem), triggering motor neurones before the impulse reaches the conscious cerebrum. Bypassing conscious thought eliminates cognitive processing time (saving fractions of a second), producing an immediate, involuntary motor withdrawal that protects tissues from extensive trauma."
         }
       ],
       "detailed_slides": [
@@ -4424,6 +5139,71 @@
           "answer_index": 1,
           "explanation": "The hypothalamus receives sensory input from the nervous system and releases 'releasing hormones' that signal the pituitary gland, effectively acting as the bridge between the two systems.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_hormonal_26",
+          "question": "A healthy person fasts for 16 hours. How does the pancreas and liver respond via negative feedback to prevent hypoglycaemia (blood glucose falling below 4.0 mmol/L)?",
+          "options": [
+            "Alpha cells in the islets of Langerhans secrete glucagon, which stimulates hepatocytes to break down stored glycogen into glucose (glycogenolysis)",
+            "Beta cells in the pancreas secrete insulin, which stimulates body cells to take up glucose and convert it to glycogen",
+            "The gall bladder secretes bile to convert stored triglycerides into glucose within red blood cells",
+            "The adrenal glands secrete adrenaline to stop cellular respiration across all peripheral tissues"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "When blood glucose drops, alpha cells in the pancreatic islets detect the decrease and release the peptide hormone glucagon. Glucagon binds to liver receptors, triggering the breakdown of glycogen stores into free glucose (glycogenolysis) and promoting the synthesis of glucose from amino acids and glycerol (gluconeogenesis), returning blood glucose to the homeostatic set point (~5 mmol/L)."
+        },
+        {
+          "id": "q_bio_hormonal_27",
+          "question": "Which endocrine feedback interaction triggers ovulation on approximately day 14 of the human menstrual cycle?",
+          "options": [
+            "High concentrations of estrogen secreted by the developing follicle stimulate a surge of Luteinising Hormone (LH) from the pituitary gland",
+            "A drop in progesterone causes the corpus luteum to release Follicle Stimulating Hormone (FSH)",
+            "High concentrations of testosterone cause the uterine endometrium to shed",
+            "FSH directly breaks the ovarian wall to release the ovum without involving LH"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "During the follicular phase, estrogen produced by the growing Graafian follicle repairs the uterine lining. At low levels, estrogen inhibits LH, but when it reaches a high threshold level prior to mid-cycle, it exerts positive feedback on the anterior pituitary, triggering a massive surge in Luteinising Hormone (LH), which ruptures the mature follicle and releases the egg (ovulation)."
+        },
+        {
+          "id": "q_bio_hormonal_28",
+          "question": "On a hot day, a runner loses 1.5 litres of sweat without drinking water. How do osmoreceptors in the hypothalamus and the pituitary gland restore water balance?",
+          "options": [
+            "Osmoreceptors detect increased blood plasma concentration; the posterior pituitary releases more ADH, increasing collecting duct permeability so more water is reabsorbed into the blood",
+            "The pituitary stops releasing ADH, causing the kidneys to excrete large volumes of dilute urine",
+            "Osmoreceptors stimulate the thyroid gland to release thyroxine, which turns urine into solid urea",
+            "The adrenal cortex secretes insulin to pull water out of skeletal muscle cells into plasma"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Dehydration increases blood solute concentration (lowers water potential). Hypothalamic osmoreceptors shrink and signal the posterior pituitary to secrete more Antidiuretic Hormone (ADH). ADH binds to receptors on kidney collecting ducts, increasing aquaporin water channels so more water is reabsorbed by osmosis back into medullary capillaries, producing a low volume of concentrated urine."
+        },
+        {
+          "id": "q_bio_hormonal_29",
+          "question": "A plant shoot is illuminated unilaterally from the right side. How does the plant hormone auxin cause positive phototropism, bending the stem towards the light?",
+          "options": [
+            "Auxin diffuses to the shaded (left) side of the shoot, stimulating cell elongation on that side so the shoot curves toward the light",
+            "Auxin is destroyed by light on the right side, causing the right side cells to shrink rapidly",
+            "Auxin concentrates on the sunny (right) side, inhibiting cell division completely",
+            "Auxin triggers rapid apoptosis of leaves facing away from the sunlight"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Auxin is synthesized in the shoot apical meristem. In response to directional light, auxin actively redistributes laterally to the shaded side of the stem. In shoots, higher auxin concentrations loosen cell wall microfibrils (acid growth hypothesis), promoting cellular elongation. Because cells on the shaded side elongate faster than cells on the illuminated side, the shoot bends toward the light."
+        },
+        {
+          "id": "q_bio_hormonal_30",
+          "question": "When core body temperature falls below 36.5°C, how do cutaneous blood vessels and skeletal muscles respond to conserve and generate heat?",
+          "options": [
+            "Pre-capillary sphincters and arterioles vasoconstrict to reduce blood flow near the skin surface, and skeletal muscles contract rhythmically (shivering) to generate metabolic heat",
+            "Cutaneous arterioles vasodilate to radiate heat into the atmosphere, and sweat glands secrete sebum",
+            "Capillaries dilate to flush the skin red, while muscles relax to minimize cellular respiration",
+            "The skin produces extra layers of melanin to trap atmospheric heat"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Thermoregulatory centres in the hypothalamus trigger sympathetic vasoconstriction of skin arterioles, shunting blood through deep arteriovenous anastomoses away from superficial capillary loops to reduce conductive/radiative heat loss. Simultaneously, involuntary rapid cycles of muscle contraction and relaxation (shivering) increase cellular respiration, releasing thermal energy as a metabolic byproduct to raise core temperature."
         }
       ],
       "detailed_slides": [
@@ -4793,6 +5573,71 @@
           "answer_index": 1,
           "explanation": "Meiosis involves one round of DNA replication followed by TWO successive nuclear divisions (Meiosis I and Meiosis II). This produces 4 non-identical haploid daughter cells, each with half the genetic complement of the parent.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_reproduction_26",
+          "question": "Which two processes occurring during Meiosis I are responsible for generating almost infinite genetic variation among gametes produced by a single human?",
+          "options": [
+            "Crossing over (chiasmata exchange of alleles between non-sister chromatids) and independent assortment of homologous chromosomes",
+            "Binary fission of centromeres and non-disjunction of sex chromosomes",
+            "DNA polymerase copying errors and spontaneous degradation of mitochondrial plasmids",
+            "Cytokinesis splitting the nucleus into four identical diploid daughter cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "During Prophase I of meiosis, non-sister chromatids of homologous pairs break and swap genetic segments (crossing over), creating novel recombinant allele combinations. In Metaphase I, maternal and paternal chromosome pairs align randomly at the equator (independent assortment, producing 2^23 = 8.4 million possible chromosome combinations in humans), ensuring every gamete is genetically unique."
+        },
+        {
+          "id": "q_bio_reproduction_27",
+          "question": "Watson, Crick, and Franklin elucidated the double-helix model of DNA. Which statement correctly describes the molecular architecture and base-pairing rules of DNA?",
+          "options": [
+            "Two antiparallel strands of alternating deoxyribose sugar and phosphate groups, joined by complementary hydrogen bonds between Adenine-Thymine (2 bonds) and Cytosine-Guanine (3 bonds)",
+            "A single strand of ribose sugars bound to four interchangeable amino acids joined by peptide bonds",
+            "Two parallel strands of glucose polymers cross-linked by disulfide bridges between Uracil and Guanine",
+            "A triple helix of fatty acids linked to nitrogenous base pairs through covalent ester linkages"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "DNA consists of two polynucleotide strands running in opposite (antiparallel 5' to 3') directions, forming a double helix. The structural backbone consists of alternating deoxyribose sugar and phosphate units linked by phosphodiester bonds. Specific purine-pyrimidine base pairing is maintained by complementary hydrogen bonding: Adenine pairs with Thymine (2 hydrogen bonds), and Cytosine pairs with Guanine (3 hydrogen bonds)."
+        },
+        {
+          "id": "q_bio_reproduction_28",
+          "question": "During protein synthesis in a human cell, what is the role of messenger RNA (mRNA) and transfer RNA (tRNA) in transcribing and translating a gene?",
+          "options": [
+            "mRNA copies the DNA code in the nucleus and carries it to the ribosome, where tRNA molecules with matching anticodons deliver specific amino acids to build a polypeptide",
+            "mRNA stays inside the nucleus to replicate chromosomes, while tRNA dissolves the nuclear envelope",
+            "tRNA transcribes DNA into fatty acids, while mRNA hydrolyses proteins into nucleotides",
+            "Both mRNA and tRNA are structural enzymes that synthesize ribose sugars in the cytoplasm"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Transcription occurs in the nucleus where RNA polymerase synthesizes a single-stranded mRNA transcript complementary to the template DNA strand. mRNA leaves the nucleus via nuclear pores and binds to a ribosome. In translation, tRNA molecules, each carrying a specific amino acid and a complementary three-base anticodon, bind sequentially to mRNA codons, assembling the amino acids in precise order via peptide bonds."
+        },
+        {
+          "id": "q_bio_reproduction_29",
+          "question": "How can a single-base insertion mutation in the coding region of a gene produce a catastrophic change in the resulting enzyme, whereas a single-base substitution might have zero effect?",
+          "options": [
+            "An insertion alters the triplet reading frame (frameshift mutation), changing every subsequent amino acid, whereas the genetic code is degenerate so some substitutions encode the same amino acid",
+            "An insertion dissolves the ribosome, whereas a substitution only occurs in non-coding DNA introns",
+            "Substitutions only happen in bacterial cells, whereas insertions only occur in human reproductive gametes",
+            "An insertion doubles the chromosome number, whereas a substitution maintains diploid chromosome counts"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Because mRNA is read in non-overlapping triplets of bases (codons), inserting a single nucleotide shifts the entire downstream reading frame (frameshift). Every subsequent codon is altered, resulting in an entirely different sequence of amino acids and premature stop codons. In contrast, the genetic code is degenerate (multiple codons encode the same amino acid), so a substitution often results in a silent mutation."
+        },
+        {
+          "id": "q_bio_reproduction_30",
+          "question": "What is the sequence of hormonal and clinical procedures in In Vitro Fertilisation (IVF) to assist a couple struggling with fertility?",
+          "options": [
+            "Mother is injected with FSH and LH to stimulate multiple follicles → eggs are retrieved via needle → eggs are fertilised with sperm in a laboratory dish → healthy embryos are implanted into the uterus",
+            "Mother is injected with insulin to trigger ovulation → embryos are cloned inside sheep surrogates",
+            "Father is given estrogen to increase sperm motility → natural conception occurs in the fallopian tube",
+            "Immature stem cells are injected into ovaries to form zygotes without requiring male gametes"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In IVF, the woman is treated with FSH (to mature multiple follicles simultaneously) and LH. Mature oocytes are harvested from ovaries under ultrasound guidance and mixed with prepared sperm (or microinjected via ICSI) in culture dishes. Zygotes develop into blastocyst embryos, and one or two healthy embryos are transferred into the prepared uterine cavity for implantation."
         }
       ],
       "detailed_slides": [
@@ -5162,6 +6007,71 @@
           "answer_index": 1,
           "explanation": "Mutations create new alleles (variation). Natural selection then acts on this variation. Mutations are random and not 'directed' by the environment, and sexual reproduction also provides variation via independent assortment and crossing over.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_variation_26",
+          "question": "Prior to the Industrial Revolution in England, peppered moths were predominantly pale speckled. By 1895, 98% of moths in industrial Manchester were dark melanic forms. How does directional natural selection explain this rapid evolutionary shift?",
+          "options": [
+            "Soot killed lichens and darkened tree trunks; dark moths were better camouflaged from predatory birds, surviving to reproduce and pass the melanic allele to offspring",
+            "Inhaling industrial sulfur dioxide smoke mutated every individual pale moth directly into a dark moth during its adult lifetime",
+            "Pale moths decided to change their colour voluntarily to match the smoggy atmosphere",
+            "Dark moths were genetically sterile, so pale moths sacrificed themselves to feed local birds"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Pre-existing random genetic mutations produced occasional dark melanic moths. When industrial air pollution killed sensitive lichens and coated tree bark in soot, pale moths stood out against dark bark and suffered heavy visual predation by birds. Melanic moths gained camouflage advantage, survived at higher rates (differential survival), reproduced, and passed on the dominant melanic allele, increasing its frequency."
+        },
+        {
+          "id": "q_bio_variation_27",
+          "question": "According to the biological model of speciation developed by Alfred Russel Wallace and Charles Darwin, what sequence of events causes one ancestral species to split into two separate species?",
+          "options": [
+            "Geographical isolation separates populations → different environmental selection pressures and genetic drift operate in each area → populations accumulate mutations → interbreeding can no longer produce fertile offspring",
+            "Individual organisms choose different food sources and stop talking to each other",
+            "Two species mate together to form a hybrid that outcompetes both parent populations",
+            "One population undergoes mitosis while the other population undergoes binary fission"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Speciation begins with reproductive isolation (often geographic barriers like mountains or rivers). The separated gene pools experience different selective pressures (climate, predators, food) and independent mutations. Over thousands of generations, allele frequencies diverge until the two populations become so anatomically, genetically, or behaviourally distinct that they cannot interbreed to produce fertile offspring."
+        },
+        {
+          "id": "q_bio_variation_28",
+          "question": "What is the primary biological hazard associated with repeated selective breeding (artificial selection) of domesticated dogs or crops over many generations?",
+          "options": [
+            "Severe reduction in genetic diversity (inbreeding depression), increasing the expression of harmful recessive alleles and susceptibility to novel infectious diseases",
+            "The organisms develop resistance to all natural predators and overpopulate global ecosystems",
+            "Selective breeding causes cells to lose their cell membranes and become prokaryotes",
+            "The domesticated species will immediately morph back into a wild wolf within one litter"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Selective breeding involves mating closely related individuals displaying desirable phenotypic traits. This inbreeding drastically narrows the gene pool. Recessive deleterious alleles are much more likely to become homozygous (causing inherited health problems like hip dysplasia or heart murmurs in purebred dogs), and a lack of genetic variation leaves the entire population vulnerable to catastrophic disease epidemics."
+        },
+        {
+          "id": "q_bio_variation_29",
+          "question": "In genetic engineering, what is the role of restriction enzymes and DNA ligase in transferring the human insulin gene into a bacterial plasmid vector?",
+          "options": [
+            "Restriction enzymes cut DNA at specific palindromic recognition sites leaving sticky ends; DNA ligase joins the sticky ends of the human gene into the opened plasmid",
+            "Restriction enzymes glue nucleotides together, while DNA ligase destroys bacterial cell walls",
+            "Restriction enzymes translate mRNA into insulin protein inside a test tube",
+            "DNA ligase cuts chromosomes at random, while restriction enzymes remove all bacterial plasmids"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A restriction endonuclease cuts both the human chromosome (isolating the insulin gene) and the bacterial plasmid at specific palindrome sequences, producing single-stranded complementary overhangs ('sticky ends'). When mixed, the sticky ends anneal by hydrogen bonding, and DNA ligase forms covalent phosphodiester bonds in the sugar-phosphate backbone, creating a recombinant plasmid."
+        },
+        {
+          "id": "q_bio_variation_30",
+          "question": "Why is the fossil record considered incomplete, presenting challenges for paleontologists tracing the continuous evolutionary lineage of early life on Earth?",
+          "options": [
+            "Many early organisms were soft-bodied and decomposed before fossilising, and geological processes (erosion, tectonic subduction, metamorphism) destroyed sedimentary strata",
+            "Fossils can only form in outer space on meteorites before falling into oceanic trenches",
+            "Scientists have already discovered 100% of all organisms that ever lived, so no gaps exist",
+            "Carbon dating only works on rocks that are less than 2,000 years old"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Fossilisation is exceptionally rare, requiring rapid burial in anaerobic sediment to prevent scavenging and decay. Earliest life forms were soft-bodied invertebrates with no bones or shells to mineralize. Furthermore, rock strata containing fossils have been crushed by tectonic activity, subducted into the mantle, or eroded away, and vast areas of sedimentary rock remain unexcavated."
         }
       ],
       "detailed_slides": [
@@ -5531,6 +6441,71 @@
           "answer_index": 0,
           "explanation": "The genetic code is degenerate because there are 64 possible codons but only 20 amino acids. This means that most amino acids are specified by more than one codon, which provides a buffer against the impact of some point mutations.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_genetics_26",
+          "question": "Why are X-linked recessive genetic conditions, such as haemophilia and red-green colour blindness, expressed much more frequently in phenotypic human males than females?",
+          "options": [
+            "Males have only one X chromosome (XY); a single recessive allele on their maternal X chromosome is hemizygous and inevitably expressed because the Y chromosome carries no homologous locus",
+            "The Y chromosome contains multiple dominant inhibitor genes that amplify all maternal mutations",
+            "Females cannot inherit X chromosomes from their biological parents",
+            "Male sex hormones like testosterone chemically mutate the X chromosome inside bone marrow"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Females inherit two X chromosomes ($X^H X^h$) and are usually unaffected carriers because a dominant normal allele on the second X chromosome masks the defective recessive allele. Males are hemizygous ($X^h Y$), having only one X chromosome and a much shorter Y chromosome lacking the homologous gene locus. If a male inherits a mutant recessive allele on his X chromosome, he will express the disease."
+        },
+        {
+          "id": "q_bio_genetics_27",
+          "question": "In the human ABO blood group system, alleles IA and IB are codominant, while allele IO is recessive. If a mother with blood group A (genotype IA IO) and a father with blood group B (genotype IB IO) have children, which blood groups are possible among their offspring?",
+          "options": [
+            "All four blood groups are possible: A, B, AB, and O (each with a 25% probability)",
+            "Only blood group AB (100% probability)",
+            "Only blood group A and blood group B (50% probability each)",
+            "Only blood group O because recessive alleles always override codominant alleles"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Gametes from mother: $I^A$ and $I^O$. Gametes from father: $I^B$ and $I^O$.\nPunnett square combinations:\n1. $I^A I^B$ = Blood Group AB (25%)\n2. $I^A I^O$ = Blood Group A (25%)\n3. $I^B I^O$ = Blood Group B (25%)\n4. $I^O I^O$ = Blood Group O (25%)\nAll four phenotypic blood groups are equally possible."
+        },
+        {
+          "id": "q_bio_genetics_28",
+          "question": "Cystic fibrosis is caused by a recessive allele (c). Two parents are both healthy heterozygous carriers (Cc). What is the probability that their first TWO children will BOTH be completely unaffected by cystic fibrosis?",
+          "options": [
+            "9/16 (56.25%)",
+            "3/4 (75%)",
+            "1/16 (6.25%)",
+            "1/4 (25%)"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "For two carriers (Cc × Cc), each child has a 1/4 chance of having cystic fibrosis (cc) and a 3/4 chance of being unaffected (CC or Cc).\nBecause each birth is an independent event, the combined probability of both the first AND second child being unaffected is:\nP(unaffected) × P(unaffected) = (3/4) × (3/4) = 9/16 ≈ 56.25%."
+        },
+        {
+          "id": "q_bio_genetics_29",
+          "question": "Polydactyly (having extra fingers or toes) is caused by a dominant allele (P). A man who is heterozygous for polydactyly (Pp) has children with a woman who has normal digits (pp). What is the exact probability that their child will inherit polydactyly?",
+          "options": [
+            "50% (1 in 2)",
+            "25% (1 in 4)",
+            "75% (3 in 4)",
+            "100% (4 in 4)"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Father produces gametes with P or p (50% each). Mother produces only p gametes.\nOffspring genotypes:\n50% Pp (polydactyly, since P is dominant)\n50% pp (normal digits).\nThe probability of inheriting polydactyly is exactly 50% (0.5)."
+        },
+        {
+          "id": "q_bio_genetics_30",
+          "question": "During prenatal genetic screening, chorionic villus sampling (CVS) and amniocentesis allow fetal karyotyping for chromosomal aneuploidies like Down's syndrome. What is a key clinical difference between these two diagnostic procedures?",
+          "options": [
+            "CVS is performed earlier in gestation (weeks 10–14) by sampling placental tissue, whereas amniocentesis is performed later (weeks 15–20) by aspirating amniotic fluid containing fetal skin cells",
+            "Amniocentesis carries a 100% risk of miscarriage, whereas CVS is completely non-invasive with zero risk",
+            "CVS only screens for maternal blood groups, whereas amniocentesis cures genetic disorders",
+            "CVS requires ultrasound, whereas amniocentesis is performed blind without medical imaging"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "CVS involves sampling chorionic villi from the placenta either transcervically or transabdominally at 10–14 weeks of pregnancy, providing early diagnostic results. Amniocentesis involves inserting a needle into the amniotic sac to sample fluid containing sloughed fetal cells at 15–20 weeks. Both carry a small (~0.5–1%) procedure-related risk of miscarriage."
         }
       ],
       "detailed_slides": [
@@ -5900,6 +6875,71 @@
           "answer_index": 1,
           "explanation": "Lichens absorb water and nutrients directly from the air and rain without root filters. Bushy and leafy lichens are extremely sensitive to sulfur dioxide pollution (from burning fossil fuels); their absence indicates poor air quality, making them reliable bioindicators.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_adaptation_26",
+          "question": "Thermophilic archaea living in hydrothermal vent fluids at 95°C possess enzymes that remain structurally functional without denaturing. What biochemical adaptation stabilizes their enzyme tertiary structure?",
+          "options": [
+            "A higher density of internal ionic bonds, disulfide bridges, and hydrophobic interactions that resist thermal kinetic unfolding",
+            "Their active sites are made of solid calcium carbonate rather than polypeptide chains",
+            "They replace water molecules with liquid nitrogen to keep internal cell temperatures near freezing",
+            "Their enzymes lack tertiary protein structure and exist solely as straight primary chains"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Extremophilic thermophiles have adapted enzymes with increased internal bonding: more covalent disulfide bridges between cysteine residues, increased salt bridges (ionic bonds), and tightly packed hydrophobic cores. These strong bonds require far higher thermal kinetic energy to rupture, preventing denaturation at temperatures that would boil standard mesophilic proteins."
+        },
+        {
+          "id": "q_bio_adaptation_27",
+          "question": "Penguins standing on Antarctic sea ice lose minimal core body heat through their bare feet. How does counter-current heat exchange in their tibial blood vessels achieve this?",
+          "options": [
+            "Warm arterial blood flowing to the feet transfers its heat directly to cold venous blood returning to the body core, keeping feet cool and preserving core warmth",
+            "Penguins pump boiling oil down their arteries to melt the ice beneath their claws",
+            "Veins and arteries are separated by a 10 cm layer of blubber inside the foot bones",
+            "Blood in penguin feet freezes solid, stopping circulation entirely until summer"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In penguin legs, warm arterial blood from the core runs in intimate physical contact with multiple returning veins (counter-current vascular plexus / rete mirabile). Thermal energy conducts down the temperature gradient from warm arterial blood into cold venous blood before reaching the foot. The foot remains just above freezing (minimizing heat loss to ice), while blood re-entering the torso is already pre-warmed."
+        },
+        {
+          "id": "q_bio_adaptation_28",
+          "question": "Deciduous woodland spring ephemerals, such as English bluebells (Hyacinthoides non-scripta), emerge, flower, and set seed rapidly in early spring. What limiting resource drives this seasonal adaptation?",
+          "options": [
+            "Light intensity; they complete their photosynthetic life cycle before the deciduous tree canopy develops leaves that intercept up to 95% of sunlight",
+            "Carbon dioxide; tree trunks release toxic carbon monoxide during summer that kills forest flowers",
+            "Temperature; bluebell enzymes denature at any temperature higher than 8°C",
+            "Soil moisture; forest soil turns completely dry in mid-spring due to lack of rainfall"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In deciduous oak/beech woodlands, the dominant limiting abiotic factor on the forest floor is solar irradiance. In late spring, trees develop a dense canopy that absorbs and reflects up to 95% of photosynthetic active radiation. Bluebells store starch in underground bulbs, allowing them to rapidly emerge in March/April, photosynthesize in full sun, reproduce, and replenish bulb reserves before the canopy closes."
+        },
+        {
+          "id": "q_bio_adaptation_29",
+          "question": "What does Gause's Competitive Exclusion Principle state regarding two closely related animal species competing for the exact identical limiting ecological niche?",
+          "options": [
+            "Two species competing for the exact same limiting resource cannot stably coexist; the species with even a slight competitive advantage will drive the other to local extinction",
+            "Both species will immediately share food resources equally and double their population sizes",
+            "The weaker species will mutate overnight into a photosynthetic producer",
+            "Predator numbers will decrease to zero to allow both competing species to flourish"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The Competitive Exclusion Principle states that complete ecological competitors cannot coexist indefinitely. If two species occupy identical niches (competing for the same food, nesting sites, and territory), one will inevitably utilize resources slightly more efficiently, out-reproduce the other, and drive the less adapted competitor to local extinction or force evolutionary niche differentiation."
+        },
+        {
+          "id": "q_bio_adaptation_30",
+          "question": "Why do persistent synthetic pesticides like DDT and methylmercury reach toxic, lethal concentrations in apex predators (e.g. peregrine falcons or killer whales) despite being present in trace undetectable amounts in seawater?",
+          "options": [
+            "They are lipid-soluble and non-biodegradable, accumulating inside organism tissues (bioaccumulation) and magnifying in concentration at each successive trophic level (biomagnification)",
+            "Apex predators drink 10,000 times more seawater than primary consumers",
+            "Bacteria in the ocean synthesize DDT actively inside whale stomachs as a defence mechanism",
+            "Herbivorous fish destroy the pesticide molecules before passing them to carnivores"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Persistent organic pollutants (POPs) are fat-soluble and resistant to biological or chemical degradation. Because organisms cannot metabolize or excrete them, they accumulate in adipose tissues (bioaccumulation). Because energy transfer between trophic levels is inefficient (~10%), a carnivore must consume huge masses of biomass from lower levels; all the stored toxins concentrate into a smaller biomass pool, magnifying toxic concentrations at the top of the food chain (biomagnification)."
         }
       ],
       "detailed_slides": [
@@ -6269,6 +7309,71 @@
           "answer_index": 1,
           "explanation": "Nitrates cause algal blooms. Algae block light, plants die. Decomposers break down dead matter, using up oxygen via respiration, leading to hypoxia and fish death.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_bio_ecosystems_26",
+          "question": "In a moorland ecosystem, producers assimilate 80,000 kJ/m²/year of solar energy into gross primary productivity. Herbivores ingest and assimilate 6,400 kJ/m²/year. What is the efficiency of energy transfer from producers to herbivores?",
+          "options": [
+            "8.0%",
+            "12.5%",
+            "0.8%",
+            "80.0%"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Efficiency of energy transfer = (Energy transferred to next level / Energy in previous level) × 100%.\nEfficiency = (6,400 kJ / 80,000 kJ) × 100% = 0.08 × 100% = 8.0%."
+        },
+        {
+          "id": "q_bio_ecosystems_27",
+          "question": "A pyramid of numbers for an open ocean food chain has a narrow base of microscopic phytoplankton supporting a wider bar of zooplankton, yet its pyramid of biomass remains normally shaped. What explains this inverted pyramid of numbers?",
+          "options": [
+            "Phytoplankton are microscopic with tiny individual masses, but their rapid turnover and reproductive rate support a larger biomass of zooplankton at any single census moment",
+            "Zooplankton do not eat phytoplankton and obtain all their energy directly from sunlight",
+            "Phytoplankton are apex predators that eat adult fish in deep ocean trenches",
+            "Marine pyramids of numbers are always measured upside down due to water pressure"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Individual phytoplankton are single-celled and minute, so vast numerical populations exist; however, in seasonal blooms, rapid zooplankton grazing can mean that at any single snapshot moment, the standing crop count of zooplankton exceeds phytoplankton. Because phytoplankton reproduce and turn over biomass in hours, high primary productivity supports the food web despite modest instantaneous counts."
+        },
+        {
+          "id": "q_bio_ecosystems_28",
+          "question": "In the soil nitrogen cycle, what is the specific biochemical role performed by nitrifying bacteria (such as Nitrosomonas and Nitrobacter)?",
+          "options": [
+            "They oxidize ammonium ions into nitrites, and then convert nitrites into nitrates that can be absorbed by plant roots",
+            "They convert nitrate ions into inert nitrogen gas under waterlogged anaerobic conditions",
+            "They take gaseous nitrogen from the atmosphere and turn it directly into amino acids",
+            "They decompose dead proteins into gaseous ammonia"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Nitrifying bacteria are aerobic chemotrophic soil bacteria. Nitrosomonas oxidizes ammonium ($NH_4^+$) produced by decomposers into nitrite ($NO_2^-$). Then Nitrobacter oxidizes nitrite into nitrate ($NO_3^-$). Nitrate ions are highly soluble and actively absorbed by root hair cells to synthesize amino acids, nucleotides, and proteins."
+        },
+        {
+          "id": "q_bio_ecosystems_29",
+          "question": "How does global warming trigger a dangerous positive feedback loop in polar tundra peat ecosystems?",
+          "options": [
+            "Thawing permafrost allows anaerobic and aerobic decomposers to metabolize ancient organic matter, releasing massive volumes of methane and carbon dioxide that accelerate further warming",
+            "Melting permafrost creates deep lakes that absorb all sunlight and freeze global temperatures",
+            "Tundra mosses begin photosynthesizing at 100 times normal rates, stripping all carbon dioxide from air",
+            "Cold air trapped in ice escapes and permanently cools the stratosphere"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Permafrost locks up hundreds of billions of tonnes of undecomposed organic carbon. As global temperatures rise, permafrost thaws. Microorganisms decompose the exposed organic matter; aerobic respiration releases $CO_2$, and anaerobic decomposition in waterlogged thermokarst bogs releases methane ($CH_4$, a greenhouse gas 28x more potent than $CO_2$). These gases trap more infrared radiation, accelerating further warming in a positive feedback loop."
+        },
+        {
+          "id": "q_bio_ecosystems_30",
+          "question": "In a classical predator-prey relationship (e.g. Canadian lynx and snowshoe hare), why does the predator population peak characteristically lag several months behind the prey population peak?",
+          "options": [
+            "Predator population growth depends on increased prey availability to provide energy for reproduction, gestation, and rearing offspring",
+            "Predators refuse to hunt until prey populations have completely died of old age",
+            "Prey animals migrate to a different continent whenever lynx populations increase",
+            "Lynx reproduction is controlled by solar eclipses rather than nutritional energy"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "When prey numbers swell, predators encounter abundant nutritional resources, improving adult body condition and juvenile survival. However, biological reproduction takes time (mating seasons, gestation periods, weaning, and maturation). This physiological time delay means predator population numbers peak only after prey populations have already peaked and begun declining due to increased predation pressure."
         }
       ],
       "detailed_slides": [
@@ -6638,6 +7743,71 @@
           "answer_index": 0,
           "explanation": "Rate = distance / time. 150 km / 30 years = 5 km/year.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_bio_biodiversity_26",
+          "question": "Peat bogs store more carbon than all the world's tropical rainforests combined. Why does draining peat bogs for agriculture or burning peat for garden compost contribute substantially to global climate change?",
+          "options": [
+            "Drainage introduces oxygen into acidic, waterlogged peat, allowing aerobic decomposers to rapidly oxidise thousands of years of stored carbon into carbon dioxide gas",
+            "Draining peat bogs turns soil into radioactive isotopes that heat the atmosphere",
+            "Peat moss releases liquid methane that dissolves polar ice caps directly upon contact",
+            "Peat bogs reflect 100% of cosmic solar rays; destroying them allows space vacuum to enter"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Peat forms because waterlogged, acidic, anaerobic conditions prevent saprobiontic bacteria and fungi from completely decomposing dead Sphagnum moss and plant debris, locking up carbon for millennia. When bogs are drained, oxygen penetrates the peat, triggering rapid aerobic microbial decomposition that converts stored organic carbon into $CO_2$, while burning peat releases this carbon dioxide immediately."
+        },
+        {
+          "id": "q_bio_biodiversity_27",
+          "question": "Which chronological sequence correctly describes the ecological process of cultural eutrophication in a freshwater lake following untreated agricultural fertilizer runoff?",
+          "options": [
+            "Nitrate runoff → algal bloom blocks sunlight → submerged macrophytes die → saprobiontic bacteria decompose dead plants using dissolved oxygen → lake becomes anoxic → fish suffocate",
+            "Algal bloom produces neurotoxins that boil lake water → water evaporates completely",
+            "Fertilizers feed fish directly → fish overpopulate → fish drink all available lake water",
+            "Bacteria consume nitrates to produce oxygen gas → lake becomes overly oxygenated"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "High nitrate/phosphate runoff triggers explosive surface algal growth (algal bloom). The dense algal mat intercepts sunlight, preventing benthic aquatic plants from photosynthesizing, causing them to die. Decomposing bacteria multiply exponentially, utilizing dissolved oxygen for aerobic respiration. Biochemical oxygen demand (BOD) skyrockets, dissolved $O_2$ plunges (anoxia), and fish and invertebrates die of asphyxiation."
+        },
+        {
+          "id": "q_bio_biodiversity_28",
+          "question": "How does large-scale deforestation in the Amazon Basin lead to regional desertification and severe soil erosion?",
+          "options": [
+            "Tree root systems that mechanically bind soil particles are lost, and the loss of canopy transpiration significantly reduces regional rainfall, washing nutrient-rich topsoil away",
+            "Trees produce oxygen, and without oxygen, soil rocks cannot undergo photosynthesis",
+            "Deforestation causes subterranean magma chambers to rise directly to the surface",
+            "Felled trees absorb all ground water like sponges, dehydrating the soil"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Intact rainforest canopies intercept torrential rainfall, and dense root systems bind soil particles. Deforestation exposes bare soil to heavy tropical rain, leaching soluble minerals and washing fertile topsoil into rivers. Furthermore, trees recycle immense volumes of moisture through transpiration, driving the regional hydrological cycle; removing forest cover disrupts atmospheric moisture cycling, leading to prolonged droughts."
+        },
+        {
+          "id": "q_bio_biodiversity_29",
+          "question": "Freshwater kick-sampling reveals stonefly nymphs and mayfly nymphs in a stream, but a river downstream contains only bloodworms (Chironomidae) and sludgeworms (Tubifex). What does this biological indicator distribution reveal?",
+          "options": [
+            "The upstream stream is clean and highly oxygenated, whereas the downstream river is heavily polluted with organic waste and severely depleted of dissolved oxygen",
+            "The upstream stream is highly toxic with sulfuric acid, while the downstream river is pure distilled water",
+            "Stonefly nymphs thrive in sewage sludge, whereas bloodworms can only survive in mountain glaciers",
+            "Both waterways have identical chemical quality because macroinvertebrates have no sensitivity to pollution"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Bioindicators reflect long-term water quality. Stonefly and mayfly nymphs possess external gills and require cold, unpolluted, oxygen-rich running water; they die in polluted conditions. Bloodworms and Tubifex worms contain high-affinity haemoglobin-like pigments that allow them to extract oxygen from severely hypoxic, organic-rich sewage sludge, indicating heavy downstream pollution."
+        },
+        {
+          "id": "q_bio_biodiversity_30",
+          "question": "From a thermodynamic and trophic perspective, why could feeding human populations primarily on crop plants (primary producers) rather than livestock (primary/secondary consumers) feed significantly more people on less arable land?",
+          "options": [
+            "Approximately 90% of energy is lost as heat, movement, and waste at each trophic transition, so eating crops directly avoids the massive energy loss of livestock feeding",
+            "Livestock animals consume atmospheric carbon dioxide and release radioactive isotopes",
+            "Plants contain 100 times more calories per gram than any mammalian protein or lipid",
+            "Livestock animals undergo photosynthesis, competing with agricultural wheat crops for sunlight"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Energy transfer efficiency between trophic levels is typically only ~10%, with 90% lost to cellular respiration (heat), excretion, movement, and unconsumed parts. Feeding grain to cattle to produce beef incurs substantial trophic energy losses; consuming cereals, legumes, and vegetables directly bypasses this intermediary trophic loss, yielding up to ten times more food energy per hectare of land."
         }
       ],
       "detailed_slides": [

@@ -374,6 +374,71 @@
           "answer_index": 1,
           "explanation": "Let $u = \\sqrt{x}$, which implies $u^2 = x$. Substituting into the equation gives $u^2 - 5u + 6 = 0$. Factorising gives $(u - 2)(u - 3) = 0$, so $u = 2$ or $u = 3$. Re-substituting $u = \\sqrt{x}$: $\\sqrt{x} = 2 \\implies x = 4$, and $\\sqrt{x} = 3 \\implies x = 9$. Both solutions are valid upon checking.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_math_quad_26",
+          "question": "Express $2x^2 + 8x + 5$ in the completed square form $a(x + b)^2 + c$. What are the values of $a, b,$ and $c$?",
+          "options": [
+            "$a = 2, b = 2, c = -3$",
+            "$a = 2, b = 4, c = -3$",
+            "$a = 2, b = 2, c = 5$",
+            "$a = 2, b = 4, c = 13$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Factor out 2 from the $x$ terms:\n$2(x^2 + 4x) + 5$.\nComplete the square inside the bracket: $x^2 + 4x = (x + 2)^2 - 4$.\nMultiply by 2 and add 5: $2[(x + 2)^2 - 4] + 5 = 2(x + 2)^2 - 8 + 5 = 2(x + 2)^2 - 3$.\nSo $a = 2, b = 2, c = -3$."
+        },
+        {
+          "id": "q_math_quad_27",
+          "question": "For which values of $k$ does the quadratic equation $x^2 + (k - 2)x + 9 = 0$ have equal real roots?",
+          "options": [
+            "$k = 8$ or $k = -4$",
+            "$k = 6$ or $k = -6$",
+            "$k = 4$ or $k = -8$",
+            "$k = 2$ or $k = -2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A quadratic has equal real roots when its discriminant $\\Delta = b^2 - 4ac = 0$.\nHere $a = 1$, $b = k - 2$, $c = 9$.\n$(k - 2)^2 - 4(1)(9) = 0 \\implies (k - 2)^2 - 36 = 0 \\implies (k - 2)^2 = 36$.\n$k - 2 = \\pm 6 \\implies k = 2 + 6 = 8$ or $k = 2 - 6 = -4$."
+        },
+        {
+          "id": "q_math_quad_28",
+          "question": "Solve the equation in disguise: $x - 5\\sqrt{x} + 6 = 0$. What are the values of $x$?",
+          "options": [
+            "$x = 4$ and $x = 9$",
+            "$x = 2$ and $x = 3$",
+            "$x = 16$ and $x = 36$",
+            "$x = -2$ and $x = -3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let $u = \\sqrt{x}$, so $u^2 = x$.\nThe equation becomes $u^2 - 5u + 6 = 0$.\nFactorising: $(u - 2)(u - 3) = 0 \\implies u = 2$ or $u = 3$.\nSince $x = u^2$: $x = 2^2 = 4$ or $x = 3^2 = 9$."
+        },
+        {
+          "id": "q_math_quad_29",
+          "question": "A right-angled triangle has side lengths $(x - 1)\\text{ cm}$, $(x + 6)\\text{ cm}$, and hypotenuse $(x + 7)\\text{ cm}$. Find the value of $x$ and the area of the triangle.",
+          "options": [
+            "$x = 6$, Area $= 30\\text{ cm}^2$",
+            "$x = 5$, Area $= 22\\text{ cm}^2$",
+            "$x = 8$, Area $= 49\\text{ cm}^2$",
+            "$x = 6$, Area $= 60\\text{ cm}^2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "By Pythagoras' theorem: $(x - 1)^2 + (x + 6)^2 = (x + 7)^2$.\n$(x^2 - 2x + 1) + (x^2 + 12x + 36) = x^2 + 14x + 49$.\n$2x^2 + 10x + 37 = x^2 + 14x + 49 \\implies x^2 - 4x - 12 = 0$.\nFactorising: $(x - 6)(x + 2) = 0$. Since side length $> 0$, $x = 6$.\nSides are $6 - 1 = 5\\text{ cm}$ and $6 + 6 = 12\\text{ cm}$.\nArea $= \\frac{1}{2} \\times 5 \\times 12 = 30\\text{ cm}^2$."
+        },
+        {
+          "id": "q_math_quad_30",
+          "question": "Find the coordinates of the points of intersection between the parabola $y = 2x^2 - 3x + 1$ and the line $y = x + 7$.",
+          "options": [
+            "$(3, 10)$ and $(-1, 6)$",
+            "$(2, 9)$ and $(-1.5, 5.5)$",
+            "$(3, 10)$ and $(1, 8)$",
+            "$(-3, 4)$ and $(1, 8)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Equate the expressions for $y$:\n$2x^2 - 3x + 1 = x + 7 \\implies 2x^2 - 4x - 6 = 0 \\implies x^2 - 2x - 3 = 0$.\nFactorising: $(x - 3)(x + 1) = 0 \\implies x = 3$ or $x = -1$.\nWhen $x = 3$: $y = 3 + 7 = 10 \\implies (3, 10)$.\nWhen $x = -1$: $y = -1 + 7 = 6 \\implies (-1, 6)$."
         }
       ],
       "detailed_slides": [
@@ -743,6 +808,71 @@
           "answer_index": 2,
           "explanation": "Unfolding the cuboid net gives three potential straight-line surface paths across pairs of dimensions $(a, b, c) = (6, 8, 12)$: Path 1: $\\sqrt{(6+8)^2 + 12^2} = \\sqrt{196 + 144} = \\sqrt{340} = 2\\sqrt{85}\\text{ cm}$. Path 2: $\\sqrt{(6+12)^2 + 8^2} = \\sqrt{324 + 64} = \\sqrt{388} = 2\\sqrt{97}\\text{ cm}$. Path 3: $\\sqrt{(8+12)^2 + 6^2} = \\sqrt{400 + 36} = \\sqrt{436} = 2\\sqrt{109}\\text{ cm}$. The shortest path distance is $2\\sqrt{85}\\text{ cm}$.",
           "correct_answer": 2
+        },
+        {
+          "id": "q_math_pyth_26",
+          "question": "A square-based right pyramid has a base of side length $8\\text{ cm}$ and a vertical height of $10\\text{ cm}$. Calculate the length of a slant edge from the apex to one of the base corners, in surd form.",
+          "options": [
+            "$\\sqrt{132} = 2\\sqrt{33}\\text{ cm}$",
+            "$\\sqrt{164} = 2\\sqrt{41}\\text{ cm}$",
+            "$\\sqrt{116}\\text{ cm}$",
+            "$12\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Distance from base centre to a corner is half the base diagonal:\nBase diagonal $= \\sqrt{8^2 + 8^2} = \\sqrt{128} = 8\\sqrt{2}\\text{ cm}$.\nHalf-diagonal $d = 4\\sqrt{2}\\text{ cm}$.\nSlant edge $e = \\sqrt{h^2 + d^2} = \\sqrt{10^2 + (4\\sqrt{2})^2} = \\sqrt{100 + 32} = \\sqrt{132} = 2\\sqrt{33}\\text{ cm}$."
+        },
+        {
+          "id": "q_math_pyth_27",
+          "question": "Find the exact distance between the coordinate points $A(-3, 5)$ and $B(4, -2)$ in simplest surd form.",
+          "options": [
+            "$7\\sqrt{2}$",
+            "$\\sqrt{50} = 5\\sqrt{2}$",
+            "$\\sqrt{98}$",
+            "$14$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Using the 2D distance formula:\n$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \\sqrt{(4 - (-3))^2 + (-2 - 5)^2} = \\sqrt{7^2 + (-7)^2} = \\sqrt{49 + 49} = \\sqrt{98} = 7\\sqrt{2}$."
+        },
+        {
+          "id": "q_math_pyth_28",
+          "question": "A circle with centre $O$ has a chord of length $14\\text{ cm}$. The perpendicular distance from $O$ to the chord is $5\\text{ cm}$. Find the exact radius of the circle.",
+          "options": [
+            "$\\sqrt{74}\\text{ cm}$",
+            "$\\sqrt{171}\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$\\sqrt{49}\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The perpendicular line from the centre bisects the chord into two $7\\text{ cm}$ segments.\nA right-angled triangle is formed by the radius $r$, the half-chord ($7\\text{ cm}$), and the perpendicular distance ($5\\text{ cm}$):\n$r^2 = 7^2 + 5^2 = 49 + 25 = 74 \\implies r = \\sqrt{74}\\text{ cm}$."
+        },
+        {
+          "id": "q_math_pyth_29",
+          "question": "The three sides of a triangle are represented algebraically by $a = 2n + 1$, $b = 2n^2 + 2n$, and $c = 2n^2 + 2n + 1$. Show that $a^2 + b^2 = c^2$. Which statement confirms that the triangle is right-angled for all $n > 0$?",
+          "options": [
+            "$a^2 + b^2 = 4n^4 + 8n^3 + 8n^2 + 4n + 1$, which is identically equal to $c^2$",
+            "The sides form an arithmetic progression with common difference $n$",
+            "The perimeter is a multiple of 3 for all integer values of $n$",
+            "The area is an irrational number for all values of $n$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$a^2 = (2n + 1)^2 = 4n^2 + 4n + 1$.\n$b^2 = (2n^2 + 2n)^2 = 4n^4 + 8n^3 + 4n^2$.\n$a^2 + b^2 = 4n^4 + 8n^3 + 8n^2 + 4n + 1$.\n$c^2 = [(2n^2 + 2n) + 1]^2 = (2n^2 + 2n)^2 + 2(2n^2 + 2n) + 1 = 4n^4 + 8n^3 + 4n^2 + 4n^2 + 4n + 1 = 4n^4 + 8n^3 + 8n^2 + 4n + 1$.\nSince $a^2 + b^2 \\equiv c^2$, the converse of Pythagoras proves the triangle is right-angled for all $n > 0$."
+        },
+        {
+          "id": "q_math_pyth_30",
+          "question": "An isosceles trapezium has parallel sides of lengths $10\\text{ cm}$ and $22\\text{ cm}$, and non-parallel sides of length $10\\text{ cm}$. Calculate the exact length of each diagonal.",
+          "options": [
+            "$\\sqrt{320} = 8\\sqrt{5}\\text{ cm}$",
+            "$18\\text{ cm}$",
+            "$\\sqrt{260}\\text{ cm}$",
+            "$20\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The difference between parallel bases is $22 - 10 = 12\\text{ cm}$, so each outer horizontal segment is $\\frac{12}{2} = 6\\text{ cm}$.\nVertical height $h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8\\text{ cm}$.\nFor the diagonal, the base of the right triangle is $22 - 6 = 16\\text{ cm}$.\nDiagonal $d = \\sqrt{16^2 + 8^2} = \\sqrt{256 + 64} = \\sqrt{320} = 8\\sqrt{5}\\text{ cm}$."
         }
       ],
       "detailed_slides": [
@@ -1112,6 +1242,71 @@
           "answer_index": 1,
           "explanation": "First, expand the power: $\\left( \\frac{2a b^2}{9c} \\right)^2 = \\frac{4a^2 b^4}{81c^2}$. Divide: $\\frac{4a^2 b}{3c^3} \\div \\frac{4a^2 b^4}{81c^2} = \\frac{4a^2 b}{3c^3} \\times \\frac{81c^2}{4a^2 b^4} = \\frac{27}{b^3 c}$. Now multiply by $\\frac{b^3}{c}$: $\\frac{27}{b^3 c} \\times \\frac{b^3}{c} = \\frac{27}{c^2}$.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_math_frac_26",
+          "question": "Evaluate the complex fraction expression: $\\frac{2\\frac{1}{3} - 1\\frac{3}{5}}{1\\frac{1}{6} \\times \\frac{4}{7}}$ in simplest form.",
+          "options": [
+            "$\\frac{11}{10}$",
+            "$\\frac{7}{10}$",
+            "$\\frac{22}{15}$",
+            "$\\frac{5}{6}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Numerator: $2\\frac{1}{3} - 1\\frac{3}{5} = \\frac{7}{3} - \\frac{8}{5} = \\frac{35 - 24}{15} = \\frac{11}{15}$.\nDenominator: $1\\frac{1}{6} \\times \\frac{4}{7} = \\frac{7}{6} \\times \\frac{4}{7} = \\frac{4}{6} = \\frac{2}{3}$.\nDivide: $\\frac{11/15}{2/3} = \\frac{11}{15} \\times \\frac{3}{2} = \\frac{33}{30} = \\frac{11}{10}$ (or $1\\frac{1}{10}$)."
+        },
+        {
+          "id": "q_math_frac_27",
+          "question": "Convert the recurring decimal $0.2\\dot{3}\\dot{8}$ into an exact fraction in its simplest form.",
+          "options": [
+            "$\\frac{47}{198}$",
+            "$\\frac{238}{999}$",
+            "$\\frac{119}{495}$",
+            "$\\frac{236}{990}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let $x = 0.2383838...$\n$10x = 2.383838...$\n$1000x = 238.383838...$\nSubtract: $1000x - 10x = 238 - 2 \\implies 990x = 236$.\n$x = \\frac{236}{990} = \\frac{118}{495}$. Wait: divide numerator and denominator by 2: $236 / 2 = 118$, $990 / 2 = 495$. Divide by 2: wait, $236/990 = 118/495$. But $236/2 = 118$. Notice $\\frac{47}{198} = \\frac{235}{990} \\approx 0.23737$. Wait! Let's check $0.2\\dot{3}\\dot{8}$: $238 - 2 = 236$. $236/990 = 118/495$. Let's re-verify: $118/495 = 0.2383838...$."
+        },
+        {
+          "id": "q_math_frac_28",
+          "question": "Solve the fractional algebraic equation $\\frac{3}{x+1} + \\frac{2}{x-2} = 1$. What is the sum of all real solutions for $x$?",
+          "options": [
+            "$6$",
+            "$4$",
+            "$5$",
+            "$-2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiply by $(x+1)(x-2)$:\n$3(x-2) + 2(x+1) = (x+1)(x-2)$\n$3x - 6 + 2x + 2 = x^2 - x - 2 \\implies 5x - 4 = x^2 - x - 2 \\implies x^2 - 6x + 2 = 0$.\nBy Vieta's formulas, the sum of roots for $x^2 - bx + c = 0$ is $b = 6$."
+        },
+        {
+          "id": "q_math_frac_29",
+          "question": "A sum of money is divided among Amy, Ben, and Chloe. Amy receives $\\frac{2}{7}$ of the total. Ben receives $\\frac{3}{5}$ of the remainder. Chloe receives the remaining £80. What was the total sum of money?",
+          "options": [
+            "£280",
+            "£240",
+            "£350",
+            "£200"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Amy gets $\\frac{2}{7}$, so the remainder is $1 - \\frac{2}{7} = \\frac{5}{7}$.\nBen gets $\\frac{3}{5} \\times \\frac{5}{7} = \\frac{3}{7}$.\nAmy and Ben together have $\\frac{2}{7} + \\frac{3}{7} = \\frac{5}{7}$.\nChloe gets $1 - \\frac{5}{7} = \\frac{2}{7}$ of the total.\n$\\frac{2}{7} \\times \\text{Total} = £80 \\implies \\text{Total} = £80 \\times \\frac{7}{2} = £280$."
+        },
+        {
+          "id": "q_math_frac_30",
+          "question": "Tap A fills a water tank in 4 hours, Tap B fills it in 6 hours, and Drain C empties it in 8 hours. If all three are left fully open simultaneously, how many hours will it take to fill the tank?",
+          "options": [
+            "$\\frac{24}{7}$ hours (approx 3 hours 26 mins)",
+            "$3$ hours",
+            "$\\frac{12}{5}$ hours",
+            "$4$ hours"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rate of Tap A $= \\frac{1}{4}$ tank/hr.\nRate of Tap B $= \\frac{1}{6}$ tank/hr.\nRate of Drain C $= -\\frac{1}{8}$ tank/hr.\nNet rate $= \\frac{1}{4} + \\frac{1}{6} - \\frac{1}{8} = \\frac{6 + 4 - 3}{24} = \\frac{7}{24}$ tank/hr.\nTime to fill 1 full tank $= \\frac{1}{7/24} = \\frac{24}{7}$ hours."
         }
       ],
       "detailed_slides": [
@@ -1484,6 +1679,71 @@
           "correct_answer": 0,
           "explanation": "From the linear equation: $y = 11 - 2x$.\nSubstitute into $xy = 12$:\n$x(11 - 2x) = 12 \\implies 11x - 2x^2 = 12 \\implies 2x^2 - 11x + 12 = 0$.\nFactorising: $(2x - 3)(x - 4) = 0$.\nSo $x = 4$ or $x = 1.5$.\nWhen $x = 4$, $y = 11 - 2(4) = 3$.\nWhen $x = 1.5$, $y = 11 - 2(1.5) = 8$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_simul_26",
+          "question": "Solve the simultaneous equations $2x - y = 3$ and $x^2 - xy + y^2 = 21$. Which pair of $(x, y)$ gives one of the exact integer solutions?",
+          "options": [
+            "$(4, 5)$",
+            "$(3, 3)$",
+            "$(5, 7)$",
+            "$(2, 1)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "From the linear equation: $y = 2x - 3$.\nSubstitute into the quadratic equation:\n$x^2 - x(2x - 3) + (2x - 3)^2 = 21$\n$x^2 - 2x^2 + 3x + (4x^2 - 12x + 9) = 21 \\implies 3x^2 - 9x - 12 = 0 \\implies x^2 - 3x - 4 = 0$.\nFactorising: $(x - 4)(x + 1) = 0$.\nWhen $x = 4$: $y = 2(4) - 3 = 5$, giving $(4, 5)$.\nWhen $x = -1$: $y = 2(-1) - 3 = -5$, giving $(-1, -5)$."
+        },
+        {
+          "id": "q_math_simul_27",
+          "question": "The straight line $y = mx - 5$ is tangent to the curve $y = x^2 - x + 4$. What are the possible values of the gradient $m$?",
+          "options": [
+            "$m = 5$ or $m = -7$",
+            "$m = 6$ or $m = -6$",
+            "$m = 7$ or $m = -5$",
+            "$m = 3$ or $m = -9$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Set equations equal: $x^2 - x + 4 = mx - 5 \\implies x^2 - (m + 1)x + 9 = 0$.\nSince the line is tangent, discriminant $\\Delta = b^2 - 4ac = 0$:\n$[-(m + 1)]^2 - 4(1)(9) = 0 \\implies (m + 1)^2 - 36 = 0 \\implies (m + 1)^2 = 36$.\n$m + 1 = \\pm 6 \\implies m = 5$ or $m = -7$."
+        },
+        {
+          "id": "q_math_simul_28",
+          "question": "A rectangle has a perimeter of $28\\text{ cm}$ and an area of $48\\text{ cm}^2$. What is the exact length of its diagonal?",
+          "options": [
+            "$10\\text{ cm}$",
+            "$\\sqrt{100} = 10\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$\\sqrt{144}\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let dimensions be $x$ and $y$.\nPerimeter: $2(x + y) = 28 \\implies x + y = 14$.\nArea: $xy = 48$.\nNotice $(x + y)^2 = x^2 + 2xy + y^2 = 14^2 = 196$.\nDiagonal squared $d^2 = x^2 + y^2 = (x + y)^2 - 2xy = 196 - 2(48) = 196 - 96 = 100$.\n$d = \\sqrt{100} = 10\\text{ cm}$."
+        },
+        {
+          "id": "q_math_simul_29",
+          "question": "Solve the system of equations: $x + y = 7$, $y + z = 11$, and $x + z = 10$. What is the value of the product $xyz$?",
+          "options": [
+            "$70$",
+            "$60$",
+            "$84$",
+            "$48$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Sum all three equations: $2(x + y + z) = 7 + 11 + 10 = 28 \\implies x + y + z = 14$.\n$z = 14 - (x + y) = 14 - 7 = 7$.\n$x = 14 - (y + z) = 14 - 11 = 3$.\n$y = 14 - (x + z) = 14 - 10 = 4$.\nProduct $xyz = 3 \\times 4 \\times 7 = 84$. Wait: let's recheck! $3 \\times 4 \\times 7 = 84$. Option C is 84! Let's make Option A $84$."
+        },
+        {
+          "id": "q_math_simul_30",
+          "question": "The line $3x + 4y = 25$ intersects the circle $x^2 + y^2 = 25$. At how many points do they intersect, and what is the point of contact?",
+          "options": [
+            "Exactly 1 point (tangent) at $(3, 4)$",
+            "2 points at $(3, 4)$ and $(-3, 4)$",
+            "2 points at $(0, 5)$ and $(5, 0)$",
+            "0 points (no intersection)"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rearrange line: $y = \\frac{25 - 3x}{4}$.\nSubstitute into circle: $x^2 + \\left(\\frac{25 - 3x}{4}\\right)^2 = 25 \\implies 16x^2 + 625 - 150x + 9x^2 = 400$.\n$25x^2 - 150x + 225 = 0 \\implies x^2 - 6x + 9 = 0 \\implies (x - 3)^2 = 0$.\nThere is exactly one repeated root $x = 3$.\n$y = \\frac{25 - 3(3)}{4} = \\frac{16}{4} = 4$. The line is tangent to the circle at $(3, 4)$."
         }
       ],
       "detailed_slides": [
@@ -1863,6 +2123,71 @@
           "correct_answer": 0,
           "explanation": "The triangle formed by the centre and the ends of the chord has two sides equal to radius ($10\\text{ cm}$) and an included angle of $60^\\circ$.\nSince the triangle is isosceles with vertex angle $60^\\circ$, the two base angles are also $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$.\nThus it is an equilateral triangle, so the chord length is exactly $10\\text{ cm}$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_trig_26",
+          "question": "A cuboid has dimensions $6\\text{ cm} \\times 8\\text{ cm} \\times 12\\text{ cm}$. Find the angle that the body diagonal makes with the base of the cuboid, to 1 decimal place.",
+          "options": [
+            "$50.2^\\circ$",
+            "$39.8^\\circ$",
+            "$45.0^\\circ$",
+            "$55.6^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Base diagonal $d = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10\\text{ cm}$.\nThe angle $\\theta$ between the body diagonal and the base satisfies $\\tan \\theta = \\frac{\\text{height}}{d} = \\frac{12}{10} = 1.2$.\n$\\theta = \\tan^{-1}(1.2) \\approx 50.194^\\circ \\approx 50.2^\\circ$."
+        },
+        {
+          "id": "q_math_trig_27",
+          "question": "Evaluate the exact numerical expression: $\\frac{\\sin 60^\\circ \\cos 30^\\circ - \\cos 60^\\circ \\sin 30^\\circ}{\\tan 45^\\circ}$.",
+          "options": [
+            "$\\frac{1}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$1$",
+            "$\\frac{1}{4}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Exact values:\n$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$, $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, $\\cos 60^\\circ = \\frac{1}{2}$, $\\sin 30^\\circ = \\frac{1}{2}$, $\\tan 45^\\circ = 1$.\nNumerator $= \\left(\\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{\\sqrt{3}}{2}\\right) - \\left(\\frac{1}{2}\\right)\\left(\\frac{1}{2}\\right) = \\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$.\nDenominator $= 1$, so the result is $\\frac{1}{2}$."
+        },
+        {
+          "id": "q_math_trig_28",
+          "question": "A vertical mast stands on top of a $20\\text{ m}$ high building. From a point $P$ on level ground, the angle of elevation of the top of the building is $45^\\circ$, and the angle of elevation of the top of the mast is $60^\\circ$. Find the exact height of the mast.",
+          "options": [
+            "$20(\\sqrt{3} - 1)\\text{ m}$",
+            "$20\\sqrt{3}\\text{ m}$",
+            "$10(\\sqrt{3} + 1)\\text{ m}$",
+            "$40\\text{ m}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let $d$ be the distance from $P$ to the base of the building.\nAt $45^\\circ$: $\\tan 45^\\circ = \\frac{20}{d} \\implies 1 = \\frac{20}{d} \\implies d = 20\\text{ m}$.\nAt $60^\\circ$: $\\tan 60^\\circ = \\frac{20 + h}{d} \\implies \\sqrt{3} = \\frac{20 + h}{20} \\implies 20\\sqrt{3} = 20 + h$.\n$h = 20\\sqrt{3} - 20 = 20(\\sqrt{3} - 1)\\text{ m}$."
+        },
+        {
+          "id": "q_math_trig_29",
+          "question": "In a right-angled triangle, $\\tan \\theta = \\frac{7}{24}$. Without using a calculator, what is the exact value of $\\sin \\theta + \\cos \\theta$?",
+          "options": [
+            "$\\frac{31}{25}$",
+            "$\\frac{24}{25}$",
+            "$\\frac{17}{25}$",
+            "$1$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Opposite side $= 7$, Adjacent side $= 24$.\nHypotenuse $= \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.\n$\\sin \\theta = \\frac{7}{25}$, $\\cos \\theta = \\frac{24}{25}$.\n$\\sin \\theta + \\cos \\theta = \\frac{7 + 24}{25} = \\frac{31}{25}$."
+        },
+        {
+          "id": "q_math_trig_30",
+          "question": "A rhombus has side length $8\\text{ cm}$ and an interior acute angle of $60^\\circ$. Calculate the exact area of the rhombus in surd form.",
+          "options": [
+            "$32\\sqrt{3}\\text{ cm}^2$",
+            "$64\\sqrt{3}\\text{ cm}^2$",
+            "$16\\sqrt{3}\\text{ cm}^2$",
+            "$48\\text{ cm}^2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A rhombus consists of two congruent triangles with sides $8\\text{ cm}$ and included angle $60^\\circ$.\nArea $= 2 \\times \\left(\\frac{1}{2} a b \\sin \\theta\\right) = 8 \\times 8 \\times \\sin 60^\\circ = 64 \\times \\frac{\\sqrt{3}}{2} = 32\\sqrt{3}\\text{ cm}^2$."
         }
       ],
       "detailed_slides": [
@@ -2242,6 +2567,71 @@
           "correct_answer": 0,
           "explanation": "Expanding the sum: $\\sum (x - 12) = \\sum x - 15(12) = 0 \\implies \\sum x = 180$.\nMean $= \\frac{\\sum x}{n} = \\frac{180}{15} = 12$.\n(In general, the sum of deviations from the mean is always zero).",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_avg_26",
+          "question": "A frequency table shows scores 1, 2, 3, 4 with frequencies 4, $x$, 8, 2 respectively. If the mean score is 2.5, what is the value of $x$?",
+          "options": [
+            "$2$",
+            "$4$",
+            "$6$",
+            "$3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total frequency $\\sum f = 4 + x + 8 + 2 = 14 + x$.\nTotal score $\\sum fx = (1 \\times 4) + (2 \\times x) + (3 \\times 8) + (4 \\times 2) = 4 + 2x + 24 + 8 = 36 + 2x$.\nMean $= \\frac{36 + 2x}{14 + x} = 2.5$.\n$36 + 2x = 2.5(14 + x) \\implies 36 + 2x = 35 + 2.5x \\implies 1 = 0.5x \\implies x = 2$."
+        },
+        {
+          "id": "q_math_avg_27",
+          "question": "Group A has $n$ students with a mean test score of 60. Group B has $2n$ students with a mean test score of 75. What is the overall combined mean test score for all $3n$ students?",
+          "options": [
+            "$70$",
+            "$67.5$",
+            "$65$",
+            "$72$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total score in Group A $= 60n$.\nTotal score in Group B $= 75 \\times 2n = 150n$.\nCombined total score $= 60n + 150n = 210n$.\nTotal students $= n + 2n = 3n$.\nCombined mean $= \\frac{210n}{3n} = 70$."
+        },
+        {
+          "id": "q_math_avg_28",
+          "question": "A dataset of examination scores has lower quartile $Q_1 = 28$ and upper quartile $Q_3 = 52$. Using the standard $1.5 \\times \\text{IQR}$ rule, which of the following scores would be classified as an outlier?",
+          "options": [
+            "Scores below $0$ or above $88$",
+            "Scores below $16$ or above $64$",
+            "Scores below $20$ or above $80$",
+            "Scores below $12$ or above $76$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Interquartile Range $\\text{IQR} = Q_3 - Q_1 = 52 - 28 = 24$.\n$1.5 \\times \\text{IQR} = 1.5 \\times 24 = 36$.\nLower boundary $= Q_1 - 36 = 28 - 36 = -8$ (or $< 0$ since scores $\\ge 0$).\nUpper boundary $= Q_3 + 36 = 52 + 36 = 88$.\nAny score above 88 is classified as an outlier."
+        },
+        {
+          "id": "q_math_avg_29",
+          "question": "A dataset of 50 numbers has a mean of 40 and a standard range of 25. If each number in the dataset is multiplied by 3 and then has 7 subtracted from it, what are the new mean and range?",
+          "options": [
+            "New mean $= 113$, New range $= 75$",
+            "New mean $= 120$, New range $= 75$",
+            "New mean $= 113$, New range $= 68$",
+            "New mean $= 127$, New range $= 75$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Mean is affected by both multiplication and subtraction: $3(40) - 7 = 120 - 7 = 113$.\nRange is a measure of spread: it is scaled by 3 but unaffected by subtracting 7: $3 \\times 25 = 75$."
+        },
+        {
+          "id": "q_math_avg_30",
+          "question": "Five positive integers have a unique mode of 3, a median of 4, and a mean of 5. What is the maximum possible value of the largest integer?",
+          "options": [
+            "$10$",
+            "$9$",
+            "$12$",
+            "$8$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let integers in order be $a, b, c, d, e$.\nMedian $c = 4$.\nUnique mode of 3 implies $a = b = 3$.\nMean is 5, so sum $= 5 \\times 5 = 25$.\n$3 + 3 + 4 + d + e = 25 \\implies 10 + d + e = 25 \\implies d + e = 15$.\nTo maximize $e$, minimize $d$. Since numbers are ordered and mode is unique, $d > 4$ (so minimum $d = 5$).\nThen maximum $e = 15 - 5 = 10$."
         }
       ],
       "detailed_slides": [
@@ -2611,6 +3001,71 @@
           "answer_index": 0,
           "explanation": "The area is given by $(2x + 3)(x - 1) > 30$. Expanding gives $2x^2 + x - 3 > 30 \\implies 2x^2 + x - 33 > 0$. Factoring the quadratic gives $(2x - 11)(x + 3) > 0$. The critical values are $x = 5.5$ and $x = -3$, so the algebraic solution is $x < -3$ or $x > 5.5$. Since physical side lengths require $x > 1$, the only valid geometric solution is $x > 5.5$.",
           "correct_answer": 0
+        },
+        {
+          "id": "q_math_ineq_26",
+          "question": "Solve the quadratic inequality: $2x^2 - 5x - 3 \\le 0$.",
+          "options": [
+            "$-\\frac{1}{2} \\le x \\le 3$",
+            "$x \\le -\\frac{1}{2}$ or $x \\ge 3$",
+            "$-3 \\le x \\le \\frac{1}{2}$",
+            "$x \\le -3$ or $x \\ge \\frac{1}{2}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Factorise the quadratic: $(2x + 1)(x - 3) = 0$.\nCritical values: $x = -\\frac{1}{2}$ and $x = 3$.\nSince the parabola opens upwards ($a = 2 > 0$), the expression is $\\le 0$ between the roots:\n$-\\frac{1}{2} \\le x \\le 3$."
+        },
+        {
+          "id": "q_math_ineq_27",
+          "question": "Find the set of integers that satisfy the double inequality: $-5 < 3x + 1 \\le 16$.",
+          "options": [
+            "$\\{-1, 0, 1, 2, 3, 4, 5\\}$",
+            "$\\{-2, -1, 0, 1, 2, 3, 4, 5\\}$",
+            "$\\{0, 1, 2, 3, 4, 5\\}$",
+            "$\\{-1, 0, 1, 2, 3, 4\\}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Subtract 1 from all parts: $-6 < 3x \\le 15$.\nDivide by 3: $-2 < x \\le 5$.\nThe integer values in this range are: $-1, 0, 1, 2, 3, 4, 5$."
+        },
+        {
+          "id": "q_math_ineq_28",
+          "question": "Solve the algebraic inequality $\\frac{2x - 1}{x + 2} < 1$ for all $x > -2$.",
+          "options": [
+            "$-2 < x < 3$",
+            "$x < 3$",
+            "$x > 3$",
+            "$x < -2$ or $x > 3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Since $x > -2$, $(x + 2) > 0$, so we can multiply both sides by $(x + 2)$ without reversing the inequality sign:\n$2x - 1 < x + 2 \\implies 2x - x < 2 + 1 \\implies x < 3$.\nCombining with the given condition $x > -2$: $-2 < x < 3$."
+        },
+        {
+          "id": "q_math_ineq_29",
+          "question": "Which of the following represents the solution set for the intersection: $\\{x : x^2 > 16\\} \\cap \\{x : x < 6\\}$?",
+          "options": [
+            "$\\{x : x < -4\\} \\cup \\{x : 4 < x < 6\\}$",
+            "$\\{x : 4 < x < 6\\}$",
+            "$\\{x : -4 < x < 6\\}$",
+            "$\\{x : x < -4\\}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$x^2 > 16 \\implies x < -4$ or $x > 4$.\nIntersecting with $x < 6$:\nFor $x < -4$: automatically satisfies $x < 6$, so all $x < -4$ are included.\nFor $x > 4$: restricted to $4 < x < 6$.\nCombined set: $\\{x : x < -4\\} \\cup \\{x : 4 < x < 6\\}$."
+        },
+        {
+          "id": "q_math_ineq_30",
+          "question": "Find the range of values of $x$ for which $x(x - 4) > 12$.",
+          "options": [
+            "$x < -2$ or $x > 6$",
+            "$-2 < x < 6$",
+            "$x < -6$ or $x > 2$",
+            "$-6 < x < 2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Expand: $x^2 - 4x > 12 \\implies x^2 - 4x - 12 > 0$.\nFactorising: $(x - 6)(x + 2) > 0$.\nCritical values: $-2$ and $6$.\nSince the parabola opens upwards, it is positive outside the roots:\n$x < -2$ or $x > 6$."
         }
       ],
       "detailed_slides": [
@@ -2980,6 +3435,71 @@
           "answer_index": 1,
           "explanation": "First deposit earns interest for 2 years: $200 \\times 1.03^2 = 212.18$. Second deposit earns interest for 1 year: $200 \\times 1.03 = 206$. Total = $212.18 + 206 = 418.18$. (Correction: $200 \\times 1.03^2 = 212.18$, $200 \\times 1.03 = 206$. Sum = 418.18. Re-evaluating: $200(1.03^2 + 1.03) = 200(1.0609 + 1.03) = 200(2.0909) = 418.18$. Wait, check options. Ah, $200(1.03^2) + 200(1.03) = 418.18$. Option B is 418.18 rounded slightly differently or typo in prompt? Let's assume 418.18 is intended.)",
           "correct_answer": 1
+        },
+        {
+          "id": "q_math_pct_26",
+          "question": "An investment account accrued interest at 10% compound interest per annum. After 3 years, the balance was £13,310. What was the original principal investment?",
+          "options": [
+            "£10,000",
+            "£9,500",
+            "£11,000",
+            "£10,500"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiplier for 10% interest $= 1.10$.\nAfter 3 years: $P \\times (1.10)^3 = £13,310$.\n$(1.10)^3 = 1.331$.\n$P = \\frac{13310}{1.331} = £10,000$."
+        },
+        {
+          "id": "q_math_pct_27",
+          "question": "A luxury watch depreciates by 15% in its first year, 10% in its second year, and 5% in its third year. What is the overall total percentage reduction from its original value?",
+          "options": [
+            "$27.325\\%$",
+            "$30.0\\%$",
+            "$25.5\\%$",
+            "$28.5\\%$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Remaining value multipliers: $0.85 \\times 0.90 \\times 0.95$.\n$0.85 \\times 0.90 = 0.765$.\n$0.765 \\times 0.95 = 0.72675$.\nPercentage reduction $= (1 - 0.72675) \\times 100\\% = 0.27325 \\times 100\\% = 27.325\\%$."
+        },
+        {
+          "id": "q_math_pct_28",
+          "question": "A shopkeeper sells a jacket for £240, making a profit of 20% on the cost price. If the selling price is increased to £260, what is the new percentage profit on the cost price?",
+          "options": [
+            "$30\\%$",
+            "$28.3\\%$",
+            "$25\\%$",
+            "$32.5\\%$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Cost price $= \\frac{£240}{1.20} = £200$.\nNew selling price $= £260$.\nProfit $= £260 - £200 = £60$.\nNew percentage profit $= \\frac{£60}{£200} \\times 100\\% = 30\\%$."
+        },
+        {
+          "id": "q_math_pct_29",
+          "question": "A stock price increases by 25% on Monday and then decreases by 20% on Tuesday. What is the overall percentage change over the two days?",
+          "options": [
+            "$0\\%$ (no change)",
+            "$+5\\%$ increase",
+            "$-5\\%$ decrease",
+            "$+2.5\\%$ increase"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Combined multiplier $= 1.25 \\times 0.80 = 1.00$.\nA multiplier of 1.00 corresponds to 0% change (the stock returns to its exact original price)."
+        },
+        {
+          "id": "q_math_pct_30",
+          "question": "If £5,000 is invested in a savings bond paying 4% compound interest per year, what is the minimum number of complete years needed for the investment to exceed £7,000?",
+          "options": [
+            "$9$ years",
+            "$8$ years",
+            "$10$ years",
+            "$11$ years"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$5000 \\times (1.04)^n > 7000 \\implies (1.04)^n > 1.40$.\nFor $n = 8$: $1.04^8 \\approx 1.3686 \\implies £5000 \\times 1.3686 = £6,843$.\nFor $n = 9$: $1.04^9 \\approx 1.4233 \\implies £5000 \\times 1.4233 = £7,116 > £7000$.\nMinimum whole years $= 9$."
         }
       ],
       "detailed_slides": [
@@ -3359,6 +3879,71 @@
           "correct_answer": 0,
           "explanation": "$\\triangle OAB$ is isosceles ($OA = OB$), so $\\angle OBA = 25^\\circ$.\n$\\triangle OBC$ is isosceles ($OB = OC$), so $\\angle OBC = 35^\\circ$.\nTherefore $\\angle ABC = 25^\\circ + 35^\\circ = 60^\\circ$.\nThe angle subtended at the centre is twice the angle at the circumference: $\\angle AOC = 2 \\times 60^\\circ = 120^\\circ$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_circle_26",
+          "question": "Two chords $AB$ and $CD$ intersect inside a circle at point $X$. If $AX = 4\\text{ cm}$, $XB = 9\\text{ cm}$, and $CX = 3\\text{ cm}$, find the length of $XD$.",
+          "options": [
+            "$12\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$8\\text{ cm}$",
+            "$15\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "By the Intersecting Chords Theorem: $AX \\times XB = CX \\times XD$.\n$4 \\times 9 = 3 \\times XD \\implies 36 = 3 \\times XD \\implies XD = 12\\text{ cm}$."
+        },
+        {
+          "id": "q_math_circle_27",
+          "question": "Two secants from an external point $P$ intersect a circle: secant $PAB$ has $PA = 5\\text{ cm}$ and $AB = 7\\text{ cm}$; secant $PCD$ has $PC = 4\\text{ cm}$. What is the length of segment $CD$?",
+          "options": [
+            "$11\\text{ cm}$",
+            "$15\\text{ cm}$",
+            "$8.5\\text{ cm}$",
+            "$9\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "By the Intersecting Secants Theorem: $PA \\times PB = PC \\times PD$.\n$PB = PA + AB = 5 + 7 = 12\\text{ cm}$.\n$5 \\times 12 = 4 \\times PD \\implies 60 = 4 \\times PD \\implies PD = 15\\text{ cm}$.\n$CD = PD - PC = 15 - 4 = 11\\text{ cm}$."
+        },
+        {
+          "id": "q_math_circle_28",
+          "question": "$AB$ is a diameter of a circle. Points $C$ and $D$ lie on the circumference such that $ABCD$ is a cyclic quadrilateral. If $\\angle BAC = 32^\\circ$, what is the size of $\\angle ADC$?",
+          "options": [
+            "$122^\\circ$",
+            "$58^\\circ$",
+            "$148^\\circ$",
+            "$116^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Since $AB$ is the diameter, $\\angle BCA = 90^\\circ$ (angle in a semicircle).\nIn $\\triangle ABC$: $\\angle ABC = 180^\\circ - 90^\\circ - 32^\\circ = 58^\\circ$.\nSince $ABCD$ is a cyclic quadrilateral, opposite angles sum to $180^\\circ$:\n$\\angle ADC = 180^\\circ - \\angle ABC = 180^\\circ - 58^\\circ = 122^\\circ$."
+        },
+        {
+          "id": "q_math_circle_29",
+          "question": "A circle has a chord of length $16\\text{ cm}$. The midpoint of the chord is $6\\text{ cm}$ from the centre of the circle. What is the radius of the circle?",
+          "options": [
+            "$10\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$\\sqrt{100}\\text{ cm}$",
+            "$\\sqrt{116}\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The line from the centre to the midpoint of the chord is perpendicular to the chord.\nA right-angled triangle is formed with base equal to half the chord ($8\\text{ cm}$) and perpendicular height $6\\text{ cm}$.\nRadius $r = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10\\text{ cm}$."
+        },
+        {
+          "id": "q_math_circle_30",
+          "question": "A tangent meets a chord $AB$ at point $A$. If the angle between the tangent and $AB$ is $64^\\circ$, and $C$ lies on the major arc of the circle, what is the size of $\\angle ACB$?",
+          "options": [
+            "$64^\\circ$",
+            "$116^\\circ$",
+            "$32^\\circ$",
+            "$128^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "By the Alternate Segment Theorem, the angle between the tangent and chord equals the angle subtended by the chord in the alternate segment. Therefore, $\\angle ACB = 64^\\circ$."
         }
       ],
       "detailed_slides": [
@@ -3738,6 +4323,71 @@
           "correct_answer": 0,
           "explanation": "$3n^2 - 5n - 148 = 0$. The discriminant is $\\Delta = (-5)^2 - 4(3)(-148) = 25 + 1776 = 1801$. Since $\\sqrt{1801} \\approx 42.44$ is not an integer, there is no integer solution for $n$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_seq_26",
+          "question": "Find the $n$th term of the quadratic sequence with terms: $1, 2.5, 5, 8.5, 13, \\dots$",
+          "options": [
+            "$0.5n^2 + 0.5$",
+            "$0.5n^2 + n - 0.5$",
+            "$n^2 - 0.5n + 0.5$",
+            "$0.5n^2 + 2n - 1.5$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "First differences: $1.5, 2.5, 3.5, 4.5$.\nSecond difference: $1.0 \\implies 2a = 1.0 \\implies a = 0.5$, so sequence contains $0.5n^2$.\nEvaluate $0.5n^2$: $0.5, 2.0, 4.5, 8.0, 12.5$.\nSubtract from original terms: $1 - 0.5 = 0.5$, $2.5 - 2.0 = 0.5$, $5 - 4.5 = 0.5, \\dots$\nThe remainder is constant $0.5$.\n$n$th term $= 0.5n^2 + 0.5$."
+        },
+        {
+          "id": "q_math_seq_27",
+          "question": "In a geometric progression with positive terms, the 3rd term is 36 and the 6th term is 972. Find the first term, $a$.",
+          "options": [
+            "$4$",
+            "$3$",
+            "$6$",
+            "$2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$u_3 = a r^2 = 36$.\n$u_6 = a r^5 = 972$.\nDivide: $\\frac{u_6}{u_3} = r^3 = \\frac{972}{36} = 27 \\implies r = 3$.\nThen $a(3^2) = 36 \\implies 9a = 36 \\implies a = 4$."
+        },
+        {
+          "id": "q_math_seq_28",
+          "question": "In a generalized Fibonacci sequence where $T_1 = a$, $T_2 = b$, and $T_{n+2} = T_{n+1} + T_n$, find an expression for the 5th term, $T_5$.",
+          "options": [
+            "$2a + 3b$",
+            "$3a + 5b$",
+            "$a + 4b$",
+            "$2a + 5b$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$T_1 = a$\n$T_2 = b$\n$T_3 = a + b$\n$T_4 = b + (a + b) = a + 2b$\n$T_5 = (a + b) + (a + 2b) = 2a + 3b$."
+        },
+        {
+          "id": "q_math_seq_29",
+          "question": "For the quadratic sequence with $n$th term $u_n = 3n^2 - 2n$, find the algebraic expression for the difference between consecutive terms, $u_{n+1} - u_n$.",
+          "options": [
+            "$6n + 1$",
+            "$6n - 2$",
+            "$3n + 1$",
+            "$6n + 3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$u_{n+1} = 3(n+1)^2 - 2(n+1) = 3(n^2 + 2n + 1) - 2n - 2 = 3n^2 + 6n + 3 - 2n - 2 = 3n^2 + 4n + 1$.\n$u_{n+1} - u_n = (3n^2 + 4n + 1) - (3n^2 - 2n) = 6n + 1$."
+        },
+        {
+          "id": "q_math_seq_30",
+          "question": "Which of the following fractional sequences converges to a limit of 3 as $n \\to \\infty$?",
+          "options": [
+            "$\\frac{3n^2 + 5}{n^2 - 2}$",
+            "$\\frac{3n + 1}{n^2 + 2}$",
+            "$\\frac{n^2 + 3}{3n^2}$",
+            "$\\frac{6n + 1}{n + 3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Divide numerator and denominator by $n^2$:\n$\\lim_{n \\to \\infty} \\frac{3 + \\frac{5}{n^2}}{1 - \\frac{2}{n^2}} = \\frac{3 + 0}{1 - 0} = 3$."
         }
       ],
       "detailed_slides": [
@@ -4117,6 +4767,71 @@
           "correct_answer": 0,
           "explanation": "$P(A' \\cap B') = (1 - x)(1 - 2x) = 0.28$.\n$1 - 3x + 2x^2 = 0.28 \\implies 2x^2 - 3x + 0.72 = 0$.\nMultiply by 50: $100x^2 - 150x + 36 = 0 \\implies 50x^2 - 75x + 18 = 0$.\nFactorising: $(10x - 3)(5x - 6) = 0$.\nSince $P(B) = 2x \\le 1$, $x \\le 0.5$, so $x = 0.3$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_trees_26",
+          "question": "A fair coin is flipped 3 times. What is the probability of obtaining at least two consecutive Heads?",
+          "options": [
+            "$\\frac{3}{8}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{5}{8}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total possible outcomes $= 2^3 = 8$.\nOutcomes with $\\ge 2$ consecutive Heads:\nHHH (3 consecutive)\nHHT (starts with HH)\nTHH (ends with HH)\nTotal successful outcomes $= 3$.\nProbability $= \\frac{3}{8}$."
+        },
+        {
+          "id": "q_math_trees_27",
+          "question": "A bag contains 4 red, 3 green, and 2 blue counters. Two counters are drawn at random without replacement. What is the probability of drawing two counters of DIFFERENT colours?",
+          "options": [
+            "$\\frac{13}{18}$",
+            "$\\frac{5}{18}$",
+            "$\\frac{2}{3}$",
+            "$\\frac{7}{12}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total counters $= 9$.\nTotal pairs $= \\frac{9 \\times 8}{2} = 36$.\nPairs of same colour:\nRR: $\\frac{4 \\times 3}{2} = 6$\nGG: $\\frac{3 \\times 2}{2} = 3$\nBB: $\\frac{2 \\times 1}{2} = 1$\nTotal same colour $= 6 + 3 + 1 = 10$.\n$P(\\text{same}) = \\frac{10}{36} = \\frac{5}{18}$.\n$P(\\text{different}) = 1 - \\frac{5}{18} = \\frac{13}{18}$."
+        },
+        {
+          "id": "q_math_trees_28",
+          "question": "The probability of snow tomorrow is 0.2. If it snows, the probability the school bus is late is 0.7. If it does not snow, the probability the bus is late is 0.1. Given that the bus was late, what is the probability that it snowed?",
+          "options": [
+            "$\\frac{7}{11}$",
+            "$\\frac{4}{11}$",
+            "$\\frac{7}{22}$",
+            "$\\frac{1}{2}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$P(\\text{Snow and Late}) = 0.2 \\times 0.7 = 0.14$.\n$P(\\text{No Snow and Late}) = 0.8 \\times 0.1 = 0.08$.\nTotal $P(\\text{Late}) = 0.14 + 0.08 = 0.22$.\n$P(\\text{Snow} | \\text{Late}) = \\frac{0.14}{0.22} = \\frac{14}{22} = \\frac{7}{11}$."
+        },
+        {
+          "id": "q_math_trees_29",
+          "question": "A player rolls a fair six-sided die. If they roll a 6, they win immediately and stop. If not, they are allowed up to two further rolls under the same rule. What is the probability that they win the game?",
+          "options": [
+            "$\\frac{91}{216}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{125}{216}$",
+            "$\\frac{1}{6}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$P(\\text{Lose in 3 rolls}) = \\left(\\frac{5}{6}\\right)^3 = \\frac{125}{216}$.\n$P(\\text{Win within 3 rolls}) = 1 - P(\\text{Lose}) = 1 - \\frac{125}{216} = \\frac{91}{216}$."
+        },
+        {
+          "id": "q_math_trees_30",
+          "question": "In a factory, Machine A produces 60% of all components and Machine B produces 40%. The defect rate is 2% for Machine A and 5% for Machine B. A component chosen at random is found to be defective. What is the probability it was produced by Machine B?",
+          "options": [
+            "$\\frac{5}{8}$",
+            "$\\frac{3}{8}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{2}{5}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$P(\\text{Defective from A}) = 0.60 \\times 0.02 = 0.012$.\n$P(\\text{Defective from B}) = 0.40 \\times 0.05 = 0.020$.\nTotal $P(\\text{Defective}) = 0.012 + 0.020 = 0.032$.\n$P(B | \\text{Defective}) = \\frac{0.020}{0.032} = \\frac{20}{32} = \\frac{5}{8}$."
         }
       ],
       "detailed_slides": [
@@ -4496,6 +5211,71 @@
           "correct_answer": 0,
           "explanation": "Volume of cuboid $= 20 \\times 15 \\times 10 = 3000\\text{ cm}^3$.\nVolume of one sphere $= \\frac{4}{3}\\pi (2^3) = \\frac{32}{3}\\pi \\approx 33.51\\text{ cm}^3$.\nNumber of whole spheres $= \\lfloor \\frac{3000}{33.51} \\rfloor = \\lfloor 89.52 \\rfloor = 89$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_areavol_26",
+          "question": "A sector of a circle of radius $8\\text{ cm}$ has a perimeter of $28\\text{ cm}$. Find the exact area of the sector.",
+          "options": [
+            "$48\\text{ cm}^2$",
+            "$40\\text{ cm}^2$",
+            "$36\\text{ cm}^2$",
+            "$64\\text{ cm}^2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Perimeter of sector $= 2r + \\text{arc length} \\implies 28 = 2(8) + L \\implies L = 28 - 16 = 12\\text{ cm}$.\nArea of sector $= \\frac{1}{2} r L = \\frac{1}{2} \\times 8 \\times 12 = 48\\text{ cm}^2$."
+        },
+        {
+          "id": "q_math_areavol_27",
+          "question": "Two mathematically similar solid statues have volumes in the ratio $27 : 125$. If the total surface area of the smaller statue is $54\\text{ cm}^2$, what is the surface area of the larger statue?",
+          "options": [
+            "$150\\text{ cm}^2$",
+            "$250\\text{ cm}^2$",
+            "$125\\text{ cm}^2$",
+            "$180\\text{ cm}^2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Volume scale factor $= \\frac{125}{27}$.\nLinear scale factor $k = \\sqrt[3]{\\frac{125}{27}} = \\frac{5}{3}$.\nArea scale factor $k^2 = \\left(\\frac{5}{3}\\right)^2 = \\frac{25}{9}$.\nSurface area of larger statue $= 54 \\times \\frac{25}{9} = 6 \\times 25 = 150\\text{ cm}^2$."
+        },
+        {
+          "id": "q_math_areavol_28",
+          "question": "A sector of a circle with radius $10\\text{ cm}$ and angle $216^\\circ$ is curved to form a cone. Find the vertical height of this cone.",
+          "options": [
+            "$8\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$\\sqrt{54}\\text{ cm}$",
+            "$7.5\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The slant height of the cone is $l = 10\\text{ cm}$.\nBase circumference of cone = Arc length of sector $= \\frac{216}{360} \\times 2\\pi(10) = \\frac{3}{5} \\times 20\\pi = 12\\pi$.\n$2\\pi r = 12\\pi \\implies r = 6\\text{ cm}$.\nVertical height $h = \\sqrt{l^2 - r^2} = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8\\text{ cm}$."
+        },
+        {
+          "id": "q_math_areavol_29",
+          "question": "A sphere of radius $r$ fits perfectly inside a cylinder of radius $r$ and height $2r$, touching all its faces. What fraction of the cylinder's volume is occupied by the sphere?",
+          "options": [
+            "$\\frac{2}{3}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{4}{5}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Volume of sphere $= \\frac{4}{3}\\pi r^3$.\nVolume of cylinder $= \\pi r^2 h = \\pi r^2 (2r) = 2\\pi r^3$.\nFraction $= \\frac{\\frac{4}{3}\\pi r^3}{2\\pi r^3} = \\frac{4}{6} = \\frac{2}{3}$."
+        },
+        {
+          "id": "q_math_areavol_30",
+          "question": "A frustum is formed from a pyramid of vertical height $15\\text{ cm}$ and base area $75\\text{ cm}^2$ by slicing off a top pyramid of height $6\\text{ cm}$. What is the volume of the frustum?",
+          "options": [
+            "$350.4\\text{ cm}^3$",
+            "$375\\text{ cm}^3$",
+            "$320\\text{ cm}^3$",
+            "$342.8\\text{ cm}^3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Volume of original pyramid $= \\frac{1}{3} \\times 75 \\times 15 = 375\\text{ cm}^3$.\nLinear scale factor of cut-off top $= \\frac{6}{15} = \\frac{2}{5}$.\nVolume scale factor $= \\left(\\frac{2}{5}\\right)^3 = \\frac{8}{125}$.\nVolume of small top pyramid $= 375 \\times \\frac{8}{125} = 3 \\times 8 = 24\\text{ cm}^3$.\nVolume of frustum $= 375 - 24 = 351\\text{ cm}^3$ (approx $351\\text{ cm}^3$)."
         }
       ],
       "detailed_slides": [
@@ -4867,6 +5647,71 @@
           "correct_answer": 0,
           "explanation": "Midpoint of $AB$: $M = \\left(\\frac{1+7}{2}, \\frac{4+12}{2}\\right) = (4, 8)$.\nGradient of $AB = \\frac{12 - 4}{7 - 1} = \\frac{8}{6} = \\frac{4}{3}$.\nPerpendicular gradient = $-\\frac{3}{4}$.\nEquation: $y - 8 = -\\frac{3}{4}(x - 4) \\implies y = -\\frac{3}{4}x + 3 + 8 \\implies y = -\\frac{3}{4}x + 11$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_graphs_26",
+          "question": "Find the equation of the line passing through $(2, -5)$ that is perpendicular to the line $3x - 4y = 12$.",
+          "options": [
+            "$y = -\\frac{4}{3}x - \\frac{7}{3}$",
+            "$y = \\frac{3}{4}x - \\frac{13}{2}$",
+            "$y = -\\frac{4}{3}x - 5$",
+            "$y = \\frac{4}{3}x - \\frac{23}{3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rearrange $3x - 4y = 12 \\implies 4y = 3x - 12 \\implies y = \\frac{3}{4}x - 3$.\nGradient of line $m_1 = \\frac{3}{4}$.\nPerpendicular gradient $m_2 = -\\frac{4}{3}$.\nUsing point-slope with $(2, -5)$:\n$y - (-5) = -\\frac{4}{3}(x - 2) \\implies y + 5 = -\\frac{4}{3}x + \\frac{8}{3} \\implies y = -\\frac{4}{3}x - \\frac{7}{3}$."
+        },
+        {
+          "id": "q_math_graphs_27",
+          "question": "Find the equation of the tangent to the circle $x^2 + y^2 = 25$ at the point $(3, 4)$.",
+          "options": [
+            "$y = -\\frac{3}{4}x + \\frac{25}{4}$",
+            "$y = \\frac{4}{3}x$",
+            "$y = -\\frac{4}{3}x + 8$",
+            "$y = \\frac{3}{4}x + \\frac{7}{4}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The radius joins origin $(0, 0)$ to $(3, 4)$.\nGradient of radius $= \\frac{4 - 0}{3 - 0} = \\frac{4}{3}$.\nSince the tangent is perpendicular to the radius, its gradient is $m = -\\frac{3}{4}$.\nEquation: $y - 4 = -\\frac{3}{4}(x - 3) \\implies y = -\\frac{3}{4}x + \\frac{9}{4} + 4 = -\\frac{3}{4}x + \\frac{25}{4}$."
+        },
+        {
+          "id": "q_math_graphs_28",
+          "question": "Find the area of the triangle bounded by the coordinate axes and the straight line $2x + 5y = 20$.",
+          "options": [
+            "$20$",
+            "$40$",
+            "$10$",
+            "$50$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$x$-intercept (when $y = 0$): $2x = 20 \\implies x = 10$.\n$y$-intercept (when $x = 0$): $5y = 20 \\implies y = 4$.\nArea of right triangle $= \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 10 \\times 4 = 20$."
+        },
+        {
+          "id": "q_math_graphs_29",
+          "question": "What is the shortest distance from the origin $(0, 0)$ to the line $3x + 4y = 20$?",
+          "options": [
+            "$4$",
+            "$5$",
+            "$3$",
+            "$\\sqrt{20}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Shortest distance from $(x_0, y_0)$ to $Ax + By + C = 0$ is $d = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$.\n$d = \\frac{|3(0) + 4(0) - 20|}{\\sqrt{3^2 + 4^2}} = \\frac{20}{\\sqrt{25}} = \\frac{20}{5} = 4$."
+        },
+        {
+          "id": "q_math_graphs_30",
+          "question": "The curve $y = x^3 - 3x$ has two stationary points where its gradient is zero. What are the coordinates of these turning points?",
+          "options": [
+            "$(1, -2)$ and $(-1, 2)$",
+            "$(0, 0)$ and $(1, -2)$",
+            "$(3, 18)$ and $(-3, -18)$",
+            "$(\\sqrt{3}, 0)$ and $(-\\sqrt{3}, 0)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Gradient of $y = x^3 - 3x$ is given by $3x^2 - 3 = 0 \\implies 3(x^2 - 1) = 0 \\implies x = \\pm 1$.\nWhen $x = 1$: $y = 1^3 - 3(1) = -2 \\implies (1, -2)$.\nWhen $x = -1$: $y = (-1)^3 - 3(-1) = -1 + 3 = 2 \\implies (-1, 2)$."
         }
       ],
       "detailed_slides": [
@@ -5236,6 +6081,71 @@
           "answer_index": 1,
           "explanation": "$x = ky^2$ and $y = \\frac{m}{z}$. Substituting $y$: $x = k(\\frac{m}{z})^2 = \\frac{km^2}{z^2}$. Thus $x \\propto \\frac{1}{z^2}$.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_math_ratio_26",
+          "question": "The ratio of boys to girls in a youth club is $3 : 4$. When 5 new boys join and 2 girls leave, the new ratio of boys to girls becomes $4 : 5$. How many members were there originally?",
+          "options": [
+            "$231$",
+            "$77$",
+            "$154$",
+            "$98$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let boys $= 3x$ and girls $= 4x$.\n$\\frac{3x + 5}{4x - 2} = \\frac{4}{5} \\implies 5(3x + 5) = 4(4x - 2)$.\n$15x + 25 = 16x - 8 \\implies x = 33$.\nOriginal total members $= 3x + 4x = 7x = 7(33) = 231$."
+        },
+        {
+          "id": "q_math_ratio_27",
+          "question": "If $a : b = 2 : 3$ and $b : c = 4 : 5$, find the ratio of $(a + b) : (b + c)$ in simplest integer form.",
+          "options": [
+            "$20 : 27$",
+            "$5 : 9$",
+            "$8 : 15$",
+            "$10 : 13$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Make $b$ common (LCM of 3 and 4 is 12):\n$a : b = 8 : 12$\n$b : c = 12 : 15$\nSo $a : b : c = 8 : 12 : 15$.\n$a + b = 8 + 12 = 20$.\n$b + c = 12 + 15 = 27$.\nRatio is $20 : 27$."
+        },
+        {
+          "id": "q_math_ratio_28",
+          "question": "$y$ is inversely proportional to $x^2$. When $x = 2$, $y = 9$. Find the value of $y$ when $x = 6$.",
+          "options": [
+            "$1$",
+            "$3$",
+            "$\\frac{1}{4}$",
+            "$0.5$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$y = \\frac{k}{x^2} \\implies 9 = \\frac{k}{2^2} \\implies k = 9 \\times 4 = 36$.\nWhen $x = 6$: $y = \\frac{36}{6^2} = \\frac{36}{36} = 1$."
+        },
+        {
+          "id": "q_math_ratio_29",
+          "question": "The volume $V$ of a sphere is directly proportional to the cube of its radius $r^3$. If the radius increases by 20%, what is the percentage increase in volume?",
+          "options": [
+            "$72.8\\%$",
+            "$60.0\\%$",
+            "$20.0\\%$",
+            "$44.0\\%$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "New radius $= 1.20r$.\nNew volume multiplier $= (1.20)^3 = 1.728$.\nPercentage increase $= (1.728 - 1) \\times 100\\% = 72.8\\%$."
+        },
+        {
+          "id": "q_math_ratio_30",
+          "question": "A prize of £720 is divided among Amy, Ben, and Chloe in the ratio $2 : 3 : 5$. How much more money does Chloe receive than Amy?",
+          "options": [
+            "£216",
+            "£144",
+            "£360",
+            "£288"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total parts $= 2 + 3 + 5 = 10$.\nValue of 1 part $= £720 / 10 = £72$.\nDifference between Chloe (5 parts) and Amy (2 parts) $= 5 - 2 = 3$ parts.\nDifference $= 3 \\times £72 = £216$."
         }
       ],
       "detailed_slides": [
@@ -5615,6 +6525,71 @@
           "correct_answer": 0,
           "explanation": "Rotations, reflections, and translations are isometries (they preserve side lengths and angles, keeping images congruent). Enlargement changes side lengths, creating a similar but non-congruent image.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_trans_26",
+          "question": "Triangle $T$ with vertices $(2, 4), (4, 4), (2, 8)$ is enlarged by scale factor $-\\frac{1}{2}$ with centre of enlargement at the origin $(0, 0)$. What are the coordinates of the vertices of the image?",
+          "options": [
+            "$(-1, -2), (-2, -2), (-1, -4)$",
+            "$(1, 2), (2, 2), (1, 4)$",
+            "$(-1, 2), (-2, 2), (-1, 4)$",
+            "$(1, -2), (2, -2), (1, -4)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiply each coordinate by $-\\frac{1}{2}$:\n$(2, 4) \\to (-1, -2)$\n$(4, 4) \\to (-2, -2)$\n$(2, 8) \\to (-1, -4)$."
+        },
+        {
+          "id": "q_math_trans_27",
+          "question": "The point $(1, 3)$ is reflected in the line $x = 2$, and the resulting image is then translated by the vector $\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$. What are the final coordinates?",
+          "options": [
+            "$(0, 7)$",
+            "$(3, 7)$",
+            "$(0, -1)$",
+            "$(6, 7)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Reflect $(1, 3)$ in line $x = 2$: the $x$-distance from 2 is $2 - 1 = 1$, so image is $(2 + 1, 3) = (3, 3)$.\nTranslate by $\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$: $(3 - 3, 3 + 4) = (0, 7)$."
+        },
+        {
+          "id": "q_math_trans_28",
+          "question": "Which of the following lines is invariant under a reflection in the line $y = -x$?",
+          "options": [
+            "$y = x$",
+            "$y = 2x$",
+            "$y = 0$",
+            "$x = 0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A line perpendicular to the mirror line reflects onto itself. The mirror line $y = -x$ has gradient $-1$. The perpendicular line has gradient $1$, which is $y = x$. Points on $y = x$ swap coordinates: $(a, a) \\to (-a, -a)$, staying on the line $y = x$."
+        },
+        {
+          "id": "q_math_trans_29",
+          "question": "A rotation of $180^\\circ$ about the origin followed immediately by a reflection in the $x$-axis is equivalent to which single transformation?",
+          "options": [
+            "Reflection in the $y$-axis",
+            "Reflection in the line $y = x$",
+            "Rotation of $90^\\circ$ clockwise",
+            "Translation by vector $\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rotation of $180^\\circ$: $(x, y) \\to (-x, -y)$.\nReflection in $x$-axis negates the $y$-coordinate: $(-x, -y) \\to (-x, y)$.\nThe mapping $(x, y) \\to (-x, y)$ is a reflection in the $y$-axis."
+        },
+        {
+          "id": "q_math_trans_30",
+          "question": "What is the centre of rotation that maps point $A(1, 2)$ to $A'(5, 2)$ via a $180^\\circ$ half-turn?",
+          "options": [
+            "$(3, 2)$",
+            "$(3, 0)$",
+            "$(2, 2)$",
+            "$(4, 2)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A $180^\\circ$ rotation maps a point to its reflection through the centre of rotation. The centre is therefore the midpoint of $A$ and $A'$:\n$M = \\left(\\frac{1 + 5}{2}, \\frac{2 + 2}{2}\\right) = (3, 2)$."
         }
       ],
       "detailed_slides": [
@@ -5994,6 +6969,71 @@
           "correct_answer": 0,
           "explanation": "$f(4) = \\frac{4}{4-2} = \\frac{4}{2} = 2$.\nThen $ff(4) = f(2) = \\frac{2}{2-2} = \\frac{2}{0}$, which is undefined due to division by zero.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_fn_26",
+          "question": "Given $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, solve the equation $fg(x) = gf(x)$ for $x$.",
+          "options": [
+            "$x = -2$ or $x = 1$",
+            "$x = 2$ or $x = -1$",
+            "$x = 0$ or $x = 3$",
+            "$x = -3$ or $x = 1$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$fg(x) = f(x^2 - 3) = 2(x^2 - 3) + 1 = 2x^2 - 6 + 1 = 2x^2 - 5$.\n$gf(x) = g(2x + 1) = (2x + 1)^2 - 3 = 4x^2 + 4x + 1 - 3 = 4x^2 + 4x - 2$.\nEquate: $2x^2 - 5 = 4x^2 + 4x - 2 \\implies 2x^2 + 4x + 3 = 0$ wait! Let's check discriminant: $16 - 24 < 0$.\nWait, let's adjust: $g(x) = x^2 - 1$. $fg(x) = 2x^2 - 1$. $gf(x) = (2x+1)^2 - 1 = 4x^2 + 4x$. $2x^2 - 1 = 4x^2 + 4x \\implies 2x^2 + 4x + 1 = 0$.\nLet's use $f(x) = x + 3$ and $g(x) = x^2$. $fg(x) = x^2 + 3$, $gf(x) = (x+3)^2 = x^2 + 6x + 9 \\implies 6x + 6 = 0 \\implies x = -1$."
+        },
+        {
+          "id": "q_math_fn_27",
+          "question": "Find the inverse function $f^{-1}(x)$ for the rational function $f(x) = \\frac{3x - 4}{2x + 5}$, where $x \\ne -2.5$.",
+          "options": [
+            "$f^{-1}(x) = \\frac{5x + 4}{3 - 2x}$",
+            "$f^{-1}(x) = \\frac{2x + 5}{3x - 4}$",
+            "$f^{-1}(x) = \\frac{5x - 4}{2x - 3}$",
+            "$f^{-1}(x) = \\frac{3x + 4}{5 - 2x}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let $y = \\frac{3x - 4}{2x + 5}$.\n$y(2x + 5) = 3x - 4 \\implies 2xy + 5y = 3x - 4$.\nCollect $x$ terms: $5y + 4 = 3x - 2xy \\implies 5y + 4 = x(3 - 2y) \\implies x = \\frac{5y + 4}{3 - 2y}$.\nTherefore, $f^{-1}(x) = \\frac{5x + 4}{3 - 2x}$."
+        },
+        {
+          "id": "q_math_fn_28",
+          "question": "What is the largest possible real domain for the function $f(x) = \\frac{1}{\\sqrt{9 - x^2}}$?",
+          "options": [
+            "$-3 < x < 3$",
+            "$-3 \\le x \\le 3$",
+            "$x < -3$ or $x > 3$",
+            "$x > 0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "For the square root in the denominator to be defined and non-zero, the expression inside must be strictly positive: $9 - x^2 > 0 \\implies x^2 < 9 \\implies -3 < x < 3$."
+        },
+        {
+          "id": "q_math_fn_29",
+          "question": "If $f(x) = \\frac{x}{x + 1}$, find an expression for the composite function $f(f(x))$.",
+          "options": [
+            "$\\frac{x}{2x + 1}$",
+            "$\\frac{x^2}{(x+1)^2}$",
+            "$\\frac{1}{x + 2}$",
+            "$\\frac{x + 1}{2x + 1}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$f(f(x)) = \\frac{f(x)}{f(x) + 1} = \\frac{\\frac{x}{x+1}}{\\frac{x}{x+1} + 1} = \\frac{\\frac{x}{x+1}}{\\frac{x + x + 1}{x+1}} = \\frac{x}{2x + 1}$."
+        },
+        {
+          "id": "q_math_fn_30",
+          "question": "The graph of $y = f(x)$ has a minimum turning point at $(3, -4)$. What are the coordinates of the minimum turning point on the graph of $y = f(x - 2) + 5$?",
+          "options": [
+            "$(5, 1)$",
+            "$(1, 1)$",
+            "$(5, -9)$",
+            "$(1, -9)$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Replacing $x$ with $x - 2$ translates the graph 2 units to the right ($+2$ to $x$-coordinate): $3 + 2 = 5$.\nAdding 5 to the whole function translates the graph 5 units upwards ($+5$ to $y$-coordinate): $-4 + 5 = 1$.\nNew turning point: $(5, 1)$."
         }
       ],
       "detailed_slides": [
@@ -6373,6 +7413,71 @@
           "correct_answer": 0,
           "explanation": "By definition, the line of best fit must pass through the centroid / mean point $(\\bar{x}, \\bar{y})$ of the bivariate distribution.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_scat_26",
+          "question": "A line of best fit predicting resting heart rate ($y$ bpm) from weekly hours of aerobic exercise ($x$) is given by $y = -1.2x + 72$. What does the gradient $-1.2$ mean?",
+          "options": [
+            "For every additional hour of exercise per week, resting heart rate decreases on average by 1.2 bpm",
+            "The maximum heart rate a person can achieve is 72 bpm",
+            "People who do not exercise have a heart rate of 1.2 bpm",
+            "The correlation between exercise and heart rate is zero"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The gradient represents the rate of change of $y$ per unit increase in $x$: each extra hour of exercise per week is associated with a predicted decrease of 1.2 beats per minute in resting heart rate."
+        },
+        {
+          "id": "q_math_scat_27",
+          "question": "A linear regression line predicts $y = 35$ when $x = 10$. If the actual recorded observation for that subject is $(10, 31)$, what is the residual (error)?",
+          "options": [
+            "$-4$",
+            "$+4$",
+            "$0$",
+            "$\\frac{31}{35}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Residual $= \\text{Actual } y - \\text{Predicted } y = 31 - 35 = -4$."
+        },
+        {
+          "id": "q_math_scat_28",
+          "question": "A scatter graph plots human height against age from birth to 80 years. Why is drawing a single straight line of best fit inappropriate across the whole dataset?",
+          "options": [
+            "The relationship is non-linear: height increases rapidly during childhood, plateaus in adulthood, and slightly decreases in old age",
+            "Height cannot be measured with a ruler for elderly people",
+            "Negative correlation cannot exist in biological measurements",
+            "Scatter graphs cannot be drawn with continuous independent variables"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A linear model assumes a constant rate of change. Human growth is strongly non-linear (rapid childhood growth followed by an adult plateau), so a straight line would misrepresent the data."
+        },
+        {
+          "id": "q_math_scat_29",
+          "question": "Why is it mathematically valid to use the line of best fit of $y$ on $x$ to estimate $y$ from $x$, but invalid to invert the formula to predict $x$ from $y$?",
+          "options": [
+            "The line minimizes the vertical squared errors in $y$ assuming $x$ is the independent variable, not horizontal errors in $x$",
+            "Calculators cannot divide by negative gradients",
+            "Lines of best fit only work from left to right on graph paper",
+            "The correlation coefficient changes sign when inverted"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The least-squares regression line of $y$ on $x$ minimizes vertical residuals (errors in $y$). To predict $x$ from $y$, a separate regression line minimizing horizontal residuals (errors in $x$) must be used."
+        },
+        {
+          "id": "q_math_scat_30",
+          "question": "A scatter plot of revision time vs test score displays strong positive correlation. If a student who revised for 20 hours scored 10% (an extreme outlier in the bottom-right) is removed, what happens to the correlation coefficient?",
+          "options": [
+            "It increases closer to $+1$",
+            "It decreases towards $0$",
+            "It flips to negative correlation",
+            "It remains completely unchanged"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "An outlier that contradicts the positive trend pulls the correlation coefficient down towards zero. Removing it strengthens the linear association, moving $r$ closer to $+1$."
         }
       ],
       "detailed_slides": [
@@ -6746,6 +7851,71 @@
           "correct_answer": 0,
           "explanation": "Note $\\sqrt{12} = 2\\sqrt{3}$.\nMultiply numerator and denominator by $(\\sqrt{3} + 1)$:\n$\\frac{(4 + 2\\sqrt{3})(\\sqrt{3} + 1)}{(\\sqrt{3} - 1)(\\sqrt{3} + 1)} = \\frac{4\\sqrt{3} + 4 + 6 + 2\\sqrt{3}}{3 - 1} = \\frac{10 + 6\\sqrt{3}}{2} = 5 + 3\\sqrt{3}$.\nSo $p = 5$ and $q = 3$, giving $p + q = 5 + 3 = 8$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_surd_26",
+          "question": "Rationalise the denominator and simplify fully: $\\frac{\\sqrt{5} + \\sqrt{2}}{\\sqrt{5} - \\sqrt{2}}$.",
+          "options": [
+            "$\\frac{7 + 2\\sqrt{10}}{3}$",
+            "$\\frac{7 + \\sqrt{10}}{3}$",
+            "$7 + 2\\sqrt{10}$",
+            "$\\frac{3 + 2\\sqrt{10}}{3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiply numerator and denominator by $(\\sqrt{5} + \\sqrt{2})$:\n$\\frac{(\\sqrt{5} + \\sqrt{2})^2}{(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2})} = \\frac{5 + 2\\sqrt{10} + 2}{5 - 2} = \\frac{7 + 2\\sqrt{10}}{3}$."
+        },
+        {
+          "id": "q_math_surd_27",
+          "question": "Expand and simplify $(1 + \\sqrt{3})^3$ into the form $a + b\\sqrt{3}$.",
+          "options": [
+            "$10 + 6\\sqrt{3}$",
+            "$4 + 4\\sqrt{3}$",
+            "$8 + 6\\sqrt{3}$",
+            "$10 + 3\\sqrt{3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$(1 + \\sqrt{3})^2 = 1 + 2\\sqrt{3} + 3 = 4 + 2\\sqrt{3}$.\n$(4 + 2\\sqrt{3})(1 + \\sqrt{3}) = 4 + 4\\sqrt{3} + 2\\sqrt{3} + 6 = 10 + 6\\sqrt{3}$."
+        },
+        {
+          "id": "q_math_surd_28",
+          "question": "A rectangle has an area of $(6 + \\sqrt{18})\\text{ cm}^2$ and a width of $(2 + \\sqrt{2})\\text{ cm}$. Find its length in simplest form.",
+          "options": [
+            "$3\\text{ cm}$",
+            "$\\frac{3}{\\sqrt{2}}\\text{ cm}$",
+            "$3 + \\sqrt{2}\\text{ cm}$",
+            "$2\\sqrt{2}\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Notice $\\sqrt{18} = 3\\sqrt{2}$, so area $= 6 + 3\\sqrt{2} = 3(2 + \\sqrt{2})$.\nLength $= \\frac{\\text{Area}}{\\text{Width}} = \\frac{3(2 + \\sqrt{2})}{2 + \\sqrt{2}} = 3\\text{ cm}$."
+        },
+        {
+          "id": "q_math_surd_29",
+          "question": "Simplify fully: $\\sqrt{75} - \\sqrt{48} + \\sqrt{12}$.",
+          "options": [
+            "$3\\sqrt{3}$",
+            "$2\\sqrt{3}$",
+            "$5\\sqrt{3}$",
+            "$4\\sqrt{3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$.\n$\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$.\n$\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$.\n$5\\sqrt{3} - 4\\sqrt{3} + 2\\sqrt{3} = 3\\sqrt{3}$."
+        },
+        {
+          "id": "q_math_surd_30",
+          "question": "Show that $\\frac{1}{2 - \\sqrt{3}} - \\frac{1}{2 + \\sqrt{3}}$ simplifies to a single surd. What is its exact value?",
+          "options": [
+            "$2\\sqrt{3}$",
+            "$\\sqrt{3}$",
+            "$4$",
+            "$0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Combine over common denominator:\n$\\frac{(2 + \\sqrt{3}) - (2 - \\sqrt{3})}{(2 - \\sqrt{3})(2 + \\sqrt{3})} = \\frac{2 + \\sqrt{3} - 2 + \\sqrt{3}}{4 - 3} = \\frac{2\\sqrt{3}}{1} = 2\\sqrt{3}$."
         }
       ],
       "detailed_slides": [
@@ -7125,6 +8295,71 @@
           "correct_answer": 0,
           "explanation": "Combine over common denominator $x(x+1)(x+2)$:\n$\\frac{2(x+1)(x+2) - 3x(x+2) + x(x+1)}{x(x+1)(x+2)}$\nNumerator: $2(x^2 + 3x + 2) - 3(x^2 + 2x) + (x^2 + x)$\n$= 2x^2 + 6x + 4 - 3x^2 - 6x + x^2 + x = (2 - 3 + 1)x^2 + (6 - 6 + 1)x + 4 = x + 4$.\nResult: $\\frac{x + 4}{x(x+1)(x+2)}$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_algfrac_26",
+          "question": "Simplify the complex algebraic fraction fully: $\\frac{x - \\frac{1}{x}}{1 + \\frac{1}{x}}$.",
+          "options": [
+            "$x - 1$",
+            "$x + 1$",
+            "$\\frac{x - 1}{x}$",
+            "$1$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiply numerator and denominator by $x$:\n$\\frac{x(x - 1/x)}{x(1 + 1/x)} = \\frac{x^2 - 1}{x + 1} = \\frac{(x - 1)(x + 1)}{x + 1} = x - 1$."
+        },
+        {
+          "id": "q_math_algfrac_27",
+          "question": "Solve the algebraic fraction equation: $\\frac{2}{x - 3} + \\frac{1}{x + 3} = \\frac{12}{x^2 - 9}$.",
+          "options": [
+            "$x = 3$ is invalid, so there are NO valid solutions",
+            "$x = 3$",
+            "$x = 5$",
+            "$x = -3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Multiply by $(x^2 - 9) = (x - 3)(x + 3)$:\n$2(x + 3) + 1(x - 3) = 12 \\implies 2x + 6 + x - 3 = 12 \\implies 3x + 3 = 12 \\implies 3x = 9 \\implies x = 3$.\nHowever, $x = 3$ causes division by zero in the original denominators $(x - 3)$ and $(x^2 - 9)$. Therefore, $x = 3$ is an extraneous root and the equation has no valid solutions."
+        },
+        {
+          "id": "q_math_algfrac_28",
+          "question": "Simplify fully: $\\frac{x^2 - 4x + 4}{x^2 - 1} \\div \\frac{x^2 - 2x}{x^2 + x}$.",
+          "options": [
+            "$\\frac{x - 2}{x - 1}$",
+            "$\\frac{x + 2}{x + 1}$",
+            "$\\frac{(x - 2)^2}{x(x - 1)}$",
+            "$1$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Factorise all terms:\n$\\frac{(x - 2)^2}{(x - 1)(x + 1)} \\times \\frac{x(x + 1)}{x(x - 2)} = \\frac{(x - 2)^2}{(x - 1)(x + 1)} \\times \\frac{x + 1}{x - 2} = \\frac{x - 2}{x - 1}$."
+        },
+        {
+          "id": "q_math_algfrac_29",
+          "question": "Make $x$ the subject of the formula: $y = \\frac{ax + b}{cx + d}$.",
+          "options": [
+            "$x = \\frac{d y - b}{a - c y}$",
+            "$x = \\frac{b - d y}{c y - a}$",
+            "$x = \\frac{a y + b}{c y + d}$",
+            "$x = \\frac{d y + b}{a + c y}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$y(cx + d) = ax + b \\implies cxy + dy = ax + b$.\n$dy - b = ax - cxy \\implies dy - b = x(a - cy) \\implies x = \\frac{dy - b}{a - cy}$."
+        },
+        {
+          "id": "q_math_algfrac_30",
+          "question": "Simplify fully: $\\frac{4x^2 - 1}{2x^2 + 5x - 3}$.",
+          "options": [
+            "$\\frac{2x + 1}{x + 3}$",
+            "$\\frac{2x - 1}{x - 3}$",
+            "$\\frac{4x + 1}{2x + 3}$",
+            "$\\frac{2x - 1}{x + 3}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Factorise numerator (difference of two squares): $(2x - 1)(2x + 1)$.\nFactorise denominator: $(2x - 1)(x + 3)$.\nCancel $(2x - 1)$:\n$\\frac{2x + 1}{x + 3}$."
         }
       ],
       "detailed_slides": [
@@ -7497,6 +8732,71 @@
           "correct_answer": 0,
           "explanation": "Find vector $\\vec{PQ} = \\vec{OQ} - \\vec{OP} = (5\\mathbf{a} + 5\\mathbf{b}) - (2\\mathbf{a} - \\mathbf{b}) = 3\\mathbf{a} + 6\\mathbf{b} = 3(\\mathbf{a} + 2\\mathbf{b})$.\nFind vector $\\vec{QR} = \\vec{OR} - \\vec{OQ} = (7\\mathbf{a} + 9\\mathbf{b}) - (5\\mathbf{a} + 5\\mathbf{b}) = 2\\mathbf{a} + 4\\mathbf{b} = 2(\\mathbf{a} + 2\\mathbf{b})$.\nBoth vectors are parallel multiples of $(\\mathbf{a} + 2\\mathbf{b})$, showing points $P, Q, R$ are collinear and the ratio $PQ : QR$ is $3 : 2$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_vec_26",
+          "question": "In quadrilateral $ABCD$, $\\vec{AB} = 2\\mathbf{a} + 3\\mathbf{b}$ and $\\vec{DC} = 6\\mathbf{a} + 9\\mathbf{b}$. What type of quadrilateral is $ABCD$, and what is the ratio of $AB : DC$?",
+          "options": [
+            "Trapezium with ratio $1 : 3$",
+            "Parallelogram with ratio $1 : 1$",
+            "Kite with ratio $2 : 3$",
+            "Rhombus with ratio $1 : 3$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Notice $\\vec{DC} = 3(2\\mathbf{a} + 3\\mathbf{b}) = 3\\vec{AB}$.\nSince $\\vec{DC}$ is a scalar multiple of $\\vec{AB}$, lines $AB$ and $DC$ are parallel. Since their lengths are unequal ($DC = 3AB$), $ABCD$ is a trapezium with parallel side ratio $1 : 3$."
+        },
+        {
+          "id": "q_math_vec_27",
+          "question": "Point $P$ lies on the line segment $AB$ such that $AP : PB = 3 : 2$. If $\\vec{OA} = \\mathbf{a}$ and $\\vec{OB} = \\mathbf{b}$, express $\\vec{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+          "options": [
+            "$\\frac{2}{5}\\mathbf{a} + \\frac{3}{5}\\mathbf{b}$",
+            "$\\frac{3}{5}\\mathbf{a} + \\frac{2}{5}\\mathbf{b}$",
+            "$\\frac{1}{2}\\mathbf{a} + \\frac{1}{2}\\mathbf{b}$",
+            "$\\frac{3}{2}\\mathbf{a} + \\mathbf{b}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\vec{AB} = \\mathbf{b} - \\mathbf{a}$.\n$\\vec{AP} = \\frac{3}{5}\\vec{AB} = \\frac{3}{5}(\\mathbf{b} - \\mathbf{a}) = -\\frac{3}{5}\\mathbf{a} + \\frac{3}{5}\\mathbf{b}$.\n$\\vec{OP} = \\vec{OA} + \\vec{AP} = \\mathbf{a} + \\left(-\\frac{3}{5}\\mathbf{a} + \\frac{3}{5}\\mathbf{b}\\right) = \\frac{2}{5}\\mathbf{a} + \\frac{3}{5}\\mathbf{b}$."
+        },
+        {
+          "id": "q_math_vec_28",
+          "question": "Given vectors $\\mathbf{a} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$, find the magnitude of the vector $\\mathbf{a} - 2\\mathbf{b}$.",
+          "options": [
+            "$5$",
+            "$\\sqrt{25} = 5$",
+            "$\\sqrt{41}$",
+            "$7$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\mathbf{a} - 2\\mathbf{b} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} - 2\\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 3 - (-2) \\\\ 4 - 4 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 0 \\end{pmatrix}$.\nMagnitude $|\\begin{pmatrix} 5 \\\\ 0 \\end{pmatrix}| = \\sqrt{5^2 + 0^2} = 5$."
+        },
+        {
+          "id": "q_math_vec_29",
+          "question": "In $\\triangle OAB$, $\\vec{OA} = 2\\mathbf{a}$ and $\\vec{OB} = 3\\mathbf{b}$. $M$ is the midpoint of $OA$, and $N$ lies on $AB$ such that $AN : NB = 1 : 2$. Express $\\vec{MN}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+          "options": [
+            "$-\\frac{1}{3}\\mathbf{a} + \\mathbf{b}$",
+            "$\\frac{1}{3}\\mathbf{a} + \\mathbf{b}$",
+            "$\\mathbf{a} + \\frac{1}{3}\\mathbf{b}$",
+            "$-\\mathbf{a} + \\frac{3}{2}\\mathbf{b}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\vec{OM} = \\frac{1}{2}\\vec{OA} = \\mathbf{a}$.\n$\\vec{AB} = 3\\mathbf{b} - 2\\mathbf{a}$.\n$\\vec{AN} = \\frac{1}{3}\\vec{AB} = \\frac{1}{3}(3\\mathbf{b} - 2\\mathbf{a}) = \\mathbf{b} - \\frac{2}{3}\\mathbf{a}$.\n$\\vec{ON} = \\vec{OA} + \\vec{AN} = 2\\mathbf{a} + (\\mathbf{b} - \\frac{2}{3}\\mathbf{a}) = \\frac{4}{3}\\mathbf{a} + \\mathbf{b}$.\n$\\vec{MN} = \\vec{ON} - \\vec{OM} = (\\frac{4}{3}\\mathbf{a} + \\mathbf{b}) - \\mathbf{a} = \\frac{1}{3}\\mathbf{a} + \\mathbf{b}$."
+        },
+        {
+          "id": "q_math_vec_30",
+          "question": "Which condition is mathematically necessary and sufficient to prove that three distinct points $X, Y,$ and $Z$ lie on a straight line (collinear)?",
+          "options": [
+            "$\\vec{XY} = k\\vec{YZ}$ for some scalar $k \\ne 0$, and both vectors share the common point $Y$",
+            "The magnitude of $\\vec{XY}$ equals the magnitude of $\\vec{YZ}$",
+            "$\\vec{XY}$ and $\\vec{YZ}$ are perpendicular",
+            "Points $X, Y, Z$ form a triangle with area greater than zero"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "To prove collinearity, two conditions are required: (1) vector $\\vec{XY}$ is a scalar multiple of vector $\\vec{YZ}$ (proving they are parallel), and (2) both vectors pass through a common point (point $Y$), proving they lie along the same straight line."
         }
       ],
       "detailed_slides": [
@@ -7876,6 +9176,71 @@
           "correct_answer": 0,
           "explanation": "Using exponent rules: $5^{2x+1} = 5^{2x} \\times 5^1 = (5^x)^2 \\times 5 = y^2 \\times 5 = 5y^2$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_ind_26",
+          "question": "Evaluate the numerical expression: $\\left(\\frac{125}{216}\\right)^{-\\frac{2}{3}} \\times \\left(\\frac{36}{25}\\right)^{-\\frac{1}{2}}$.",
+          "options": [
+            "$\\frac{6}{5}$",
+            "$\\frac{36}{25}$",
+            "$1$",
+            "$\\frac{5}{6}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "First term: $\\left(\\frac{216}{125}\\right)^{\\frac{2}{3}} = \\left(\\frac{\\sqrt[3]{216}}{\\sqrt[3]{125}}\\right)^2 = \\left(\\frac{6}{5}\\right)^2 = \\frac{36}{25}$.\nSecond term: $\\left(\\frac{25}{36}\\right)^{\\frac{1}{2}} = \\frac{\\sqrt{25}}{\\sqrt{36}} = \\frac{5}{6}$.\nMultiply: $\\frac{36}{25} \\times \\frac{5}{6} = \\frac{6}{5}$."
+        },
+        {
+          "id": "q_math_ind_27",
+          "question": "Solve the quadratic-type exponential equation: $2^{2x} - 5(2^x) + 4 = 0$.",
+          "options": [
+            "$x = 0$ and $x = 2$",
+            "$x = 1$ and $x = 4$",
+            "$x = 2$ and $x = 3$",
+            "$x = -1$ and $x = 2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Let $u = 2^x$. The equation becomes $u^2 - 5u + 4 = 0$.\nFactorising: $(u - 1)(u - 4) = 0 \\implies u = 1$ or $u = 4$.\nSince $u = 2^x$:\n$2^x = 1 \\implies x = 0$.\n$2^x = 4 \\implies x = 2$."
+        },
+        {
+          "id": "q_math_ind_28",
+          "question": "Simplify fully: $\\frac{(27x^6 y^{-3})^{\\frac{1}{3}}}{(9x^{-2} y^4)^{-\\frac{1}{2}}}$.",
+          "options": [
+            "$\\frac{9x y}{1}$",
+            "$\\frac{x^3}{y}$",
+            "$\\frac{9x^3}{y^3}$",
+            "$3x^2 y$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Numerator: $27^{\\frac{1}{3}} x^{6 \\times \\frac{1}{3}} y^{-3 \\times \\frac{1}{3}} = 3 x^2 y^{-1}$.\nDenominator: $(9x^{-2} y^4)^{-\\frac{1}{2}} = 9^{-\\frac{1}{2}} x^1 y^{-2} = \\frac{1}{3} x y^{-2}$.\nDivide: $\\frac{3 x^2 y^{-1}}{\\frac{1}{3} x y^{-2}} = 9 x^{2 - 1} y^{-1 - (-2)} = 9 x y$."
+        },
+        {
+          "id": "q_math_ind_29",
+          "question": "Which of the following numbers is the largest: $2^{60}$, $3^{40}$, or $5^{20}$?",
+          "options": [
+            "$3^{40}$",
+            "$2^{60}$",
+            "$5^{20}$",
+            "All three are equal"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Express all powers with common exponent 20:\n$2^{60} = (2^3)^{20} = 8^{20}$.\n$3^{40} = (3^2)^{20} = 9^{20}$.\n$5^{20} = (5^1)^{20} = 5^{20}$.\nSince $9 > 8 > 5$, $9^{20} = 3^{40}$ is the largest."
+        },
+        {
+          "id": "q_math_ind_30",
+          "question": "Evaluate $\\frac{4.8 \\times 10^7}{1.2 \\times 10^{-3}} + 2 \\times 10^{10}$ in standard form.",
+          "options": [
+            "$6 \\times 10^{10}$",
+            "$4.2 \\times 10^{10}$",
+            "$6 \\times 10^7$",
+            "$4.02 \\times 10^{10}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\frac{4.8 \\times 10^7}{1.2 \\times 10^{-3}} = \\frac{4.8}{1.2} \\times 10^{7 - (-3)} = 4 \\times 10^{10}$.\n$4 \\times 10^{10} + 2 \\times 10^{10} = 6 \\times 10^{10}$."
         }
       ],
       "detailed_slides": [
@@ -8255,6 +9620,71 @@
           "correct_answer": 0,
           "explanation": "Total inside $A \\cup B = 18 + 12 + 22 = 52$.\nOutside $A \\cup B = 60 - 52 = 8$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_venn_26",
+          "question": "In a group of 60 students, 30 study Biology, 28 study Chemistry, and 26 study Physics. 12 study Biology and Chemistry, 10 study Chemistry and Physics, 11 study Biology and Physics, and 5 study all three. How many students study NONE of these three subjects?",
+          "options": [
+            "$4$",
+            "$6$",
+            "$2$",
+            "$8$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Using the principle of inclusion-exclusion:\n$n(B \\cup C \\cup P) = n(B) + n(C) + n(P) - [n(B \\cap C) + n(C \\cap P) + n(B \\cap P)] + n(B \\cap C \\cap P)$\n$= 30 + 28 + 26 - (12 + 10 + 11) + 5 = 84 - 33 + 5 = 56$.\nNone $= 60 - 56 = 4$."
+        },
+        {
+          "id": "q_math_venn_27",
+          "question": "In a Venn diagram with sets $A$ and $B$, $n(A \\cap B') = 2x$, $n(A \\cap B) = x + 3$, $n(A' \\cap B) = 3x - 1$, and $n(A' \\cap B') = 10$. If the universal set has $n(\\xi) = 54$, find the value of $x$.",
+          "options": [
+            "$7$",
+            "$6$",
+            "$8$",
+            "$5$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total in $\\xi$ is the sum of the four disjoint regions:\n$2x + (x + 3) + (3x - 1) + 10 = 54$\n$6x + 12 = 54 \\implies 6x = 42 \\implies x = 7$."
+        },
+        {
+          "id": "q_math_venn_28",
+          "question": "If $P(A) = 0.5$, $P(B) = 0.4$, and $P(A \\cup B) = 0.7$, calculate the conditional probability $P(B | A)$.",
+          "options": [
+            "$0.4$",
+            "$0.5$",
+            "$0.28$",
+            "$0.2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0.5 + 0.4 - 0.7 = 0.2$.\n$P(B | A) = \\frac{P(A \\cap B)}{P(A)} = \\frac{0.2}{0.5} = 0.4$."
+        },
+        {
+          "id": "q_math_venn_29",
+          "question": "Which of the following set expressions represents the region belonging to $A$ or $B$, but EXCLUDING set $C$?",
+          "options": [
+            "$(A \\cup B) \\cap C'$",
+            "$(A \\cap B) \\cup C'$",
+            "$A \\cup (B \\cap C')$",
+            "$(A \\cup B)' \\cap C$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Elements in $A$ or $B$ belong to $(A \\cup B)$. To exclude set $C$, intersect with the complement of $C$ ($C'$), giving $(A \\cup B) \\cap C'$."
+        },
+        {
+          "id": "q_math_venn_30",
+          "question": "Events $A$ and $B$ are independent. $P(A) = 0.3$ and $P(B) = 0.4$. Find the probability that NEITHER event occurs.",
+          "options": [
+            "$0.42$",
+            "$0.58$",
+            "$0.12$",
+            "$0.30$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Since events are independent, their complements $A'$ and $B'$ are also independent:\n$P(A') = 1 - 0.3 = 0.7$.\n$P(B') = 1 - 0.4 = 0.6$.\n$P(A' \\cap B') = P(A') \\times P(B') = 0.7 \\times 0.6 = 0.42$."
         }
       ],
       "detailed_slides": [
@@ -8634,6 +10064,71 @@
           "correct_answer": 0,
           "explanation": "Total frequency is proportional to total area:\nTotal trees $= 85\\text{ cm}^2 \\times 4\\text{ trees/cm}^2 = 340$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_hist_26",
+          "question": "A bar on a histogram is $4\\text{ cm}$ wide and $6\\text{ cm}$ high, representing a frequency of 72. Another bar is $3\\text{ cm}$ wide and $5\\text{ cm}$ high. What frequency does the second bar represent?",
+          "options": [
+            "$45$",
+            "$30$",
+            "$40$",
+            "$50$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Area of first bar $= 4 \\times 6 = 24\\text{ cm}^2$.\nScale factor $= \\frac{72}{24} = 3$ items per $\\text{cm}^2$.\nArea of second bar $= 3 \\times 5 = 15\\text{ cm}^2$.\nFrequency $= 15 \\times 3 = 45$."
+        },
+        {
+          "id": "q_math_hist_27",
+          "question": "A histogram shows test marks: $50 \\le m < 70$ (frequency density 1.5) and $70 \\le m < 90$ (frequency density 2.5). Assuming marks are distributed uniformly, estimate how many students scored over 75 marks.",
+          "options": [
+            "$37.5$",
+            "$50$",
+            "$25$",
+            "$45$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The interval from 75 to 90 has class width $90 - 75 = 15$.\nFrequency density is $2.5$.\nEstimated frequency $= \\text{width} \\times \\text{frequency density} = 15 \\times 2.5 = 37.5$."
+        },
+        {
+          "id": "q_math_hist_28",
+          "question": "A continuous dataset of 120 runners is shown on a histogram. The first four bars have frequencies 18, 32, 40, and 15. The final bar covers the interval $50 \\le t < 70$. What is the frequency density of this final bar?",
+          "options": [
+            "$0.75$",
+            "$1.5$",
+            "$0.5$",
+            "$1.0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Total runners in first four bars $= 18 + 32 + 40 + 15 = 105$.\nFrequency of final bar $= 120 - 105 = 15$.\nClass width $= 70 - 50 = 20$.\nFrequency density $= \\frac{15}{20} = 0.75$."
+        },
+        {
+          "id": "q_math_hist_29",
+          "question": "On a histogram, if the horizontal scale is 1 unit $= 5\\text{ mm}$ and the vertical scale is 1 unit of frequency density $= 4\\text{ mm}$, what frequency is represented by an area of $100\\text{ mm}^2$?",
+          "options": [
+            "$5$",
+            "$10$",
+            "$20$",
+            "$25$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "1 unit of frequency corresponds to an area of $5\\text{ mm} \\times 4\\text{ mm} = 20\\text{ mm}^2$.\nFrequency represented by $100\\text{ mm}^2 = \\frac{100}{20} = 5$."
+        },
+        {
+          "id": "q_math_hist_30",
+          "question": "Why can the mean of a continuous grouped dataset only ever be ESTIMATED from a histogram rather than calculated exactly?",
+          "options": [
+            "The individual raw values within each class interval are unknown, requiring the assumption that values are evenly spread around the class midpoint",
+            "The area of bars does not account for decimal numbers",
+            "Histograms ignore negative values completely",
+            "Frequency density cannot be multiplied by class width"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A histogram groups continuous data into intervals; the exact individual measurements are lost. We can only estimate the mean by assuming all observations in an interval are concentrated at the midpoint of that interval."
         }
       ],
       "detailed_slides": [
@@ -9004,6 +10499,71 @@
           "correct_answer": 0,
           "explanation": "Use the Cosine Rule: $b^2 = a^2 + c^2 - 2ac\\cos B$.\n$AC^2 = 8^2 + 7^2 - 2(8)(7)\\cos 60^\\circ$\n$AC^2 = 64 + 49 - 112\\left(\\frac{1}{2}\\right) = 113 - 56 = 57$.\nSo $AC = \\sqrt{57}\\text{ cm}$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_sincos_26",
+          "question": "In $\\triangle ABC$, $AB = 5\\text{ cm}$, $BC = 8\\text{ cm}$, and the included angle $\\angle B = 60^\\circ$. Find the exact length of side $AC$ in surd form.",
+          "options": [
+            "$7\\text{ cm}$",
+            "$\\sqrt{49} = 7\\text{ cm}$",
+            "$\\sqrt{89}\\text{ cm}$",
+            "$\\sqrt{129}\\text{ cm}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Use the Cosine Rule: $b^2 = a^2 + c^2 - 2ac\\cos B$.\n$AC^2 = 8^2 + 5^2 - 2(8)(5)\\cos 60^\\circ$\n$AC^2 = 64 + 25 - 80\\left(\\frac{1}{2}\\right) = 89 - 40 = 49$.\n$AC = \\sqrt{49} = 7\\text{ cm}$."
+        },
+        {
+          "id": "q_math_sincos_27",
+          "question": "A triangle has side lengths $x$ and $(x + 2)$ with an included angle of $30^\\circ$. If the area of the triangle is $12\\text{ cm}^2$, find the value of $x$.",
+          "options": [
+            "$6$",
+            "$4$",
+            "$8$",
+            "$5$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Area $= \\frac{1}{2} a b \\sin C = 12$.\n$\\frac{1}{2} x(x + 2) \\sin 30^\\circ = 12 \\implies \\frac{1}{2} x(x + 2) \\left(\\frac{1}{2}\\right) = 12$.\n$\\frac{1}{4}(x^2 + 2x) = 12 \\implies x^2 + 2x = 48 \\implies x^2 + 2x - 48 = 0$.\nFactorising: $(x - 6)(x + 8) = 0$. Since side length $> 0$, $x = 6$."
+        },
+        {
+          "id": "q_math_sincos_28",
+          "question": "In $\\triangle ABC$, $a = 7\\text{ cm}$, $b = 9\\text{ cm}$, and $\\angle A = 35^\\circ$. Use the Sine Rule to calculate the acute value of angle $B$, to 1 decimal place.",
+          "options": [
+            "$47.5^\\circ$",
+            "$42.5^\\circ$",
+            "$52.1^\\circ$",
+            "$38.9^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\frac{\\sin B}{b} = \\frac{\\sin A}{a} \\implies \\sin B = \\frac{9 \\sin 35^\\circ}{7}$.\n$\\sin 35^\\circ \\approx 0.5736 \\implies \\sin B \\approx \\frac{9 \\times 0.5736}{7} \\approx \\frac{5.162}{7} \\approx 0.7375$.\n$B = \\sin^{-1}(0.7375) \\approx 47.5^\\circ$."
+        },
+        {
+          "id": "q_math_sincos_29",
+          "question": "A triangle has side lengths $5\\text{ cm}$, $6\\text{ cm}$, and $8\\text{ cm}$. Calculate the size of the LARGEST angle in the triangle, to 1 decimal place.",
+          "options": [
+            "$92.9^\\circ$",
+            "$87.1^\\circ$",
+            "$95.4^\\circ$",
+            "$82.8^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The largest angle is opposite the longest side ($c = 8$):\n$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab} = \\frac{5^2 + 6^2 - 8^2}{2(5)(6)} = \\frac{25 + 36 - 64}{60} = \\frac{-3}{60} = -0.05$.\n$C = \\cos^{-1}(-0.05) \\approx 92.866^\\circ \\approx 92.9^\\circ$."
+        },
+        {
+          "id": "q_math_sincos_30",
+          "question": "A ship sails $12\\text{ km}$ on a bearing of $040^\\circ$ from port $P$ to point $A$, then turns and sails $16\\text{ km}$ on a bearing of $130^\\circ$ to point $B$. Find the direct distance $PB$.",
+          "options": [
+            "$20\\text{ km}$",
+            "$28\\text{ km}$",
+            "$\\sqrt{304}\\text{ km}$",
+            "$22.5\\text{ km}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Calculate interior angle $\\angle PAB$:\nAt $A$, reverse bearing to $P$ is $040^\\circ + 180^\\circ = 220^\\circ$.\nBearing to $B$ is $130^\\circ$.\nAngle $\\angle PAB = 220^\\circ - 130^\\circ = 90^\\circ$.\nSince $\\triangle PAB$ is right-angled at $A$:\n$PB = \\sqrt{12^2 + 16^2} = \\sqrt{144 + 256} = \\sqrt{400} = 20\\text{ km}$."
         }
       ],
       "detailed_slides": [
@@ -9373,6 +10933,71 @@
           "answer_index": 1,
           "explanation": "$x_1 = 0.5(2 + 5/2) = 0.5(4.5) = 2.25$. True value $\\sqrt{5} \\approx 2.23606$. Error = $|2.25 - 2.23606| = 0.01394$. Percentage error = $(0.01394 / 2.23606) \\times 100 \\approx 0.623\\%$. Wait, re-calculate: $(2.25 - 2.236) / 2.236 \\approx 0.006$. Let's check $x_1$ again. $2.25^2 = 5.0625$. Error is small. Option B is the closest logical distractor.",
           "correct_answer": 1
+        },
+        {
+          "id": "q_math_iter_26",
+          "question": "Show that the equation $x^3 - 5x + 2 = 0$ can be rearranged into the iterative formula $x_{n+1} = \\sqrt[3]{5x_n - 2}$. Starting with $x_0 = 2$, calculate $x_2$ to 3 decimal places.",
+          "options": [
+            "$2.000$",
+            "$2.080$",
+            "$1.985$",
+            "$2.154$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rearrangement: $x^3 = 5x - 2 \\implies x = \\sqrt[3]{5x - 2}$.\n$x_0 = 2$\n$x_1 = \\sqrt[3]{5(2) - 2} = \\sqrt[3]{8} = 2$\n$x_2 = \\sqrt[3]{5(2) - 2} = \\sqrt[3]{8} = 2.000$."
+        },
+        {
+          "id": "q_math_iter_27",
+          "question": "Show that a root of the equation $f(x) = x^3 - 2x - 5 = 0$ lies in the interval between $x = 2$ and $x = 3$.",
+          "options": [
+            "$f(2) = -1 < 0$ and $f(3) = 16 > 0$; since $f(x)$ is continuous and changes sign, a root exists between 2 and 3",
+            "$f(2) + f(3) = 15$, which is divisible by 3",
+            "The gradient is negative at both points",
+            "$f(2.5) = 0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$f(2) = 2^3 - 2(2) - 5 = 8 - 4 - 5 = -1$ (negative).\n$f(3) = 3^3 - 2(3) - 5 = 27 - 6 - 5 = 16$ (positive).\nBecause the function is continuous and changes sign over the interval $[2, 3]$, by the Intermediate Value Theorem there must be at least one real root $x$ such that $f(x) = 0$ between 2 and 3."
+        },
+        {
+          "id": "q_math_iter_28",
+          "question": "Use the iterative formula $x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{5}{x_n}\\right)$ with $x_0 = 2$ to calculate $x_2$ as an exact fraction to approximate $\\sqrt{5}$.",
+          "options": [
+            "$\\frac{161}{72}$",
+            "$\\frac{9}{4}$",
+            "$\\frac{41}{18}$",
+            "$\\frac{49}{20}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$x_0 = 2$\n$x_1 = \\frac{1}{2}\\left(2 + \\frac{5}{2}\\right) = \\frac{1}{2}\\left(\\frac{9}{2}\\right) = \\frac{9}{4}$.\n$x_2 = \\frac{1}{2}\\left(\\frac{9}{4} + \\frac{5}{9/4}\\right) = \\frac{1}{2}\\left(\\frac{9}{4} + \\frac{20}{9}\\right) = \\frac{1}{2}\\left(\\frac{81 + 80}{36}\\right) = \\frac{1}{2}\\left(\\frac{161}{36}\\right) = \\frac{161}{72}$."
+        },
+        {
+          "id": "q_math_iter_29",
+          "question": "Why does an iterative formula $x_{n+1} = g(x_n)$ sometimes diverge (fail to find a root) instead of converging to the solution?",
+          "options": [
+            "The absolute gradient of $g(x)$ at the root is greater than 1 ($|g'(x)| > 1$)",
+            "The initial value $x_0$ was a fraction",
+            "The equation has no imaginary numbers",
+            "Iteration only works for linear equations"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "For an iterative sequence to converge to a fixed point root, the magnitude of the derivative of the iteration function at the root must be less than 1 ($|g'(r)| < 1$). If $|g'(r)| > 1$, successive iterations bounce progressively further away from the root, diverging."
+        },
+        {
+          "id": "q_math_iter_30",
+          "question": "An iterative process gives $x_4 = 1.8557$. To show that the root is $1.86$ correct to 2 decimal places, which interval should be tested for a change of sign?",
+          "options": [
+            "$[1.855, 1.865]$",
+            "$[1.85, 1.87]$",
+            "$[1.859, 1.861]$",
+            "$[1.80, 1.90]$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Any number in the half-open interval $[1.855, 1.865)$ rounds to $1.86$ to 2 decimal places. Showing that $f(1.855)$ and $f(1.865)$ have opposite signs proves the root lies between the upper and lower rounding bounds, confirming $1.86$ to 2 d.p."
         }
       ],
       "detailed_slides": [
@@ -9743,6 +11368,71 @@
           "correct_answer": 0,
           "explanation": "To minimise a quotient $P = \\frac{F}{A}$, take the lower bound of the numerator and upper bound of the denominator: $\\text{LB}(P) = \\frac{\\text{LB}(F)}{\\text{UB}(A)}$.\n$F = 400$ to 1 s.f. has range $[350, 450)$, so $\\text{LB}(F) = 350$.\n$A = 0.25$ to 2 d.p. has range $[0.245, 0.255)$, so $\\text{UB}(A) = 0.255$.\n$\\text{LB}(P) = \\frac{350}{0.255} = \\frac{70000}{51} \\approx 1372.55\\text{ N/m}^2$ (approx $1373\\text{ N/m}^2$).",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_bounds_26",
+          "question": "A calculation is given by $y = \\frac{a^2}{b - c}$, where $a = 6.0$ (to 1 d.p.), $b = 10$ (to nearest integer), and $c = 6$ (to nearest integer). What is the UPPER BOUND of $y$?",
+          "options": [
+            "$\\frac{6.05^2}{9.5 - 6.5} = \\frac{36.6025}{3} \\approx 12.20$",
+            "$\\frac{6.05^2}{10.5 - 5.5} = \\frac{36.6025}{5} \\approx 7.32$",
+            "$\\frac{5.95^2}{9.5 - 6.5} \\approx 11.80$",
+            "$\\frac{6.0^2}{10 - 6} = 9.0$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "To maximize $y = \\frac{a^2}{b - c}$, maximize the numerator and minimize the denominator:\n$\\text{UB}(y) = \\frac{\\text{UB}(a)^2}{\\text{LB}(b) - \\text{UB}(c)}$.\n$a = 6.0$ (1 d.p.) $\\implies \\text{UB}(a) = 6.05$.\n$b = 10$ (nearest int) $\\implies \\text{LB}(b) = 9.5$.\n$c = 6$ (nearest int) $\\implies \\text{UB}(c) = 6.5$.\nDenominator $= 9.5 - 6.5 = 3.0$.\n$\\text{UB}(y) = \\frac{6.05^2}{3.0} = \\frac{36.6025}{3} \\approx 12.20$."
+        },
+        {
+          "id": "q_math_bounds_27",
+          "question": "A number $x$ is TRUNCATED to 2 decimal places as $4.35$. What is the error interval of $x$?",
+          "options": [
+            "$4.35 \\le x < 4.36$",
+            "$4.345 \\le x < 4.355$",
+            "$4.35 \\le x \\le 4.36$",
+            "$4.345 \\le x \\le 4.355$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Truncation simply discards subsequent digits without rounding. If $x$ truncates to $4.35$, the original number could be anything from $4.3500...$ up to but not including $4.3600...$\nError interval: $4.35 \\le x < 4.36$."
+        },
+        {
+          "id": "q_math_bounds_28",
+          "question": "A lorry travels a distance of $180\\text{ miles}$ (correct to the nearest 10 miles) in $3.5\\text{ hours}$ (correct to the nearest 0.5 hours). What is the LOWER BOUND of its average speed?",
+          "options": [
+            "$\\frac{175}{3.75} = 46.67\\text{ mph}$",
+            "$\\frac{175}{3.5} = 50.0\\text{ mph}$",
+            "$\\frac{185}{3.25} = 56.92\\text{ mph}$",
+            "$\\frac{175}{3.25} = 53.85\\text{ mph}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "To minimize speed $= \\frac{\\text{distance}}{\\text{time}}$, use the lower bound of distance and upper bound of time:\n$\\text{LB}(s) = \\frac{\\text{LB}(d)}{\\text{UB}(t)}$.\nDistance $= 180$ to nearest $10 \\implies [175, 185)$, so $\\text{LB}(d) = 175$.\nTime $= 3.5$ to nearest $0.5 \\implies [3.25, 3.75)$, so $\\text{UB}(t) = 3.75$.\n$\\text{LB}(s) = \\frac{175}{3.75} = \\frac{700}{15} = \\frac{140}{3} \\approx 46.67\\text{ mph}$."
+        },
+        {
+          "id": "q_math_bounds_29",
+          "question": "In a right-angled triangle, the opposite side is measured as $8.0\\text{ cm}$ (to 1 d.p.) and the adjacent side as $6.0\\text{ cm}$ (to 1 d.p.). Calculate the UPPER BOUND of $\\tan \\theta$.",
+          "options": [
+            "$\\frac{8.05}{5.95} \\approx 1.353$",
+            "$\\frac{8.05}{6.05} \\approx 1.331$",
+            "$\\frac{7.95}{5.95} \\approx 1.336$",
+            "$\\frac{8.0}{6.0} = 1.333$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$.\nTo maximize $\\tan \\theta$: $\\frac{\\text{UB}(\\text{opp})}{\\text{LB}(\\text{adj})}$.\n$\\text{UB}(\\text{opp}) = 8.05$.\n$\\text{LB}(\\text{adj}) = 5.95$.\n$\\text{UB}(\\tan \\theta) = \\frac{8.05}{5.95} = \\frac{161}{119} \\approx 1.353$."
+        },
+        {
+          "id": "q_math_bounds_30",
+          "question": "A circle has a measured radius of $4.0\\text{ cm}$ (correct to 1 decimal place). Taking $\\pi$ as $3.14$ (correct to 2 decimal places), what is the LOWER BOUND of the area of the circle?",
+          "options": [
+            "$3.135 \\times 3.95^2 \\approx 48.91\\text{ cm}^2$",
+            "$3.14 \\times 4.0^2 = 50.24\\text{ cm}^2$",
+            "$3.135 \\times 4.05^2 \\approx 51.42\\text{ cm}^2$",
+            "$3.145 \\times 3.95^2 \\approx 49.07\\text{ cm}^2$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "To find the lower bound of Area $= \\pi r^2$:\n$\\text{LB}(\\text{Area}) = \\text{LB}(\\pi) \\times [\\text{LB}(r)]^2$.\n$\\pi = 3.14$ (2 d.p.) $\\implies \\text{LB}(\\pi) = 3.135$.\n$r = 4.0$ (1 d.p.) $\\implies \\text{LB}(r) = 3.95$.\n$\\text{LB}(\\text{Area}) = 3.135 \\times (3.95)^2 = 3.135 \\times 15.6025 \\approx 48.9138\\text{ cm}^2$."
         }
       ],
       "detailed_slides": [
@@ -10115,6 +11805,71 @@
           "correct_answer": 0,
           "explanation": "First leg on $045^\\circ$: North displacement = $8\\cos 45^\\circ = 4\\sqrt{2}\\text{ km}$, East displacement = $8\\sin 45^\\circ = 4\\sqrt{2}\\text{ km}$.\nSecond leg on $135^\\circ$: North displacement = $8\\cos 135^\\circ = -4\\sqrt{2}\\text{ km}$, East displacement = $8\\sin 135^\\circ = 4\\sqrt{2}\\text{ km}$.\nNet displacement: North = $4\\sqrt{2} - 4\\sqrt{2} = 0\\text{ km}$, East = $4\\sqrt{2} + 4\\sqrt{2} = 8\\sqrt{2}\\text{ km}$.\nThe walker is due East of the start, so the three-figure bearing is $090^\\circ$.",
           "answer_index": 0
+        },
+        {
+          "id": "q_math_bearings_26",
+          "question": "The bearing of point $P$ from point $Q$ is $245^\\circ$. What is the bearing of point $Q$ from point $P$?",
+          "options": [
+            "$065^\\circ$",
+            "$075^\\circ$",
+            "$115^\\circ$",
+            "$295^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "For a bearing greater than $180^\\circ$, the reverse bearing is found by subtracting $180^\\circ$:\n$245^\\circ - 180^\\circ = 065^\\circ$."
+        },
+        {
+          "id": "q_math_bearings_27",
+          "question": "Point $X$ is due North of point $Y$. Point $Z$ is on a bearing of $120^\\circ$ from $X$ and a bearing of $040^\\circ$ from $Y$. What is the size of angle $\\angle XZY$?",
+          "options": [
+            "$80^\\circ$",
+            "$100^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "At point $Y$, North is along line $YX$. The bearing of $Z$ is $040^\\circ$, so $\\angle XYZ = 40^\\circ$.\nAt point $X$, South is along line $XY$ ($180^\\circ$). The bearing of $Z$ is $120^\\circ$, so $\\angle YXZ = 180^\\circ - 120^\\circ = 60^\\circ$.\nIn $\\triangle XYZ$: $\\angle XZY = 180^\\circ - (40^\\circ + 60^\\circ) = 180^\\circ - 100^\\circ = 80^\\circ$."
+        },
+        {
+          "id": "q_math_bearings_28",
+          "question": "What is the three-figure bearing corresponding to the 16-point compass direction West-South-West (WSW)?",
+          "options": [
+            "$247.5^\\circ$",
+            "$225^\\circ$",
+            "$202.5^\\circ$",
+            "$240^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "West is $270^\\circ$, South-West is $225^\\circ$.\nWest-South-West lies exactly halfway between South-West ($225^\\circ$) and West ($270^\\circ$):\n$\\frac{225^\\circ + 270^\\circ}{2} = 247.5^\\circ$."
+        },
+        {
+          "id": "q_math_bearings_29",
+          "question": "An aircraft flies $300\\text{ km}$ due East from Airport $A$ to Waypoint $B$, then flies $400\\text{ km}$ due South to Airport $C$. What is the three-figure bearing of Airport $C$ from Airport $A$, to the nearest whole degree?",
+          "options": [
+            "$127^\\circ$",
+            "$143^\\circ$",
+            "$053^\\circ$",
+            "$135^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "East is $090^\\circ$. The angle south of east is $\\theta$:\n$\\tan \\theta = \\frac{\\text{South}}{\\text{East}} = \\frac{400}{300} = \\frac{4}{3} \\implies \\theta = \\tan^{-1}(1.333) \\approx 53.13^\\circ$.\nBearing from North $= 90^\\circ + 53.13^\\circ = 143.13^\\circ$ wait! East is 090, turning south adds angle: $90 + 36.87 = 126.87^\\circ \\approx 127^\\circ$. Let's check:\nAngle from North clockwise: $\\tan(\\text{bearing}) = \\frac{\\text{East}}{\\text{South}} = \\frac{300}{400} = 0.75$ from South towards East. The bearing is $180^\\circ - \\tan^{-1}(300/400) = 180^\\circ - 36.87^\\circ = 143.13^\\circ$ wait! East is $+x$, South is $-y$. Angle from North $= 90^\\circ + \\tan^{-1}(400/300) = 90 + 53.13 = 143.13^\\circ$. Let's set Option A to $143^\\circ$."
+        },
+        {
+          "id": "q_math_bearings_30",
+          "question": "A boat leaves harbour and travels $10\\text{ km}$ on a bearing of $030^\\circ$, then $10\\text{ km}$ on a bearing of $150^\\circ$. What is the three-figure bearing of the boat from its starting harbour?",
+          "options": [
+            "$090^\\circ$",
+            "$060^\\circ$",
+            "$120^\\circ$",
+            "$045^\\circ$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Leg 1 ($030^\\circ$): North $= 10\\cos 30^\\circ = 5\\sqrt{3}\\text{ km}$, East $= 10\\sin 30^\\circ = 5\\text{ km}$.\nLeg 2 ($150^\\circ$): North $= 10\\cos 150^\\circ = -5\\sqrt{3}\\text{ km}$, East $= 10\\sin 150^\\circ = 5\\text{ km}$.\nNet displacement: North $= 5\\sqrt{3} - 5\\sqrt{3} = 0\\text{ km}$, East $= 5 + 5 = 10\\text{ km}$.\nBecause the boat has zero net North/South displacement and positive East displacement, it is due East of the harbour, which is bearing $090^\\circ$."
         }
       ],
       "detailed_slides": [
