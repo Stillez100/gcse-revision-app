@@ -392,17 +392,17 @@
           "id": "bio_cell_structure_q25"
         },
         {
-          "id": "q_bio_cell_struct_26",
-          "question": "A transmission electron microscope (TEM) has a resolving power of 0.2 nm, whereas a standard light microscope has a resolving power of 200 nm. What does this difference in resolving power mean for observing sub-cellular organelles?",
+          "question": "A student calculates the actual length of an onion cell using a light microscope. The image size measured with a ruler is $48\\text{ mm}$, and the microscope magnification is $\\times 400$. What is the actual length of the cell in micrometres ($\\mu\\text{m}$)?",
           "options": [
-            "The TEM can distinguish two distinct points that are 1000 times closer together than a light microscope can",
-            "The TEM magnifies images 1000 times larger than any light microscope can",
-            "The light microscope has higher clarity because 200 nm is a larger number than 0.2 nm",
-            "The TEM requires live specimens to be able to resolve structures below 200 nm"
+            "$12\\,\\mu\\text{m}$",
+            "$1.2\\,\\mu\\text{m}$",
+            "$120\\,\\mu\\text{m}$",
+            "$1200\\,\\mu\\text{m}$"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Resolving power is the minimum distance between two points that can still be distinguished as separate entities. 200 nm / 0.2 nm = 1000, meaning the TEM has a 1000-fold greater resolution, allowing structures such as ribosomes, cristae, and thylakoid membranes to be clearly seen."
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Use the magnification formula: $\\text{Actual size} = \\frac{\\text{Image size}}{\\text{Magnification}}$. First convert image size from mm to $\\mu\\text{m}$: $48\\text{ mm} \\times 1000 = 48,000\\,\\mu\\text{m}$. Then calculate: $\\frac{48,000}{400} = 120\\,\\mu\\text{m}$.",
+          "id": "q_bio_cell_struct_26"
         },
         {
           "id": "q_bio_cell_struct_27",
@@ -520,6 +520,71 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "In standard fluorescence microscopy, secondary fluorescence from out-of-focus planes blurs the image. Confocal microscopy passes laser illumination through a spatial pinhole conjugate to the focal plane, physically blocking out-of-focus light from reaching the detector. This enables optical sectioning through thick living tissues and high-resolution 3D digital reconstruction."
+        },
+        {
+          "id": "q_bio_cell_struct_36",
+          "question": "Which set of sub-cellular structures is found in plant cells but NOT in animal cells?",
+          "options": [
+            "Mitochondria, nucleus, and ribosomes",
+            "Chloroplasts, permanent vacuole, and cellulose cell wall",
+            "Cell membrane, cytoplasm, and nucleus",
+            "Ribosomes, cytoplasm, and cell wall"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Plant cells have all the structures of animal cells plus three additional structures: a cellulose cell wall (for structural support), chloroplasts (containing chlorophyll for photosynthesis), and a permanent vacuole filled with cell sap."
+        },
+        {
+          "id": "q_bio_cell_struct_37",
+          "question": "What is the primary function of ribosomes inside a eukaryotic cell?",
+          "options": [
+            "To contain genetic material and control the cell's activities",
+            "To release energy by aerobic cellular respiration",
+            "To synthesise proteins by assembling amino acids according to genetic instructions",
+            "To store cell sap and maintain cell turgidity"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Ribosomes are tiny organelles where protein synthesis takes place. Mitochondria release energy via respiration, the nucleus stores genetic material, and the vacuole stores cell sap."
+        },
+        {
+          "id": "q_bio_cell_struct_38",
+          "question": "Why do electron microscopes have a much higher resolution than light microscopes?",
+          "options": [
+            "Electron microscopes heat the specimen to make cell structures glow",
+            "Electron microscopes use higher magnification glass lenses",
+            "Light waves are absorbed completely by living cells",
+            "The wavelength of an electron beam is much shorter than the wavelength of visible light waves"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Resolution is the ability to distinguish between two separate points. Because electrons have a much shorter wavelength than visible light, electron microscopes achieve far higher resolving power (down to $\\sim 0.1\\text{ nm}$ compared to $200\\text{ nm}$ for light), allowing sub-cellular structures like ribosomes and internal membranes to be studied in detail."
+        },
+        {
+          "id": "q_bio_cell_struct_39",
+          "question": "What is the main role of the flagellum found on some bacterial cells?",
+          "options": [
+            "To rotate and propel the bacterium through liquids (locomotion)",
+            "To transfer antibiotic resistance genes to other bacteria",
+            "To store genetic material in place of a nucleus",
+            "To absorb light energy for bacterial photosynthesis"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A flagellum (plural: flagella) is a long, whip-like protein strand that rotates like a propeller, allowing bacteria to move toward nutrients or away from harmful toxins."
+        },
+        {
+          "id": "q_bio_cell_struct_40",
+          "question": "A cell has an image width of $5\\text{ mm}$ when viewed under a microscope. Its actual size is $25\\,\\mu\\text{m}$. What magnification was used?",
+          "options": [
+            "$\\times 500$",
+            "$\\times 200$",
+            "$\\times 50$",
+            "$\\times 20$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Magnification $= \\frac{\\text{Image size}}{\\text{Actual size}}$. Convert $5\\text{ mm}$ to micrometres: $5\\text{ mm} \\times 1000 = 5000\\,\\mu\\text{m}$. Then calculate: $\\frac{5000\\,\\mu\\text{m}}{25\\,\\mu\\text{m}} = 200$ (so $\\times 200$)."
         }
       ],
       "detailed_slides": [
@@ -1044,6 +1109,71 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Plant tissue culture exploits hormonal control of organogenesis. Balanced concentrations of auxin and cytokinin stimulate rapid mitotic proliferation of an undifferentiated cell mass (callus). Shifting the ratio so cytokinin is higher stimulates shoot bud differentiation; subsequently transferring plantlets to an auxin-rich medium promotes adventitious root formation."
+        },
+        {
+          "id": "q_bio_cell_div_36",
+          "question": "How many chromosomes are found in the nucleus of a normal human body (somatic) cell compared to a human gamete (sperm or egg)?",
+          "options": [
+            "$46$ chromosomes in body cells; $46$ chromosomes in gametes",
+            "$23$ chromosomes in body cells; $46$ chromosomes in gametes",
+            "$46$ chromosomes in body cells (23 pairs); $23$ single chromosomes in gametes",
+            "$92$ chromosomes in body cells; $23$ chromosomes in gametes"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Normal human body cells are diploid and contain 46 chromosomes (arranged in 23 pairs). Gametes (sex cells) are haploid and contain 23 individual chromosomes so that upon fertilisation, the resulting zygote has the normal diploid number of 46."
+        },
+        {
+          "id": "q_bio_cell_div_37",
+          "question": "During which phase of the cell cycle does a cell double its genetic material before mitosis begins?",
+          "options": [
+            "Telophase (nuclear membrane re-forming)",
+            "Cytokinesis (cytoplasm division)",
+            "Anaphase (chromatid separation)",
+            "Interphase (growth and DNA replication)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Before a cell can divide by mitosis, it enters a growth stage (interphase) where it increases its sub-cellular structures (like mitochondria and ribosomes) and duplicates its DNA so that each new daughter cell receives a full set of chromosomes."
+        },
+        {
+          "id": "q_bio_cell_div_38",
+          "question": "Why are embryonic stem cells of particular interest in medical research compared to adult bone marrow stem cells?",
+          "options": [
+            "Embryonic stem cells can differentiate into almost any type of specialised cell in the human body",
+            "Embryonic stem cells cannot divide by mitosis",
+            "Adult stem cells contain twice as much DNA as embryonic stem cells",
+            "Embryonic stem cells are already fully differentiated into nerve cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Embryonic stem cells are pluripotent—they can differentiate into all specialised cell types of the body (e.g. neurons, cardiac muscle cells, insulin-producing cells). Adult stem cells (like those in bone marrow) have limited differentiation potential and can only form related blood cell types."
+        },
+        {
+          "id": "q_bio_cell_div_39",
+          "question": "Where are stem cells located in plants that allow them to produce new tissue throughout their entire lifetime?",
+          "options": [
+            "Waxy cuticle on the leaf surface",
+            "Meristem tissue at the growing tips of roots and shoots",
+            "Spongy mesophyll layer inside leaves",
+            "Pollen grains inside flowers"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Plants retain the ability to differentiate throughout life in specialized regions called meristems (found at shoot and root tips). Meristem stem cells can differentiate into any plant tissue (e.g. xylem, phloem, leaves, flowers) at any stage of growth."
+        },
+        {
+          "id": "q_bio_cell_div_40",
+          "question": "What is an advantage of therapeutic cloning using stem cells from a patient's own body?",
+          "options": [
+            "The patient will instantly become immune to all communicable viral diseases",
+            "The procedure does not require any human eggs or laboratory culture",
+            "The cloned cells have the patient's own genetic material, so they will not be rejected by the patient's immune system",
+            "Therapeutic cloning completely prevents the process of mitosis"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "In therapeutic cloning, an embryo is produced with the patient's own genetic material. Stem cells harvested from this embryo can be stimulated to differentiate into required tissues without the risk of immune rejection, avoiding the need for immunosuppressant drugs."
         }
       ],
       "detailed_slides": [
@@ -1466,17 +1596,17 @@
           "explanation": "Alveoli possess enormous surface area (hundreds of millions of micro-sacs), an extremely short diffusion distance (squamous alveolar epithelium and capillary endothelium each one cell thick, ~0.5–1 µm total), and steep concentration gradients maintained by continuous ventilation (bringing fresh air) and rapid capillary perfusion (carrying oxygenated blood away)."
         },
         {
-          "id": "q_bio_transport_28",
-          "question": "A plant root is supplied with mineral ions at increasing external concentrations. The rate of ion uptake increases linearly at first, but plateaus at high concentrations even though oxygen and glucose supplies remain unlimited. What explains this plateau?",
+          "question": "In an osmosis investigation with potato cylinders, why is the percentage change in mass calculated rather than simply using the change in mass?",
           "options": [
-            "All specific carrier protein binding sites in the root hair cell membranes are fully saturated",
-            "Osmosis reverses direction, washing mineral ions back out into the soil solution",
-            "The mitochondria running cellular respiration become permanently poisoned by mineral ions",
-            "The cellulose cell wall becomes impermeable to prevent excessive internal hydrostatic pressure"
+            "Because water enters potato cells by active transport at higher concentrations",
+            "Because calculating percentage change converts mass into volume",
+            "Because the initial masses of the potato cylinders were not identical, so percentage change allows a valid comparison",
+            "Because percentage change prevents sucrose from diffusing across the partially permeable membrane"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Active transport of mineral ions against a concentration gradient relies on carrier proteins (membrane pumps) spanning the phospholipid bilayer. At high substrate concentrations, every carrier protein is actively transporting ions as fast as its catalytic cycle allows; the system reaches Vmax (saturation), so further increases in external concentration cannot increase uptake rate."
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Potato cylinders are cut to approximately the same size, but their starting masses will always differ slightly. Calculating percentage change in mass ($[\\text{Change in mass} / \\text{Initial mass}] \\times 100$) accounts for differences in starting mass, allowing fair and valid comparisons between different concentrations.",
+          "id": "q_bio_transport_28"
         },
         {
           "id": "q_bio_transport_29",
@@ -1518,30 +1648,30 @@
           "explanation": "Solute potential ($\\Psi_s$) represents the effect of dissolved solutes (glucose, salts, proteins) on water potential. Water molecules form hydration shells around solute ions/molecules via hydrogen bonding, reducing their random kinetic motion. Because pure water is defined as $\\Psi = 0\\text{ kPa}$, adding any solute lowers the chemical potential below zero, making $\\Psi_s$ and overall $\\Psi$ negative."
         },
         {
-          "id": "q_bio_transport_32",
-          "question": "How does facilitated diffusion across a phospholipid bilayer differ from simple passive diffusion in terms of transport mechanism and kinetics?",
+          "question": "Which of the following is an example of active transport in living organisms?",
           "options": [
-            "Facilitated diffusion only occurs in dead plant cells, whereas simple diffusion occurs in animals",
-            "Facilitated diffusion consumes ATP from mitochondria, whereas simple diffusion consumes glucose",
-            "Facilitated diffusion transports molecules against their concentration gradient, whereas simple diffusion does not",
-            "Facilitated diffusion requires transmembrane channel or carrier proteins and shows saturation kinetics (plateauing at high concentrations), but neither requires ATP"
+            "Movement of water from the soil into root cells across a partially permeable membrane",
+            "Diffusion of carbon dioxide from the air into the leaves through stomata",
+            "Absorption of mineral ions from very dilute solutions in the soil into plant root hair cells",
+            "Exchange of oxygen and carbon dioxide across the thin walls of alveoli in the lungs"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Mineral ions (such as nitrates and magnesium) are in much lower concentration in soil water than inside root hair cells. Plants must use active transport—requiring energy from cellular respiration—to move ions against their concentration gradient into the roots.",
+          "id": "q_bio_transport_32"
+        },
+        {
+          "question": "A student placed red blood cells in pure distilled water. After 10 minutes, the liquid turned clear red and no intact cells were seen under a microscope. Explain why this happened.",
+          "options": [
+            "Distilled water denatured the enzymes inside the red blood cells, causing them to dissolve",
+            "Water left the cells by osmosis, causing the cell membrane to shrink away from the cytoplasm (crenation)",
+            "Active transport pumped haemoglobin out of the red blood cells into the distilled water",
+            "Water entered the cells by osmosis down a water concentration gradient; lacking a rigid cell wall, the cells swelled and burst (lysed)"
           ],
           "correct_answer": 3,
           "answer_index": 3,
-          "explanation": "Both simple and facilitated diffusion are passive processes moving solutes down concentration gradients without metabolic energy (ATP). However, facilitated diffusion transports large polar or charged molecules (e.g. glucose, $Na^+$) via specific integral membrane proteins (channels/carriers). Because the number of protein transporters is finite, the rate reaches a maximum ($V_{\\max}$) when all binding sites are saturated."
-        },
-        {
-          "id": "q_bio_transport_33",
-          "question": "The sodium-potassium pump ($Na^+/K^+$ ATPase) in mammalian cell membranes hydrolyses one molecule of ATP to drive active transport. What is the exact stoichiometry and direction of ion movement across the membrane?",
-          "options": [
-            "3 $Na^+$ ions are pumped out of the cell and 2 $K^+$ ions are pumped into the cell",
-            "2 $Na^+$ ions are pumped out of the cell and 3 $K^+$ ions are pumped into the cell",
-            "3 $Na^+$ ions and 3 $K^+$ ions are pumped into the cell simultaneously",
-            "1 $Na^+$ ion is pumped out for every 1 glucose molecule absorbed"
-          ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "The $Na^+/K^+$ ATPase is an electrogenic primary active transporter. In each catalytic cycle, it hydrolyses 1 ATP molecule to export 3 $Na^+$ ions into the extracellular fluid and import 2 $K^+$ ions into the cytoplasm against their respective electrochemical gradients, maintaining low intracellular sodium and generating the negative resting membrane potential (~-70 mV)."
+          "explanation": "Distilled water has a higher water potential (more dilute) than the cytoplasm of red blood cells. Water moves into the cells by osmosis. Unlike plant cells, animal cells do not have a strong cellulose cell wall, so the inward osmotic pressure causes them to swell and burst (osmotic lysis).",
+          "id": "q_bio_transport_33"
         },
         {
           "id": "q_bio_transport_34",
@@ -1568,6 +1698,71 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Dialysate flows in a counter-current direction separated from patient blood by a semi-permeable cellulose membrane. It contains zero urea, creating a steep concentration gradient for rapid urea diffusion out of blood. To prevent loss of vital molecules, glucose, potassium, and sodium concentrations in the dialysate match ideal blood plasma levels, so zero net diffusion of these substances occurs."
+        },
+        {
+          "id": "q_bio_transport_36",
+          "question": "Which of the following defines diffusion in biological systems?",
+          "options": [
+            "The engulfing of solid food particles by white blood cells",
+            "The active pumping of molecules against a concentration gradient using ATP",
+            "The movement of water molecules through an open stomata by evaporation",
+            "The net movement of particles from an area of higher concentration to an area of lower concentration"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Diffusion is the passive net movement of particles from a region where they are in higher concentration to a region of lower concentration, down a concentration gradient, due to the random kinetic movement of particles."
+        },
+        {
+          "id": "q_bio_transport_37",
+          "question": "Which of the following changes would INCREASE the rate of diffusion of gas molecules across an exchange surface?",
+          "options": [
+            "Increasing the surface area and increasing the concentration gradient",
+            "Decreasing the temperature and increasing the membrane thickness",
+            "Decreasing the concentration gradient and increasing distance",
+            "Decreasing the surface area and decreasing temperature"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The rate of diffusion is increased by: (1) larger surface area; (2) steeper concentration gradient; (3) higher temperature (giving particles more kinetic energy); and (4) shorter diffusion distance (thinner membrane)."
+        },
+        {
+          "id": "q_bio_transport_38",
+          "question": "What defines the process of osmosis?",
+          "options": [
+            "The movement of dissolved mineral ions into plant roots using metabolic energy",
+            "The diffusion of water molecules from a dilute solution to a more concentrated solution across a partially permeable membrane",
+            "The evaporation of water from the surface of spongy mesophyll cells",
+            "The diffusion of gas particles from high to low pressure across the alveoli"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Osmosis is specifically the movement of water from a dilute solution (higher water potential) to a concentrated solution (lower water potential) across a partially permeable membrane."
+        },
+        {
+          "id": "q_bio_transport_39",
+          "question": "When a plant cell is placed into pure water, it absorbs water but does not burst. Why?",
+          "options": [
+            "Water molecules cannot pass through partially permeable membranes",
+            "The cell membrane immediately pumps all the water back out into the beaker",
+            "The strong cellulose cell wall exerts pressure (turgor pressure) resisting further water intake",
+            "Plant cells store all absorbed water as solid insoluble starch"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Unlike animal cells, plant cells possess a rigid cell wall made of cellulose. As water enters by osmosis, the vacuole swells and pushes against the wall. The wall provides structural resistance (turgor pressure), keeping the cell turgid and preventing lysis."
+        },
+        {
+          "id": "q_bio_transport_40",
+          "question": "Why do large multicellular animals (like humans) require specialised circulatory systems, whereas single-celled amoebae do not?",
+          "options": [
+            "Single-celled organisms have a smaller surface area to volume ratio than large animals",
+            "Multicellular animals do not perform cellular respiration in their internal cells",
+            "Single-celled organisms lack cell membranes and absorb food by osmosis alone",
+            "Multicellular animals have a small surface area to volume ratio, so diffusion across the outer surface is too slow to supply internal cells"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "As organisms get larger, their surface area to volume ratio decreases drastically, and the diffusion distance from the exterior to interior cells becomes too large. Specialised exchange surfaces (lungs, gills) and transport systems (blood circulation) are essential to deliver oxygen and nutrients to every cell."
         }
       ],
       "detailed_slides": [
@@ -2092,6 +2287,71 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "Statins are competitive inhibitors of HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol biosynthesis. Reduced hepatic cholesterol production causes liver cells to upregulate LDL receptors, clearing more 'bad' LDL cholesterol from the circulation. This slows or halts the accumulation of atheromatous fatty plaques in coronary arteries, reducing the risk of plaque rupture and thrombosis."
+        },
+        {
+          "id": "q_bio_animal_organs_36",
+          "question": "In the lock and key model of enzyme action, what is the 'active site'?",
+          "options": [
+            "The uniquely shaped region of the enzyme molecule where the specific substrate binds",
+            "The place in the body where enzymes are manufactured (the ribosomes)",
+            "The site where stomach hydrochloric acid neutralises enzymes",
+            "The region of the digestive tract where enzymes are absorbed into blood"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The active site is the specific three-dimensional region of the enzyme protein whose shape is complementary to its substrate. Only substrates that fit the active site precisely can undergo the catalytic reaction."
+        },
+        {
+          "id": "q_bio_animal_organs_37",
+          "question": "Which enzyme digests starch, and what is the soluble product formed?",
+          "options": [
+            "Protease digests starch into amino acids",
+            "Amylase digests starch into maltose and glucose sugars",
+            "Lipase digests starch into glycerol and fatty acids",
+            "Bile digests starch into glycogen"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Amylase (a carbohydrase produced in the salivary glands and pancreas) breaks down large insoluble starch polymers into smaller, soluble sugars (maltose and glucose)."
+        },
+        {
+          "id": "q_bio_animal_organs_38",
+          "question": "A student tests a sample of apple juice for reducing sugars using Benedict's solution. Which colour change confirms a high concentration of sugar?",
+          "options": [
+            "Pale blue to purple/lilac after shaking with Biuret reagent",
+            "Orange-brown to blue-black without heating",
+            "Blue to brick-red after heating in a water bath",
+            "Colourless to a cloudy white emulsion with ethanol"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Benedict's test for reducing sugars involves adding Benedict's reagent and heating above $75^\\circ\\text{C}$ in a water bath. If reducing sugars are present, the solution changes from blue $\\to$ green $\\to$ yellow $\\to$ brick-red precipitate."
+        },
+        {
+          "id": "q_bio_animal_organs_39",
+          "question": "What are the two major digestive roles of bile produced in the liver and stored in the gall bladder?",
+          "options": [
+            "Breaks down proteins into amino acids in the stomach",
+            "Produces amylase to digest starch and kills all intestinal bacteria",
+            "Directly absorbs glucose into the bloodstream and produces insulin",
+            "Neutralises stomach acid and emulsifies fats into smaller droplets to increase surface area for lipase"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Bile is alkaline: (1) it neutralises acidic chyme entering from the stomach to create the optimal alkaline pH for enzymes in the small intestine; (2) it emulsifies large fat globules into microscopic droplets, increasing their surface area for lipase to break them down rapidly."
+        },
+        {
+          "id": "q_bio_animal_organs_40",
+          "question": "How do the structural features of veins differ from arteries to facilitate their function?",
+          "options": [
+            "Veins have thinner muscular walls, a wider lumen, and internal valves to prevent the backflow of blood under low pressure",
+            "Veins have thick elastic walls and a narrow lumen to withstand high pumping pressure",
+            "Veins have walls that are only one cell thick to allow rapid gas diffusion",
+            "Veins carry blood under much higher pressure than arteries"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Veins carry deoxygenated blood back to the heart under low pressure. They have thinner walls with less muscle/elastic tissue, a wider lumen to reduce resistance to blood flow, and valves to ensure blood flows only toward the heart."
         }
       ],
       "detailed_slides": [
@@ -2605,17 +2865,82 @@
           "explanation": "Transpiration is the diffusion of water vapour out of leaves down a concentration gradient. The internal air spaces of a leaf are virtually saturated with water vapour (100% relative humidity). In dry air, the external humidity is low, creating a steep diffusion gradient and rapid transpiration. In humid air, the external water vapour concentration is high, flattening the gradient and reducing diffusion rate."
         },
         {
-          "id": "q_bio_plant_organs_35",
-          "question": "Which of the following experimental observations presents evidence that active metabolic energy (ATP) is required for phloem translocation?",
+          "question": "Transpiration rate in a plant was measured using a potometer. Which combination of environmental conditions would produce the HIGHEST rate of transpiration?",
           "options": [
-            "Treating phloem tissue with respiratory inhibitors (e.g. cyanide) or cold temperatures halts the transport of sucrose through sieve tubes",
-            "Water moves through dead xylem vessels even when roots are severed",
-            "Leaves lose mass when exposed to direct sunlight",
-            "Stomata remain open in an atmosphere of pure nitrogen gas"
+            "Low temperature, low light intensity, low humidity, and still air",
+            "Low temperature, high light intensity, high humidity, and still air",
+            "High temperature, low light intensity, high humidity, and high wind speed",
+            "High temperature, high light intensity, low humidity, and high wind speed"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Transpiration rate is maximized when: (1) Temperature is high (water molecules have more kinetic energy to evaporate); (2) Light intensity is high (stomata open for photosynthesis); (3) Humidity is low (steep water vapour concentration gradient between leaf interior and outside air); (4) Air movement/wind is high (rapidly sweeps away transpired water vapour, maintaining the steep gradient).",
+          "id": "q_bio_plant_organs_35"
+        },
+        {
+          "id": "q_bio_plant_organs_36",
+          "question": "In which leaf tissue does the majority of photosynthesis take place?",
+          "options": [
+            "Upper epidermal tissue coated with a transparent waxy cuticle",
+            "Palisade mesophyll, which is packed with numerous chloroplasts near the upper leaf surface",
+            "Spongy mesophyll layer containing large intercellular air cavities",
+            "Lower epidermis containing stomatal pores and guard cells"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The palisade mesophyll layer sits directly below the transparent upper epidermis, positioned to capture maximum sunlight. Its cells are vertically elongated and packed with chloroplasts to perform the vast majority of the leaf's photosynthesis."
+        },
+        {
+          "id": "q_bio_plant_organs_37",
+          "question": "How do guard cells control the opening of stomata in plant leaves?",
+          "options": [
+            "Guard cells dry out completely to shrink and pull the pore open",
+            "Guard cells contract their muscle fibres when exposed to bright sunlight",
+            "When water is abundant, guard cells take in water by osmosis, become turgid, and bend outward to open the stomatal pore",
+            "Guard cells only open at night when temperatures are highest"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Guard cells have thicker inner cell walls than outer walls. When water is plentiful, they absorb water by osmosis and become turgid; the uneven wall thickness causes them to curve outward, opening the pore for gas exchange."
+        },
+        {
+          "id": "q_bio_plant_organs_38",
+          "question": "What is the primary function of xylem vessels in flowering plants?",
+          "options": [
+            "To produce protective wax on the underside of plant stems",
+            "To transport dissolved sucrose and amino acids bidirectionally between organs",
+            "To absorb sunlight directly through leaf veins for photosynthesis",
+            "To transport water and dissolved mineral ions upwards from the roots to the leaves"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Xylem is composed of hollow, dead tube cells strengthened with waterproof lignin. It transports water and dissolved minerals from roots up to leaves in a one-way transpiration stream."
+        },
+        {
+          "id": "q_bio_plant_organs_39",
+          "question": "What is translocation in plants?",
+          "options": [
+            "The movement of dissolved sugars and amino acids through phloem tissue from sources to sinks",
+            "The evaporation of water vapour through the stomata into the atmosphere",
+            "The absorption of nitrate ions from soil into root hair cells by active transport",
+            "The physical bending of a plant stem towards a light source (phototropism)"
           ],
           "correct_answer": 0,
           "answer_index": 0,
-          "explanation": "Phloem translocation relies on active loading of sucrose into sieve tube elements by companion cells via proton-sucrose symporters. When phloem is cooled to near 0°C or treated with metabolic poisons like cyanide (which halts mitochondrial ATP synthesis via oxidative phosphorylation), sucrose loading ceases and mass flow stops, proving translocation is an active metabolic process."
+          "explanation": "Translocation is the transport of dissolved organic food molecules (sucrose and amino acids) through living phloem tissue. Sugars are moved from sources (photosynthesising leaves or storage organs) to sinks (growing shoots, roots, fruits) in both directions."
+        },
+        {
+          "id": "q_bio_plant_organs_40",
+          "question": "What is the main adaptation of spongy mesophyll tissue for gas exchange?",
+          "options": [
+            "Thick waxy cell walls that prevent water from evaporating into the air",
+            "Loose arrangement with large air spaces that allow rapid diffusion of carbon dioxide and oxygen",
+            "Extremely high density of chloroplasts to maximise light capture in dim light",
+            "Interconnected dead cells reinforced with rings of lignin"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The spongy mesophyll layer has loosely packed cells with large intercellular air spaces. This creates a large internal surface area and short diffusion pathways for carbon dioxide to diffuse to palisade cells and oxygen to diffuse out through stomata."
         }
       ],
       "detailed_slides": [
@@ -3140,6 +3465,71 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Antibiotics target specific bacterial structures and biochemical machinery: they inhibit peptidoglycan cell wall cross-linking (penicillins), disrupt bacterial 70S ribosomes (erythromycin, tetracyclines), or inhibit bacterial DNA gyrase. Viruses are non-cellular, consisting only of a nucleic acid genome inside a protein capsid; they hijack host human cellular machinery to replicate, so bacterial antibiotic targets simply do not exist."
+        },
+        {
+          "id": "q_bio_comm_36",
+          "question": "Which four main groups of microorganisms can act as pathogens causing communicable disease?",
+          "options": [
+            "Antibodies, antigens, lymphocytes, and phagocytes",
+            "Insects, parasites, algae, and protozoa",
+            "Viruses, bacteria, fungi, and protists",
+            "Prions, toxins, enzymes, and hormones"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Pathogens are disease-causing microorganisms. The four major taxonomic groups specified by GCSE exam boards are viruses (e.g. measles, HIV), bacteria (e.g. Salmonella), fungi (e.g. rose black spot), and protists (e.g. malaria Plasmodium)."
+        },
+        {
+          "id": "q_bio_comm_37",
+          "question": "Which of the following describes the three main mechanisms by which white blood cells defend the human body against pathogens?",
+          "options": [
+            "Dividing by meiosis, synthesising glycogen, and producing red blood cells",
+            "Releasing hydrochloric acid, clotting platelets, and sweating",
+            "Filtering blood in the kidneys, pumping bile, and releasing insulin",
+            "Phagocytosis (engulfing pathogens), antibody production, and antitoxin production"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "White blood cells defend the body through: (1) Phagocytosis (phagocytes engulf and digest pathogens); (2) Antibody production (lymphocytes produce specific Y-shaped antibodies that bind antigens); (3) Antitoxin production (neutralising harmful bacterial toxins)."
+        },
+        {
+          "id": "q_bio_comm_38",
+          "question": "Why are antibiotics completely ineffective against illnesses caused by viruses, such as influenza and the common cold?",
+          "options": [
+            "Viruses reproduce inside host human cells, so antibiotics cannot reach or kill them without destroying the host cell",
+            "Viruses have thick peptidoglycan cell walls that repel chemical antibiotics",
+            "Viruses are too large to be affected by small antibiotic molecules",
+            "Antibiotics are quickly digested by viral enzymes in the stomach"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Antibiotics target specific cellular mechanisms found in bacteria (such as bacterial cell wall synthesis or bacterial ribosomes). Viruses do not have cell walls or their own metabolic machinery; they replicate inside human cells, so antibiotics have no effect on them."
+        },
+        {
+          "id": "q_bio_comm_39",
+          "question": "How does vaccination protect an individual against future infection by a specific pathogen?",
+          "options": [
+            "It directly kills all active bacteria already multiplying in the patient's bloodstream",
+            "It introduces dead or inactive forms of a pathogen, stimulating white blood cells to produce specific antibodies and memory cells",
+            "It temporarily coats all human body cells with a waterproof protective lipid layer",
+            "It stimulates the red blood cells to produce painkillers and antihistamines"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "A vaccine contains a dead, weakened, or fragmented form of the pathogen. This stimulates lymphocytes to produce matching antibodies and long-lived memory cells. If the live pathogen enters the body later, memory cells rapidly produce antibodies in large quantities, eliminating the pathogen before symptoms occur."
+        },
+        {
+          "id": "q_bio_comm_40",
+          "question": "What is 'herd immunity' and why is it vital for protecting a population from epidemic disease?",
+          "options": [
+            "Everyone in a population must contract the disease to achieve natural lifetime immunity",
+            "Animals on farms are vaccinated to prevent animal-to-human disease transmission",
+            "When a high proportion of the population is vaccinated, the spread of the pathogen is reduced, protecting unvaccinated vulnerable individuals",
+            "A medical procedure where doctors treat only people who show severe symptoms"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Herd immunity occurs when enough individuals in a community are immune to a pathogen (typically via vaccination) that transmission becomes very rare. This protects individuals who cannot be vaccinated, such as newborns, people with immune deficiencies, or those undergoing cancer chemotherapy."
         }
       ],
       "detailed_slides": [
@@ -3664,6 +4054,71 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "ABO blood grouping relies on hemagglutination. If a patient has Antigen A on their erythrocyte membranes (Blood Group A), adding anti-A monoclonal antibodies cross-links the red blood cells, causing visible clumping (agglutination). Blood Group B agglutinates with anti-B, Blood Group AB agglutinates with both anti-A and anti-B, and Blood Group O agglutinates with neither."
+        },
+        {
+          "id": "q_bio_mabs_36",
+          "question": "What is the defining characteristic of monoclonal antibodies?",
+          "options": [
+            "They are antibodies that circulate permanently in the blood without ever binding to antigens",
+            "They are multi-target antibodies that can bind to all viruses and bacteria simultaneously",
+            "They are synthetic chemicals made without using any biological cells",
+            "They are antibodies produced from a single clone of hybridoma cells, specific to one binding site on one antigen"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Monoclonal antibodies are identical copies of an antibody produced from a single clone of cells. Because they are derived from one clone, they are completely specific to a single binding site on a specific protein antigen."
+        },
+        {
+          "id": "q_bio_mabs_37",
+          "question": "Which two cell types are combined to produce hybridoma cells during the manufacture of monoclonal antibodies?",
+          "options": [
+            "Mouse B-lymphocytes and tumour (myeloma) cells",
+            "Human red blood cells and bacterial plasmid cells",
+            "Plant meristem cells and fungal yeast cells",
+            "Phagocytes and embryonic stem cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Mouse B-lymphocytes (which produce the specific antibody but do not divide in culture) are fused with tumour cells (myeloma cells, which divide indefinitely). The resulting hybridoma can both produce antibodies and divide continuously."
+        },
+        {
+          "id": "q_bio_mabs_38",
+          "question": "How do monoclonal antibodies function in home pregnancy test strips?",
+          "options": [
+            "They measure the glucose concentration of urine using Benedict's reagent",
+            "They bind to the hormone hCG found in the urine of pregnant women, immobilising dye beads to produce a coloured line",
+            "They test the pH of the urine to determine if it is acidic",
+            "They detect estrogen by digesting the hormone into visible coloured sugars"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Human chorionic gonadotropin (hCG) is a hormone produced by the developing placenta. Pregnancy test strips use monoclonal antibodies specific to hCG attached to coloured blue dye beads. If hCG is present, it binds to the antibodies, creating a visible coloured test line."
+        },
+        {
+          "id": "q_bio_mabs_39",
+          "question": "How are monoclonal antibodies used in targeted cancer therapy?",
+          "options": [
+            "They act as digestive enzymes that dissolve the stomach tumour directly",
+            "They replace the patient's entire bone marrow in a single injection",
+            "They are attached to radioactive substances or toxic drugs, delivering the treatment directly to cancer cells without harming healthy body cells",
+            "They turn off cell division in all cells throughout the entire human body"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Cancer cells possess specific tumour markers (antigens) on their cell surfaces. Monoclonal antibodies engineered to bind these tumour markers can be linked to radioactive tags or toxic anti-cancer drugs, directing the cytotoxic agent precisely to tumour cells while sparing healthy tissue."
+        },
+        {
+          "id": "q_bio_mabs_40",
+          "question": "What was an unexpected limitation or disadvantage encountered when monoclonal antibodies were first used in clinical human medicine?",
+          "options": [
+            "They were impossible to purify in laboratory conditions",
+            "They degraded all proteins in the patient's blood immediately",
+            "They could only be produced inside live human embryos",
+            "They caused unexpected side effects and immune reactions in human patients because they were produced using mouse cells"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Because monoclonal antibodies were initially developed using mouse lymphocytes and myeloma cells, human immune systems sometimes recognised the mouse antibodies as foreign, causing allergic reactions, fever, or rejection. Modern techniques now 'humanise' antibodies to minimize side effects."
         }
       ],
       "detailed_slides": [
@@ -4073,17 +4528,17 @@
           "explanation": "Plants possess passive physical barriers: the hydrophobic waxy cuticle repels standing water needed by spores, cellulose cell walls physically impede hyphal entry, and the thick layer of dead cork cells (bark) on stems acts as a mechanical shield. When outer bark scales slough off, any adhering pathogens or fungal mycelia are shed with them."
         },
         {
-          "id": "q_bio_plant_disease_27",
-          "question": "Many plants produce secondary metabolites as chemical defences against herbivores and microbial pathogens. Which option correctly pairs a plant chemical defence with its mechanism of action?",
+          "question": "A gardener notices that their rose bushes have purple or black spots on the leaves, which turn yellow and drop off early. What is the cause of this disease and how does it reduce plant growth?",
           "options": [
-            "Digitalis from foxgloves disrupts cardiac rhythm in grazing herbivores, while mint produces antibacterial essential oils",
-            "Aspirin from willow bark acts as an insecticide that paralyses aphid respiratory spiracles",
-            "Cellulose microfibrils act as neurotoxins that bind to fungal neurotransmitter receptors",
-            "Chlorophyll pigments release concentrated hydrochloric acid when leaf tissues are bitten"
+            "Bacteria (Agrobacterium); excessive transpiration causes the leaves to wilt and drop",
+            "Virus (Tobacco mosaic virus); bacteria destroy the xylem vessels preventing water uptake",
+            "Fungus (Rose black spot); yellowing reduces the chlorophyll available, so the rate of photosynthesis decreases",
+            "Protist (Plasmodium); the pathogen consumes the phloem sap containing dissolved sugars"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Plants synthesize diverse defensive chemicals: foxgloves produce cardiac glycosides (such as digitalis/digitoxin) that alter sodium-potassium pumps in mammalian hearts to deter large herbivores; mint and witch hazel produce antimicrobial phenolic compounds that kill bacteria; and tobacco produces nicotine, a powerful neurotoxin targeting insect nicotinic acetylcholine receptors."
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Rose black spot is a fungal disease. The black or purple spots cause surrounding leaf tissue to turn yellow and drop prematurely. With fewer green leaves and reduced chlorophyll, the plant absorbs less light and photosynthesis is reduced, stunting plant growth.",
+          "id": "q_bio_plant_disease_27"
         },
         {
           "id": "q_bio_plant_disease_28",
@@ -4188,6 +4643,71 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "Following a localized Hypersensitive Response, the infected tissue synthesizes mobile defensive signal molecules, notably salicylic acid and methyl salicylate. These hormones are translocated through vascular tissues (primarily phloem) to distant, uninfected leaves. Binding to receptors in healthy systemic tissues, they trigger the transcription of pathogenesis-related (PR) genes encoding chitinases and glucanases, establishing long-term, broad-spectrum Systemic Acquired Resistance (SAR)."
+        },
+        {
+          "id": "q_bio_plant_dis_36",
+          "question": "What symptom and underlying cause are associated with magnesium deficiency in garden plants?",
+          "options": [
+            "Yellowing of leaves (chlorosis) because magnesium ions are required to synthesise chlorophyll",
+            "Stunted plant growth because magnesium is needed for protein synthesis",
+            "Rotting of roots because magnesium causes fungal infections",
+            "Purple spots on leaves caused by a lack of cell wall cellulose"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Magnesium ions are the central atom in chlorophyll molecules. Without sufficient magnesium in the soil, plants cannot make chlorophyll, leading to yellowing of the leaves (chlorosis) and reduced photosynthesis."
+        },
+        {
+          "id": "q_bio_plant_dis_37",
+          "question": "What symptom and underlying biological cause occur when a plant suffers from nitrate ion deficiency?",
+          "options": [
+            "Overly large, fragile leaves because nitrates prevent cell wall formation",
+            "Stunted growth because nitrates are needed with glucose to make amino acids for protein synthesis",
+            "Immediate root death because nitrates provide oxygen for root respiration",
+            "Yellow leaves because nitrates are the primary green pigment in chloroplasts"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Plants absorb nitrate ions from the soil to combine with glucose produced during photosynthesis to form amino acids. Amino acids are the building blocks of proteins required for growth; hence, nitrate deficiency causes stunted growth."
+        },
+        {
+          "id": "q_bio_plant_dis_38",
+          "question": "Which of the following is an example of a physical defence mechanism in plants?",
+          "options": [
+            "Antibacterial chemicals produced by mint and witch hazel plants",
+            "Poisons produced by foxgloves to deter grazing animals",
+            "Tough cellulose cell walls, a waxy cuticle on leaves, and layers of dead bark on tree trunks",
+            "Leaves that droop or curl when touched by an insect"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Physical plant defences provide physical barriers to prevent entry of pathogens and herbivores: cellulose cell walls, a waterproof waxy cuticle on the leaf epidermis, and outer bark (dead cells) on woody stems that falls off."
+        },
+        {
+          "id": "q_bio_plant_dis_39",
+          "question": "Which of the following is an example of a chemical defence mechanism used by plants?",
+          "options": [
+            "Plants that mimic the appearance of stones or unpalatable insects",
+            "Thorns on rose stems and sharp spines on cacti",
+            "Hairy leaves that make it difficult for caterpillars to feed",
+            "Antibacterial chemicals (such as from mint) and poisons to deter herbivores"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Chemical defences involve the synthesis of chemical compounds: antibacterial chemicals that kill bacterial pathogens (e.g. mint, witch hazel), and poisons that deter or sicken herbivores (e.g. digitalis from foxglove, nicotine from tobacco)."
+        },
+        {
+          "id": "q_bio_plant_dis_40",
+          "question": "Why do aphid infestations cause severe damage to commercial tomato and rose crops?",
+          "options": [
+            "They use sharp mouthparts to pierce the phloem, drinking sugary sap and acting as vectors for plant viruses",
+            "They chew through the xylem vessels, causing immediate dehydration and root rot",
+            "They lay eggs inside stomata, preventing leaves from transpiring water",
+            "They secrete acidic saliva that dissolves the plant's cellulose cell walls"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Aphids have sharp, piercing mouthparts that penetrate into the phloem vessels. They extract dissolved sugars (sap), depriving the plant of nutrients needed for growth and respiration, and can transmit plant pathogens (such as viruses) between crops."
         }
       ],
       "detailed_slides": [
@@ -4584,17 +5104,17 @@
           "id": "bio_photosynthesis_q25"
         },
         {
-          "id": "q_bio_photosynthesis_26",
-          "question": "A commercial greenhouse farmer maintains carbon dioxide concentration at 0.15% and light intensity at 12,000 lux. When the temperature is raised from 15°C to 25°C, the rate of photosynthesis doubles. When raised further from 25°C to 45°C, the rate drops rapidly to zero. Why?",
+          "question": "A commercial greenhouse tomato grower artificially enriches the greenhouse air with carbon dioxide up to 0.15% on sunny summer days. Why does this increase tomato yield?",
           "options": [
-            "At 15–25°C, higher kinetic energy increases enzyme-substrate collisions; above 40°C, key photosynthetic enzymes (e.g. RuBisCO) denature, altering active site conformation",
-            "Carbon dioxide gas becomes solid above 40°C, so it cannot diffuse into stomata",
-            "Light photons lose all kinetic energy at elevated atmospheric temperatures",
-            "Chloroplasts undergo binary fission above 40°C, destroying chlorophyll pigments"
+            "Carbon dioxide increases the rate of transpiration, allowing more water uptake",
+            "Carbon dioxide prevents insects and pests from attacking the tomato leaves",
+            "Carbon dioxide is a reactant in photosynthesis; when light and temperature are plentiful, $\\text{CO}_2$ concentration is the limiting factor",
+            "Carbon dioxide directly provides the energy needed to produce cellulose cell walls"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Photosynthesis is an enzyme-controlled biochemical process. Between 15°C and 25°C, increasing temperature provides greater kinetic energy, increasing collision frequency between enzymes (such as RuBisCO) and substrate molecules. Above 40°C, thermal vibration breaks hydrogen and ionic bonds in the enzyme tertiary structure; active sites denature, halting carbon fixation completely."
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The rate of photosynthesis is determined by limiting factors. On a bright, warm summer day, light intensity and temperature are high, making carbon dioxide concentration the factor in shortest supply. Elevating $\\text{CO}_2$ levels removes this limitation, boosting photosynthesis and producing more glucose for growth and fruiting.",
+          "id": "q_bio_photosynthesis_26"
         },
         {
           "id": "q_bio_photosynthesis_27",
@@ -4610,17 +5130,17 @@
           "explanation": "Light intensity follows the inverse square law: I ∝ 1 / d².\nAt 10 cm: I1 ∝ 1 / 10² = 1 / 100.\nAt 40 cm: I2 ∝ 1 / 40² = 1 / 1600.\nI2 / I1 = (1 / 1600) / (1 / 100) = 100 / 1600 = 1 / 16.\nThe light intensity drops to 1/16th of its initial intensity."
         },
         {
-          "id": "q_bio_photosynthesis_28",
-          "question": "Why does a plant in continuous darkness stop fixing carbon dioxide into carbohydrates, even if an abundant supply of CO2 gas is pumped directly into the leaf chambers?",
+          "question": "A student investigates the rate of photosynthesis in Canadian pondweed (Elodea) using the inverse square law ($I \\propto 1/d^2$). If the lamp is moved from a distance of $10\\text{ cm}$ to $20\\text{ cm}$ from the beaker, by what factor does the light intensity change?",
           "options": [
-            "The light-independent stage (Calvin cycle) requires ATP and reduced coenzymes (NADPH) that are only generated during the light-dependent reactions",
-            "Stomata permanently fuse shut in the dark and can never reopen without light",
-            "Carbon dioxide can only react with water when light photons directly split CO2 molecules into carbon and oxygen",
-            "Mitochondria consume all available carbon dioxide during cellular respiration in the dark"
+            "Light intensity decreases to $\\frac{1}{4}$ of its original value",
+            "Light intensity decreases to $\\frac{1}{2}$ of its original value",
+            "Light intensity decreases to $\\frac{1}{8}$ of its original value",
+            "Light intensity remains the same because the bulb wattage is unchanged"
           ],
           "correct_answer": 0,
           "answer_index": 0,
-          "explanation": "Although the light-independent reactions (Calvin cycle) do not directly capture photons, they rely entirely on the chemical products of the light-dependent reactions: ATP (for energy) and reduced coenzymes / NADPH (for reducing power). In extended darkness, ATP and NADPH reserves are quickly depleted, bringing carbon fixation to a complete standstill."
+          "explanation": "According to the inverse square law, light intensity $I$ is inversely proportional to the square of the distance $d$ ($I \\propto 1/d^2$). When the distance doubles (from $10\\text{ cm}$ to $20\\text{ cm}$, a factor of $2$), the light intensity is multiplied by $1/2^2 = 1/4$ (it falls to one quarter of the original intensity).",
+          "id": "q_bio_photosynthesis_28"
         },
         {
           "id": "q_bio_photosynthesis_29",
@@ -4662,30 +5182,30 @@
           "explanation": "An absorption spectrum plots light absorption by isolated pigments at each wavelength; an action spectrum measures actual photosynthetic rate (e.g. $O_2$ evolution) across wavelengths. The close overlap between the peaks in blue-violet (400–450 nm) and red (650–680 nm) confirms chlorophylls are the chief light-harvesting pigments. Accessory pigments like carotenoids absorb wavelengths in the blue-green spectrum, transferring excitation energy to reaction centres."
         },
         {
-          "id": "q_bio_photosynthesis_32",
-          "question": "During the light-dependent stage of photosynthesis in the thylakoid membranes, what is the role of the photolysis of water ($2H_2O \\to 4H^+ + 4e^- + O_2$)?",
+          "question": "A variegated leaf (having green centres and white outer edges) was exposed to bright light for 6 hours, then tested for starch using iodine solution. What is the expected result and explanation?",
           "options": [
-            "It consumes atmospheric carbon dioxide gas to synthesize liquid glucose",
-            "It provides electrons to replace those excited and lost by Photosystem II, generates protons to establish a chemiosmotic electrochemical gradient for ATP synthesis, and releases oxygen as a byproduct",
-            "It hydrolyses ATP into ADP and inorganic phosphate to warm the chloroplast",
-            "It dissolves the cellulose cell wall to allow sunlight to reach the nucleus"
+            "Only the green areas turn blue-black; white areas lack chlorophyll so cannot photosynthesise to produce glucose/starch",
+            "The entire leaf turns blue-black because glucose is transported to all parts of the leaf",
+            "Only the white areas turn blue-black because starch is stored where chlorophyll is absent",
+            "Neither area turns blue-black because photosynthesis only produces cellulose, not starch"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Chlorophyll is essential for absorbing light energy during photosynthesis. The white parts of a variegated leaf lack chlorophyll, so no photosynthesis occurs there and no starch is produced (iodine remains orange-brown). The green parts contain chlorophyll, produce glucose, and store it as starch (turning iodine blue-black).",
+          "id": "q_bio_photosynthesis_32"
+        },
+        {
+          "question": "Which of the following correctly describes how plants utilise the glucose produced during photosynthesis?",
+          "options": [
+            "Directly excreted through the stomata as a waste gas",
+            "Converted into insoluble starch for storage, cellulose to strengthen cell walls, and combined with nitrates to make amino acids",
+            "Converted exclusively into glycogen for energy storage inside root hair cells",
+            "Used solely to produce haemoglobin for transport in the xylem vessels"
           ],
           "correct_answer": 1,
           "answer_index": 1,
-          "explanation": "When light hits Photosystem II (P680), chlorophyll electrons are excited to higher energy states and leave the reaction centre down an electron transport chain. The oxygen-evolving complex on the lumenal face of PSII oxidises water (photolysis): electrons replenish the electron deficiency in PSII, protons ($H^+$) accumulate in the thylakoid lumen driving ATP synthase, and $O_2$ is liberated as a byproduct."
-        },
-        {
-          "id": "q_bio_photosynthesis_33",
-          "question": "What is photorespiration, and why does it significantly reduce the efficiency of carbon fixation in C3 crop plants (e.g. wheat, rice) under hot, dry conditions?",
-          "options": [
-            "Plants breathe through root hairs instead of leaves, suffocating in dry soil",
-            "Plant mitochondria absorb light photons and destroy chloroplast membranes",
-            "When stomata close to conserve water, internal $CO_2$ drops and $O_2$ rises; RuBisCO fixes oxygen instead of carbon dioxide, wasting energy and breaking down organic intermediates without producing ATP",
-            "Photosynthetic enzymes permanently turn into glycogen crystals above 25°C"
-          ],
-          "correct_answer": 2,
-          "answer_index": 2,
-          "explanation": "The enzyme RuBisCO has both carboxylase and oxygenase activity. In hot, dry weather, plants close stomata to limit transpiration. Transpiration halts, but light-dependent reactions continue, consuming $CO_2$ and building up internal $O_2$. When $O_2$ concentrations exceed $CO_2$, RuBisCO binds oxygen, oxidising ribulose bisphosphate (RuBP) into phosphoglycolate in a wasteful metabolic pathway (photorespiration) that drains up to 30% of photosynthetic energy."
+          "explanation": "Plants convert glucose into: (1) Insoluble starch for storage (doesn't affect cell osmotic balance); (2) Cellulose for strong cell walls; (3) Lipids/oils in seeds; (4) Amino acids for protein synthesis by combining glucose with mineral nitrate ions absorbed from the soil; (5) Respiration to release energy.",
+          "id": "q_bio_photosynthesis_33"
         },
         {
           "id": "q_bio_photosynthesis_34",
@@ -4712,6 +5232,71 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Prior to Ruben and Kamen's landmark isotopic tracing experiment, it was widely believed that sunlight split $CO_2$ to release $O_2$. By providing $^{18}O$-labelled water ($H_2^{18}O$), all released oxygen gas was detected as heavy $^{18}O_2$. When labelled $C^{18}O_2$ was supplied with unlabelled water, the evolved oxygen was standard $^{16}O_2$ (the $^{18}O$ ended up in glucose and water), proving oxygen gas derives exclusively from the photolysis of water."
+        },
+        {
+          "id": "q_bio_photo_36",
+          "question": "Which of the following is the correct chemical word equation for photosynthesis?",
+          "options": [
+            "$\\text{Glucose} + \\text{Oxygen} \\to \\text{Carbon dioxide} + \\text{Water}$",
+            "$\\text{Carbon dioxide} + \\text{Water} \\xrightarrow{\\text{light, chlorophyll}} \\text{Glucose} + \\text{Oxygen}$",
+            "$\\text{Carbon dioxide} + \\text{Glucose} \\to \\text{Water} + \\text{Oxygen}$",
+            "$\\text{Oxygen} + \\text{Water} \\to \\text{Glucose} + \\text{Carbon dioxide}$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Photosynthesis uses energy from sunlight absorbed by chlorophyll to react carbon dioxide with water, producing glucose and oxygen: $\\text{Carbon dioxide} + \\text{Water} \\to \\text{Glucose} + \\text{Oxygen}$."
+        },
+        {
+          "id": "q_bio_photo_37",
+          "question": "What is the biological role of the green pigment chlorophyll in plant leaves?",
+          "options": [
+            "To reflect ultraviolet radiation to keep the leaf cool",
+            "To absorb water vapour from the atmosphere through the leaf cuticle",
+            "To absorb light energy and transfer it into chemical energy during photosynthesis",
+            "To chemically digest insect pests that land on the leaf surface"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Chlorophyll is a pigment located in chloroplasts that absorbs light energy (primarily blue and red wavelengths) and uses this energy to convert carbon dioxide and water into glucose and oxygen."
+        },
+        {
+          "id": "q_bio_photo_38",
+          "question": "Why does the rate of photosynthesis drop to zero if the temperature of a greenhouse rises above $45^\\circ\\text{C}$?",
+          "options": [
+            "Water molecules split into hydrogen gas and escape through stomata",
+            "Carbon dioxide gas evaporates completely out of the plant cells",
+            "The chlorophyll pigment molecules boil and convert into oxygen gas",
+            "The high temperature denatures the enzymes controlling photosynthesis, altering the shape of their active sites"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Photosynthesis is controlled by biological enzymes. At high temperatures (above $\\sim 45^\\circ\\text{C}$), the thermal energy breaks intermolecular bonds holding enzyme tertiary structures together, denaturing the enzymes so substrates can no longer bind."
+        },
+        {
+          "id": "q_bio_photo_39",
+          "question": "Which chemical reagent is used to confirm that a plant leaf has been actively synthesising and storing carbohydrate?",
+          "options": [
+            "Iodine solution, which turns from orange-brown to blue-black in the presence of starch",
+            "Benedict's solution, which turns cloudy white when heated with cellulose",
+            "Biuret reagent, which turns lilac in the presence of glucose",
+            "Ethanol, which forms a red ring on top of fatty oils"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Plants store excess glucose as insoluble starch. Iodine solution is used to test for starch: if starch is present, iodine changes from orange-brown to blue-black."
+        },
+        {
+          "id": "q_bio_photo_40",
+          "question": "In the GCSE required practical investigating the rate of photosynthesis in pondweed (Elodea), why is sodium hydrogencarbonate added to the water?",
+          "options": [
+            "To provide dissolved oxygen for the pondweed to respire",
+            "To release dissolved carbon dioxide, ensuring that $\\text{CO}_2$ is not a limiting factor",
+            "To act as a food source providing dissolved glucose directly to the pondweed",
+            "To dye the water green so that oxygen bubbles can be counted easily"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Sodium hydrogencarbonate dissolves in water to release carbon dioxide. Adding it ensures that $\\text{CO}_2$ is in constant excess, so only the independent variable (e.g. light intensity) acts as the limiting factor."
         }
       ],
       "detailed_slides": [
@@ -4991,16 +5576,16 @@
           "id": "bio_respiration_q16"
         },
         {
-          "question": "Which metabolic pathway explains why the liver is the primary site for the conversion of lactic acid back into glucose during the recovery period?",
+          "question": "During vigorous exercise, muscles respire anaerobically. What causes muscle fatigue and cramps during this process?",
           "options": [
-            "Glycolysis in the cytoplasm",
-            "The Cori cycle involving gluconeogenesis",
-            "The Krebs cycle in the mitochondrial matrix",
-            "Oxidative phosphorylation on the cristae"
+            "Excessive production of water in the mitochondria causing the cells to burst",
+            "A rapid buildup of carbon dioxide gas inside the muscle fibres",
+            "The buildup of lactic acid in muscle cells, which lowers cellular pH and reduces muscle contraction efficiency",
+            "The conversion of all muscle protein into glucose"
           ],
-          "answer_index": 1,
-          "explanation": "Lactic acid is transported to the liver where it is converted back to pyruvate and then to glucose via gluconeogenesis, a process known as the Cori cycle, which requires ATP.",
-          "correct_answer": 1,
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "During vigorous exercise, insufficient oxygen reaches muscle tissues. Cells respire anaerobically: $\\text{Glucose} \\to \\text{Lactic acid}$. The accumulation of lactic acid creates an oxygen debt, lowers muscle pH, and contributes to muscle fatigue.",
           "id": "bio_respiration_q17"
         },
         {
@@ -5017,29 +5602,29 @@
           "id": "bio_respiration_q18"
         },
         {
-          "question": "During a study on cellular respiration, a cell is treated with a chemical that inhibits the enzyme phosphofructokinase. What is the immediate impact on the cell's metabolism?",
+          "question": "What is the chemical word equation for anaerobic respiration in yeast cells (fermentation)?",
           "options": [
-            "Increased production of carbon dioxide",
-            "Inhibition of the breakdown of glucose during glycolysis",
-            "Increased rate of oxidative phosphorylation",
-            "Inhibition of the electron transport chain"
+            "$\\text{Glucose} \\to \\text{Ethanol} + \\text{Carbon dioxide}$",
+            "$\\text{Glucose} \\to \\text{Lactic acid}$",
+            "$\\text{Glucose} + \\text{Oxygen} \\to \\text{Carbon dioxide} + \\text{Water}$",
+            "$\\text{Ethanol} + \\text{Carbon dioxide} \\to \\text{Glucose}$"
           ],
-          "answer_index": 1,
-          "explanation": "Phosphofructokinase is a rate-limiting enzyme in glycolysis. Inhibiting it stops the breakdown of glucose into pyruvate, effectively halting both aerobic and anaerobic respiration pathways.",
-          "correct_answer": 1,
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In yeast (and plant cells), anaerobic respiration produces ethanol and carbon dioxide: $\\text{Glucose} \\to \\text{Ethanol} + \\text{Carbon dioxide}$. This process is called fermentation and is used economically to produce bread ($\\text{CO}_2$ makes dough rise) and alcoholic beverages.",
           "id": "bio_respiration_q19"
         },
         {
-          "question": "A scientist compares the surface area to volume ratio (SA:V) of two mitochondria. Mitochondrion A has a volume of 10 µm³ and a surface area of 60 µm². Mitochondrion B has a volume of 20 µm³ and a surface area of 80 µm². Which mitochondrion is more efficient at ATP synthesis and why?",
+          "question": "A student compares aerobic and anaerobic respiration in humans. Which statement is completely accurate?",
           "options": [
-            "Mitochondrion A, because it has a higher SA:V ratio",
-            "Mitochondrion B, because it has a larger total surface area",
-            "Mitochondrion A, because it requires less oxygen",
-            "Mitochondrion B, because it has a lower SA:V ratio"
+            "Anaerobic respiration produces more energy than aerobic respiration because lactic acid is rich in ATP",
+            "Aerobic respiration requires oxygen, produces carbon dioxide and water, and releases significantly more energy per glucose molecule than anaerobic respiration",
+            "Aerobic respiration takes place entirely inside the nucleus, whereas anaerobic occurs in chloroplasts",
+            "Anaerobic respiration only occurs in plant cells, never in human muscle cells"
           ],
-          "answer_index": 0,
-          "explanation": "Mitochondrion A has a SA:V of 6.0. Mitochondrion B has a SA:V of 4.0. A higher SA:V ratio allows for more cristae surface area relative to volume, facilitating more electron transport chain complexes.",
-          "correct_answer": 0,
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Aerobic respiration breaks down glucose completely in the presence of oxygen, releasing a large amount of energy ($\\sim 32\\text{ ATP}$ equivalents). Anaerobic respiration is the incomplete breakdown of glucose without oxygen, yielding much less energy and producing lactic acid.",
           "id": "bio_respiration_q20"
         },
         {
@@ -5095,30 +5680,30 @@
           "id": "bio_respiration_q24"
         },
         {
-          "question": "Which of the following correctly identifies the role of the inner mitochondrial membrane in aerobic respiration?",
+          "question": "Why do heart muscle cells contain far more mitochondria than skin epithelial cells?",
           "options": [
-            "It contains the enzymes for glycolysis",
-            "It provides a large surface area for the electron transport chain and ATP synthase",
-            "It is the site where glucose is converted to pyruvate",
-            "It regulates the entry of oxygen into the mitochondrial matrix"
+            "Mitochondria store oxygen in the heart to prevent blood clots",
+            "Skin cells do not perform cellular respiration and rely only on photosynthesis",
+            "Heart muscle cells contract continuously and require large amounts of energy from aerobic respiration",
+            "Skin epithelial cells lack nuclei and cannot host mitochondria"
           ],
-          "answer_index": 1,
-          "explanation": "The inner mitochondrial membrane is folded into cristae to maximize surface area for the electron transport chain and ATP synthase, which are essential for oxidative phosphorylation.",
-          "correct_answer": 1,
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Mitochondria are the sites of aerobic respiration where most energy is released. The heart is a muscular organ that contracts continuously throughout life without resting, requiring a constant, substantial supply of energy compared to relatively quiescent skin cells.",
           "id": "bio_respiration_q25"
         },
         {
-          "id": "q_bio_respiration_26",
-          "question": "Following an intense 400-metre sprint, a sprinter breathes deeply and rapidly for several minutes despite having stopped running. What physiological process accounts for this oxygen debt (EPOC)?",
+          "question": "What does the term 'oxygen debt' mean after completing intense anaerobic exercise?",
           "options": [
-            "Extra oxygen is required by hepatocytes in the liver to convert accumulated lactic acid back into glucose (gluconeogenesis) and restore ATP and creatine phosphate in muscles",
-            "The sprinter's lungs collapsed during the sprint and need oxygen pressure to reinflate",
-            "Oxygen is needed to metabolize glucose directly into ethanol inside skeletal muscle cells",
-            "The blood became too alkaline during the race and needs acidic oxygen molecules to neutralise plasma"
+            "The oxygen required to convert glucose into glycogen during a meal",
+            "The deficit of carbon dioxide in the lungs caused by hyperventilation",
+            "The volume of oxygen consumed by the brain during sleep",
+            "The amount of extra oxygen required by the body after exercise to react with and break down the accumulated lactic acid in the liver"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Excess Post-exercise Oxygen Consumption (EPOC / oxygen debt) represents the oxygen required to repay metabolic deficits incurred during anaerobic respiration. Accumulated lactic acid is transported via the bloodstream to the liver, where oxygen is consumed to oxidise lactic acid to pyruvate, convert it back into glucose/glycogen, re-oxygenate myoglobin, and replenish phosphocreatine and ATP reserves."
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Oxygen debt is the amount of additional oxygen the body needs after exercise to react with the accumulated lactic acid and remove it from cells. Blood transports lactic acid from muscles to the liver, where it is converted back into glucose or oxidised to $\\text{CO}_2$ and water in the presence of oxygen.",
+          "id": "q_bio_respiration_26"
         },
         {
           "id": "q_bio_respiration_27",
@@ -5134,17 +5719,17 @@
           "explanation": "During aerobic respiration, seeds consume $O_2$ and release an equal volume of $CO_2$ ($C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O$). If $CO_2$ remained in the chamber gas phase, total gas volume would not change. Solid potassium hydroxide ($KOH$) absorbs all released $CO_2$ ($2KOH + CO_2 \to K_2CO_3 + H_2O$), so any reduction in gas volume and movement of the meniscus is directly proportional to the volume of $O_2$ consumed."
         },
         {
-          "id": "q_bio_respiration_28",
-          "question": "Where in a eukaryotic human muscle cell do glycolysis and aerobic respiration (Krebs cycle / oxidative phosphorylation) take place, and how do their ATP yields compare?",
+          "question": "Which of the following is the correct balanced symbol equation for aerobic cellular respiration?",
           "options": [
-            "Glycolysis occurs in the cytoplasm yielding 2 ATP molecules per glucose; aerobic stages occur inside mitochondria yielding approximately 30–32 ATP molecules per glucose",
-            "Glycolysis occurs inside the nucleus yielding 32 ATP; aerobic stages occur on ribosomes yielding 2 ATP",
-            "Glycolysis occurs inside lysosomes yielding 0 ATP; aerobic stages occur in cytoplasm yielding 100 ATP",
-            "Both processes occur exclusively inside the mitochondrial matrix yielding identical amounts of ATP"
+            "$6\\text{CO}_2 + 6\\text{H}_2\\text{O} \\to \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2$",
+            "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\to 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$",
+            "$\\text{C}_6\\text{H}_{12}\\text{O}_6 \\to 2\\text{C}_3\\text{H}_6\\text{O}_3$",
+            "$\\text{C}_6\\text{H}_{12}\\text{O}_6 \\to 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2$"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Glycolysis is the anaerobic breakdown of glucose to pyruvate occurring in the cytoplasm (cytosol), producing a net yield of 2 ATP molecules per glucose. In the presence of oxygen, pyruvate enters the mitochondria, where the link reaction, Krebs cycle, and electron transport chain (oxidative phosphorylation) generate ~30–32 ATP molecules via complete oxidation."
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Aerobic respiration reacts one molecule of glucose with six molecules of oxygen to produce six molecules of carbon dioxide and six molecules of water, releasing energy: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\to 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$.",
+          "id": "q_bio_respiration_28"
         },
         {
           "id": "q_bio_respiration_29",
@@ -5186,56 +5771,121 @@
           "explanation": "Carbohydrates (like glucose, $C_6H_{12}O_6$) have an internal formula containing enough oxygen atoms to balance their hydrogen ratio ($H:O = 2:1$), yielding $C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O$, so $RQ = 6/6 = 1.0$. Lipids (e.g. tristearin, $C_{57}H_{110}O_6$) are heavily reduced hydrocarbons with very few oxygen atoms, requiring vast amounts of atmospheric oxygen for complete oxidation ($C_{57}H_{110}O_6 + 81.5O_2 \\to 57CO_2 + 55H_2O$), giving $RQ = 57 / 81.5 \\approx 0.70$."
         },
         {
-          "id": "q_bio_respiration_32",
-          "question": "How does the structural architecture of the mitochondrial inner membrane (cristae) optimize the efficiency of aerobic cellular respiration?",
+          "question": "During an experiment to measure respiration rate in woodlice using a simple respirometer, what is the role of potassium hydroxide (KOH) or soda lime pellets placed in the tube?",
           "options": [
-            "Cristae store solid glycogen granules to protect the organelle from osmotic lysis",
-            "Cristae are permeable open pores that allow nuclei to float inside mitochondria",
-            "Extensive folds (cristae) provide a massive surface area for thousands of electron transport chain protein complexes and ATP synthase stalked particles",
-            "Cristae contain green chlorophyll pigments to synthesize ATP from moonlight"
-          ],
-          "correct_answer": 2,
-          "answer_index": 2,
-          "explanation": "Oxidative phosphorylation occurs on the inner mitochondrial membrane. Deep invaginations called cristae expand the membrane surface area up to five-fold. This dense surface accommodates vast arrays of electron transport chain complexes (Complexes I–IV), electron carriers (cytochromes), and ATP synthase complexes, maximizing proton pumping into the intermembrane space and chemiosmotic ATP synthesis."
-        },
-        {
-          "id": "q_bio_respiration_33",
-          "question": "Potassium cyanide is a lethal metabolic poison that non-competitively inhibits cytochrome c oxidase (Complex IV) in the mitochondrial electron transport chain. Why does cyanide ingestion result in rapid cellular death within minutes?",
-          "options": [
-            "Cyanide stimulates glycolysis to run 10,000 times faster, depleting all glucose instantly",
-            "Cyanide converts all cellular water into solid ice crystals",
-            "Cyanide causes blood hemoglobin to turn into pure nitrogen gas",
-            "Electrons cannot be transferred to oxygen (the terminal electron acceptor), halting the electron transport chain, collapsing the proton gradient, and stopping aerobic ATP synthesis"
-          ],
-          "correct_answer": 3,
-          "answer_index": 3,
-          "explanation": "Cytochrome c oxidase (Complex IV) catalyses the final step of the electron transport chain: transferring electrons to molecular oxygen to form water ($4e^- + 4H^+ + O_2 \\to 2H_2O$). Cyanide binds irreversibly to the iron core of cytochrome c oxidase, blocking electron transfer. The entire chain backs up in a reduced state; proton pumping halts, the electrochemical gradient dissipates, and oxidative phosphorylation stops, depriving vital tissues (brain, heart) of ATP."
-        },
-        {
-          "id": "q_bio_respiration_34",
-          "question": "Newborn human infants possess brown adipose tissue (BAT) around their neck and scapulae. What biochemical mechanism enables brown fat mitochondria to perform non-shivering thermogenesis to protect against hypothermia?",
-          "options": [
-            "An uncoupling protein (thermogenin / UCP1) in the inner mitochondrial membrane allows protons to leak back into the matrix, releasing the energy of the proton gradient as heat rather than synthesizing ATP",
-            "Brown fat cells undergo rapid shivering contractions visible only under a microscope",
-            "Brown fat cells burn toxic carbon monoxide gas produced by the liver",
-            "Brown fat mitochondria synthesize pure glucose directly from infrared radiation"
-          ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Normal mitochondria couple the proton electrochemical gradient strictly to ATP synthase. Brown fat mitochondria contain high concentrations of Uncoupling Protein 1 (UCP1 / thermogenin) embedded in their inner membrane. Thermogenin forms a channel permitting protons to flow back down their gradient into the matrix bypassing ATP synthase. The free energy that would have generated ATP is released entirely as heat (non-shivering thermogenesis), warming neonatal blood."
-        },
-        {
-          "id": "q_bio_respiration_35",
-          "question": "During the recovery period following vigorous anaerobic exercise, what is the metabolic pathway of the Cori cycle between fatigued skeletal muscles and the liver?",
-          "options": [
-            "Lactic acid is converted into ethanol inside the kidneys and excreted in urine",
-            "Lactic acid diffuses from muscle into the blood, is transported to the liver, and is converted back into glucose via gluconeogenesis at the cost of 6 ATP equivalents",
-            "Lactic acid is broken down into carbon monoxide gas in the spleen",
-            "Lactic acid remains permanently locked inside muscle myofibrils as structural protein"
+            "To provide oxygen for the woodlice to respire",
+            "To absorb carbon dioxide produced by the organisms, so any volume change is due solely to oxygen consumption",
+            "To prevent moisture from evaporating from the organisms",
+            "To neutralize lactic acid excreted by the organisms"
           ],
           "correct_answer": 1,
           "answer_index": 1,
-          "explanation": "In anaerobic muscle, pyruvate is reduced to lactic acid to regenerate $NAD^+$ for glycolysis. Muscle cells cannot convert lactic acid back to glucose due to lack of key gluconeogenic enzymes. Lactic acid is released into circulation and taken up by hepatocytes in the liver. In the liver, lactate dehydrogenase oxidises lactate back to pyruvate, which is synthesized into glucose via gluconeogenesis (consuming 6 ATP), which can return to muscle."
+          "explanation": "As living organisms respire, they consume oxygen and release carbon dioxide. The soda lime / potassium hydroxide absorbs the produced $\\text{CO}_2$. Consequently, the decrease in gas volume in the tube corresponds directly to the volume of oxygen consumed, allowing accurate measurement.",
+          "id": "q_bio_respiration_32"
+        },
+        {
+          "question": "Why is cellular respiration classified as an exothermic reaction?",
+          "options": [
+            "It only occurs when body temperature is below freezing",
+            "It absorbs energy from sunlight to synthesize glucose molecules",
+            "It releases thermal and chemical energy to the surroundings as glucose bonds are broken and converted to lower energy products",
+            "It takes in heat from the blood to lower the core body temperature"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Respiration is exothermic because more energy is released when the bonds in the products ($\\text{CO}_2$ and $\\text{H}_2\\text{O}$) are formed than is required to break the bonds in the reactants (glucose and $\\text{O}_2$). Some of this released energy warms the body.",
+          "id": "q_bio_respiration_33"
+        },
+        {
+          "question": "During exercise, the human body undergoes several physiological changes to supply muscles with more oxygen. Which of the following correctly describes these responses?",
+          "options": [
+            "Breathing rate stops completely to allow anaerobic respiration to take over",
+            "Heart rate decreases to conserve oxygen and breathing becomes shallower",
+            "Blood flow is redirected primarily to the digestive organs and kidneys",
+            "Heart rate increases, breathing rate increases, and breath volume (depth) increases"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "During exercise, muscle cells respire at a higher rate. To meet the increased oxygen and glucose demand and remove $\\text{CO}_2$ faster: (1) Heart rate increases and arteries dilate; (2) Breathing rate increases; (3) Breath volume increases to take in more air per breath.",
+          "id": "q_bio_respiration_34"
+        },
+        {
+          "question": "What is meant by the biological term 'metabolism'?",
+          "options": [
+            "The sum of all the chemical reactions that occur in an organism or cell",
+            "The rate at which the stomach digests carbohydrates",
+            "The volume of oxygen inhaled per minute during vigorous exercise",
+            "The process of breaking down excess proteins into urea in the kidneys"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Metabolism is defined in the AQA GCSE specification as the sum of all the chemical reactions that take place in a cell or the body. This includes synthesis reactions (e.g. converting glucose to starch, cellulose, and glycogen; lipid formation; protein synthesis) and breakdown reactions (e.g. respiration, breakdown of excess amino acids to form urea).",
+          "id": "q_bio_respiration_35"
+        },
+        {
+          "id": "q_bio_resp_36",
+          "question": "Which of the following is the correct chemical word equation for aerobic cellular respiration in humans?",
+          "options": [
+            "$\\text{Carbon dioxide} + \\text{Water} \\to \\text{Glucose} + \\text{Oxygen}$",
+            "$\\text{Glucose} \\to \\text{Lactic acid}$",
+            "$\\text{Glucose} + \\text{Oxygen} \\to \\text{Carbon dioxide} + \\text{Water}$",
+            "$\\text{Glucose} \\to \\text{Ethanol} + \\text{Carbon dioxide}$"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Aerobic respiration reacts glucose with oxygen to produce carbon dioxide and water, transferring energy to cellular processes: $\\text{Glucose} + \\text{Oxygen} \\to \\text{Carbon dioxide} + \\text{Water}$."
+        },
+        {
+          "id": "q_bio_resp_37",
+          "question": "In which cellular organelle does the majority of aerobic respiration occur in eukaryotic cells?",
+          "options": [
+            "Vacuole",
+            "Ribosomes",
+            "Chloroplasts",
+            "Mitochondria"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Mitochondria are the organelles where the oxygen-dependent stages of cellular respiration take place, generating the vast majority of the cell's ATP."
+        },
+        {
+          "id": "q_bio_resp_38",
+          "question": "What single chemical product is formed during anaerobic respiration in human skeletal muscle cells?",
+          "options": [
+            "Lactic acid",
+            "Ethanol and carbon dioxide",
+            "Water and carbon monoxide",
+            "Glucose and oxygen"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In human muscle cells during strenuous exercise, anaerobic respiration breaks down glucose incompletely into lactic acid only (no carbon dioxide or water is produced in muscle anaerobic respiration)."
+        },
+        {
+          "id": "q_bio_resp_39",
+          "question": "Why does a runner continue to pant and have an elevated heart rate for several minutes after crossing the finish line of a 100-metre race?",
+          "options": [
+            "To cool the blood down by exhaling hot carbon dioxide gas",
+            "To supply extra oxygen to convert accumulated lactic acid back into glucose in the liver (repaying the oxygen debt)",
+            "To prevent glycogen from converting into fat in the kidneys",
+            "To re-inflate the alveoli that collapsed during the sprint"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "After intense anaerobic exercise, lactic acid accumulates in muscles and travels via blood to the liver. The body must take in additional oxygen (oxygen debt) to react with the lactic acid and break it down, which is why breathing and heart rates remain high."
+        },
+        {
+          "id": "q_bio_resp_40",
+          "question": "Which of the following correctly lists two important industrial applications of anaerobic respiration in yeast cells?",
+          "options": [
+            "Producing antibiotics and synthesising human insulin",
+            "Making cheese and manufacturing plastic bags",
+            "Bread making (where $\\text{CO}_2$ causes dough to rise) and brewing alcoholic drinks (producing ethanol)",
+            "Purifying sewage water and extracting gold from ore"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Anaerobic respiration in yeast (fermentation: $\\text{glucose} \\to \\text{ethanol} + \\text{CO}_2$) is used economically in baking (carbon dioxide gas bubbles expand to make bread rise) and brewing (ethanol produces beer and wine)."
         }
       ],
       "detailed_slides": [
@@ -5515,16 +6165,16 @@
           "id": "bio_nervous_system_q16"
         },
         {
-          "question": "Multiple Sclerosis (MS) is a condition where the myelin sheath is damaged. How does this specifically affect the transmission of nerve impulses compared to a healthy neurone?",
+          "question": "What is the function of the myelin sheath surrounding the axon of many neurones in the human nervous system?",
           "options": [
-            "The impulse travels faster because there is less insulation resistance.",
-            "The impulse speed decreases because the action potential cannot 'jump' between nodes of Ranvier.",
-            "The neurotransmitters are unable to be released at the axon terminal.",
-            "The sensory neurones are unable to detect stimuli, preventing the initiation of an impulse."
+            "It stores genetic information for neurone division",
+            "It releases neurotransmitters into the synapse to stimulate effectors",
+            "It detects stimuli such as changes in temperature and pressure",
+            "It acts as an electrical insulator, significantly speeding up the transmission of electrical nerve impulses"
           ],
-          "answer_index": 1,
-          "explanation": "Myelin acts as an electrical insulator. In healthy neurones, impulses 'jump' between nodes of Ranvier (saltatory conduction). Damage to myelin slows conduction significantly as the impulse must travel along the entire length of the axon membrane.",
-          "correct_answer": 1,
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The myelin sheath is a fatty layer that insulates the axon. This insulation allows electrical impulses to travel much more rapidly along the neurone compared to unmyelinated fibres, ensuring quick reflex and voluntary responses.",
           "id": "bio_nervous_system_q17"
         },
         {
@@ -5697,17 +6347,17 @@
           "explanation": "Reflex arcs pass from sensory neurones directly to relay neurones in the grey matter of the spinal cord (or brainstem), triggering motor neurones before the impulse reaches the conscious cerebrum. Bypassing conscious thought eliminates cognitive processing time (saving fractions of a second), producing an immediate, involuntary motor withdrawal that protects tissues from extensive trauma."
         },
         {
-          "id": "q_bio_nervous_31",
-          "question": "How does the myelin sheath produced by Schwann cells around motor neurones accelerate nerve impulse conduction velocity from ~1 m/s in unmyelinated axons up to over 100 m/s (saltatory conduction)?",
+          "question": "How does a chemical impulse cross a synapse between two adjacent neurones?",
           "options": [
-            "Myelin converts electrical impulses into acoustic sound waves that travel at the speed of sound",
-            "Myelin generates heat that boils the cytoplasm to accelerate electron flow",
-            "Myelin acts as an electrical insulator; action potentials can only depolarise the axon membrane at unmyelinated gaps (Nodes of Ranvier), forcing local currents to jump between nodes",
-            "Myelin eliminates the need for sodium and potassium ions completely"
+            "Electrical sparks jump directly across the gap due to high voltage",
+            "Neurotransmitters are released from the presynaptic neurone, diffuse across the gap, and bind to receptors on the postsynaptic membrane",
+            "The two neurones fuse together temporarily to allow ions to flow across",
+            "Enzymes actively transport the entire axon across the gap"
           ],
-          "correct_answer": 2,
-          "answer_index": 2,
-          "explanation": "Myelin is a lipid-rich multilayered sheath that drastically increases axonal electrical resistance and reduces capacitance. Voltage-gated sodium and potassium channels are clustered almost exclusively at unmyelinated gaps between Schwann cells, termed the Nodes of Ranvier. Local electrical circuit currents flow passively through the axoplasm, regenerating action potentials only at successive nodes (saltatory conduction), increasing velocity up to 120 m/s."
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "When an electrical impulse reaches the end of the first (presynaptic) neurone, it triggers the release of neurotransmitter chemical molecules. These diffuse across the microscopic synaptic gap and bind to specific receptor molecules on the surface of the next (postsynaptic) neurone, initiating a new electrical impulse.",
+          "id": "q_bio_nervous_31"
         },
         {
           "id": "q_bio_nervous_32",
@@ -5760,6 +6410,71 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "fMRI relies on the BOLD (Blood Oxygen Level Dependent) contrast effect. Deoxygenated haemoglobin is paramagnetic and disrupts magnetic fields, whereas oxygenated haemoglobin is diamagnetic. When a brain region is activated, local arteriolar vasodilation floods the capillaries with oxygenated blood exceeding oxygen consumption (neurovascular coupling). This change in magnetic field distortion is captured to create millimeter-precise real-time 3D functional brain activation maps."
+        },
+        {
+          "id": "q_bio_nervous_36",
+          "question": "Which two anatomical organs make up the Central Nervous System (CNS) in humans?",
+          "options": [
+            "The heart and the lungs",
+            "The sensory neurones and motor neurones",
+            "The eyes and the ears",
+            "The brain and the spinal cord"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The human Central Nervous System (CNS) consists exclusively of the brain and the spinal cord. It coordinates information sent from receptors and triggers responses via effectors."
+        },
+        {
+          "id": "q_bio_nervous_37",
+          "question": "What is an 'effector' in the human nervous system, and what action does it take?",
+          "options": [
+            "A muscle that contracts or a gland that secretes hormones",
+            "A sensory receptor that detects light or sound",
+            "A synapse that slows down electrical impulses",
+            "A chemical neurotransmitter stored inside vesicles"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Effectors are organs that respond to impulses from the motor neurone: either muscles (which respond by contracting) or glands (which respond by secreting hormones or chemical substances)."
+        },
+        {
+          "id": "q_bio_nervous_38",
+          "question": "What is the correct pathway taken by an electrical impulse in a simple reflex arc?",
+          "options": [
+            "$\\text{Effector} \\to \\text{Motor neurone} \\to \\text{Brain} \\to \\text{Sensory neurone} \\to \\text{Receptor}$",
+            "$\\text{Receptor} \\to \\text{Sensory neurone} \\to \\text{Relay neurone} \\to \\text{Motor neurone} \\to \\text{Effector}$",
+            "$\\text{Receptor} \\to \\text{Motor neurone} \\to \\text{Spinal cord} \\to \\text{Sensory neurone} \\to \\text{Effector}$",
+            "$\\text{Sensory neurone} \\to \\text{Effector} \\to \\text{Relay neurone} \\to \\text{Receptor}$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "In a reflex arc, a stimulus is detected by a receptor, sending an impulse along a sensory neurone to the spinal cord (CNS). Inside the CNS, a relay neurone passes the impulse across synapses to a motor neurone, which stimulates an effector (muscle or gland)."
+        },
+        {
+          "id": "q_bio_nervous_39",
+          "question": "Why are reflex actions vital for human survival?",
+          "options": [
+            "They allow muscles to generate ATP without using oxygen",
+            "They require conscious decision-making to choose the most logical response",
+            "They are rapid and automatic, bypassing the conscious part of the brain to protect the body from damage",
+            "They completely prevent the transmission of pain sensations to the spinal cord"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Reflex actions do not involve conscious thought from the brain. Because the pathway passes directly through the spinal cord or unconscious brain stem, the response is extremely rapid and involuntary, minimising tissue injury (e.g. withdrawing a hand from a hot pan)."
+        },
+        {
+          "id": "q_bio_nervous_40",
+          "question": "In the GCSE required practical investigating human reaction time using the ruler drop test, what is the dependent variable?",
+          "options": [
+            "The time of day the experiment is conducted",
+            "The volume of caffeinated beverage consumed by the student",
+            "The length of the ruler used by the experimenter",
+            "The distance the ruler falls before being caught (from which reaction time is calculated)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The dependent variable is the factor measured by the experimenter: here, the drop distance on the ruler (in cm) when caught, which is converted to reaction time in seconds. The independent variable is the factor being changed (e.g. caffeine consumption, dominant vs non-dominant hand)."
         }
       ],
       "detailed_slides": [
@@ -6156,17 +6871,17 @@
           "id": "bio_hormonal_coord_q25"
         },
         {
-          "id": "q_bio_hormonal_26",
-          "question": "A healthy person fasts for 16 hours. How does the pancreas and liver respond via negative feedback to prevent hypoglycaemia (blood glucose falling below 4.0 mmol/L)?",
+          "question": "A healthy person fasts for 16 hours. How do the pancreas and liver respond to maintain blood glucose concentration within the normal range?",
           "options": [
-            "Alpha cells in the islets of Langerhans secrete glucagon, which stimulates hepatocytes to break down stored glycogen into glucose (glycogenolysis)",
-            "Beta cells in the pancreas secrete insulin, which stimulates body cells to take up glucose and convert it to glycogen",
-            "The gall bladder secretes bile to convert stored triglycerides into glucose within red blood cells",
-            "The adrenal glands secrete adrenaline to stop cellular respiration across all peripheral tissues"
+            "Pancreas secretes insulin, which stimulates the liver to absorb more glucose from the blood",
+            "Pancreas secretes glucagon, which stimulates the liver to convert stored glycogen into glucose and release it into the blood",
+            "The kidneys convert excess urea into glucose molecules",
+            "The stomach releases hydrochloric acid to directly synthesise new glucose"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "When blood glucose drops, alpha cells in the pancreatic islets detect the decrease and release the peptide hormone glucagon. Glucagon binds to liver receptors, triggering the breakdown of glycogen stores into free glucose (glycogenolysis) and promoting the synthesis of glucose from amino acids and glycerol (gluconeogenesis), returning blood glucose to the homeostatic set point (~5 mmol/L)."
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "When blood glucose falls during fasting, the pancreas detects this and secretes glucagon. Glucagon travels in the blood to the liver, causing liver cells to break down stored glycogen into glucose, which is released into the blood (negative feedback).",
+          "id": "q_bio_hormonal_26"
         },
         {
           "id": "q_bio_hormonal_27",
@@ -6284,6 +6999,71 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "Ethene (ethylene, $C_2H_4$) is a gaseous plant hydrocarbon hormone that regulates fruit ripening, abscission, and senescence. In commercial fruit logistics, climacteric fruits like bananas and avocados are harvested unripe and green, transported in temperature-controlled ships with low ethene and high $CO_2$ to prevent premature decay, and exposed to low concentrations of ethene gas in ripening rooms before retail dispatch."
+        },
+        {
+          "id": "q_bio_hormonal_36",
+          "question": "Which endocrine gland is located in the brain and known as the 'master gland' because it secretes several hormones that control other glands?",
+          "options": [
+            "Pituitary gland",
+            "Thyroid gland",
+            "Adrenal gland",
+            "Pancreas"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The pituitary gland in the brain is called the master gland because it secretes hormones (such as TSH, FSH, LH, and ADH) that act on other endocrine organs, stimulating them to release specific hormones to coordinate bodily functions."
+        },
+        {
+          "id": "q_bio_hormonal_37",
+          "question": "Which hormone is secreted by the pancreas in response to an increase in blood glucose concentration following a carbohydrate meal?",
+          "options": [
+            "Glucagon",
+            "Insulin",
+            "Adrenaline",
+            "Thyroxine"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "When blood glucose levels rise above normal, the pancreas detects this and secretes insulin into the bloodstream to lower blood sugar back to homeostatic levels."
+        },
+        {
+          "id": "q_bio_hormonal_38",
+          "question": "How does insulin lower the concentration of glucose in the bloodstream?",
+          "options": [
+            "It causes muscle cells to respire anaerobically, turning glucose into lactic acid",
+            "It stimulates kidney cells to excrete glucose into urine",
+            "It stimulates liver and muscle cells to absorb glucose from blood and convert it into insoluble glycogen for storage",
+            "It signals the stomach to stop digesting carbohydrates completely"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Insulin binds to receptors on liver and muscle cells, increasing their glucose uptake and stimulating the conversion of soluble glucose into insoluble glycogen for long-term storage, bringing blood glucose back down."
+        },
+        {
+          "id": "q_bio_hormonal_39",
+          "question": "What is the key biological difference between Type 1 and Type 2 diabetes?",
+          "options": [
+            "Type 1 can only be treated with dietary control, whereas Type 2 always requires daily insulin injections",
+            "In Type 1, cells produce too much insulin; in Type 2, the liver cannot produce glucagon",
+            "Type 1 is caused solely by an unhealthy diet, whereas Type 2 is present from birth",
+            "In Type 1, the pancreas produces little or no insulin; in Type 2, body cells no longer respond properly to insulin"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Type 1 diabetes is an autoimmune condition where the pancreas fails to produce sufficient insulin (treated with daily insulin injections). In Type 2 diabetes, the pancreas produces insulin, but body cells become resistant to it; obesity and sedentary lifestyles are major risk factors."
+        },
+        {
+          "id": "q_bio_hormonal_40",
+          "question": "What are the roles of FSH (Follicle Stimulating Hormone) and LH (Luteinising Hormone) in the female menstrual cycle?",
+          "options": [
+            "FSH causes an egg to mature in the ovary; LH triggers the release of the mature egg (ovulation)",
+            "FSH causes menstruation; LH repairs the uterus lining",
+            "FSH triggers ovulation; LH stimulates sperm production in the uterus",
+            "FSH maintains pregnancy; LH causes the ovary to shrink"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "FSH is secreted by the pituitary gland to stimulate an egg follicle to mature in the ovary. A surge in LH (also from the pituitary gland) around day 14 of the cycle stimulates the ovary to release the egg into the fallopian tube (ovulation)."
         }
       ],
       "detailed_slides": [
@@ -6745,17 +7525,17 @@
           "explanation": "In IVF, the woman is treated with FSH (to mature multiple follicles simultaneously) and LH. Mature oocytes are harvested from ovaries under ultrasound guidance and mixed with prepared sperm (or microinjected via ICSI) in culture dishes. Zygotes develop into blastocyst embryos, and one or two healthy embryos are transferred into the prepared uterine cavity for implantation."
         },
         {
-          "id": "q_bio_reproduction_31",
-          "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, alter an individual's phenotype without changing the underlying DNA nucleotide sequence?",
+          "question": "Why does meiosis produce four genetically non-identical cells, whereas mitosis produces two genetically identical daughter cells?",
           "options": [
-            "Adding methyl groups to CpG islands in promoter regions condenses chromatin and silences gene transcription, whereas histone acetylation relaxes chromatin to promote transcription",
-            "Epigenetic tags physically cut DNA molecules into small pieces using restriction enzymes",
-            "Epigenetic modifications convert Adenine into Uracil inside the cell nucleus",
-            "Epigenetics only occurs in prokaryotic bacteria that lack chromosomes"
+            "Mitosis produces four haploid cells for sexual reproduction",
+            "Meiosis mutates all DNA bases randomly during every division",
+            "Mitosis only divides the cytoplasm, leaving the chromosomes untouched",
+            "Meiosis involves two cell divisions and crossing over/independent assortment of chromosomes to produce haploid gametes with unique allele combinations"
           ],
-          "correct_answer": 0,
-          "answer_index": 0,
-          "explanation": "Epigenetics describes heritable changes in gene expression that do not involve alterations to the underlying DNA base sequence. DNA methylation (adding $-CH_3$ to cytosines) recruits chromatin-modifying proteins that condense nucleosomes into heterochromatin, preventing transcription factor access and silencing the gene. Conversely, histone acetylation neutralises positive charges on lysine residues, relaxing chromatin (euchromatin) to allow active transcription."
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Meiosis produces gametes (sperm and egg cells) for sexual reproduction. The cell duplicates its genetic material and divides twice, producing 4 haploid daughter cells (23 chromosomes each), each with a unique combination of alleles. Mitosis involves one division, producing 2 diploid, genetically identical clones for growth and repair.",
+          "id": "q_bio_reproduction_31"
         },
         {
           "id": "q_bio_reproduction_32",
@@ -6808,6 +7588,71 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Each nucleotide in a DNA molecule contains a negatively charged phosphate group ($PO_4^{3-}$), giving DNA a constant charge-to-mass ratio. When an electrical current is applied across an agarose gel buffer, DNA fragments migrate toward the positive anode. The microscopic meshwork of cross-linked agarose polymers acts as a molecular sieve: smaller, lower-molecular-weight fragments navigate through the pores rapidly and travel further."
+        },
+        {
+          "id": "q_bio_repro_36",
+          "question": "What is the main biological distinction between sexual and asexual reproduction?",
+          "options": [
+            "Sexual reproduction only occurs in animals; asexual reproduction only occurs in plants",
+            "Sexual reproduction involves the fusion of gametes and results in genetic variation; asexual involves one parent and produces genetically identical clones",
+            "Sexual reproduction uses mitosis; asexual reproduction uses meiosis",
+            "Sexual reproduction produces genetically identical clones; asexual reproduction produces high genetic variation"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Sexual reproduction involves two parents and the fertilisation of male and female gametes produced by meiosis, creating genetically unique offspring. Asexual reproduction involves only one parent dividing by mitosis, producing genetically identical offspring (clones)."
+        },
+        {
+          "id": "q_bio_repro_37",
+          "question": "How many cell divisions occur during meiosis, and how many daughter cells are produced from one parent cell?",
+          "options": [
+            "Two cell divisions, producing two genetically identical haploid cells",
+            "One cell division, producing two genetically identical diploid cells",
+            "Two cell divisions, producing four genetically non-identical haploid cells",
+            "Three cell divisions, producing eight identical cells"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Meiosis involves two sequential cell divisions: the cell duplicates its chromosomes, divides once, and then divides again, resulting in 4 genetically non-identical daughter cells, each containing half the original chromosome number (haploid)."
+        },
+        {
+          "id": "q_bio_repro_38",
+          "question": "What are the male and female gametes in flowering plants?",
+          "options": [
+            "Petals (male) and sepals (female)",
+            "Sperm cells (male) and ova (female)",
+            "Spores (male) and seeds (female)",
+            "Pollen grains (male) and ovules/egg cells (female)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "In flowering plants, the male gametes are contained inside pollen grains produced by the anthers, and the female gametes are the egg cells located inside ovules within the ovary."
+        },
+        {
+          "id": "q_bio_repro_39",
+          "question": "What is the definition of the 'genome' of an organism?",
+          "options": [
+            "The entire genetic material of that organism",
+            "The physical characteristics expressed by an organism",
+            "A single chromosome located inside the cell nucleus",
+            "The set of proteins that an organism cannot synthesise"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The genome is the complete set of genetic material (DNA) present in an organism or cell, including both genes and non-coding sequences."
+        },
+        {
+          "id": "q_bio_repro_40",
+          "question": "Which of the following accurately describes the structure of a DNA molecule?",
+          "options": [
+            "A single linear chain of amino acids folded into an alpha-helix",
+            "A polymer made of two strands twisted into a double helix, with complementary base pairs (A-T and C-G)",
+            "A triple-stranded ring made of glucose molecules linked with peptide bonds",
+            "A branched carbohydrate polymer that stores genetic instructions in the cytoplasm"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "DNA is a polymer made from four different nucleotide monomers. Two complementary strands are joined together by hydrogen bonds between specific complementary bases (Adenine pairs with Thymine, Cytosine pairs with Guanine) and twisted into a double helix."
         }
       ],
       "detailed_slides": [
@@ -7074,16 +7919,16 @@
           "id": "bio_variation_q15"
         },
         {
-          "question": "A population of insects exhibits variation in wing length, controlled by a single gene with two alleles: L (long) and l (short). In a stable environment, the frequency of the l allele is 0.4. Following a severe drought, only individuals with the LL genotype survive. If the population was in Hardy-Weinberg equilibrium prior to the drought, what was the frequency of the heterozygous genotype (Ll) before the selection event?",
+          "question": "Explain why the widespread, indiscriminate use of antibiotics in agriculture and human medicine has led to the emergence of resistant bacterial strains like MRSA.",
           "options": [
-            "0.16",
-            "0.24",
-            "0.48",
-            "0.60"
+            "Antibiotics cause healthy human white blood cells to stop producing antibodies",
+            "Random genetic mutations produce resistant bacteria; antibiotics kill non-resistant strains, giving resistant bacteria a selective advantage to survive and reproduce rapidly without competition",
+            "Bacteria intentionally mutate their cell walls in response to detecting the antibiotic chemical",
+            "Antibiotics provide nutrients that accelerate the rate of bacterial binary fission"
           ],
-          "answer_index": 2,
-          "explanation": "Using Hardy-Weinberg (p + q = 1), where q is the frequency of the recessive allele (l = 0.4), then p (L) = 0.6. The frequency of heterozygotes (Ll) is calculated as 2pq. 2 * 0.6 * 0.4 = 0.48. Distractors include miscalculating q^2 (0.16) or failing to multiply by 2.",
-          "correct_answer": 2,
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Mutations occur spontaneously in bacterial populations. When antibiotics are overused, they create a strong selective pressure: non-resistant bacteria are killed, while naturally resistant mutants survive (natural selection), reproduce, and pass on the resistant allele to subsequent generations.",
           "id": "bio_variation_q16"
         },
         {
@@ -7332,6 +8177,71 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Homologous structures share a common fundamental anatomical design and embryonic origin, inherited from a shared common ancestor, even though they have adapted to perform radically different functional roles (human grasping hand, bat wing for flight, whale flipper for swimming, horse leg for running). This provides powerful morphological proof of divergent evolution (adaptive radiation)."
+        },
+        {
+          "id": "q_bio_var_36",
+          "question": "Which of the following characteristics in humans is determined EXCLUSIVELY by environmental variation rather than genetic inheritance?",
+          "options": [
+            "ABO blood group",
+            "Eye colour",
+            "A scar on the knee caused by an injury",
+            "Natural hair colour"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Eye colour and blood group are determined entirely by inherited genes. Scars, tattoos, and spoken language are examples of purely environmental variation resulting from life experiences."
+        },
+        {
+          "id": "q_bio_var_37",
+          "question": "Which English naturalist formulated the widely accepted theory of evolution by natural selection?",
+          "options": [
+            "Alfred Wegener",
+            "Gregor Mendel",
+            "Jean-Baptiste Lamarck",
+            "Charles Darwin"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Charles Darwin proposed the theory of evolution by natural selection in his 1859 book 'On the Origin of Species', having gathered evidence during his voyage on HMS Beagle (including observations of Galápagos finches)."
+        },
+        {
+          "id": "q_bio_var_38",
+          "question": "What is a mutation in the context of genetics?",
+          "options": [
+            "A rare, random change in the nucleotide base sequence of DNA",
+            "The planned deliberate modification of a chromosome during meiosis",
+            "The fusion of male and female gametes during fertilisation",
+            "The loss of water from a cell when placed in a concentrated salt solution"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "A mutation is a spontaneous, random change in the DNA base sequence. Most mutations have no effect on phenotype, some have a small effect, and very rarely a mutation produces a new phenotype that confers a selective advantage."
+        },
+        {
+          "id": "q_bio_var_39",
+          "question": "What is selective breeding (artificial selection) as practiced by humans?",
+          "options": [
+            "Allowing wild animals to mate randomly in natural habitats",
+            "Breeding plants or animals with particular desirable characteristics over many generations",
+            "Exposing seeds to radiation to induce random mutations",
+            "Transferring genes from one species to an unrelated species using a vector"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Selective breeding involves humans choosing parent organisms with desirable traits (e.g. disease resistance in crops, high milk yield in cows, gentle nature in domestic dogs), breeding them together, and repeating this process over successive generations."
+        },
+        {
+          "id": "q_bio_var_40",
+          "question": "What is a major biological danger or drawback associated with long-term selective breeding?",
+          "options": [
+            "It turns herbivores into aggressive carnivores",
+            "It causes plants to completely stop producing seeds",
+            "Inbreeding can reduce genetic diversity, making populations susceptible to new diseases and increasing inherited defects",
+            "It increases the chromosome count in offspring until cells burst"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Selective breeding often involves mating closely related individuals (inbreeding). This reduces the gene pool (genetic diversity) and increases the likelihood that harmful recessive alleles are inherited, leaving the population vulnerable to a single new pathogen or genetic disease."
         }
       ],
       "detailed_slides": [
@@ -7611,16 +8521,16 @@
           "id": "bio_genetics_q16"
         },
         {
-          "question": "In a population of mice, coat color is determined by a gene with two alleles: Black (B) is dominant to white (b). If 16% of the population is white, what is the expected frequency of the heterozygous genotype (Bb) in the population, assuming Hardy-Weinberg equilibrium?",
+          "question": "Cystic fibrosis is caused by a recessive allele ($f$). Two parents who do not suffer from cystic fibrosis have a child who has the condition. What are the genotypes of the parents, and what is the probability that their next child will ALSO have cystic fibrosis?",
           "options": [
-            "0.48",
-            "0.32",
-            "0.16",
-            "0.40"
+            "Both parents are homozygous dominant ($FF$); probability is $0\\%$",
+            "Both parents are homozygous recessive ($ff$); probability is $100\\%$",
+            "One parent is $FF$ and the other is $Ff$; probability is $50\\%$",
+            "Both parents are heterozygous ($Ff$); probability is $25\\%$ (1 in 4)"
           ],
-          "answer_index": 0,
-          "explanation": "Frequency of recessive phenotype (q^2) = 0.16. Therefore, q = 0.4. Since p + q = 1, p = 0.6. The frequency of heterozygotes (2pq) = 2 * 0.6 * 0.4 = 0.48.",
-          "correct_answer": 0,
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Because neither parent has cystic fibrosis, both must possess at least one dominant normal allele ($F$). For their child to inherit the condition ($ff$), both parents must have contributed a recessive allele ($f$), making both parents carriers ($Ff$). In a monohybrid cross ($Ff \\times Ff$), offspring genotypes are $FF$ ($25\\%$), $Ff$ ($50\\%$), and $ff$ ($25\\%$).",
           "id": "bio_genetics_q17"
         },
         {
@@ -7856,6 +8766,71 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Because Huntington's disease is caused by an autosomal dominant allele ($H$), possessing even a single copy results in the condition. The heterozygous parent produces gametes with $H$ (50%) and $h$ (50%). The unaffected parent produces only $h$ gametes. A Punnett cross ($Hh \\times hh$) gives 50% $Hh$ (affected) and 50% $hh$ (unaffected), yielding a 1 in 2 (50%) inheritance probability for every child."
+        },
+        {
+          "id": "q_bio_genetics_36",
+          "question": "What does it mean if an organism is described as 'homozygous' for a particular gene?",
+          "options": [
+            "The gene has mutated and no longer codes for a protein",
+            "It possesses two different alleles for that gene (e.g. $Bb$)",
+            "The gene is only found on the female X chromosome",
+            "It possesses two identical alleles for that gene (e.g. $BB$ or $bb$)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Homozygous means an individual has two identical alleles of a specific gene (either homozygous dominant, e.g. $BB$, or homozygous recessive, e.g. $bb$). Heterozygous means having two different alleles ($Bb$)."
+        },
+        {
+          "id": "q_bio_genetics_37",
+          "question": "Which combination of sex chromosomes determines a biological male in humans?",
+          "options": [
+            "$XY$",
+            "$XX$",
+            "$YY$",
+            "$XXY$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In human sex determination, females have two X chromosomes ($XX$), while males have one X and one Y chromosome ($XY$). The presence of the Y chromosome carries the gene for testes development."
+        },
+        {
+          "id": "q_bio_genetics_38",
+          "question": "Polydactyly (extra fingers or toes) is caused by a dominant allele ($D$). A heterozygous father ($Dd$) and an unaffected mother ($dd$) have a baby. What is the probability that the child will have polydactyly?",
+          "options": [
+            "$25\\%$ (1 in 4)",
+            "$50\\%$ (1 in 2)",
+            "$75\\%$ (3 in 4)",
+            "$0\\%$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Crossing $Dd \\times dd$ produces offspring genotypes: $Dd$ (affected, $50\\%$) and $dd$ (unaffected, $50\\%$). Because polydactyly is caused by a dominant allele, having one copy of $D$ is sufficient to express the phenotype. Probability $= 50\\%$."
+        },
+        {
+          "id": "q_bio_genetics_39",
+          "question": "What is the definition of genetic engineering?",
+          "options": [
+            "Applying fertilizer to agricultural soil to increase crop height",
+            "Breeding two different species together to create a hybrid animal",
+            "Modifying the genome of an organism by introducing a gene from another organism to produce a desirable characteristic",
+            "Treating bacterial infections using prescription antibiotics"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Genetic engineering is the process of modifying an organism's genome by cutting out a desired gene from one organism (e.g. human insulin gene) using enzymes and inserting it into a vector (plasmid or virus) to transfer it into the cells of another organism."
+        },
+        {
+          "id": "q_bio_genetics_40",
+          "question": "Why is the fossil record incomplete, with very few fossils of the earliest life forms on Earth?",
+          "options": [
+            "Early organisms did not contain DNA or proteins",
+            "Early organisms were made entirely of carbon dioxide gas that dissipated into space",
+            "Fossils only formed when meteorites hit the planet during the dinosaur era",
+            "Many early life forms were soft-bodied, so they decayed completely without fossilising, and geological activity destroyed many early rocks"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The fossil record is incomplete because: (1) Many early organisms were microscopic and soft-bodied (lacking bones, shells, or teeth), meaning they decayed rapidly; (2) Geological events (earthquakes, plate tectonics, volcanic activity) crushed and melted ancient sedimentary rocks."
         }
       ],
       "detailed_slides": [
@@ -8380,6 +9355,71 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "Ectotherms cannot generate substantial metabolic heat. Desert lizards regulate body temperature behaviourally with high precision: in cool mornings, they emerge, darken their skin melanin to increase solar absorption, and orient their flattened bodies perpendicular to solar rays to maximize heat gain. As ambient temperatures soar, they lighten skin colour, elevate their bodies on extended legs (stilting) off hot sand, orient parallel to rays, and retreat to subterranean burrows."
+        },
+        {
+          "id": "q_bio_adapt_36",
+          "question": "Which of the following correctly pairs an abiotic factor with a biotic factor that can affect a woodland community?",
+          "options": [
+            "Abiotic: Light intensity; Biotic: Introduction of a new predator",
+            "Abiotic: Fungal disease; Biotic: Soil moisture level",
+            "Abiotic: Plant competition; Biotic: Wind direction",
+            "Abiotic: Herbivore grazing; Biotic: Carbon dioxide levels"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Abiotic factors are non-living chemical/physical factors (light intensity, temperature, moisture levels, soil pH, wind). Biotic factors are living factors (availability of food, new predators, new pathogens, competition between species)."
+        },
+        {
+          "id": "q_bio_adapt_37",
+          "question": "What resources do plants living in the same habitat compete with each other for?",
+          "options": [
+            "Food, territory, mates, and shelter",
+            "Light, space, water, and mineral ions from the soil",
+            "Carbon dioxide, oxygen, and sugar in the soil",
+            "Pollen, wind, heat, and insects"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Plants do not compete for food or mates; they compete for physical resources: light (for photosynthesis), space (for roots and leaves to expand), water (for photosynthesis and turgor), and dissolved mineral ions (like nitrates and magnesium)."
+        },
+        {
+          "id": "q_bio_adapt_38",
+          "question": "What is an 'extremophile' in ecology?",
+          "options": [
+            "A parasite that destroys its host within seconds of infection",
+            "An animal that only feeds on apex predators at the top of a food chain",
+            "An organism adapted to live in extreme environments, such as very high temperature, pressure, or salt concentration",
+            "A plant that can only grow when surrounded by deep snow"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Extremophiles are organisms (often bacteria or archaea) adapted to survive under extreme environmental conditions, such as deep-sea hydrothermal vents (high temperature and pressure) or salt lakes (high salinity)."
+        },
+        {
+          "id": "q_bio_adapt_39",
+          "question": "How does storing fat exclusively in a hump (rather than distributed beneath the skin) adapt a camel for desert survival?",
+          "options": [
+            "It lowers the camel's centre of gravity so it does not sink in soft sand",
+            "The fat in the hump absorbs sunlight to warm the camel at noon",
+            "The fat directly releases pure water into the camel's blood vessels",
+            "It avoids having an insulating layer of fat over the body, allowing heat to escape freely into the air"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Fat is a thermal insulator. By consolidating fat storage into a single hump rather than a subcutaneous layer under the skin, heat can readily radiate from the rest of the camel's body to keep cool in extreme desert heat."
+        },
+        {
+          "id": "q_bio_adapt_40",
+          "question": "Which of the following is an example of a functional (physiological) adaptation in desert mammals to conserve water?",
+          "options": [
+            "Producing very concentrated urine and having kidneys with long loops of Henle to reabsorb water",
+            "Having large ears with blood vessels to radiate excess heat",
+            "Hunting at night (nocturnal behaviour) to avoid daytime heat",
+            "Digging underground burrows to sleep during the hottest hours"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Functional adaptations relate to internal biochemical or physiological processes. Desert mammals produce small volumes of highly concentrated urine and dry faeces to minimise water loss. Large ears are structural; burrowing and nocturnal activity are behavioural."
         }
       ],
       "detailed_slides": [
@@ -8904,6 +9944,71 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Using the Lincoln-Petersen index formula: $N = \\frac{M \\times C}{R}$, where $M$ is the number of individuals marked in sample 1 ($M = 120$), $C$ is the total number of individuals captured in sample 2 ($C = 80$), and $R$ is the number of marked individuals recaptured ($R = 16$).\n$N = \\frac{120 \\times 80}{16} = \\frac{9600}{16} = 600$ grasshoppers."
+        },
+        {
+          "id": "q_bio_ecosystems_36",
+          "question": "What is the ultimate primary source of energy for almost all living organisms in terrestrial and marine ecosystems?",
+          "options": [
+            "Geothermal heat energy rising from the Earth's core",
+            "Light energy radiated from the Sun, captured by photosynthetic producers",
+            "Chemical energy stored in fossil fuels beneath the seabed",
+            "Gravitational energy generated by ocean tides"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The Sun is the source of energy for nearly all communities of organisms. Green plants and algae absorb a small percentage of light energy to synthesise biomass via photosynthesis, which is then transferred along food chains."
+        },
+        {
+          "id": "q_bio_ecosystems_37",
+          "question": "In the food chain: $\\text{Oak leaves} \\to \\text{Caterpillar} \\to \\text{Blue tit} \\to \\text{Sparrowhawk}$, which trophic level does the blue tit occupy?",
+          "options": [
+            "Trophic level 2 (Primary consumer)",
+            "Trophic level 1 (Producer)",
+            "Trophic level 3 (Secondary consumer)",
+            "Trophic level 4 (Tertiary consumer / Apex predator)"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Trophic level 1 is the producer (Oak leaves); trophic level 2 is the primary consumer / herbivore (Caterpillar); trophic level 3 is the secondary consumer / carnivore (Blue tit); trophic level 4 is the tertiary consumer (Sparrowhawk)."
+        },
+        {
+          "id": "q_bio_ecosystems_38",
+          "question": "What vital ecological role is performed by decomposers (bacteria and microscopic fungi) in a stable ecosystem?",
+          "options": [
+            "They prevent nitrogen gas from escaping the Earth's atmosphere",
+            "They produce glucose through photosynthesis in deep darkness",
+            "They consume living herbivores to control animal populations",
+            "They secrete enzymes to break down dead organic matter and return mineral nutrients to the soil and carbon dioxide to the air"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Decomposers break down dead plant and animal remains and waste material by secreting digestive enzymes and absorbing the soluble food molecules. This recycles essential carbon (as $\\text{CO}_2$) back into the atmosphere and mineral ions into the soil for plant uptake."
+        },
+        {
+          "id": "q_bio_ecosystems_39",
+          "question": "By which process in the carbon cycle is carbon dioxide gas REMOVED from the atmosphere?",
+          "options": [
+            "Photosynthesis in green plants and algae",
+            "Aerobic respiration in plants and animals",
+            "Combustion of fossil fuels in power stations",
+            "Microbial decay of dead organic waste"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Photosynthesis is the only biological process that removes carbon dioxide from the atmosphere, incorporating carbon into glucose, starch, and plant biomass. Respiration, combustion, and decomposition all release $\\text{CO}_2$ back into the atmosphere."
+        },
+        {
+          "id": "q_bio_ecosystems_40",
+          "question": "In a predator-prey relationship graph (e.g. Canadian lynx and snowshoe hare), why does the predator population peak shortly AFTER the prey population peaks?",
+          "options": [
+            "Predators stop eating when prey numbers are highest to conserve food",
+            "It takes time for the increased abundance of food to translate into successful breeding, gestation, and survival of predator offspring",
+            "Prey animals mutate to reproduce faster when predators are abundant",
+            "Predators migrate to other continents as soon as prey populations rise"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "As the prey population rises, more food is available. Predators become better nourished and have more offspring. However, gestation and maturation take time, so the peak in the predator population always lags behind the peak in prey numbers."
         }
       ],
       "detailed_slides": [
@@ -9428,6 +10533,71 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Microplastics resemble natural planktonic prey and are ingested by filter feeders, zooplankton, seabirds, and whales. Physically, they lodge in digestive tracts, creating pseudo-satiation (feeling full while starving) and causing internal mucosal abrasion and intestinal perforation. Chemically, plastics contain lipophilic plasticizers (phthalates, bisphenol A) and adsorb persistent environmental toxins (DDT, PCBs) from seawater, which desorb into tissues, causing endocrine disruption and bioaccumulation."
+        },
+        {
+          "id": "q_bio_biodiv_36",
+          "question": "What is the biological definition of 'biodiversity'?",
+          "options": [
+            "The number of domestic farm animals bred in a country",
+            "The total mass of living plant tissue in a woodland",
+            "The variety of all the different species of organisms on Earth, or within an ecosystem",
+            "The rate at which carbon dioxide is absorbed by the world's oceans"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Biodiversity is the variety of all the different species of organisms on Earth, or within an ecosystem. A high biodiversity helps ensure the stability of ecosystems by reducing the dependence of one species on another for food, shelter, and maintenance of the physical environment."
+        },
+        {
+          "id": "q_bio_biodiv_37",
+          "question": "Why is maintaining high biodiversity essential for human stability and economic well-being?",
+          "options": [
+            "Biodiversity prevents tectonic plates from causing earthquakes",
+            "High biodiversity ensures that all insects are eliminated from agricultural land",
+            "It allows humans to burn unlimited fossil fuels without causing global warming",
+            "Many modern medicines, industrial materials, and food crops originate from wild species, and stable ecosystems regulate climate and water cycles"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "High biodiversity provides ecosystem services: pollination of crops, natural pest control, soil fertility, water purification, and genetic resources for future medicines and drought-resistant crops."
+        },
+        {
+          "id": "q_bio_biodiv_38",
+          "question": "What are two major environmental consequences of large-scale tropical deforestation?",
+          "options": [
+            "Loss of biodiversity through habitat destruction, and increased atmospheric $\\text{CO}_2$ from burning and reduced photosynthesis",
+            "A sudden drop in global temperatures and an increase in polar ice sheets",
+            "Excessive oxygen production leading to atmospheric toxicity",
+            "Immediate extinction of all marine coral reefs"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Deforestation destroys unique habitats, causing species extinctions and reducing biodiversity. Additionally, cutting and burning trees releases stored carbon as $\\text{CO}_2$, and fewer living trees remain to remove $\\text{CO}_2$ via photosynthesis, accelerating global warming."
+        },
+        {
+          "id": "q_bio_biodiv_39",
+          "question": "What primary air pollutants cause acid rain, and how do they damage freshwater ecosystems?",
+          "options": [
+            "Carbon dioxide forms carbonic acid, which causes lakes to boil",
+            "Sulfur dioxide and nitrogen oxides dissolve in rainwater to form acids, lowering the pH of lakes and killing fish eggs",
+            "CFC gases destroy the ozone layer, allowing cosmic rays to evaporate ponds",
+            "Methane gas dissolves in rain, depriving aquatic plants of sunlight"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Burning fossil fuels (especially coal in power plants and petrol in vehicle engines) releases sulfur dioxide ($\\text{SO}_2$) and nitrogen oxides ($\\text{NO}_x$). These dissolve in water droplets in clouds to form dilute sulfuric and nitric acids (acid rain), which acidifies lakes, kills aquatic life, and damages forests."
+        },
+        {
+          "id": "q_bio_biodiv_40",
+          "question": "Which of the following is a conservation programme implemented by scientists and governments to maintain biodiversity?",
+          "options": [
+            "Spraying broad-spectrum chemical insecticides over all national parks",
+            "Draining wetlands and peat bogs to plant mono-culture pine forests",
+            "Breeding programmes for endangered species, protecting rare habitats, and introducing field margins on farms",
+            "Dumping biodegradable waste directly into local rivers to feed fish"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Methods to maintain biodiversity include: breeding programmes for endangered species in zoos; protection and regeneration of rare habitats (like coral reefs and heathlands); reintroducing field margins and hedgerows in agricultural areas; and recycling resources rather than using landfills."
         }
       ],
       "detailed_slides": [

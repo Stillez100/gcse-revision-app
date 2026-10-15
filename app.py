@@ -643,8 +643,15 @@ for idx, subject_name in enumerate(subject_names):
                         """, unsafe_allow_html=True)
                     
                     objs = " • ".join(lesson.get("objectives", []))
+                    spec_refs = ", ".join(lesson.get("spec_references", []))
+                    tier_str = lesson.get("tier", "Higher Tier")
+                    board_str = "AQA (8461)" if "Biology" in subject_name else "Edexcel (1MA1)"
+                    tag_line = f"🎓 **Level:** GCSE (9–1) • 🏛️ **Exam Board:** {board_str} • 🏷️ **Tier:** {tier_str}" + (f" • 📋 **Spec:** {spec_refs}" if spec_refs else "")
+                    
                     if objs:
-                        st.caption(f"🎯 **Objectives:** {objs}")
+                        st.caption(f"🎯 **Objectives:** {objs}\n\n{tag_line}")
+                    else:
+                        st.caption(tag_line)
                         
                     lesson_tabs = st.tabs(["📚 Notes & Slides", "✅ Knowledge Check"])
                     
@@ -693,6 +700,7 @@ for idx, subject_name in enumerate(subject_names):
                             st.warning("No quiz available for this lesson.")
                         else:
                             st.markdown(f"### 📝 10-Question Knowledge Check (Topic: {lesson['title']})")
+                            st.caption(f"💡 10 questions randomly selected from a bank of **{len(quiz_bank)} GCSE questions** spanning Grades 5 to 9.")
                             
                             if f"quiz_active_{lesson['id']}" not in st.session_state:
                                 if st.button("Start Knowledge Check", key=f"btn_start_quiz_{lesson['id']}"):
