@@ -585,6 +585,136 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Magnification $= \\frac{\\text{Image size}}{\\text{Actual size}}$. Convert $5\\text{ mm}$ to micrometres: $5\\text{ mm} \\times 1000 = 5000\\,\\mu\\text{m}$. Then calculate: $\\frac{5000\\,\\mu\\text{m}}{25\\,\\mu\\text{m}} = 200$ (so $\\times 200$)."
+        },
+        {
+          "id": "q_bio_cell_struct_41",
+          "question": "What is the biological function of plasmids in bacterial prokaryotic cells?",
+          "options": [
+            "Sites of aerobic respiration that generate ATP for bacterial movement",
+            "Small rings of extra DNA that can be transferred between bacteria, often carrying antibiotic resistance genes",
+            "Enzymes that synthesize cellulose for the bacterial cell wall",
+            "Structures that store cell sap to maintain bacterial turgor"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Bacterial cells possess a main circular loop of chromosomal DNA plus small independent rings of DNA called plasmids. Plasmids carry accessory genes (such as antibiotic resistance) and can replicate independently or be transferred between bacteria."
+        },
+        {
+          "id": "q_bio_cell_struct_42",
+          "question": "A student converts a measurement of $0.035\\text{ mm}$ into micrometres ($\\mu\\text{m}$). What is the correct value?",
+          "options": [
+            "$350\\,\\mu\\text{m}$",
+            "$3.5\\,\\mu\\text{m}$",
+            "$35\\,\\mu\\text{m}$",
+            "$0.35\\,\\mu\\text{m}$"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "There are $1000\\,\\mu\\text{m}$ in $1\\text{ mm}$. To convert millimetres to micrometres, multiply by $1000$: $0.035\\text{ mm} \\times 1000 = 35\\,\\mu\\text{m}$."
+        },
+        {
+          "id": "q_bio_cell_struct_43",
+          "question": "How does the timing of cell differentiation differ between most animal cells and plant cells?",
+          "options": [
+            "Plant cells only differentiate into root cells, whereas animal cells only differentiate into skin cells",
+            "Animal cells can differentiate at any age, whereas plant cells lose all differentiation ability after germination",
+            "Neither plant nor animal cells ever differentiate after birth",
+            "Most animal cells differentiate at an early embryonic stage, whereas plant cells retain the ability to differentiate throughout life in meristems"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "In most animals, cell differentiation occurs primarily during early embryonic development; adult animal stem cells mainly function for repair and replacement. In contrast, plant meristems retain the ability to differentiate into new tissues throughout the plant's entire life."
+        },
+        {
+          "id": "q_bio_cell_struct_44",
+          "question": "Which of the following adaptations enables a human sperm cell to successfully reach and fertilise an egg cell?",
+          "options": [
+            "A long flagellum, numerous mitochondria in the midpiece for energy, and an acrosome containing digestive enzymes",
+            "A large central vacuole filled with glucose and a thick cellulose wall",
+            "Two nuclei to ensure double fertilisation",
+            "No mitochondria to prevent the sperm from heating the ovum"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Sperm cells are specialised for reproduction: (1) Long tail/flagellum for swimming; (2) Middle section packed with mitochondria to release energy via respiration; (3) Acrosome at the tip containing digestive enzymes to penetrate the outer layer of the ovum; (4) Haploid nucleus."
+        },
+        {
+          "id": "q_bio_cell_struct_45",
+          "question": "How is a motor neurone structurally adapted to transmit electrical nerve impulses over long bodily distances?",
+          "options": [
+            "A thick cellulose cell wall and open pores filled with lignin",
+            "An elongated axon to carry impulses, branched dendrites to connect with other cells, and a fatty myelin sheath for electrical insulation",
+            "Thousands of chloroplasts to absorb light energy along the nerve",
+            "A flexible biconcave shape with no nucleus to maximize surface area"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Nerve cells (neurones) are adapted to carry electrical impulses quickly: a very long axon enables impulses to travel across the body, branched dendrites connect to other neurones, and a fatty myelin sheath insulates the axon to speed up transmission."
+        },
+        {
+          "id": "q_bio_cell_struct_46",
+          "question": "What is the structural role of phloem companion cells in plant vascular bundles?",
+          "options": [
+            "They absorb water directly from the air through microscopic hair extensions",
+            "They secrete waterproof lignin to withstand high suction tension in xylem",
+            "They contain numerous mitochondria to provide energy via respiration for the active translocation of dissolved sugars in sieve tubes",
+            "They prevent oxygen from entering the plant leaf during photosynthesis"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Phloem sieve tube elements lack a nucleus and have few organelles to allow easy flow of sap. Each sieve tube element is connected to a living companion cell that contains many mitochondria, providing the ATP required to actively load and transport sugars."
+        },
+        {
+          "id": "q_bio_cell_struct_47",
+          "question": "Why are xylem vessels hollow tubes formed from dead cells with lignified cell walls?",
+          "options": [
+            "Hollow dead cells allow air to circulate down to root cells for anaerobic respiration",
+            "Dead cells produce glucose continuously to feed root hair cells",
+            "Lignin absorbs green light to heat the water flowing up the stem",
+            "Lignin provides immense mechanical strength to prevent the hollow vessels from collapsing under the negative pressure of transpiration"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Xylem cells lose their end walls and die, forming continuous hollow pipes for the unbroken transpiration stream. The cell walls are reinforced with rings or spirals of tough, waterproof lignin to withstand tension without collapsing."
+        },
+        {
+          "id": "q_bio_cell_struct_48",
+          "question": "What is the primary function of the partially permeable cell membrane in animal cells?",
+          "options": [
+            "To control the movement of chemical substances entering and exiting the cell",
+            "To maintain rigid rectangular shape and prevent osmotic bursting",
+            "To synthesise ribosomes and translate proteins",
+            "To store hereditary genetic information in chromosomes"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The cell surface membrane is partially permeable, acting as a selective barrier that regulates the entry and exit of ions, nutrients, and waste products to maintain intracellular homeostasis."
+        },
+        {
+          "id": "q_bio_cell_struct_49",
+          "question": "A scientist measures a human red blood cell diameter as $7.5\\,\\mu\\text{m}$. What is this diameter expressed in standard form in metres ($\\text{m}$)?",
+          "options": [
+            "$7.5 \\times 10^{-3}\\text{ m}$",
+            "$7.5 \\times 10^{-6}\\text{ m}$",
+            "$7.5 \\times 10^{-9}\\text{ m}$",
+            "$75 \\times 10^{-5}\\text{ m}$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "$1\\,\\mu\\text{m} = 10^{-6}\\text{ m}$. Therefore, $7.5\\,\\mu\\text{m} = 7.5 \\times 10^{-6}\\text{ m}$."
+        },
+        {
+          "id": "q_bio_cell_struct_50",
+          "question": "Why must biological specimens viewed under a transmission electron microscope (TEM) be placed inside a high-vacuum chamber?",
+          "options": [
+            "To provide oxygen for the specimen to respire during imaging",
+            "To freeze the cells instantly so they don't decompose",
+            "To prevent electron beams from colliding with and scattering off air gas molecules",
+            "To draw out all moisture so that light waves can reflect cleanly"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Electrons have very low mass and would easily collide with air molecules (nitrogen, oxygen) in an unevacuated chamber, scattering the beam and destroying image resolution. Therefore, electron microscopes operate under high vacuum."
         }
       ],
       "detailed_slides": [
@@ -1174,6 +1304,136 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "In therapeutic cloning, an embryo is produced with the patient's own genetic material. Stem cells harvested from this embryo can be stimulated to differentiate into required tissues without the risk of immune rejection, avoiding the need for immunosuppressant drugs."
+        },
+        {
+          "id": "q_bio_cell_div_41",
+          "question": "Which of the following correctly describes the three sequential stages of the eukaryotic cell cycle?",
+          "options": [
+            "Stage 1: Cytokinesis; Stage 2: DNA replication; Stage 3: Differentiation",
+            "Stage 1: Mitosis; Stage 2: Meiosis; Stage 3: Fertilisation",
+            "Stage 1: Cell growth and DNA replication; Stage 2: Mitosis (nucleus divides); Stage 3: Cytokinesis (cytoplasm and membrane divide)",
+            "Stage 1: Gamete formation; Stage 2: Zygote division; Stage 3: Cloning"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The cell cycle consists of: Stage 1 (Interphase: cell grows, increases ribosomes/mitochondria, and replicates DNA); Stage 2 (Mitosis: one set of chromosomes is pulled to each end of the cell and nucleus divides); Stage 3 (Cytokinesis: cytoplasm and cell membranes divide to form two identical daughter cells)."
+        },
+        {
+          "id": "q_bio_cell_div_42",
+          "question": "What happens to the duplicated chromosomes during the mitosis stage of cell division?",
+          "options": [
+            "The chromosomes pair up and exchange sections to generate genetic variation",
+            "The chromosomes are cut into tiny fragments by restriction enzymes",
+            "The chromosomes dissolve in the cytoplasm and are rebuilt from scratch",
+            "The chromosome copies (chromatids) are pulled apart to opposite poles of the cell by spindle fibres"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "During mitosis, the chromosomes line up at the centre of the cell. Spindle fibres pull the duplicated chromatids apart to opposite poles of the cell, ensuring each new nucleus receives an exact copy of every chromosome."
+        },
+        {
+          "id": "q_bio_cell_div_43",
+          "question": "Why is mitosis essential for the survival and development of multicellular organisms?",
+          "options": [
+            "It allows organisms to grow in size, develop from a single zygote, and repair damaged tissues by replacing dead cells",
+            "It creates genetically varied sperm and egg cells for sexual reproduction",
+            "It halves the chromosome count to prevent mutations",
+            "It enables animal cells to carry out anaerobic respiration without glucose"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Mitosis is crucial for: (1) Growth (producing more cells); (2) Repair of damaged tissues; (3) Replacement of worn-out cells (like red blood cells and skin cells); (4) Asexual reproduction in some species."
+        },
+        {
+          "id": "q_bio_cell_div_44",
+          "question": "What is a major clinical risk associated with transplanting donor stem cells into a human patient?",
+          "options": [
+            "The patient will instantly lose the ability to perform mitosis in all somatic cells",
+            "Stem cells could divide uncontrollably in the recipient to form cancerous tumours, or transmit viral infections",
+            "The transplanted stem cells will destroy all the recipient's antibodies",
+            "Stem cells cause the recipient's blood to clot permanently"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Risks of stem cell therapy include: (1) Transmission of viral infections from culture media; (2) Uncontrolled division of stem cells leading to tumour (cancer) formation; (3) Immune rejection if donor stem cells are not genetically matched."
+        },
+        {
+          "id": "q_bio_cell_div_45",
+          "question": "How could stem cell therapy potentially treat patients suffering from Type 1 diabetes?",
+          "options": [
+            "By replacing all red blood cells with stem cells to carry insulin",
+            "By injecting stem cells to destroy excess glucose molecules in the stomach",
+            "By stimulating stem cells to differentiate into insulin-producing beta cells and transplanting them into the pancreas",
+            "By using stem cells to eliminate the patient's liver"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "In Type 1 diabetes, the body's immune system destroys the insulin-secreting beta cells in the islets of Langerhans in the pancreas. Stem cells can be coaxed in the laboratory to differentiate into healthy beta cells that secrete insulin when transplanted."
+        },
+        {
+          "id": "q_bio_cell_div_46",
+          "question": "What is the procedure used in therapeutic cloning to produce personalised human stem cells?",
+          "options": [
+            "An adult bone marrow cell is irradiated until it mutates into an embryo",
+            "Two sperm cells are fused in a test tube to produce an artificial embryo",
+            "A patient's liver cells are cloned using bacterial plasmids in an incubator",
+            "A patient's somatic cell nucleus is transferred into an enucleated donor egg cell, stimulated to divide into an embryo, and stem cells are harvested"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "In therapeutic cloning: the nucleus is removed from a human egg cell and replaced with the nucleus from a patient's body cell. An electric shock stimulates it to divide into a blastocyst embryo, from which embryonic stem cells genetically identical to the patient are harvested."
+        },
+        {
+          "id": "q_bio_cell_div_47",
+          "question": "How is plant stem cell cloning from meristems beneficial in modern agriculture and global conservation?",
+          "options": [
+            "It enables rapid, inexpensive production of large numbers of rare plants to prevent extinction, and cloning of disease-resistant crops",
+            "It completely replaces the need for plants to absorb water and sunlight",
+            "It forces all crops to flower only during winter months",
+            "It converts all flowering plants into nitrogen-fixing bacteria"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Cloning plants using meristem tissue has major benefits: (1) Rare species can be cloned quickly to prevent extinction; (2) Crop plants with special features (e.g. drought or pest resistance) can be produced in large numbers identically and cheaply."
+        },
+        {
+          "id": "q_bio_cell_div_48",
+          "question": "Why do mature red blood cells in mammals have a limited lifespan of ~120 days and cannot divide by mitosis?",
+          "options": [
+            "They contain too much water, which dilutes mitotic spindle proteins",
+            "They lack a nucleus and chromosomes, so they have no genetic instructions to replicate DNA or divide",
+            "They are destroyed by stomach acid after each heartbeat",
+            "Their biconcave shape prevents cell membranes from separating"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "During differentiation, mammalian red blood cells eject their nucleus to maximize internal space for haemoglobin. Lacking a nucleus and chromosomes, they cannot replicate DNA or undergo mitosis and must be continuously replaced by bone marrow stem cells."
+        },
+        {
+          "id": "q_bio_cell_div_49",
+          "question": "A chimpanzee skin cell has $48$ chromosomes. How many chromosomes are in a chimpanzee sperm cell?",
+          "options": [
+            "$12$",
+            "$48$",
+            "$24$",
+            "$96$"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Body cells are diploid ($2n = 48$). Gametes (sperm and egg cells) are produced by meiosis and are haploid ($n$), containing exactly half the diploid number: $48 / 2 = 24$ chromosomes."
+        },
+        {
+          "id": "q_bio_cell_div_50",
+          "question": "Under optimal warm conditions with abundant nutrients, a bacterial population divides by binary fission every $20\\text{ minutes}$. Starting with 1 bacterium, how many bacteria will be present after $2\\text{ hours}$?",
+          "options": [
+            "$128$",
+            "$12$",
+            "$32$",
+            "$64$"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "$2\\text{ hours} = 120\\text{ minutes}$. Number of divisions $= 120 / 20 = 6$ divisions. Number of bacteria $= 2^6 = 64$."
         }
       ],
       "detailed_slides": [
@@ -1763,6 +2023,136 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "As organisms get larger, their surface area to volume ratio decreases drastically, and the diffusion distance from the exterior to interior cells becomes too large. Specialised exchange surfaces (lungs, gills) and transport systems (blood circulation) are essential to deliver oxygen and nutrients to every cell."
+        },
+        {
+          "id": "q_bio_transport_41",
+          "question": "In a potato osmosis practical, a cylinder has an initial mass of $2.80\\text{ g}$ and a final mass of $3.22\\text{ g}$. What is the percentage change in mass?",
+          "options": [
+            "$+8.7\\%$",
+            "$+42.0\\%$",
+            "$+13.0\\%$",
+            "$+15.0\\%$"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Change in mass $= 3.22 - 2.80 = +0.42\\text{ g}$. Percentage change $= \\frac{\\text{Change}}{\\text{Initial}} \\times 100 = \\frac{0.42}{2.80} \\times 100 = 15.0\\%$."
+        },
+        {
+          "id": "q_bio_transport_42",
+          "question": "On a graph plotting percentage change in mass against sucrose concentration for potato cylinders, what does the point where the curve intersects the horizontal $0\\%$ axis indicate?",
+          "options": [
+            "The internal concentration of dissolved solutes inside the potato cell cytoplasm (isotonic concentration)",
+            "The concentration at which all potato enzymes are fully denatured",
+            "The point where active transport has ceased completely",
+            "The maximum water potential possible in plant cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Where the line crosses the $0\\%$ line, there is no net movement of water into or out of the cells by osmosis. This means the sucrose concentration of the solution equals the internal solute concentration of the potato cells (isotonic point)."
+        },
+        {
+          "id": "q_bio_transport_43",
+          "question": "Which of the following describes the key adaptations of intestinal villi for efficient absorption of digested food molecules?",
+          "options": [
+            "Thick muscular walls that contract to squeeze food into the bloodstream",
+            "Millions of microvilli that create a huge surface area, a single-cell-thick epithelial wall, and an extensive capillary network to maintain a steep concentration gradient",
+            "Ciliated cells that beat rhythmically to push food back into the stomach",
+            "Waxy outer coating that prevents water from leaving the intestine"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Villi have: (1) Greatly increased surface area (finger-like folds and microvilli); (2) Short diffusion distance (walls are a single cell thick); (3) Rich blood capillary network and lacteal to continuously carry absorbed food away, maintaining a steep concentration gradient."
+        },
+        {
+          "id": "q_bio_transport_44",
+          "question": "How are human alveoli adapted to maximize the rate of gas exchange between inhaled air and the blood?",
+          "options": [
+            "Acidic lining that destroys all carbon dioxide molecules",
+            "Thick cartilaginous rings to keep alveoli inflated at all times",
+            "Enormous total surface area ($\\sim 70\\text{ m}^2$), moist lining, one-cell thick squamous epithelium, and constant ventilation and capillary blood flow",
+            "Direct active transport pumps that force nitrogen into red blood cells"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Alveoli provide: (1) Huge surface area; (2) Thin walls (one cell thick) giving a very short diffusion distance; (3) Moist lining allowing gases to dissolve; (4) Rich capillary blood supply and ventilation maintaining steep concentration gradients for $\\text{O}_2$ and $\\text{CO}_2$."
+        },
+        {
+          "id": "q_bio_transport_45",
+          "question": "How does the counter-current exchange mechanism in fish gills maximize oxygen absorption from water into blood?",
+          "options": [
+            "Fish actively transport oxygen molecules against the concentration gradient",
+            "Blood and water flow in the same direction so they reach equilibrium instantly",
+            "Gills pump water backward through the digestive system to extract oxygen",
+            "Blood flows across gill lamellae in the opposite direction to water flow, ensuring a concentration gradient is maintained across the entire length of the capillary"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "In fish gills, blood flows in the opposite direction to water across the lamellae (counter-current exchange). This ensures that blood always encounters water with a higher oxygen concentration, maintaining a diffusion gradient along the entire capillary bed."
+        },
+        {
+          "id": "q_bio_transport_46",
+          "question": "How are plant root hair cells adapted to absorb water and dissolved mineral ions from soil water?",
+          "options": [
+            "Long microscopic hair-like extensions that increase surface area, and many mitochondria to release energy for active transport",
+            "Thick waxy cuticle to prevent water from evaporating into the soil",
+            "Abundant chloroplasts to synthesise sugars beneath the soil",
+            "Large stomatal pores that open to take in soil moisture"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Root hair cells: (1) Have long projections that greatly increase the surface area for osmosis; (2) Have thin walls for short diffusion distance; (3) Contain many mitochondria to provide ATP for the active transport of mineral ions against concentration gradients."
+        },
+        {
+          "id": "q_bio_transport_47",
+          "question": "Why is active transport required to absorb glucose from the human small intestine into the blood towards the end of digestion?",
+          "options": [
+            "Glucose molecules are too large to pass through partially permeable membranes by any other method",
+            "When the concentration of glucose in the gut lumen drops below the concentration inside blood capillaries, diffusion can no longer move glucose",
+            "Active transport converts glucose into starch during absorption",
+            "Enzymes destroy all glucose unless it is actively pumped into the liver"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Initially, glucose diffuses into blood down its concentration gradient. However, once blood glucose concentration exceeds that of the remaining gut contents, active transport must be used to pump all remaining glucose against its gradient, ensuring no nutrients are wasted."
+        },
+        {
+          "id": "q_bio_transport_48",
+          "question": "What happens to a plant cell when it is placed into a hypertonic (highly concentrated salt or sugar) solution?",
+          "options": [
+            "Active transport pumps water into the chloroplasts to keep the cell turgid",
+            "Water enters the cell rapidly, causing the cell wall to burst",
+            "Water leaves the vacuole by osmosis; the cytoplasm pulls away from the cell wall, causing the cell to become plasmolysed",
+            "The cell wall dissolves and the cell divides by mitosis"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "In a concentrated (hypertonic) solution, the external water potential is lower than the cell cytoplasm. Water moves out by osmosis. The vacuole shrinks and the cell membrane pulls away from the rigid cell wall—a condition known as plasmolysis (the cell becomes flaccid)."
+        },
+        {
+          "id": "q_bio_transport_49",
+          "question": "A model organism is a cube of side length $2\\text{ cm}$. What is its surface area to volume ratio ($\\text{SA:V}$)?",
+          "options": [
+            "$1.5 : 1$",
+            "$6 : 1$",
+            "$24 : 8$",
+            "$3 : 1$"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Surface area $= 6 \\times (2^2) = 6 \\times 4 = 24\\text{ cm}^2$. Volume $= 2^3 = 8\\text{ cm}^3$. Ratio $\\text{SA:V} = 24 / 8 = 3:1$."
+        },
+        {
+          "id": "q_bio_transport_50",
+          "question": "In an experiment using Visking (dialysis) tubing containing a mixture of starch and glucose placed in water, why does glucose appear in the water while starch remains inside the tubing?",
+          "options": [
+            "Visking tubing has microscopic pores that allow small soluble glucose molecules to diffuse through, but are too small for large insoluble starch polymers",
+            "Glucose is actively transported across the membrane by artificial transport proteins",
+            "Starch is broken down by the plastic tubing into water molecules",
+            "Glucose is hydrophobic and repelled by the water outside"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Visking tubing is a partially permeable membrane with microscopic pore sizes. Glucose is a small monosaccharide and easily diffuses out into the water. Starch is a large macromolecule polymer and cannot pass through the pores."
         }
       ],
       "detailed_slides": [
@@ -2352,6 +2742,136 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Veins carry deoxygenated blood back to the heart under low pressure. They have thinner walls with less muscle/elastic tissue, a wider lumen to reduce resistance to blood flow, and valves to ensure blood flows only toward the heart."
+        },
+        {
+          "id": "q_bio_animal_organs_41",
+          "question": "What is the correct biological hierarchy of organisation in multicellular organisms, from simplest to most complex?",
+          "options": [
+            "$\\text{Cell} \\to \\text{Tissue} \\to \\text{Organ} \\to \\text{Organ System} \\to \\text{Organism}$",
+            "$\\text{Organism} \\to \\text{Organ System} \\to \\text{Tissue} \\to \\text{Organ} \\to \\text{Cell}$",
+            "$\\text{Tissue} \\to \\text{Cell} \\to \\text{Organ} \\to \\text{Organism} \\to \\text{System}$",
+            "$\\text{Cell} \\to \\text{Organ} \\to \\text{Tissue} \\to \\text{Organ System} \\to \\text{Organism}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Cells are the basic building blocks; similar cells form a tissue; different tissues working together form an organ; groups of organs working together form an organ system; all organ systems together form an organism."
+        },
+        {
+          "id": "q_bio_animal_organs_42",
+          "question": "A student tests a food sample with Biuret reagent. What colour indicates that protein is present in the sample?",
+          "options": [
+            "Orange-brown changes to blue-black",
+            "Pale blue changes to lilac/purple",
+            "Blue changes to a brick-red precipitate",
+            "Colourless changes to a cloudy white emulsion"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Biuret reagent tests for peptide bonds in proteins. A positive result is a colour change from pale blue to lilac or purple."
+        },
+        {
+          "id": "q_bio_animal_organs_43",
+          "question": "Which of the following is the standard chemical test used to confirm the presence of lipids (fats) in food?",
+          "options": [
+            "Benedict's solution heated in a boiling water bath",
+            "Iodine solution test turning blue-black",
+            "Ethanol emulsion test (sample shaken with ethanol then poured into cold water, producing a milky white emulsion)",
+            "Biuret reagent turning purple"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "To test for lipids, the food is mixed with ethanol to dissolve the fats and then poured into cold water. Because lipids are insoluble in water, they precipitate out as a milky-white emulsion. (Alternatively, Sudan III stains a red top layer)."
+        },
+        {
+          "id": "q_bio_animal_organs_44",
+          "question": "What happens to the rate of an enzyme-controlled reaction when the temperature increases from $20^\\circ\\text{C}$ to $37^\\circ\\text{C}$?",
+          "options": [
+            "The enzyme is denatured by the thermal energy",
+            "The rate drops to zero because enzymes can only function below room temperature",
+            "The rate remains completely constant because enzyme shapes are rigid",
+            "The rate increases because the enzyme and substrate molecules gain kinetic energy and collide more frequently with sufficient activation energy"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "As temperature increases up to the optimum ($37^\\circ\\text{C}$ in humans), enzyme and substrate molecules have more kinetic energy. They move faster and collide more frequently and with greater energy, resulting in more successful substrate-active site collisions per second."
+        },
+        {
+          "id": "q_bio_animal_organs_45",
+          "question": "Why does exposure to an extreme pH (such as placing salivary amylase at pH 2) cause an enzyme to permanently lose its catalytic activity?",
+          "options": [
+            "Excess hydrogen or hydroxide ions break ionic and hydrogen bonds holding the enzyme's tertiary structure, permanently altering the shape of the active site (denaturation)",
+            "The acid dissolves the substrate so no chemical reaction can take place",
+            "The enzyme molecules are converted into glucose molecules",
+            "Extreme pH causes the enzyme to divide by meiosis"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Enzyme proteins are held in specific three-dimensional conformations by hydrogen and ionic bonds. Extremes of pH disrupt these charges and bonds, causing the active site to change shape permanently so the substrate can no longer fit (denaturation)."
+        },
+        {
+          "id": "q_bio_animal_organs_46",
+          "question": "What are the two vital functions of hydrochloric acid secreted by glandular tissue in the human stomach?",
+          "options": [
+            "It emulsifies fats and neutralises bile from the liver",
+            "It kills many harmful pathogens ingested with food, and provides the optimum acidic pH ($\\sim 1.5 - 2.0$) for stomach protease (pepsin) enzymes",
+            "It digests cellulose plant cell walls into glucose",
+            "It causes the small intestine to absorb vitamins by active transport"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Stomach hydrochloric acid: (1) Destroys bacteria and microorganisms present in ingested food by denaturing their enzymes; (2) Provides the acidic environment (pH 1.5–2.0) needed for pepsin (stomach protease) to work at its maximum rate."
+        },
+        {
+          "id": "q_bio_animal_organs_47",
+          "question": "Why does the left ventricle of the mammalian heart have a significantly thicker muscular wall than the right ventricle?",
+          "options": [
+            "The left ventricle contains valves while the right ventricle has none",
+            "It stores deoxygenated blood to prevent heart attacks",
+            "It must generate higher pumping pressure to push oxygenated blood through the systemic circuit to the entire body, whereas the right ventricle only pumps to the nearby lungs",
+            "It contains bone tissue to protect the heart from physical injury"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The right ventricle only pumps deoxygenated blood to the lungs through the pulmonary artery under relatively low pressure to avoid lung capillary damage. The left ventricle must generate high pressure to pump oxygenated blood through the aorta to all organs around the body."
+        },
+        {
+          "id": "q_bio_animal_organs_48",
+          "question": "Where is the natural pacemaker of the healthy human heart located, and how does it function?",
+          "options": [
+            "In the bicuspid valve; it physically pulls the chambers open",
+            "Inside the coronary arteries; it secretes adrenaline into the bloodstream",
+            "In the left ventricle apex; it pumps blood through the aorta",
+            "In the wall of the right atrium; it consists of a group of specialised cells that produce regular electrical impulses causing heart muscle to contract"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The natural pacemaker is the sinoatrial node located in the wall of the right atrium. It generates spontaneous electrical waves that spread across the heart muscle, coordinating the rhythmic contraction of atria and ventricles."
+        },
+        {
+          "id": "q_bio_animal_organs_49",
+          "question": "How do medical stents treat coronary heart disease (CHD)?",
+          "options": [
+            "A metal mesh tube is inserted into a narrowed coronary artery to keep it open, restoring blood flow and oxygen delivery to the heart muscle",
+            "They dissolve all blood cholesterol permanently through chemical digestion",
+            "They replace the heart's natural pacemaker with an electronic microchip",
+            "They act as synthetic valves between the left atrium and ventricle"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In coronary heart disease, coronary arteries narrow due to fatty plaque buildup. A stent is a small balloon-expandable wire mesh tube placed inside the artery to hold it open, ensuring blood and oxygen reach heart muscle tissue."
+        },
+        {
+          "id": "q_bio_animal_organs_50",
+          "question": "What is a disadvantage of replacing a damaged heart valve with a mechanical valve rather than a biological valve?",
+          "options": [
+            "Mechanical valves wear out and must be replaced every 5 years",
+            "The patient must take lifelong anti-coagulant (blood-thinning) medication to prevent blood clots forming on the artificial surface",
+            "Mechanical valves are immediately rejected by the patient's immune system",
+            "Mechanical valves require daily insulin injections to stay operational"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Mechanical valves (made from titanium and carbon) are extremely durable and last a lifetime, but blood can clot on their synthetic surfaces; patients must take lifelong blood thinners (like warfarin). Biological valves (from pigs/cows) do not require blood thinners, but wear out after 12–15 years."
         }
       ],
       "detailed_slides": [
@@ -2941,6 +3461,136 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "The spongy mesophyll layer has loosely packed cells with large intercellular air spaces. This creates a large internal surface area and short diffusion pathways for carbon dioxide to diffuse to palisade cells and oxygen to diffuse out through stomata."
+        },
+        {
+          "id": "q_bio_plant_organs_41",
+          "question": "Which tissue in a leaf contains large numbers of chloroplasts and is positioned directly beneath the transparent upper epidermis to absorb maximum sunlight?",
+          "options": [
+            "Spongy mesophyll",
+            "Palisade mesophyll",
+            "Lower epidermis",
+            "Meristem tissue"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Palisade mesophyll cells are vertically arranged near the top of the leaf directly beneath the transparent upper epidermis and are packed with chloroplasts to perform the majority of the leaf's photosynthesis."
+        },
+        {
+          "id": "q_bio_plant_organs_42",
+          "question": "What is the function of sieve plates in phloem tissue?",
+          "options": [
+            "Tubes that pump oxygen into leaf cells for cellular respiration",
+            "Waterproof barriers that prevent water from evaporating into air spaces",
+            "Perforated end walls that allow the free flow of dissolved sugars and amino acids between cells",
+            "Hard structures that grind down starch granules into glucose"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Sieve plates are perforated end walls between phloem sieve tube cells. The pores allow dissolved organic solutes (translocation stream) to pass through easily from one cell to the next."
+        },
+        {
+          "id": "q_bio_plant_organs_43",
+          "question": "Why are stomata primarily located on the underside (lower epidermis) of terrestrial plant leaves?",
+          "options": [
+            "Upper epidermal cells are made of dead bark that cannot form guard cells",
+            "Rainwater would block stomata if they were on the upper surface",
+            "Roots can only absorb carbon dioxide from the soil beneath the leaf",
+            "The lower surface is shaded from direct sunlight and cooler, reducing excessive water loss via transpiration"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Having stomata on the lower surface shades them from direct sun and wind, keeping humidity higher around the pores and substantially reducing unwanted water vapour loss while still allowing gas exchange."
+        },
+        {
+          "id": "q_bio_plant_organs_44",
+          "question": "A student measures the transpiration rate of a leafy shoot using a bubble potometer. If the air bubble moves $72\\text{ mm}$ in $12\\text{ minutes}$, what is the rate of transpiration?",
+          "options": [
+            "$6.0\\text{ mm/min}$",
+            "$0.167\\text{ mm/min}$",
+            "$864\\text{ mm/min}$",
+            "$12.0\\text{ mm/min}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Rate of transpiration $= \\frac{\\text{Distance moved}}{\\text{Time}} = \\frac{72\\text{ mm}}{12\\text{ min}} = 6.0\\text{ mm/min}$."
+        },
+        {
+          "id": "q_bio_plant_organs_45",
+          "question": "How does increasing atmospheric humidity affect the rate of transpiration in plants?",
+          "options": [
+            "It increases transpiration because water molecules move faster in damp air",
+            "It decreases transpiration because it reduces the concentration gradient of water vapour between inside the leaf and the outside air",
+            "It has no effect because transpiration only depends on soil temperature",
+            "It causes xylem vessels to pump water in reverse towards the roots"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Transpiration occurs by diffusion of water vapour out through stomata. When the surrounding air is very humid, the concentration of water vapour outside is high, reducing the steepness of the concentration gradient and slowing the diffusion rate."
+        },
+        {
+          "id": "q_bio_plant_organs_46",
+          "question": "Why does a plant wilt when its rate of transpiration exceeds the rate of water absorption by its roots?",
+          "options": [
+            "Chlorophyll is instantly converted into insoluble starch",
+            "The xylem vessels break into pieces under high pressure",
+            "Cells lose water by osmosis, turgor pressure in vacuoles drops, and cells become flaccid, causing leaves and stems to droop",
+            "Guard cells open permanently and freeze in place"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "When water loss exceeds water uptake, plant cells lose water. Vacuoles shrink and cells lose turgor pressure. Cells become flaccid, and without turgor support, the non-woody stems and leaves droop (wilt)."
+        },
+        {
+          "id": "q_bio_plant_organs_47",
+          "question": "How does wilting act as a temporary survival mechanism for a dehydrated plant?",
+          "options": [
+            "It allows the plant to detach its stems and roll to water sources",
+            "It forces the plant to perform anaerobic respiration instead of photosynthesis",
+            "It stimulates the flower petals to absorb atmospheric nitrogen gas",
+            "Leaves droop and collapse, reducing the surface area exposed to direct sun and wind, and stomata close to conserve water"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "When leaves wilt, they collapse and point downwards, greatly decreasing the surface area exposed to solar radiation and air currents. Guard cells also lose turgor and close stomata, severely reducing further transpiration loss."
+        },
+        {
+          "id": "q_bio_plant_organs_48",
+          "question": "Which of the following correctly contrasts xylem and phloem tissues?",
+          "options": [
+            "Xylem is made of dead hollow lignified cells transporting water and minerals upwards; Phloem is made of living cells transporting dissolved sugars in both directions",
+            "Xylem carries sugars downwards only; Phloem carries water upwards only",
+            "Xylem has companion cells; Phloem is reinforced with rings of lignin",
+            "Xylem translocates starch using ATP; Phloem moves water passively by gravity"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Xylem consists of dead, hollow, lignified tubes that transport water and minerals upward from roots to leaves (transpiration stream). Phloem consists of living cells with sieve plates that transport dissolved sugars bidirectionally (translocation)."
+        },
+        {
+          "id": "q_bio_plant_organs_49",
+          "question": "What is the primary function of plant meristem tissue located at the tips of growing roots and shoots?",
+          "options": [
+            "Storage of excess starch grains to survive winter dormancy",
+            "Rapid division by mitosis producing unspecialised cells that can differentiate into any plant tissue",
+            "Excretion of metabolic toxic wastes through the bark",
+            "Absorption of carbon dioxide directly from soil air pockets"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Meristems are areas of rapidly dividing, unspecialised plant stem cells. Cells produced in shoot and root meristems elongate and differentiate into all mature plant tissues (xylem, phloem, mesophyll, epidermis)."
+        },
+        {
+          "id": "q_bio_plant_organs_50",
+          "question": "Why is the upper epidermal layer of a leaf transparent and covered with a waxy cuticle?",
+          "options": [
+            "The cuticle absorbs carbon dioxide and converts it directly into oxygen",
+            "It traps heat to boil water inside spongy mesophyll air cavities",
+            "The transparency allows light to pass directly into the photosynthetic palisade layer, while the waterproof waxy cuticle prevents water evaporation",
+            "It prevents insects from detecting the green colour of the leaf"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The upper epidermal cells contain no chloroplasts and are completely transparent, allowing maximum sunlight to penetrate to the palisade mesophyll below. The lipid-rich waxy cuticle on its outer surface is waterproof, reducing evaporation from the leaf surface."
         }
       ],
       "detailed_slides": [
@@ -3530,6 +4180,136 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Herd immunity occurs when enough individuals in a community are immune to a pathogen (typically via vaccination) that transmission becomes very rare. This protects individuals who cannot be vaccinated, such as newborns, people with immune deficiencies, or those undergoing cancer chemotherapy."
+        },
+        {
+          "id": "q_bio_comm_41",
+          "question": "What are the common symptoms of the measles virus, and how is it prevented in young children?",
+          "options": [
+            "Yellow discharge from eyes; treated with daily antibiotics",
+            "Severe joint pain and bleeding gums; prevented by vitamin C tablets",
+            "Fever and a red skin rash; prevented by the MMR (Measles, Mumps, Rubella) vaccine in infancy",
+            "Swollen thyroid gland; prevented by iodised salt in water"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Measles is a highly contagious viral disease spread by inhalation of droplets from coughs/sneezes. Symptoms include fever and a characteristic red skin rash. Most young children in the UK are vaccinated with the MMR vaccine to confer immunity."
+        },
+        {
+          "id": "q_bio_comm_42",
+          "question": "How does the Human Immunodeficiency Virus (HIV) cause AIDS if left untreated?",
+          "options": [
+            "It destroys the myelin sheath of brain motor neurones within 24 hours",
+            "It infects and destroys red blood cells, causing fatal internal bleeding",
+            "It targets the liver and converts bile into toxic alcohol",
+            "It attacks and destroys white blood cells (helper T-lymphocytes), damaging the immune system until it can no longer defend against opportunistic infections or cancers"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "HIV infects and replicates inside white blood cells (lymphocytes). Over time, the immune system becomes so severely damaged that it cannot fight off common infections (like pneumonia) or certain cancers—a late stage known as AIDS. It is managed with antiretroviral drugs."
+        },
+        {
+          "id": "q_bio_comm_43",
+          "question": "What are the visible symptoms of Tobacco Mosaic Virus (TMV) on infected tomato and tobacco plants, and how does it reduce crop yield?",
+          "options": [
+            "Mosaic pattern of leaf discolouration; less chlorophyll reduces light absorption, decreasing photosynthesis and stunting growth",
+            "Roots turn black and dissolve into soil water",
+            "Stems swell into large woody galls that crush the xylem",
+            "Leaves turn bright red and emit a foul-smelling gas"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Tobacco mosaic virus produces a distinctive 'mosaic' pattern of yellow/white patches of discolouration on leaves. Because affected areas lack chlorophyll, light absorption drops, photosynthesis is reduced, and the plant cannot make enough glucose for normal growth."
+        },
+        {
+          "id": "q_bio_comm_44",
+          "question": "What causes the symptoms of Salmonella food poisoning (fever, abdominal cramps, vomiting, and diarrhoea)?",
+          "options": [
+            "The bacteria destroying all red blood cells in the liver",
+            "Toxins secreted by the Salmonella bacteria that irritate and damage the gut lining",
+            "An allergic reaction to chicken feathers",
+            "The bacteria consuming all the body's digestive enzymes"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Salmonella bacteria ingested in unhygienically prepared or undercooked food (poultry, eggs) multiply in the gut and secrete harmful chemical toxins that cause fever, abdominal cramps, vomiting, and severe diarrhoea."
+        },
+        {
+          "id": "q_bio_comm_45",
+          "question": "What type of pathogen causes the sexually transmitted infection gonorrhoea, and what are its characteristic symptoms?",
+          "options": [
+            "Fungus; severe swelling of the salivary glands",
+            "Virus; itchy red blisters across the arms and chest",
+            "Bacterium; thick yellow or green discharge from the penis or vagina, and pain on urinating",
+            "Protist; chronic internal kidney bleeding"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Gonorrhoea is a sexually transmitted disease caused by the bacterium Neisseria gonorrhoeae. Symptoms include a thick green or yellow discharge from the vagina or penis and pain when urinating. It was easily treated with penicillin until antibiotic-resistant strains emerged."
+        },
+        {
+          "id": "q_bio_comm_46",
+          "question": "How can gardeners prevent the spread of the fungal disease Rose Black Spot among rose bushes?",
+          "options": [
+            "Flooding the roots with boiling water",
+            "Spraying plants with antibiotics every morning",
+            "Covering rose petals with thick coats of paint",
+            "Treating infected plants with chemical fungicides, and stripping and destroying infected fallen leaves"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Rose black spot is a fungal pathogen spread by water splashes and wind. It is treated by spraying rose bushes with chemical fungicides and physically removing and burning infected fallen leaves so fungal spores cannot overwinter."
+        },
+        {
+          "id": "q_bio_comm_47",
+          "question": "What is the biological role of the female Anopheles mosquito in the spread of malaria?",
+          "options": [
+            "It acts as a vector, transmitting the Plasmodium protist pathogen into human blood during feeding",
+            "It synthesises the malaria protist inside its salivary glands from water",
+            "It lays eggs inside human alveoli, causing lung disease",
+            "It releases chemical toxins that destroy human red blood cells directly"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The mosquito does not cause the disease itself; it is a vector. When feeding on an infected person, it picks up the Plasmodium protist and transfers it into the bloodstream of the next person it bites."
+        },
+        {
+          "id": "q_bio_comm_48",
+          "question": "How do the human trachea and bronchi protect the breathing system from inhaled airborne pathogens?",
+          "options": [
+            "They produce high voltages to incinerate airborne bacteria",
+            "Goblet cells secrete sticky mucus to trap dust and pathogens, and ciliated epithelial cells beat rhythmically to sweep mucus up to the throat",
+            "They secrete hydrochloric acid into the lungs to kill viruses",
+            "They collapse completely to prevent any air from entering the chest"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The respiratory tract is lined with goblet cells that secrete sticky mucus to trap inhaled pathogens and particulates. Cilia (tiny hair-like projections on epithelial cells) waft the mucus up to the throat, where it is swallowed and destroyed by stomach acid."
+        },
+        {
+          "id": "q_bio_comm_49",
+          "question": "Which medical scientist discovered the antibiotic penicillin produced by the mould Penicillium notatum in 1928?",
+          "options": [
+            "Louis Pasteur",
+            "Edward Jenner",
+            "Alexander Fleming",
+            "Robert Koch"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Alexander Fleming discovered penicillin in 1928 after noticing that a fungal mould (Penicillium notatum) contaminating a Petri dish of Staphylococcus bacteria produced a chemical zone of clearance that killed the surrounding bacteria."
+        },
+        {
+          "id": "q_bio_comm_50",
+          "question": "In a double-blind clinical drug trial, who knows whether a participant is receiving the real experimental drug or an inactive placebo?",
+          "options": [
+            "All participants and hospital staff",
+            "Only the patient receiving the treatment",
+            "Only the examining doctor and nurse",
+            "Neither the patients nor the doctors conducting the trial"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "In a double-blind trial, neither the patients nor the doctors administering the treatment know who is receiving the active drug and who is receiving the placebo. This eliminates psychological expectation, observer bias, and the placebo effect from the results."
         }
       ],
       "detailed_slides": [
@@ -4119,6 +4899,136 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "Because monoclonal antibodies were initially developed using mouse lymphocytes and myeloma cells, human immune systems sometimes recognised the mouse antibodies as foreign, causing allergic reactions, fever, or rejection. Modern techniques now 'humanise' antibodies to minimize side effects."
+        },
+        {
+          "id": "q_bio_mabs_41",
+          "question": "What is the correct sequence of laboratory steps used to produce a batch of monoclonal antibodies?",
+          "options": [
+            "Clone mouse embryonic stem cells $\\to$ Inject with penicillin $\\to$ Harvest hybridomas",
+            "Fuse red blood cells with bacteria $\\to$ Inject into patient $\\to$ Filter blood",
+            "Collect human tumour cells $\\to$ Irradiate with UV light $\\to$ Extract antibodies from urine",
+            "Inject mouse with antigen $\\to$ Harvest B-lymphocytes $\\to$ Fuse with tumour cells to form hybridomas $\\to$ Clone hybridoma cells $\\to$ Harvest antibodies"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Monoclonal antibody production: (1) Mouse is injected with chosen antigen; (2) Mouse B-lymphocytes making the specific antibody are harvested; (3) Lymphocytes are fused with myeloma tumour cells to form hybridoma cells; (4) Single hybridoma cells are cloned; (5) Identical antibodies are harvested and purified."
+        },
+        {
+          "id": "q_bio_mabs_42",
+          "question": "Why are hybridoma cells cloned in large bioreactor cultures during monoclonal antibody production?",
+          "options": [
+            "To produce large populations of identical cells that continuously manufacture identical antibodies targeted to a single specific antigen",
+            "To mutate the antibodies so they can destroy all known viruses",
+            "To turn the antibodies into digestive enzymes",
+            "To prevent the cells from dividing by mitosis"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Cloning ensures that all descendant cells originate from a single hybridoma clone. As a result, every cell produces completely identical (monoclonal) antibodies that bind with high affinity to the same specific target antigen."
+        },
+        {
+          "id": "q_bio_mabs_43",
+          "question": "How are monoclonal antibodies used in clinical pathology laboratories for diagnostic blood testing?",
+          "options": [
+            "They are used to dissolve blood clots during open heart surgery",
+            "They are engineered to bind specifically to target hormones, pathogens, or tumour markers, and their binding is measured using a colour change or fluorescent tag",
+            "They are mixed with blood to calculate the patient's heart rate",
+            "They act as synthetic red blood cells to carry oxygen in test tubes"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Diagnostic laboratory tests (such as ELISA) use monoclonal antibodies labelled with fluorescent dyes or enzymes to detect tiny concentrations of specific target molecules in patient samples, such as hormones, viral antigens, or prostate-specific antigen (PSA)."
+        },
+        {
+          "id": "q_bio_mabs_44",
+          "question": "How can fluorescent-labelled monoclonal antibodies be used to locate specific molecules inside cells under a microscope?",
+          "options": [
+            "They dissolve the cell membrane so light passes through unobstructed",
+            "They dye all cellular DNA permanently red",
+            "Monoclonal antibodies bind to specific target antigens on cell structures and emit visible light when illuminated with ultraviolet radiation",
+            "They turn the specimen into an active electron emitter"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Fluorescent dye molecules can be chemically attached to monoclonal antibodies. When added to tissue sections, the antibodies bind specifically to their target protein, and under a fluorescence microscope, the binding locations glow brightly, revealing the precise cellular distribution."
+        },
+        {
+          "id": "q_bio_mabs_45",
+          "question": "What is the primary therapeutic advantage of monoclonal antibody cancer treatment over traditional radiotherapy or non-specific chemotherapy?",
+          "options": [
+            "They can be bought over-the-counter without clinical prescription",
+            "Monoclonal antibodies kill all bacteria in the body simultaneously",
+            "They prevent the patient from ever catching a viral cold again",
+            "Monoclonal antibodies bind specifically to cancer cell tumour markers, delivering drugs directly without harming healthy, dividing body cells"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Conventional chemotherapy damages all rapidly dividing cells (hair follicles, mouth and stomach lining, bone marrow). Targeted monoclonal antibodies bind only to specific antigens on cancer cells, delivering toxins directly to tumours while sparing surrounding healthy tissue."
+        },
+        {
+          "id": "q_bio_mabs_46",
+          "question": "Why did early clinical trials of monoclonal antibodies in humans encounter high rates of adverse immune rejection?",
+          "options": [
+            "The antibodies were derived from mouse lymphocytes, so the human immune system recognised the mouse proteins as foreign antigens and attacked them",
+            "The antibodies contained living bacterial pathogens",
+            "The antibodies destroyed all red blood cells upon injection",
+            "The hybridoma cells turned into tumours inside the patient's bones"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Because monoclonal antibodies were initially made using mouse cells, human immune systems identified the mouse antibody proteins as foreign antigens, triggering fever, allergic reactions, or rapid antibody clearance. Modern medicine 'humanises' these antibodies via genetic engineering."
+        },
+        {
+          "id": "q_bio_mabs_47",
+          "question": "How can monoclonal antibodies be used in medical therapy to locate or dissolve dangerous blood clots (thrombi)?",
+          "options": [
+            "They thicken the blood to prevent it from leaking through arteries",
+            "They are engineered to bind specifically to fibrin proteins found in clots and can carry clot-dissolving enzymes directly to the blockage",
+            "They act as physical balloons that push the clot into the lungs",
+            "They convert blood clots into bone tissue"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Blood clots are composed of insoluble meshworks of fibrin proteins. Monoclonal antibodies specific to fibrin can be tagged with radioactive isotopes to image deep vein thrombosis, or bound to plasminogen activators to target and dissolve clots rapidly."
+        },
+        {
+          "id": "q_bio_mabs_48",
+          "question": "Why does a home pregnancy test stick feature a second line known as the 'control window'?",
+          "options": [
+            "It changes colour only if the baby is a boy",
+            "It tests whether the woman has sufficient calcium in her urine",
+            "It contains immobilised antibodies that bind excess free dye-labelled antibodies, confirming that liquid flowed correctly and the test is functioning",
+            "It checks that the plastic casing has not melted"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The control zone has immobilised antibodies that bind to the mobile dye-antibody conjugates regardless of whether hCG is present. A coloured line appearing in the control window confirms that the urine sample has wicked up the strip properly and the test is valid."
+        },
+        {
+          "id": "q_bio_mabs_49",
+          "question": "What is a 'bispecific' monoclonal antibody designed to achieve in modern immunology?",
+          "options": [
+            "An antibody that has two nuclei to double protein production",
+            "An antibody that can survive inside both boiling acid and frozen ice",
+            "An antibody that cures both bacterial and fungal infections simultaneously",
+            "An engineered antibody that has two different antigen-binding sites, allowing it to bind to a cancer cell and an immune killer T-cell at the same time"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Bispecific antibodies are engineered with two distinct variable binding regions: one arm binds to a tumour marker on a cancer cell, while the other arm binds to an immune effector cell (like a cytotoxic T-lymphocyte), bringing the killer cell into direct contact with the cancer cell."
+        },
+        {
+          "id": "q_bio_mabs_50",
+          "question": "Why cannot mouse B-lymphocytes alone (without fusing to myeloma cells) be used to manufacture commercial quantities of monoclonal antibodies?",
+          "options": [
+            "Normal B-lymphocytes have a limited lifespan and die after a few cell divisions in culture dishes",
+            "Normal B-lymphocytes cannot synthesise antibodies outside a live animal",
+            "Normal B-lymphocytes only divide by meiosis",
+            "Normal B-lymphocytes mutate into bacterial cells when kept in a laboratory"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Normal specialised B-lymphocytes produce antibodies, but they are mortal and stop dividing after a short period in culture. Myeloma tumour cells divide indefinitely. Fusing them creates a hybridoma combining antibody production with continuous cell division."
         }
       ],
       "detailed_slides": [
@@ -4708,6 +5618,136 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Aphids have sharp, piercing mouthparts that penetrate into the phloem vessels. They extract dissolved sugars (sap), depriving the plant of nutrients needed for growth and respiration, and can transmit plant pathogens (such as viruses) between crops."
+        },
+        {
+          "id": "q_bio_plant_dis_41",
+          "question": "Which of the following is NOT a standard visible symptom of plant disease?",
+          "options": [
+            "Rapid uniform root elongation and flowering during peak winter frost",
+            "Stunted growth and malformed stems",
+            "Spots on leaves and areas of tissue decay",
+            "Visible pest infestations (such as aphids or caterpillars)"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Standard signs of plant disease include: stunted growth, spots on leaves, patches of decay/rot, abnormal growths/galls, malformed stems/leaves, discolouration, and visible presence of pests. Rapid healthy root growth is a sign of vigorous health."
+        },
+        {
+          "id": "q_bio_plant_dis_42",
+          "question": "How can a plant grower or farmer definitively identify a specific pathogen infecting their crops?",
+          "options": [
+            "Tasting the sap of the plant to check for bacterial sweetness",
+            "Consulting gardening manuals/expert websites, sending tissue samples to a pathology laboratory, or using monoclonal antibody testing kits",
+            "Placing the plant under a bright desk lamp to see if it turns purple",
+            "Measuring the mass of the soil before and after rainfall"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Plant diseases can be diagnosed by: (1) Reference to gardening manuals or online horticultural databases; (2) Taking infected samples to a laboratory for testing (e.g. culturing or PCR); (3) Using rapid on-site monoclonal antibody test kits."
+        },
+        {
+          "id": "q_bio_plant_dis_43",
+          "question": "How is Tobacco Mosaic Virus (TMV) transmitted between tomato plants in a commercial nursery?",
+          "options": [
+            "Rainwater washing through the xylem vessels",
+            "Mosquito bites and wind-blown pollen grains",
+            "Direct contact between infected and healthy plants, and contamination on workers' hands and pruning equipment",
+            "Earthworms digging tunnels near the root tips"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "TMV is highly contagious and spreads easily via mechanical transmission: direct physical contact between touching leaves, or through workers' hands, contaminated secateurs, tools, and grafting knives."
+        },
+        {
+          "id": "q_bio_plant_dis_44",
+          "question": "How are the fungal spores of Rose Black Spot (Diplocarpon rosae) dispersed to infect new plants?",
+          "options": [
+            "Carried inside the bloodstream of birds",
+            "Inside the saliva of honeybees during flower pollination",
+            "By active swimming through deep underground soil water",
+            "Water droplets splashing off infected leaves during rainfall, and by wind currents"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The fungal spores of rose black spot are produced in black spots on the leaf surface. Raindrops striking the leaves cause spores to splash onto neighboring foliage, and dry spores are carried in wind currents to new rose plants."
+        },
+        {
+          "id": "q_bio_plant_dis_45",
+          "question": "Why do aphid infestations frequently lead to black sooty mould growing on plant foliage?",
+          "options": [
+            "Aphids excrete excess sugary phloem sap as sticky honeydew, which provides an ideal medium for sooty mould fungi to grow",
+            "Aphids inject black venom directly into palisade mesophyll cells",
+            "Aphids burn the leaves with body heat during hot days",
+            "The plant synthesises black melanin to blind the aphids"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Aphids drink large quantities of sugary phloem sap. They excrete the excess sugar as a sticky, sweet substance called honeydew. Fungal spores land on honeydew-coated leaves and germinate, forming a black, powdery coating called sooty mould."
+        },
+        {
+          "id": "q_bio_plant_dis_46",
+          "question": "Which of the following is an example of a mechanical defence adaptation in plants?",
+          "options": [
+            "Poisons produced by belladonna (deadly nightshade)",
+            "Thorns, sharp spines, and leaves that rapidly curl or droop when touched by herbivores",
+            "Waxy leaf cuticle preventing water loss",
+            "Antibacterial oils synthesised by tea tree plants"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Mechanical defences include: (1) Thorns and spines to deter grazing animals; (2) Leaves that curl or droop upon touch (knocking insects off and looking unpalatable, e.g. Mimosa pudica); (3) Mimicry (plants resembling stones or unpalatable organisms)."
+        },
+        {
+          "id": "q_bio_plant_dis_47",
+          "question": "Which important human pharmaceutical medication was originally extracted from the bark of willow trees as a natural plant chemical defence?",
+          "options": [
+            "Insulin (hormone)",
+            "Penicillin (antibiotic)",
+            "Aspirin (acetylsalicylic acid, used as a painkiller and anti-inflammatory)",
+            "Morphine (opiate from poppies)"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Aspirin originates from salicin, a compound found in the bark and leaves of willow trees (Salix species), which plants use as a defensive signaling molecule against herbivorous insects and pathogens."
+        },
+        {
+          "id": "q_bio_plant_dis_48",
+          "question": "How do physical plant defences, such as bark on woody tree trunks, protect against microbial pathogens?",
+          "options": [
+            "Bark prevents sunlight from penetrating to the roots",
+            "Bark absorbs carbon dioxide to produce poisons that dissolve bacteria",
+            "Bark heats the tree trunk to over $100^\\circ\\text{C}$ in winter",
+            "Bark consists of layers of dead cells that form a continuous physical barrier; when outer bark flakes off, attached pathogens are shed"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The bark on tree trunks is formed from layers of tough, dead suberised cells that act as an impenetrable physical barrier against fungal hyphae and insects. When old outer bark peels away or falls off, any adhering pathogens are removed."
+        },
+        {
+          "id": "q_bio_plant_dis_49",
+          "question": "Why does a deficiency in mineral nitrate ions ($NO_3^-$) prevent plants from growing and repairing tissues?",
+          "options": [
+            "Nitrates are combined with glucose to synthesize amino acids, which are the building blocks of essential proteins",
+            "Nitrates provide the green pigment that traps sunlight",
+            "Nitrates act as the primary sugar fuel burned during cellular respiration",
+            "Nitrates are converted directly into water inside the xylem"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Plants can make carbohydrates (glucose, starch) from $\\text{CO}_2$ and $\\text{H}_2\\text{O}$, but proteins require nitrogen. Plants absorb nitrate ions from the soil to provide nitrogen to synthesise amino acids and proteins needed for cell division and growth."
+        },
+        {
+          "id": "q_bio_plant_dis_50",
+          "question": "How do parasitic root-knot nematodes damage agricultural crops such as potatoes and tomatoes?",
+          "options": [
+            "They eat the flowers of crops to prevent pollination",
+            "Microscopic roundworms burrow into plant roots, causing abnormal swollen galls that disrupt water and mineral uptake",
+            "They fly between leaves, spreading viral particles like aphids",
+            "They secrete weedkiller that kills the plant leaves"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Root-knot nematodes are soil-dwelling microscopic worms that penetrate root systems. They establish feeding sites, triggering root cells to form abnormal swelling (galls or knots) that severely disrupt water and nutrient transport, stunting plant yield."
         }
       ],
       "detailed_slides": [
@@ -5297,6 +6337,136 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "Sodium hydrogencarbonate dissolves in water to release carbon dioxide. Adding it ensures that $\\text{CO}_2$ is in constant excess, so only the independent variable (e.g. light intensity) acts as the limiting factor."
+        },
+        {
+          "id": "q_bio_photo_41",
+          "question": "Which of the following is the correct balanced symbol equation for photosynthesis?",
+          "options": [
+            "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\to 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$",
+            "$6\\text{CO}_2 + 6\\text{H}_2\\text{O} \\to \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2$",
+            "$\\text{CO}_2 + \\text{H}_2\\text{O} \\to \\text{C}_6\\text{H}_{12}\\text{O}_6 + \\text{O}_2$",
+            "$6\\text{CO}_2 + 12\\text{H}_2\\text{O} \\to \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 + 6\\text{H}_2$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The balanced symbol equation is $6\\text{CO}_2 + 6\\text{H}_2\\text{O} \\to \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2$. Six molecules of carbon dioxide react with six molecules of water in the presence of light and chlorophyll to yield one molecule of glucose and six molecules of oxygen."
+        },
+        {
+          "id": "q_bio_photo_42",
+          "question": "Why is photosynthesis classified thermodynamically as an endothermic reaction?",
+          "options": [
+            "It takes place exclusively when temperatures are below freezing",
+            "It releases thermal energy that heats the surrounding air",
+            "It absorbs light energy from the environment to form high-energy chemical bonds in glucose",
+            "It consumes all chemical energy stored inside the cell nucleus"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Photosynthesis is an endothermic reaction because energy is transferred from the environment (sunlight) to the chloroplasts; the products (glucose and oxygen) possess more chemical bond energy than the reactants (carbon dioxide and water)."
+        },
+        {
+          "id": "q_bio_photo_43",
+          "question": "A graph of photosynthesis rate against light intensity rises steeply at first, but then plateaus into a flat horizontal line. What does the flat plateau signify?",
+          "options": [
+            "Oxygen gas is preventing carbon dioxide from diffusing into the leaf",
+            "The plant has run out of water completely and died",
+            "Chlorophyll has been permanently bleached by the light",
+            "Light intensity is no longer the limiting factor; another factor (such as temperature or carbon dioxide concentration) is in short supply"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "When increasing the independent variable (e.g. light intensity) no longer increases the rate of photosynthesis, light is no longer limiting the reaction. Another factor—such as $\\text{CO}_2$ concentration or ambient temperature—is now the limiting factor."
+        },
+        {
+          "id": "q_bio_photo_44",
+          "question": "A lamp is placed $20\\text{ cm}$ from a beaker of pondweed. It is then moved to a distance of $40\\text{ cm}$. According to the inverse square law ($I \\propto 1/d^2$), how does the light intensity change?",
+          "options": [
+            "It decreases to one-quarter ($25\\%$) of its original intensity",
+            "It decreases to one-half ($50\\%$) of its original intensity",
+            "It decreases to one-eighth ($12.5\\%$) of its original intensity",
+            "It remains unchanged because the lamp power is constant"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The distance doubles from $20\\text{ cm}$ to $40\\text{ cm}$ (factor of $2$). By the inverse square law, light intensity $I \\propto 1/d^2$, so the new intensity is $1/2^2 = 1/4 = 0.25$ of the initial intensity."
+        },
+        {
+          "id": "q_bio_photo_45",
+          "question": "A plant is moved closer to a light source, changing the distance from $50\\text{ cm}$ to $10\\text{ cm}$. By what factor does the light intensity increase?",
+          "options": [
+            "Increases by a factor of $5$",
+            "Increases by a factor of $25$",
+            "Increases by a factor of $50$",
+            "Increases by a factor of $10$"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The distance is divided by $5$ ($50 / 10 = 5$). According to the inverse square law, reducing the distance by a factor of $5$ increases the light intensity by $5^2 = 25$ times."
+        },
+        {
+          "id": "q_bio_photo_46",
+          "question": "Why do plants convert glucose into insoluble starch for long-term storage rather than storing soluble glucose?",
+          "options": [
+            "Glucose is a gas at room temperature and would evaporate",
+            "Starch is much sweeter and attracts pollinators to the roots",
+            "Insoluble starch does not affect the osmotic balance or water potential of plant cells, preventing unwanted water intake",
+            "Starch molecules can pass easily through cell walls by diffusion"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Glucose is soluble in water; storing high concentrations of glucose would lower the cell's water potential, causing water to enter by osmosis and swell the cell. Starch is completely insoluble, so it has no osmotic effect on the cell."
+        },
+        {
+          "id": "q_bio_photo_47",
+          "question": "How do plants make use of the glucose produced during photosynthesis to produce lipids (fats and oils)?",
+          "options": [
+            "Plants do not contain any lipids or oils",
+            "Lipids are absorbed directly from soil water through root hair cells",
+            "Glucose is combined with carbon monoxide gas to produce waxes",
+            "Glucose is biochemically converted into fatty acids and glycerol, and stored as oils in seeds and nuts"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Plants convert glucose into lipids (oils and fats) using energy from respiration. Lipids are stored in seeds and nuts (e.g. sunflower seeds, olives, peanuts) to provide energy stores for the seedling during germination before it can photosynthesise."
+        },
+        {
+          "id": "q_bio_photo_48",
+          "question": "What is the structural role of cellulose, synthesised from glucose monomers, in plant biology?",
+          "options": [
+            "It forms tough, cross-linked microfibrils that give plant cell walls tensile strength and rigidity",
+            "It serves as a transport molecule carrying oxygen through phloem",
+            "It acts as a digestive enzyme that breaks down soil minerals",
+            "It dissolves in cell sap to maintain electrical voltage in guard cells"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Cellulose is an insoluble, straight-chain polymer of glucose. Microfibrils of cellulose are bundled together to form the plant cell wall, providing immense tensile strength to withstand high turgor pressure without bursting."
+        },
+        {
+          "id": "q_bio_photo_49",
+          "question": "A commercial greenhouse farmer uses paraffin heaters on cold spring mornings. What two limiting factors for photosynthesis are simultaneously enhanced by this practice?",
+          "options": [
+            "Light intensity and soil moisture",
+            "Temperature and carbon dioxide concentration",
+            "Oxygen levels and chlorophyll density",
+            "Humidity and wind speed"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Combustion of paraffin (a hydrocarbon) produces thermal heat (raising temperature towards the optimum for photosynthetic enzymes) and releases carbon dioxide gas (providing extra reactant $\\text{CO}_2$), removing two major limiting factors at once."
+        },
+        {
+          "id": "q_bio_photo_50",
+          "question": "In the pondweed required practical, why is using an inverted measuring cylinder or gas syringe to collect gas more accurate than simply counting bubbles?",
+          "options": [
+            "Bubbles of gas dissolve completely in water before reaching the surface",
+            "Gas syringes prevent oxygen from converting into carbon dioxide",
+            "Counting bubbles is subjective and bubbles can vary in volume or emerge too quickly to count reliably, whereas measuring cylinder records actual volume",
+            "Counting bubbles requires an electron microscope"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Counting bubbles introduces significant experimental error: bubbles are not of uniform size, can emerge in rapid bursts making counting inaccurate, and human counting errors are common. Measuring the volume of gas collected in a gas syringe provides quantitative, reliable data."
         }
       ],
       "detailed_slides": [
@@ -5886,6 +7056,136 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Anaerobic respiration in yeast (fermentation: $\\text{glucose} \\to \\text{ethanol} + \\text{CO}_2$) is used economically in baking (carbon dioxide gas bubbles expand to make bread rise) and brewing (ethanol produces beer and wine)."
+        },
+        {
+          "id": "q_bio_resp_41",
+          "question": "Why must a boiled glucose solution be cooled to room temperature before adding yeast in an experiment investigating anaerobic respiration?",
+          "options": [
+            "Boiling speeds up glycolysis, and cooling allows the yeast to reproduce by binary fission",
+            "Boiling sterilises the glucose, and cooling prevents carbon dioxide from dissolving into the liquid",
+            "Boiling removes dissolved oxygen to ensure anaerobic conditions, while cooling prevents the heat from denaturing yeast enzymes",
+            "Boiling breaks down glucose into lactic acid, and cooling stops the reaction"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Boiling the glucose solution drives out any dissolved oxygen gas, creating the required anaerobic environment. Cooling the solution back down is vital because temperatures above 45-50°C would denature the yeast's respiratory enzymes and kill the living yeast cells."
+        },
+        {
+          "id": "q_bio_resp_42",
+          "question": "What is the chemical word equation for anaerobic respiration in human muscle tissue during vigorous physical activity?",
+          "options": [
+            "$\\text{Lactic acid} \\to \\text{Glucose} + \\text{Oxygen}$",
+            "$\\text{Glucose} \\to \\text{Ethanol} + \\text{Carbon dioxide}$",
+            "$\\text{Glucose} + \\text{Oxygen} \\to \\text{Carbon dioxide} + \\text{Water}$",
+            "$\\text{Glucose} \\to \\text{Lactic acid}$"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "When muscle cells lack sufficient oxygen during intense exercise, they respire anaerobically: $\\text{Glucose} \\to \\text{Lactic acid}$. No carbon dioxide or water is produced in muscle anaerobic respiration."
+        },
+        {
+          "id": "q_bio_resp_43",
+          "question": "How does regular aerobic endurance exercise training lead to a decrease in an athlete's resting heart rate (resting bradycardia)?",
+          "options": [
+            "The muscular walls of the heart undergo hypertrophy, increasing stroke volume so fewer beats are needed per minute to maintain resting cardiac output",
+            "Muscles adapt to respire completely anaerobically at rest, eliminating the resting requirement for oxygenated blood",
+            "Blood vessels constrict permanently, creating high resistance that slows down pacemaker electrical firing",
+            "The lungs expand in volume so red blood cells carry twice as much oxygen per hemoglobin molecule"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Endurance training causes the cardiac muscle (myocardium) to thicken and strengthen (hypertrophy). This increases the heart's stroke volume (volume of blood pumped per beat). Because cardiac output = stroke volume × heart rate, an increased stroke volume means the heart can beat fewer times per minute while supplying the exact same volume of oxygenated blood to the body at rest."
+        },
+        {
+          "id": "q_bio_resp_44",
+          "question": "Why does anaerobic respiration release significantly less energy per glucose molecule than aerobic respiration?",
+          "options": [
+            "Anaerobic respiration destroys all ATP molecules upon formation",
+            "The oxidation of glucose is incomplete, leaving much of the energy locked in the chemical bonds of lactic acid or ethanol",
+            "Lactic acid molecules absorb heat energy from the cytoplasm",
+            "Oxygen atoms store all the energy in glucose molecules"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "In aerobic respiration, glucose is fully oxidized to $\\text{CO}_2$ and $\\text{H}_2\\text{O}$, releasing all stored energy ($\\sim 32\\text{ ATP}$). In anaerobic respiration, glucose is only partially broken down into lactic acid or ethanol, so most chemical energy remains locked inside these product molecules."
+        },
+        {
+          "id": "q_bio_resp_45",
+          "question": "Which of the following is an example of an anabolic (synthesis) reaction in cellular metabolism?",
+          "options": [
+            "The breakdown of excess proteins into urea in the liver",
+            "The breakdown of glucose into carbon dioxide and water during respiration",
+            "Synthesising lipid molecules from one molecule of glycerol and three molecules of fatty acids",
+            "The breakdown of starch into maltose by salivary amylase"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Metabolism includes both synthesis and breakdown reactions. Combining one molecule of glycerol with three molecules of fatty acids to form a lipid molecule is a synthesis (anabolic) reaction that requires energy."
+        },
+        {
+          "id": "q_bio_resp_46",
+          "question": "How do plants and humans synthesise proteins as part of cellular metabolism?",
+          "options": [
+            "Glucose molecules fuse together to form peptide chains",
+            "Carbon dioxide is directly converted into proteins in the stomata",
+            "Proteins are absorbed through cell membranes by simple diffusion",
+            "Amino acids are joined together in specific sequences on ribosomes using energy released from respiration"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Cells use glucose and nitrate ions (in plants) or dietary amino acids (in animals) to assemble polypeptide chains of amino acids into proteins on ribosomes, powered by ATP from respiration."
+        },
+        {
+          "id": "q_bio_resp_47",
+          "question": "Why must excess dietary amino acids be deaminated in the human liver to produce urea?",
+          "options": [
+            "Excess amino acids cannot be stored in the human body and their nitrogenous amine group is toxic if allowed to accumulate in blood",
+            "The kidneys require urea to generate urine pressure",
+            "Urea is converted into oxygen gas in the lungs",
+            "Excess amino acids cause blood vessels to dissolve"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The body cannot store amino acids. Excess amino acids are deaminated in the liver: the amine group ($-NH_2$) is converted into toxic ammonia, which is rapidly converted into less toxic urea. Urea is then filtered by the kidneys and excreted in urine."
+        },
+        {
+          "id": "q_bio_resp_48",
+          "question": "During prolonged physical exercise, what happens to the glycogen stored in human liver and skeletal muscle cells?",
+          "options": [
+            "It is converted into fatty acids to line the stomach",
+            "It is hydrolysed back into glucose to supply fuel for cellular respiration",
+            "It is excreted through sweat glands to cool the skin",
+            "It solidifies into bone tissue to support the skeleton"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Glycogen is a storage polysaccharide. During exercise, glucagon and adrenaline stimulate the breakdown of glycogen into glucose, which is released into the blood and taken up by muscle cells for respiration."
+        },
+        {
+          "id": "q_bio_resp_49",
+          "question": "How does the liver process lactic acid transported in the blood following anaerobic exercise?",
+          "options": [
+            "It breaks lactic acid down into alcohol and exhales it",
+            "It filters lactic acid and secretes it directly into the gallbladder as bile",
+            "It takes up lactic acid and, using oxygen, oxidises a portion of it to carbon dioxide and water, using the released energy to convert the rest back into glucose",
+            "It stores lactic acid permanently inside red blood cells"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Blood transports lactic acid from muscles to the liver. There, oxygen from the 'oxygen debt' is used: approximately one-fifth of the lactic acid is oxidised to $\\text{CO}_2$ and $\\text{H}_2\\text{O}$ to release energy, which is used to convert the remaining lactic acid back into glucose and glycogen."
+        },
+        {
+          "id": "q_bio_resp_50",
+          "question": "In a respirometer experiment measuring the oxygen consumption of germinating peas, why is the boiling tube kept in a thermostatically controlled water bath?",
+          "options": [
+            "To dissolve all the potassium hydroxide pellets",
+            "To prevent the seeds from floating to the surface of the tube",
+            "To ensure the peas receive sufficient humidity to photosynthesise",
+            "To control temperature, since temperature changes affect gas volume (thermal expansion) and enzyme activity in respiration"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "A water bath ensures a constant temperature. Temperature is a key control variable because: (1) Temperature fluctuations cause gas inside the closed respirometer to expand or contract, corrupting volume readings; (2) Respiration is an enzyme-controlled process that varies with temperature."
         }
       ],
       "detailed_slides": [
@@ -6475,6 +7775,136 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "The dependent variable is the factor measured by the experimenter: here, the drop distance on the ruler (in cm) when caught, which is converted to reaction time in seconds. The independent variable is the factor being changed (e.g. caffeine consumption, dominant vs non-dominant hand)."
+        },
+        {
+          "id": "q_bio_nervous_41",
+          "question": "Which region of the human brain controls complex conscious thought, memory, personality, and intelligence?",
+          "options": [
+            "Pituitary gland",
+            "Cerebellum",
+            "Medulla",
+            "Cerebral cortex"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The cerebral cortex (the outer wrinkled layer of the brain) is responsible for consciousness, intelligence, memory, personality, and voluntary actions."
+        },
+        {
+          "id": "q_bio_nervous_42",
+          "question": "Which region of the human brain coordinates muscle movement, posture, and balance?",
+          "options": [
+            "Cerebellum",
+            "Cerebral cortex",
+            "Medulla",
+            "Hypothalamus"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The cerebellum (located at the back of the brain) coordinates voluntary muscular movement, precision, posture, and balance."
+        },
+        {
+          "id": "q_bio_nervous_43",
+          "question": "What is the function of the medulla oblongata located at the base of the brainstem?",
+          "options": [
+            "It stores long-term memories of names and faces",
+            "It controls unconscious reflex activities, such as heart rate, breathing rate, and gut peristalsis",
+            "It processes visual images received from the retina",
+            "It produces estrogen and progesterone"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "The medulla controls automatic, unconscious bodily functions essential for life, including breathing rate, heart rate, swallowing, and blood pressure."
+        },
+        {
+          "id": "q_bio_nervous_44",
+          "question": "How do ciliary muscles and suspensory ligaments adjust the shape of the eye lens when focusing on a DISTANT object (accommodation)?",
+          "options": [
+            "Ciliary muscles contract, suspensory ligaments tighten, and the lens moves forward",
+            "Ciliary muscles contract, suspensory ligaments slacken, and the lens becomes thick and round",
+            "Ciliary muscles relax, suspensory ligaments pull tight, and the lens is pulled thin and less convex",
+            "Both muscles and ligaments contract to flatten the cornea"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "To focus on distant objects: light rays arrive almost parallel and need less refraction. The ciliary muscles relax, allowing the suspensory ligaments to pull taut. This pulls the lens into a thinner, less curved (less convex) shape."
+        },
+        {
+          "id": "q_bio_nervous_45",
+          "question": "How do the components of the eye adjust to focus on a NEAR object?",
+          "options": [
+            "The iris muscles close the pupil to prevent light from entering",
+            "Ciliary muscles relax, suspensory ligaments pull tight, and the lens becomes thinner",
+            "The pupil dilates completely and the cornea becomes flat",
+            "Ciliary muscles contract, suspensory ligaments loosen (slacken), and the lens becomes thicker and more convex to refract light rays strongly"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "When viewing near objects, light rays diverge strongly and require more bending. The ciliary muscles contract, causing the suspensory ligaments to slacken. The elastic lens springs into a thicker, rounder (more convex) shape, refracting light more strongly onto the retina."
+        },
+        {
+          "id": "q_bio_nervous_46",
+          "question": "What is myopia (short-sightedness), and how is it optically corrected using glasses?",
+          "options": [
+            "The eyeball is too long or lens too curved, focusing light in front of the retina; corrected using concave (diverging) lenses",
+            "The eyeball is too short, focusing light behind the retina; corrected using convex lenses",
+            "The cornea is scratched; corrected using coloured sunglasses",
+            "The retina lacks rod cells; corrected using magnifying glasses"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In myopia, people can see close objects clearly, but distant objects are blurred because light rays are focused in front of the retina (eyeball is too long or lens too powerful). A concave lens diverges light rays slightly before entering the eye, shifting the focal point back onto the retina."
+        },
+        {
+          "id": "q_bio_nervous_47",
+          "question": "What is hyperopia (long-sightedness), and how is it corrected?",
+          "options": [
+            "The eyeball is too long, focusing light in front of the retina; corrected using concave lenses",
+            "The eyeball is too short or lens too flat, focusing light behind the retina; corrected using convex (converging) lenses",
+            "The lens is cloudy; corrected with antibiotic eye drops",
+            "The optic nerve is severed; corrected with contact lenses"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "In hyperopia, distant objects can be seen clearly but close objects are blurred because light rays focus behind the retina (eyeball too short or lens not convex enough). A convex (converging) lens provides additional refraction to bring the image forward onto the retina."
+        },
+        {
+          "id": "q_bio_nervous_48",
+          "question": "Where is the thermoregulatory centre located in the human body, and how does it detect changes in core body temperature?",
+          "options": [
+            "In the spinal cord; it counts the number of muscle twitches per minute",
+            "In the thyroid gland; it measures hormone concentration in sweat",
+            "In the hypothalamus of the brain; it has receptors sensitive to the temperature of blood flowing through the brain and receives impulses from skin temperature receptors",
+            "In the left ventricle; it measures blood pumping pressure"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "The thermoregulatory centre is located in the hypothalamus of the brain. It monitors core temperature through internal thermal receptors monitoring blood temperature, and integrates sensory impulses sent from peripheral temperature receptors in the skin."
+        },
+        {
+          "id": "q_bio_nervous_49",
+          "question": "How does vasodilation of skin arterioles help cool the human body down when core temperature rises?",
+          "options": [
+            "Arterioles close completely to prevent warm blood from reaching sweat glands",
+            "Capillaries physically move deeper inside the body away from the skin",
+            "Veins constrict so that blood stops circulating through the legs",
+            "Arterioles supplying skin surface capillaries dilate, increasing blood flow to the surface so more thermal energy radiates to the surroundings"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "When core temperature rises, arterioles supplying skin capillaries dilate (vasodilation). More warm blood flows close to the skin surface, transferring heat energy by radiation and convection into the cooler surrounding environment."
+        },
+        {
+          "id": "q_bio_nervous_50",
+          "question": "How does shivering help raise the body temperature of a person exposed to freezing weather?",
+          "options": [
+            "Skeletal muscles contract and relax rapidly; the increased rate of cellular respiration releases thermal heat energy to warm the blood",
+            "Muscle friction generates heat by rubbing bones together",
+            "Shivering pumps blood faster to the extremities to melt frost",
+            "Shivering stimulates the stomach to produce hydrochloric acid"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Shivering is involuntary rapid contraction and relaxation of skeletal muscles. Muscle contraction requires ATP, which accelerates the rate of cellular respiration. Because respiration is an exothermic reaction, a substantial amount of heat energy is released, warming the body."
         }
       ],
       "detailed_slides": [
@@ -7064,6 +8494,136 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "FSH is secreted by the pituitary gland to stimulate an egg follicle to mature in the ovary. A surge in LH (also from the pituitary gland) around day 14 of the cycle stimulates the ovary to release the egg into the fallopian tube (ovulation)."
+        },
+        {
+          "id": "q_bio_hormonal_41",
+          "question": "Which of the following correctly compares the human endocrine system and the nervous system?",
+          "options": [
+            "The nervous system transmits rapid electrical impulses along neurones for short-lived responses; the endocrine system secretes chemical hormones into the blood for slower, longer-lasting responses",
+            "The nervous system uses hormones; the endocrine system uses synapses",
+            "The endocrine system only functions in females; the nervous system only functions in males",
+            "Nerve impulses travel in blood; hormones travel along axons"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The nervous system coordinates fast, short-lived responses via electrical impulses along neurones. The endocrine system coordinates slower, widespread, and longer-lasting bodily responses by releasing chemical hormones directly into the bloodstream."
+        },
+        {
+          "id": "q_bio_hormonal_42",
+          "question": "How does the hormone adrenaline prepare the human body for a 'fight or flight' emergency?",
+          "options": [
+            "It induces sleep to conserve energy for the next morning",
+            "It increases heart rate and breathing rate, diverting blood flow to brain and muscles, and stimulates glycogen breakdown to elevate blood glucose",
+            "It stimulates the kidneys to retain all water and stops the heart beating",
+            "It causes the liver to absorb all glucose from the bloodstream"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Adrenaline (from adrenal glands) prepares the body for action: heart rate and stroke volume increase, pupils dilate, breathing rate increases, blood flow is diverted from digestion to skeletal muscles, and liver glycogen is broken down into glucose for respiration."
+        },
+        {
+          "id": "q_bio_hormonal_43",
+          "question": "How does the negative feedback mechanism involving thyroxine and TSH (Thyroid Stimulating Hormone) regulate basal metabolic rate?",
+          "options": [
+            "Thyroxine causes the hypothalamus to stop blood circulation",
+            "High thyroxine levels cause the pancreas to produce more insulin",
+            "When blood thyroxine levels fall, the pituitary gland secretes more TSH to stimulate the thyroid; when thyroxine levels rise, TSH secretion is inhibited",
+            "TSH directly digests dietary fats in the small intestine"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Thyroxine from the thyroid controls basal metabolic rate. If blood thyroxine drops, the pituitary gland releases TSH, stimulating the thyroid to secrete more thyroxine. As thyroxine rises to normal, it inhibits TSH release from the pituitary (negative feedback)."
+        },
+        {
+          "id": "q_bio_hormonal_44",
+          "question": "During the human menstrual cycle, what are the primary roles of oestrogen and progesterone in regulating the uterus lining?",
+          "options": [
+            "Progesterone causes the cervix to close permanently after puberty",
+            "Oestrogen causes the lining to shed (menstruation); progesterone breaks down the ovaries",
+            "Both hormones trigger the egg to dissolve inside the fallopian tube",
+            "Oestrogen causes the uterus lining to grow and thicken; progesterone maintains the thick spongy lining during the second half of the cycle"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Oestrogen (from developing egg follicles) repairs and thickens the uterus lining following menstruation. After ovulation, the empty follicle becomes the corpus luteum, which secretes progesterone to maintain the vascularised lining ready for embryo implantation."
+        },
+        {
+          "id": "q_bio_hormonal_45",
+          "question": "How does the daily combined contraceptive pill prevent pregnancy in women?",
+          "options": [
+            "It contains oestrogen and progesterone, which inhibit the release of FSH from the pituitary gland so no eggs mature in the ovaries",
+            "It physically coats the fallopian tubes with a layer of rubber",
+            "It destroys all sperm cells inside the male urethra",
+            "It causes the woman's ovaries to undergo meiosis continuously"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The combined oral contraceptive pill contains synthetic oestrogen and progesterone. High sustained levels of these hormones inhibit FSH secretion from the pituitary gland, preventing any follicle from maturing and stopping ovulation."
+        },
+        {
+          "id": "q_bio_hormonal_46",
+          "question": "Which method of contraception has the added clinical benefit of protecting against Sexually Transmitted Infections (STIs) such as HIV and chlamydia?",
+          "options": [
+            "Oral contraceptive pill",
+            "Condoms (barrier method)",
+            "Intrauterine device (copper IUD coil)",
+            "Surgical vasectomy"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Only barrier methods (such as male and female condoms) prevent physical contact and the exchange of bodily fluids during intercourse, protecting both partners from sexually transmitted infections (STIs) like HIV, gonorrhoea, and chlamydia."
+        },
+        {
+          "id": "q_bio_hormonal_47",
+          "question": "Why is a woman undergoing In Vitro Fertilisation (IVF) given injections of FSH and LH before eggs are collected?",
+          "options": [
+            "To permanently sterilise the ovaries after the procedure",
+            "To prevent the uterus lining from thickening",
+            "To stimulate the maturation and release of several mature eggs at once, rather than just a single egg",
+            "To fertilise the eggs inside the ovary before collection"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Naturally, only one egg matures per monthly cycle. In IVF, the mother is given fertility drugs containing FSH and LH to stimulate multiple follicles to mature simultaneously, increasing the chances of harvesting several viable eggs for fertilisation."
+        },
+        {
+          "id": "q_bio_hormonal_48",
+          "question": "What is an ethical concern or disadvantage associated with IVF fertility treatment?",
+          "options": [
+            "IVF prevents the production of breast milk",
+            "IVF children cannot reproduce when they reach adulthood",
+            "The mother's chromosomes are replaced with donor DNA",
+            "Multiple embryos may be created, and unused surplus embryos are often destroyed, which some people consider destruction of potential human life"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Ethical concerns include: (1) Several embryos are created but only 1 or 2 transferred; spare embryos are frozen or destroyed, which raises ethical/religious objections; (2) Higher risk of multiple pregnancies (twins/triplets), carrying health risks for mother and babies."
+        },
+        {
+          "id": "q_bio_hormonal_49",
+          "question": "How does the plant hormone auxin cause a growing shoot tip to bend towards a unidirectional light source (positive phototropism)?",
+          "options": [
+            "Auxin diffuses to the shaded side of the shoot, stimulating cells on the shaded side to elongate faster than cells on the illuminated side",
+            "Auxin causes cells on the sunny side to divide by meiosis",
+            "Auxin evaporates on the shaded side, shrinking the stem",
+            "Auxin destroys the cell walls on the lit side of the stem"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "In plant shoots, auxin accumulates on the darker (shaded) side. In shoots, higher auxin concentrations stimulate cell elongation. Because cells on the shaded side grow longer than those on the lit side, the stem curves toward the light."
+        },
+        {
+          "id": "q_bio_hormonal_50",
+          "question": "How does auxin affect cell growth in plant roots during geotropism (gravitropism)?",
+          "options": [
+            "Auxin stimulates the lower side of the root to elongate faster, bending the root upwards",
+            "Auxin accumulates on the lower side of the root due to gravity, where it INHIBITS cell elongation, causing the root to bend downwards",
+            "Auxin turns root cells into photosynthetic palisade cells",
+            "Auxin has no biological effect on root tissues"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "In roots, auxin has the opposite effect compared to shoots: high auxin concentrations inhibit cell elongation. When a root lies horizontally, gravity pulls auxin to the lower side; the lower cells elongate less than the upper cells, causing the root to curve downwards into soil."
         }
       ],
       "detailed_slides": [
@@ -7653,6 +9213,136 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "DNA is a polymer made from four different nucleotide monomers. Two complementary strands are joined together by hydrogen bonds between specific complementary bases (Adenine pairs with Thymine, Cytosine pairs with Guanine) and twisted into a double helix."
+        },
+        {
+          "id": "q_bio_repro_41",
+          "question": "Which of the following organisms can reproduce BOTH sexually and asexually depending on environmental conditions?",
+          "options": [
+            "Humans and chimpanzees",
+            "Fungi (spores asexually or sexually), strawberry plants (runners asexually, flowers sexually), and malaria parasite Plasmodium",
+            "Domestic dogs and cats",
+            "Oak trees and pine trees only reproduce asexually"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Many species reproduce by both methods: Fungi reproduce asexually by identical spores, and sexually to create variation in adverse conditions; Strawberry plants produce asexual runners and sexual seeds; Plasmodium reproduces asexually in human hosts and sexually in mosquitoes."
+        },
+        {
+          "id": "q_bio_repro_42",
+          "question": "What are the three chemical components of a single DNA nucleotide monomer?",
+          "options": [
+            "A glucose ring, a fatty acid, and a ribosome",
+            "A glycerol molecule, an amino acid, and a nitrate ion",
+            "A phosphate group, a deoxyribose sugar molecule, and a nitrogenous base (A, T, C, or G)",
+            "A peptide bond, a carbon atom, and an oxygen molecule"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "DNA is a polymer made from repeating units called nucleotides. Each nucleotide consists of: (1) A phosphate group; (2) A five-carbon deoxyribose sugar; (3) One of four nitrogenous bases (Adenine, Thymine, Cytosine, or Guanine)."
+        },
+        {
+          "id": "q_bio_repro_43",
+          "question": "According to the complementary base pairing rules in DNA, which bases pair with each other across the double helix?",
+          "options": [
+            "Bases pair randomly with any other base",
+            "Adenine (A) pairs with Cytosine (C); Thymine (T) pairs with Guanine (G)",
+            "Adenine (A) pairs with Guanine (G); Cytosine (C) pairs with Thymine (T)",
+            "Adenine (A) pairs with Thymine (T); Cytosine (C) pairs with Guanine (G)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The complementary base pairing rule states: Adenine (A) always pairs with Thymine (T) via 2 hydrogen bonds; Cytosine (C) always pairs with Guanine (G) via 3 hydrogen bonds."
+        },
+        {
+          "id": "q_bio_repro_44",
+          "question": "What is the 'triplet code' in molecular genetics?",
+          "options": [
+            "A sequence of three DNA nucleotide bases (a codon) that codes for one specific amino acid in a protein chain",
+            "Three identical chromosomes present in human gametes",
+            "A gene that has three copies of the dominant allele",
+            "Three ribosomes joined together during mitosis"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "The genetic code is a triplet code: each sequence of three consecutive DNA bases (codon) codes for a particular amino acid. The order of these triplets determines the specific sequence of amino acids assembled into a protein."
+        },
+        {
+          "id": "q_bio_repro_45",
+          "question": "What are the two major stages of protein synthesis in human eukaryotic cells?",
+          "options": [
+            "Mitosis of chromosomes followed by cytokinesis of cytoplasm",
+            "Transcription of the DNA template into mRNA in the nucleus, followed by translation of mRNA codons into amino acids on ribosomes",
+            "Digestion of proteins in the stomach followed by absorption in villi",
+            "Osmosis of water followed by active transport of nitrates"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Protein synthesis: (1) Transcription: DNA cannot leave the nucleus, so an mRNA copy of the gene is made; (2) Translation: mRNA moves to a ribosome in the cytoplasm, where carrier molecules bring specific amino acids matching the triplet code to build the protein."
+        },
+        {
+          "id": "q_bio_repro_46",
+          "question": "What is the biological role of non-coding sections of DNA in the human genome?",
+          "options": [
+            "They code for all digestive enzymes in the small intestine",
+            "They are useless viral rubbish that cells actively destroy",
+            "They regulate gene expression by switching specific genes on or off at different stages of development",
+            "They form the cellulose walls around human muscle cells"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Non-coding DNA does not code directly for amino acids, but plays vital regulatory roles: non-coding sequences act as promoters and switches that turn genes on or off. Mutations in non-coding DNA can alter how much of a protein is made."
+        },
+        {
+          "id": "q_bio_repro_47",
+          "question": "What was a major medical breakthrough achieved by the completion of the Human Genome Project?",
+          "options": [
+            "Allowing humans to photosynthesise their own food",
+            "Eliminating all infectious bacteria from human hospitals",
+            "Proving that human DNA does not contain any nucleotide bases",
+            "Identifying thousands of genes linked to inherited diseases, enabling better genetic screening, targeted drugs, and personalized medicine"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "The Human Genome Project mapped the entire sequence of human DNA base pairs. Medical applications include: (1) Searching for genes linked to diseases (like breast cancer BRCA genes); (2) Understanding and treating inherited disorders; (3) Tracing human evolutionary migrations."
+        },
+        {
+          "id": "q_bio_repro_48",
+          "question": "How does the chromosome count of a zygote formed by the fertilisation of human gametes compare to the parent somatic cells?",
+          "options": [
+            "It has 46 chromosomes (diploid), having received 23 chromosomes from the sperm and 23 from the egg",
+            "It has 23 chromosomes, identical to the sperm",
+            "It has 92 chromosomes, having doubled both sets",
+            "It has no chromosomes until it reaches 9 months of gestation"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Fertilisation restores the diploid number: the haploid sperm ($n = 23$) fuses with the haploid egg ($n = 23$) to form a single diploid zygote cell with 46 chromosomes (23 pairs), which divides by mitosis to form an embryo."
+        },
+        {
+          "id": "q_bio_repro_49",
+          "question": "What is an 'allele' in genetics?",
+          "options": [
+            "The central centromere of a chromosome",
+            "An alternative form or variant of a specific gene (e.g. brown vs blue eye colour allele)",
+            "An enzyme that breaks down hydrogen bonds in DNA",
+            "A protein produced by mouse tumour myeloma cells"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "An allele is one of two or more alternative versions of a gene found at the same locus on a chromosome (e.g. allele for tall vs dwarf pea plants, or dominant allele $B$ vs recessive allele $b$)."
+        },
+        {
+          "id": "q_bio_repro_50",
+          "question": "If a gene has a dominant allele ($A$) and a recessive allele ($a$), which of the following genotypes will express the dominant phenotype?",
+          "options": [
+            "$AA$ only",
+            "$aa$ (homozygous recessive) only",
+            "Both $AA$ (homozygous dominant) and $Aa$ (heterozygous)",
+            "Neither $AA$ nor $Aa$"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "A dominant allele is always expressed in the phenotype if at least one copy is present. Therefore, both individuals with genotype $AA$ and individuals with genotype $Aa$ will display the dominant characteristic."
         }
       ],
       "detailed_slides": [
@@ -8242,6 +9932,136 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Selective breeding often involves mating closely related individuals (inbreeding). This reduces the gene pool (genetic diversity) and increases the likelihood that harmful recessive alleles are inherited, leaving the population vulnerable to a single new pathogen or genetic disease."
+        },
+        {
+          "id": "q_bio_var_41",
+          "question": "Which of the following human traits is an example of continuous variation influenced by both genetic and environmental factors?",
+          "options": [
+            "Presence of attached earlobes",
+            "ABO blood group",
+            "Adult body height and mass",
+            "Huntington's disease"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Adult height is a polygenic trait determined by multiple inherited genes (setting potential height) and influenced heavily by environmental nutrition and childhood health. It forms a continuous spectrum (bell curve normal distribution)."
+        },
+        {
+          "id": "q_bio_var_42",
+          "question": "What are the four key stages in the process of speciation (the formation of a new species) according to evolutionary biology?",
+          "options": [
+            "Extinction $\\to$ Fossilisation $\\to$ Mineralisation $\\to$ Excavation",
+            "Selective breeding $\\to$ Gene splicing $\\to$ Tissue culture $\\to$ Meristem division",
+            "Mitosis $\\to$ Meiosis $\\to$ Fertilisation $\\to$ Mutation",
+            "Geographical isolation $\\to$ Different environmental conditions $\\to$ Natural selection of advantageous alleles $\\to$ Populations become unable to interbreed to produce fertile offspring"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Speciation steps: (1) A population is geographically isolated (e.g. by a new river, mountain range, island); (2) Environmental conditions differ in the separate areas; (3) Natural selection favours different alleles in each group; (4) Genetic divergence accumulates until members can no longer interbreed to produce fertile offspring."
+        },
+        {
+          "id": "q_bio_var_43",
+          "question": "Which scientist worked independently alongside Charles Darwin and contributed significantly to the theory of evolution and warning colouration in animals?",
+          "options": [
+            "Alfred Russel Wallace",
+            "Gregor Mendel",
+            "Carl Linnaeus",
+            "Alexander Fleming"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Alfred Russel Wallace independently developed the theory of evolution by natural selection while working in the Malay Archipelago and co-published a joint scientific paper with Charles Darwin in 1858."
+        },
+        {
+          "id": "q_bio_var_44",
+          "question": "What groundbreaking discovery did Gregor Mendel make through his breeding experiments on garden pea plants in the 1860s?",
+          "options": [
+            "DNA has a double helix structure with base pairs A-T and C-G",
+            "Inheritance is determined by discrete 'units' (now called genes) that pass unchanged to offspring, rather than blending together",
+            "Bacteria can become resistant to penicillin antibiotics",
+            "Enzymes denature when heated above 40 degrees Celsius"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Mendel showed that characteristics are determined by inherited 'units' that do not blend. He showed that traits can be masked (recessive) in one generation and reappear unchanged in subsequent generations in predictable mathematical ratios."
+        },
+        {
+          "id": "q_bio_var_45",
+          "question": "Why was the significance of Gregor Mendel's genetic work not recognised by the scientific community until decades after his death?",
+          "options": [
+            "Pea plants were thought to be completely different from all other living things",
+            "Mendel refused to publish his findings in any language",
+            "Chromosomes and the mechanism of gene behavior during cell division had not yet been observed under microscopes",
+            "Scientists had already proven that Lamarckian acquired traits were true"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Mendel's work was ahead of its time. In the 1860s, scientists had no knowledge of chromosomes, genes, or meiosis. His mathematical approach to biology was unfamiliar, and his papers were published in an obscure local journal."
+        },
+        {
+          "id": "q_bio_var_46",
+          "question": "How are fossils formed by the process of mineralisation (petrification)?",
+          "options": [
+            "Footprints in mud are baked instantly by lightning strikes",
+            "Soft tissue is frozen in Antarctic ice sheets for ten days",
+            "Insects are trapped in sticky tree sap that hardens into amber",
+            "Hard parts of an organism (bones, shells, teeth) are buried in sediment and slowly replaced by minerals dissolved in water over millions of years"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Mineralisation occurs when bones, teeth, or shells are buried under layers of sediment. As the hard parts decay very slowly, mineral ions dissolved in surrounding groundwater precipitate into the microscopic spaces, turning the hard tissue into rock."
+        },
+        {
+          "id": "q_bio_var_47",
+          "question": "Which of the following factors can cause the complete extinction of an entire biological species?",
+          "options": [
+            "Introduction of a new successful competitor, emergence of a lethal new pathogen, rapid climate change, or catastrophic asteroid impact",
+            "Occasional mutations in non-coding DNA sequences",
+            "Plants photosynthesising too quickly during summer",
+            "Animals sleeping through winter months (hibernation)"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Extinction occurs when all individuals of a species die out. Causes include: (1) New predators; (2) New diseases/pathogens; (3) Successful competition from better-adapted species; (4) Rapid environmental changes (e.g. global warming, asteroid collisions)."
+        },
+        {
+          "id": "q_bio_var_48",
+          "question": "What is MRSA, and why is it considered a serious threat in modern hospitals?",
+          "options": [
+            "A virus that attacks white blood cells and causes AIDS",
+            "A strain of Staphylococcus aureus bacteria that has evolved resistance to multiple standard antibiotics, making infections difficult to treat",
+            "A non-communicable genetic disorder that causes blood clotting",
+            "A fungal parasite that destroys human skin meristems"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "MRSA (Methicillin-Resistant Staphylococcus aureus) is a bacterial 'superbug' that has evolved resistance to common antibiotics through natural selection. Because few effective antibiotics remain to treat it, hospital outbreaks can be life-threatening."
+        },
+        {
+          "id": "q_bio_var_49",
+          "question": "What medical precaution should human patients strictly observe to prevent the development of antibiotic-resistant bacterial strains?",
+          "options": [
+            "Stop taking antibiotics as soon as symptoms improve to save pills",
+            "Demand antibiotics whenever they have a viral cough or runny nose",
+            "Complete the entire prescribed course of antibiotics, even if feeling completely recovered after a few days",
+            "Take antibiotics with ice water to freeze the bacteria"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Stopping an antibiotic course early kills only the most susceptible bacteria, leaving partially resistant bacteria alive. These survivors multiply, passing on resistant alleles. Finishing the full course ensures all bacteria, including the most resilient, are killed."
+        },
+        {
+          "id": "q_bio_var_50",
+          "question": "In the modern classification system proposed by Carl Woese (Three-Domain System), what are the three overarching domains of life?",
+          "options": [
+            "Mammals, Birds, and Reptiles",
+            "Animals, Plants, and Fungi",
+            "Prokaryotes, Eukaryotes, and Viruses",
+            "Archaea, Bacteria, and Eukaryota"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Carl Woese introduced the three-domain system based on ribosomal RNA sequence analysis: (1) Archaea (primitive bacteria, extremophiles); (2) Bacteria (true modern bacteria); (3) Eukaryota (all organisms with eukaryotic cells: protists, fungi, plants, animals)."
         }
       ],
       "detailed_slides": [
@@ -8831,6 +10651,136 @@
           "correct_answer": 3,
           "answer_index": 3,
           "explanation": "The fossil record is incomplete because: (1) Many early organisms were microscopic and soft-bodied (lacking bones, shells, or teeth), meaning they decayed rapidly; (2) Geological events (earthquakes, plate tectonics, volcanic activity) crushed and melted ancient sedimentary rocks."
+        },
+        {
+          "id": "q_bio_genetics_41",
+          "question": "Two parents who are both heterozygous for brown eyes ($Bb$) have children. What is the expected ratio of brown-eyed to blue-eyed offspring?",
+          "options": [
+            "$1 : 2 : 1$",
+            "$1 : 1$ (50% brown-eyed, 50% blue-eyed)",
+            "$4 : 0$ (100% brown-eyed)",
+            "$3 : 1$ (75% brown-eyed, 25% blue-eyed)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "A monohybrid cross of $Bb \\times Bb$ gives genotypes: $1\\,BB, 2\\,Bb, 1\\,bb$. Since $B$ is dominant over $b$, genotypes $BB$ and $Bb$ will both express brown eyes ($3/4$), and $bb$ will express blue eyes ($1/4$). The phenotypic ratio is $3 : 1$."
+        },
+        {
+          "id": "q_bio_genetics_42",
+          "question": "Huntington's disease is an inherited disorder caused by a dominant allele ($H$). If a father is heterozygous ($Hh$) and the mother is unaffected ($hh$), what is the probability that their child will inherit the condition?",
+          "options": [
+            "$50\\%$ (1 in 2)",
+            "$25\\%$ (1 in 4)",
+            "$75\\%$ (3 in 4)",
+            "$100\\%$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Crossing $Hh \\times hh$ yields offspring genotypes $Hh$ ($50\\%$) and $hh$ ($50\\%$). Because Huntington's allele ($H$) is dominant, every individual who inherits $H$ will develop the disease. Probability $= 50\\%$."
+        },
+        {
+          "id": "q_bio_genetics_43",
+          "question": "What is an ethical argument against the use of pre-implantation genetic diagnosis (embryo screening)?",
+          "options": [
+            "It causes all children to be born with identical DNA",
+            "Embryos found to carry faulty alleles are routinely discarded and destroyed, and it could lead to 'designer babies' selected for cosmetic traits",
+            "It requires all parents to undergo radiation treatment",
+            "Screened embryos always fail to undergo mitosis"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Ethical concerns include: (1) Destroying embryos carrying genetic mutations is seen by some as destruction of potential human life; (2) Fears of eugenics and selecting embryos for non-medical 'designer' traits (e.g. eye colour, intelligence, gender); (3) High financial cost."
+        },
+        {
+          "id": "q_bio_genetics_44",
+          "question": "What is the biological role of restriction enzymes in the process of genetic engineering?",
+          "options": [
+            "To copy DNA sequences inside ribosomes",
+            "To join DNA fragments back together",
+            "To cut out the required specific gene from human DNA at a precise base sequence, leaving 'sticky ends'",
+            "To destroy bacterial plasmids inside host cells"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Restriction enzymes (endonucleases) recognise specific palindrome sequences of DNA and cut the DNA molecule, leaving single-stranded overhangs called 'sticky ends'. The same enzyme is used to cut the plasmid vector."
+        },
+        {
+          "id": "q_bio_genetics_45",
+          "question": "What is the biological role of DNA ligase in genetic engineering?",
+          "options": [
+            "An enzyme that breaks down bacterial cell walls",
+            "An enzyme that cuts plasmid rings open",
+            "An enzyme that translates mRNA into proteins",
+            "An enzyme that joins the isolated human gene and the cut bacterial plasmid vector together by repairing the sugar-phosphate backbone"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "DNA ligase is the molecular 'glue': it chemically joins the sticky ends of the human gene to the cut plasmid vector, forming a recombinant plasmid."
+        },
+        {
+          "id": "q_bio_genetics_46",
+          "question": "What is 'Golden Rice' and what nutritional deficiency was it genetically engineered to prevent in developing nations?",
+          "options": [
+            "Rice genetically engineered to synthesise beta-carotene (provitamin A) to prevent childhood blindness caused by vitamin A deficiency",
+            "Rice that produces vitamin C to cure scurvy",
+            "Rice that contains insulin to treat adult diabetes",
+            "Rice that glows yellow in dark fields to deter pests"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Golden Rice was modified with genes from daffodils and bacteria to produce beta-carotene in the edible rice grain. In the body, beta-carotene is converted into Vitamin A, addressing deficiency that causes blindness and immune deficiency in children."
+        },
+        {
+          "id": "q_bio_genetics_47",
+          "question": "What is a major environmental or agricultural concern associated with growing genetically modified (GM) crops?",
+          "options": [
+            "GM crops reduce atmospheric carbon dioxide levels too quickly",
+            "Genes for herbicide resistance could accidentally spread into wild weeds via cross-pollination, creating uncontrollable 'superweeds'",
+            "GM crops cause pollinating bees to mutate into wasps",
+            "GM plants can only be grown inside sealed laboratories"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Concerns regarding GM crops: (1) Outcrossing (accidental cross-pollination transferring herbicide-resistance genes into wild relative weeds); (2) Possible reduction in farmland biodiversity; (3) Unknown long-term impacts on human health or allergic reactions."
+        },
+        {
+          "id": "q_bio_genetics_48",
+          "question": "In the creation of Dolly the sheep by adult cell cloning, what was done to the donor unfertilised egg cell before nuclear transfer?",
+          "options": [
+            "It was irradiated with gamma rays to destroy all ribosomes",
+            "It was fertilised with sperm from a ram in a Petri dish",
+            "Its original nucleus was removed (enucleated) so it contained only cytoplasm and mitochondria",
+            "Its cell wall was peeled away by micro-dissection"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "In adult cell cloning: an unfertilised donor egg cell is enucleated (its nucleus is removed with a micropipette). The nucleus from an adult body cell of the animal to be cloned is then inserted into the empty egg cell, followed by an electric shock to trigger division."
+        },
+        {
+          "id": "q_bio_genetics_49",
+          "question": "How is tissue culture cloning used in modern plant nurseries to produce thousands of commercial orchids or rare plants?",
+          "options": [
+            "Cuttings are planted in boiling mud",
+            "Seeds are placed in a microwave for 10 seconds",
+            "Pollen grains are injected with bacterial plasmids",
+            "Tiny explants of plant tissue are grown on sterile nutrient agar jelly supplemented with plant hormones (auxins) to develop into thousands of identical plantlets"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Tissue culture (micropropagation): small pieces of tissue (explants) are taken from a parent plant, sterilised, and placed on sterile agar medium containing glucose, mineral ions, and plant growth hormones. Cells divide by mitosis into a callus and differentiate into cloned plantlets."
+        },
+        {
+          "id": "q_bio_genetics_50",
+          "question": "In the binomial naming system for living organisms (e.g. Homo sapiens or Panthera leo), what do the two Latin names represent?",
+          "options": [
+            "The first word is the Genus (capitalised) and the second word is the Species (lowercase)",
+            "The first word is the Family and the second word is the Order",
+            "The first word is the Kingdom and the second word is the Phylum",
+            "The first word is the Country and the second word is the Year discovered"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Binomial nomenclature (developed by Carl Linnaeus) gives every species a two-part Latin name: the first name is the Genus (with a capital letter) and the second name is the specific Species epithet (in lowercase), e.g. Homo sapiens."
         }
       ],
       "detailed_slides": [
@@ -9420,6 +11370,136 @@
           "correct_answer": 0,
           "answer_index": 0,
           "explanation": "Functional adaptations relate to internal biochemical or physiological processes. Desert mammals produce small volumes of highly concentrated urine and dry faeces to minimise water loss. Large ears are structural; burrowing and nocturnal activity are behavioural."
+        },
+        {
+          "id": "q_bio_adapt_41",
+          "question": "What is meant by the ecological concept of 'interdependence' in a woodland community?",
+          "options": [
+            "Each species depends on other species for resources like food, shelter, pollination, and seed dispersal; removing one species affects the entire web",
+            "All animals in the woodland feed on the exact same plant species",
+            "Plants and animals never interact with one another",
+            "The abiotic factors are completely controlled by human gardeners"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Interdependence means that all organisms in an ecosystem depend on each other: plants depend on insects for pollination and seed dispersal, herbivores depend on plants for food, and carnivores depend on prey. A change in one population ripples through the food web."
+        },
+        {
+          "id": "q_bio_adapt_42",
+          "question": "What defines a 'stable community' in ecology?",
+          "options": [
+            "An ecosystem where only one species of animal is allowed to live",
+            "A community where all species and environmental factors are in balance so population sizes remain relatively constant over long periods",
+            "A community where no animals die or reproduce",
+            "An agricultural monoculture crop of wheat"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "A stable community (such as an ancient oak forest or tropical rainforest) is one in which all the species and abiotic factors are in equilibrium, such that population sizes fluctuate smoothly around constant averages without crashing."
+        },
+        {
+          "id": "q_bio_adapt_43",
+          "question": "A student estimates a dandelion population in a $200\\text{ m}^2$ field. Ten $0.5\\text{ m} \\times 0.5\\text{ m}$ ($0.25\\text{ m}^2$) quadrat throws yield a total of $40$ dandelions. What is the estimated total dandelion population in the field?",
+          "options": [
+            "$1,600$ dandelions",
+            "$800$ dandelions",
+            "$3,200$ dandelions",
+            "$400$ dandelions"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Total sample area $= 10 \\times 0.25\\text{ m}^2 = 2.5\\text{ m}^2$. Mean dandelions per $\\text{m}^2 = \\frac{40}{2.5} = 16\\text{ dandelions/m}^2$. Estimated total population $= 16 \\times 200\\text{ m}^2 = 3200$ dandelions."
+        },
+        {
+          "id": "q_bio_adapt_44",
+          "question": "When is it appropriate to sample an ecosystem using a transect line rather than random quadrat sampling?",
+          "options": [
+            "When sampling bacterial populations in deep ocean trenches",
+            "When the ecosystem is completely uniform with zero variation",
+            "When counting fast-moving predatory birds in the sky",
+            "When investigating how the distribution or abundance of organisms changes across an environmental gradient (e.g. from seashore to sand dunes)"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "A line or belt transect is used for systematic sampling along an environmental gradient (e.g. light intensity under tree shade vs open field, distance from high-tide line, soil moisture) to observe how species distribution changes with the changing abiotic factor."
+        },
+        {
+          "id": "q_bio_adapt_45",
+          "question": "Why do predatory hunting mammals (like wolves and big cats) typically have forward-facing binocular eyes, whereas prey animals have sideways-facing eyes?",
+          "options": [
+            "Forward-facing eyes provide binocular stereoscopic vision for accurate depth perception and distance estimation when pouncing on prey",
+            "Forward-facing eyes protect the cornea from bright sunlight",
+            "Sideways eyes allow predators to see behind their ears",
+            "Forward eyes allow animals to breathe underwater"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Predators have forward-facing eyes with overlapping fields of view (binocular vision), giving excellent depth perception and distance judgement to target prey. Prey species have eyes on the sides of their heads for a wide field of view to detect approaching predators from almost $360^\\circ$."
+        },
+        {
+          "id": "q_bio_adapt_46",
+          "question": "How are arctic mammals like polar bears structurally adapted to reduce thermal heat loss in freezing conditions?",
+          "options": [
+            "Very large ears to radiate excess heat away quickly",
+            "Small surface area to volume ratio, small ears, a thick layer of insulating blubber under the skin, and dense hollow fur",
+            "Large surface area to volume ratio and thin damp skin",
+            "Black skin that reflects all infrared radiation"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Cold-adapted mammals have: (1) Large bodies with small ears and short snouts to minimise surface area to volume ratio; (2) A thick layer of insulating subcutaneous fat (blubber); (3) Dense fur with hollow air-trapping hairs to prevent heat escaping by conduction/convection."
+        },
+        {
+          "id": "q_bio_adapt_47",
+          "question": "Which of the following is an adaptation of desert xerophytic plants (such as cacti) to survive severe drought?",
+          "options": [
+            "Very thin permeable cuticle to absorb morning dew",
+            "Broad flat leaves packed with open stomata on both sides",
+            "Spines instead of broad leaves to reduce surface area for transpiration, thick fleshy stem for water storage, and widespread shallow root system",
+            "Growing tall into the canopy to access heavy rainfall"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Xerophytes are adapted to conserve water: (1) Leaves reduced to spines (minimal surface area and deters herbivores); (2) Thick waxy waterproof cuticle; (3) Fleshy green stems that store water and perform photosynthesis; (4) Extensive shallow roots to capture brief desert rain."
+        },
+        {
+          "id": "q_bio_adapt_48",
+          "question": "How do epiphytic plants (like bromeliads and orchids) adapt to the competitive environment of dense tropical rainforests?",
+          "options": [
+            "They drop all their leaves during rainy seasons",
+            "They burrow deep underground into volcanic rock to avoid rain",
+            "They kill canopy trees with acid to take over their root systems",
+            "They germinate and grow high on the branches of canopy trees to access sunlight without needing to compete on the dark forest floor"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Less than $2\\%$ of sunlight reaches the dense tropical rainforest floor. Epiphytes are non-parasitic plants adapted to grow harmlessly on the high branches and trunks of tall canopy trees, giving them direct access to bright sunlight while absorbing moisture from humid air."
+        },
+        {
+          "id": "q_bio_adapt_49",
+          "question": "Which freshwater aquatic invertebrate acts as a reliable bio-indicator of CLEAN, well-oxygenated stream water?",
+          "options": [
+            "Stonefly nymph and freshwater shrimp",
+            "Sludgeworm (Tubifex)",
+            "Bloodworm (midge larva)",
+            "Rat-tailed maggot"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Stonefly nymphs, mayfly nymphs, and freshwater shrimps are extremely sensitive to low dissolved oxygen levels and can only survive in clean, unpolluted, well-aerated water. Bloodworms, sludgeworms, and rat-tailed maggots tolerate very low oxygen and indicate heavy organic pollution."
+        },
+        {
+          "id": "q_bio_adapt_50",
+          "question": "What type of environmental air pollution do bushy, leafy lichens indicate by their presence on tree bark?",
+          "options": [
+            "Heavy smog containing high levels of lead and carbon particulates",
+            "Very clean air with extremely low sulfur dioxide ($\\text{SO}_2$) pollution",
+            "High concentrations of toxic ozone gas",
+            "Acid rain with a pH below 3.0"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Lichens are mutualistic associations of algae and fungi that absorb nutrients from air and rain. Bushy (fruticose) lichens are highly sensitive to sulfur dioxide gas; they will only grow where the air is very clean, acting as natural bio-indicators of low air pollution."
         }
       ],
       "detailed_slides": [
@@ -10009,6 +12089,136 @@
           "correct_answer": 1,
           "answer_index": 1,
           "explanation": "As the prey population rises, more food is available. Predators become better nourished and have more offspring. However, gestation and maturation take time, so the peak in the predator population always lags behind the peak in prey numbers."
+        },
+        {
+          "id": "q_bio_ecosystems_41",
+          "question": "Why is only approximately $10\\%$ of the biomass consumed at one trophic level transferred to the next trophic level in a food chain?",
+          "options": [
+            "Herbivores convert $90\\%$ of all consumed food into solid bone",
+            "Most biomass is lost through respiration (glucose oxidised to $\\text{CO}_2$ and $\\text{H}_2\\text{O}$), excretion of urea, egestion of undigested faeces, and uneaten parts",
+            "Carnivores destroy biomass with ultrasonic vocal sounds",
+            "Biomass evaporates into nitrogen gas inside animal stomachs"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Biomass is lost at each trophic level because: (1) Not all parts are eaten (bones, claws, roots); (2) Not all ingested matter is absorbed (some is egested as faeces); (3) Large amounts of glucose are broken down in respiration to provide energy, lost as $\\text{CO}_2$ and water; (4) Excretion of waste (urea in urine)."
+        },
+        {
+          "id": "q_bio_ecosystems_42",
+          "question": "Caterpillars consume $4000\\text{ kJ}$ of energy from plant leaves. Of this, $400\\text{ kJ}$ is converted into new caterpillar biomass. What is the efficiency of biomass transfer?",
+          "options": [
+            "$0.1\\%$",
+            "$25\\%$",
+            "$10\\%$",
+            "$4\\%$"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Efficiency of biomass transfer $= \\frac{\\text{Biomass transferred to next level}}{\\text{Total biomass consumed}} \\times 100 = \\frac{400\\text{ kJ}}{4000\\text{ kJ}} \\times 100 = 10\\%$."
+        },
+        {
+          "id": "q_bio_ecosystems_43",
+          "question": "Why is a pyramid of biomass ALWAYS pyramid-shaped (wide at the base and narrow at the top), unlike a pyramid of numbers?",
+          "options": [
+            "Decomposers eliminate biomass before it reaches secondary consumers",
+            "Producers are always physically taller than apex predators",
+            "Animals at the top of food chains reproduce at a faster rate",
+            "Biomass is consistently lost at each successive trophic level, so each level inevitably possesses less total dry mass than the level below it"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "A pyramid of numbers can be inverted (e.g. one huge oak tree supporting thousands of insects). However, biomass represents the total dry mass of living material; because energy and biomass are lost at every step due to respiration, faeces, and excretion, biomass always decreases up trophic levels."
+        },
+        {
+          "id": "q_bio_ecosystems_44",
+          "question": "What is the correct order of physical processes in the global water cycle?",
+          "options": [
+            "$\\text{Evaporation / Transpiration} \\to \\text{Condensation} \\to \\text{Precipitation} \\to \\text{Percolation / Surface runoff}$",
+            "$\\text{Precipitation} \\to \\text{Condensation} \\to \\text{Evaporation} \\to \\text{Transpiration}$",
+            "$\\text{Condensation} \\to \\text{Precipitation} \\to \\text{Evaporation} \\to \\text{Translocation}$",
+            "$\\text{Evaporation} \\to \\text{Precipitation} \\to \\text{Condensation} \\to \\text{Photosynthesis}$"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Solar energy causes water to evaporate from oceans and transpire from plant leaves. Water vapour rises, cools, and undergoes condensation into clouds. Water falls back to Earth as precipitation (rain/snow), draining into rivers via surface runoff and percolating through porous rocks into aquifers."
+        },
+        {
+          "id": "q_bio_ecosystems_45",
+          "question": "Which set of environmental conditions results in the FASTEST rate of decay of organic compost by decomposers?",
+          "options": [
+            "Freezing temperature ($-10^\\circ\\text{C}$), completely dry and anaerobic conditions",
+            "Warm temperature ($\\sim 30-40^\\circ\\text{C}$), moist aerobic conditions with abundant oxygen",
+            "Boiling temperature ($100^\\circ\\text{C}$), flooded with pure salt water",
+            "Room temperature in a vacuum-sealed chamber with zero oxygen"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Decomposition by bacteria and fungi is fastest when: (1) Warm (enzymes work rapidly without denaturing); (2) Moist (water needed for biological reactions and dissolving food); (3) Aerobic (oxygen required for microorganisms to respire aerobically)."
+        },
+        {
+          "id": "q_bio_ecosystems_46",
+          "question": "What valuable biofuel is produced by the anaerobic digestion of agricultural sewage and plant waste in a biogas generator?",
+          "options": [
+            "Oxygen gas compressed into cylinders",
+            "Pure liquid ethanol fuel",
+            "Methane gas ($\\text{CH}_4$), used for cooking and electricity generation",
+            "Solid uranium pellets"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "When organic waste decays in anaerobic conditions (without oxygen), anaerobic microorganisms ferment the waste to produce biogas, which consists primarily of methane gas ($\\sim 60-70\\%\\text{ CH}_4$) and carbon dioxide. Methane is burned as a renewable fuel."
+        },
+        {
+          "id": "q_bio_ecosystems_47",
+          "question": "In the required practical investigating the decay of milk, why does fresh full-cream milk turn acidic when incubated with lipase enzyme?",
+          "options": [
+            "The milk proteins are denatured by boiling water",
+            "Bacteria in the milk synthesise nitric acid from nitrogen gas",
+            "Lipase breaks lactose sugar down into pure hydrochloric acid",
+            "Lipase digests the milk lipids (fats) into fatty acids and glycerol, lowering the pH of the mixture"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Lipase is an enzyme that hydrolyses lipids (fats in milk) into glycerol and fatty acids. As fatty acids are released into solution, the concentration of hydrogen ions increases, lowering the pH and causing alkaline phenolphthalein indicator to turn from pink to colourless."
+        },
+        {
+          "id": "q_bio_ecosystems_48",
+          "question": "Why is the commercial destruction of peat bogs for garden compost a major driver of global climate change?",
+          "options": [
+            "Peat bogs store vast quantities of carbon; draining and burning peat exposes it to oxygen, allowing decomposers to respire and release carbon dioxide",
+            "Peat bogs absorb solar radiation to cool the polar ice caps",
+            "Peat bogs are the world's primary source of oxygen gas",
+            "Garden compost causes soil to stop growing plants"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Peat forms over thousands of years in waterlogged, acidic conditions where decay is prevented, locking away huge carbon reserves. When bogs are drained for agriculture or compost, air enters, decomposers respire the peat, and huge amounts of carbon dioxide ($\\text{CO}_2$) are released."
+        },
+        {
+          "id": "q_bio_ecosystems_49",
+          "question": "Which of the following is a direct ecological consequence of rising global atmospheric temperatures?",
+          "options": [
+            "A sudden global increase in the thickness of the ozone layer",
+            "Rising sea levels due to melting ice caps and thermal expansion, shifting geographical ranges of species, and altered migration patterns",
+            "Complete disappearance of gravity at the equator",
+            "Total cessation of the water cycle"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Global warming causes: (1) Sea level rise (thermal expansion of seawater and melting land glaciers); (2) Changes in global weather patterns and severe storms; (3) Altered geographical distribution of species (pests/mosquitoes moving to higher latitudes); (4) Changes in bird migration and flowering seasons."
+        },
+        {
+          "id": "q_bio_ecosystems_50",
+          "question": "What is 'bioaccumulation' (biomagnification) in aquatic food chains?",
+          "options": [
+            "The increase in water volume stored in lakes after heavy rainfall",
+            "The multiplication of plankton cells during warm spring days",
+            "The increasing concentration of non-biodegradable persistent toxins (like mercury or microplastics) at progressively higher trophic levels",
+            "The absorption of calcium ions by freshwater snails"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Bioaccumulation occurs when persistent, non-biodegradable toxins (such as heavy metals, DDT, or microplastics) are absorbed by primary producers. Because consumers eat many organisms from lower levels and cannot break down or excrete the toxin, its concentration magnifies up the chain, reaching lethal levels in apex predators."
         }
       ],
       "detailed_slides": [
@@ -10598,6 +12808,136 @@
           "correct_answer": 2,
           "answer_index": 2,
           "explanation": "Methods to maintain biodiversity include: breeding programmes for endangered species in zoos; protection and regeneration of rare habitats (like coral reefs and heathlands); reintroducing field margins and hedgerows in agricultural areas; and recycling resources rather than using landfills."
+        },
+        {
+          "id": "q_bio_biodiv_41",
+          "question": "Why has the human population growth curve risen exponentially over the past 200 years?",
+          "options": [
+            "Humans mutated to become resistant to all viruses",
+            "Human gestation time was halved from 9 months to 4.5 months",
+            "Improvements in agriculture, sanitation, clean drinking water, modern medicine (antibiotics and vaccines) have drastically reduced death rates",
+            "Global climate change increased the oxygen content of the atmosphere"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Rapid human population expansion has been driven by scientific, agricultural, and industrial advances: better food production, improved hygiene/sanitation, clean piped water, and medical breakthroughs (vaccination, antibiotics) drastically reducing infant and adult mortality."
+        },
+        {
+          "id": "q_bio_biodiv_42",
+          "question": "What is the biological process of 'eutrophication' in freshwater lakes caused by agricultural fertiliser runoff?",
+          "options": [
+            "Nitrates react with lake water to produce hydrochloric acid",
+            "Fertiliser poisons fish directly within five seconds of entering water",
+            "Algae drink all the water, causing the lake to dry into a desert",
+            "Fertiliser stimulates algal blooms $\\to$ Algae block light $\\to$ Submerged plants die $\\to$ Decomposers multiply and respire $\\to$ Oxygen is depleted $\\to$ Fish suffocate"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Eutrophication sequence: (1) Nitrates/phosphates wash into water; (2) Rapid algal growth (algal bloom); (3) Algae block light, killing underwater plants; (4) Decomposers feed on dead vegetation and multiply rapidly; (5) Decomposers respire aerobically, consuming dissolved oxygen; (6) Water becomes anoxic and fish die."
+        },
+        {
+          "id": "q_bio_biodiv_43",
+          "question": "How do non-biodegradable plastic wastes deposited in landfills and marine habitats harm biodiversity?",
+          "options": [
+            "Plastics do not decay, fragment into toxic microplastics that persist for centuries, and entrap or poison marine wildlife",
+            "Plastics consume all the carbon dioxide in the atmosphere",
+            "Plastics produce high levels of radioactive radon gas",
+            "Plastics cause all soil bacteria to divide by meiosis"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Synthetic plastics are non-biodegradable because decomposers lack enzymes to break their covalent bonds. In the environment, macro-plastics choke and entangle animals, while weathering breaks them into microplastics that enter food webs, absorbing persistent organic pollutants."
+        },
+        {
+          "id": "q_bio_biodiv_44",
+          "question": "What is 'global dimming' and what atmospheric pollutant causes it?",
+          "options": [
+            "The Sun burning out every winter season",
+            "A gradual reduction in the amount of direct solar radiation reaching the Earth's surface, caused by smoke and particulate pollutants reflecting sunlight back into space",
+            "Methane gas absorbing green wavelengths of sunlight",
+            "Excess carbon dioxide turning the upper atmosphere completely black"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Incomplete combustion of fossil fuels releases microscopic solid particles of carbon (soot) and particulates. These reflect incoming solar radiation back into space and cause water droplets in clouds to form smaller, more reflective clouds, reducing sunlight reaching the Earth's surface (global dimming)."
+        },
+        {
+          "id": "q_bio_biodiv_45",
+          "question": "Which of the following pairs of gases are the primary greenhouse gases contributing to enhanced anthropogenic global warming?",
+          "options": [
+            "Argon ($\\text{Ar}$) and Helium ($\\text{He}$)",
+            "Nitrogen ($\\text{N}_2$) and Oxygen ($\\text{O}_2$)",
+            "Carbon dioxide ($\\text{CO}_2$) and Methane ($\\text{CH}_4$)",
+            "Sulfur dioxide ($\\text{SO}_2$) and Carbon monoxide ($\\text{CO}$)"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "Carbon dioxide (from fossil fuel combustion and deforestation) and methane (from cattle farming, rice paddies, and landfills) are the two major greenhouse gases that absorb infrared radiation emitted by the Earth, trapping heat in the atmosphere."
+        },
+        {
+          "id": "q_bio_biodiv_46",
+          "question": "What agricultural activity contributes large quantities of methane ($\\text{CH}_4$) to global atmospheric emissions?",
+          "options": [
+            "Planting hedgerows around sheep pastures",
+            "Harvesting wheat using mechanical combine harvesters",
+            "Spraying apple orchards with copper fungicides",
+            "Cattle and sheep farming (enteric fermentation by ruminant microbes) and flooded anaerobic rice paddy fields"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Ruminant livestock (cows, sheep) have digestive microbes that ferment cellulose in anaerobic conditions, belching large amounts of methane gas. Flooded anaerobic soils in rice paddies and rotting organic waste in landfill sites also emit methane."
+        },
+        {
+          "id": "q_bio_biodiv_47",
+          "question": "What is a major socio-economic conflict that arises when trying to protect and restore biodiversity?",
+          "options": [
+            "Conservation programmes (such as preserving ancient woodland or buying field margins) cost money and compete with land needed for housing and food production",
+            "High biodiversity always causes famine in human cities",
+            "Wild animals destroy the electrical grid",
+            "Re-wilding land causes sea levels to rise"
+          ],
+          "correct_answer": 0,
+          "answer_index": 0,
+          "explanation": "Maintaining biodiversity involves conflicting pressures: (1) Cost: conservation projects require public money and monitoring; (2) Local economy: protecting forests or fishing grounds can reduce jobs for local farmers/fishermen; (3) Food security: land used for wild habitats cannot be used to grow crops."
+        },
+        {
+          "id": "q_bio_biodiv_48",
+          "question": "How does maintaining hedgerows and wildflower field margins around arable farmland benefit both wildlife and farmers?",
+          "options": [
+            "They allow farmers to flood fields with seawater in winter",
+            "They provide vital wildlife corridors and habitats for pollinators (bees) and natural predators of crop pests (ladybirds, hoverflies)",
+            "They completely eliminate the need for crop plants to take in nitrogen",
+            "They prevent farm animals from performing respiration"
+          ],
+          "correct_answer": 1,
+          "answer_index": 1,
+          "explanation": "Field margins and hedgerows support biodiversity: they serve as travel corridors connecting fragmented habitats, provide nesting sites for wild birds, support pollinating insects needed for fruit crops, and house predatory insects that naturally control crop pests."
+        },
+        {
+          "id": "q_bio_biodiv_49",
+          "question": "How do international fishing quotas and regulations on fishing net mesh sizes help conserve marine fish stocks?",
+          "options": [
+            "They convert predatory sharks into herbivores",
+            "They force all fishermen to catch only dead fish floating on the surface",
+            "Quotas limit the total tonnage caught, and wider mesh sizes allow young juvenile fish to escape and mature to reproductive age",
+            "They prevent marine water from freezing in winter"
+          ],
+          "correct_answer": 2,
+          "answer_index": 2,
+          "explanation": "To prevent fish stocks dropping below sustainable levels: (1) Fishing quotas legally restrict the mass of fish caught; (2) Regulating net mesh sizes ensures that small, young fish escape through the holes to survive, grow, and reproduce, replenishing the population."
+        },
+        {
+          "id": "q_bio_biodiv_50",
+          "question": "Which of the following is a successful example of a breeding programme designed to protect an endangered animal from extinction?",
+          "options": [
+            "Importing invasive species to outcompete local predators",
+            "Cloning farm cows to produce more milk",
+            "Selectively breeding dogs for flat faces",
+            "Breeding programmes in accredited zoological parks followed by reintroduction into protected nature reserves"
+          ],
+          "correct_answer": 3,
+          "answer_index": 3,
+          "explanation": "Captive breeding programmes in zoos mate individuals carefully to maintain genetic diversity and build up healthy populations of endangered species (e.g. giant pandas, California condors, Arabian oryx), before controlled reintroduction into protected native habitats."
         }
       ],
       "detailed_slides": [
